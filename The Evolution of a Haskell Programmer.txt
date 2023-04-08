@@ -1,0 +1,277 @@
+Freshman Haskell Programmer
+fac n = if n == 0 
+           then 1
+           else n * fac (n-1)
+ 
+Sophomore Haskell Programmer
+fac = (\(n) ->
+        (if ((==) n 0)
+            then 1
+            else ((*) n (fac ((-) n 1)))))
+ 
+Junior Haskell Programmer
+fac  0    =  1
+fac (n+1) = (n+1) * fac n
+ 
+Mid Junior Haskell Programmer
+fac 0 = 1
+fac n = n * fac (n-1)
+ 
+Senior Haskell Programmer
+fac n = foldr (*) 1 [1..n]
+ 
+Principal Haskell Programmer
+fac n = foldr (\x g n -> g (x*n)) id [1..n] 1
+ 
+Memoizing Haskell Programmer
+facs = scanl (*) 1 [1..]
+fac n = facs !! n
+ 
+Pointless Haskell Programmer
+fac = foldr (*) 1 . enumFromTo 1
+ 
+Iterative Haskell Programmer
+fac n = result (for init next done)
+        where init = (0,1)
+              next   (i,m) = (i+1, m * (i+1))
+              done   (i,_) = i==n
+              result (_,m) = m
+for i n d = until d n i
+ 
+Iterative One Liner Haskell Programmer
+fac n = snd (until ((>n) . fst) (\(i,m) -> (i+1, i*m)) (1,1))
+ 
+Accumulating Haskell Programmer
+facAcc a 0 = a
+facAcc a n = facAcc (n*a) (n-1)
+fac = facAcc 1
+ 
+Continuation Haskell Programmer
+facCps k 0 = k 1
+facCps k n = facCps (k . (n *)) (n-1)
+fac = facCps id
+ 
+Boy Scout Haskell Programmer
+y f = f (y f)
+fac = y (\f n -> if (n==0) then 1 else n * f (n-1))
+ 
+Combinatory Haskell Programmer
+s f g x = f x (g x)
+k x y   = x
+b f g x = f (g x)
+c f g x = f x g
+y f     = f (y f)
+cond p f g x = if p x then f x else g x
+fac  = y (b (cond ((==) 0) (k 1)) (b (s (*)) (c b pred)))
+ 
+List Encoding Haskell Programmer
+arb = ()    -- "undefined" is also a good RHS, as is "arb" :)
+listenc n = replicate n arb
+listprj f = length . f . listenc
+listprod xs ys = [ i (x,y) | x<-xs, y<-ys ]
+                 where i _ = arb
+facl []         = listenc  1
+facl n@(_:pred) = listprod n (facl pred)
+fac = listprj facl
+ 
+Interpretive Haskell Programmer
+data Term = Occ Var
+          | Use Prim
+          | Lit Integer
+          | App Term Term
+          | Abs Var  Term
+          | Rec Var  Term
+type Var  = String
+type Prim = String
+data Value = Num  Integer
+           | Bool Bool
+           | Fun (Value -> Value)
+instance Show Value where
+  show (Num  n) = show n
+  show (Bool b) = show b
+  show (Fun  _) = ""
+prjFun (Fun f) = f
+prjFun  _      = error "bad function value"
+prjNum (Num n) = n
+prjNum  _      = error "bad numeric value"
+prjBool (Bool b) = b
+prjBool  _       = error "bad boolean value"
+binOp inj f = Fun (\i -> (Fun (\j -> inj (f (prjNum i) (prjNum j)))))
+type Env = [(Var, Value)]
+getval x env =  case lookup x env of
+                  Just v  -> v
+                  Nothing -> error ("no value for " ++ x)
+eval env (Occ x) = getval x env
+eval env (Use c) = getval c prims
+eval env (Lit k) = Num k
+eval env (App m n) = prjFun (eval env m) (eval env n)
+eval env (Abs x m) = Fun  (\v -> eval ((x,v) : env) m)
+eval env (Rec x m) = f where f = eval ((x,f) : env) m
+times = binOp Num  (*)
+minus = binOp Num  (-)
+equal = binOp Bool (==)
+cond  = Fun (\b -> Fun (\x -> Fun (\y -> if (prjBool b) then x else y)))
+prims = [ ("*", times), ("-", minus), ("==", equal), ("if", cond) ]
+facTerm = Rec "f" (Abs "n" 
+              (App (App (App (Use "if")
+                   (App (App (Use "==") (Occ "n")) (Lit 0))) (Lit 1))
+                   (App (App (Use "*")  (Occ "n"))
+                        (App (Occ "f")  
+                             (App (App (Use "-") (Occ "n")) (Lit 1))))))
+fac n = prjNum (eval [] (App facTerm (Lit n)))
+ 
+Static Haskell Programmer
+data Zero
+data Succ n
+type One   = Succ Zero
+type Two   = Succ One
+type Three = Succ Two
+type Four  = Succ Three
+zero  = undefined :: Zero
+one   = undefined :: One
+two   = undefined :: Two
+three = undefined :: Three
+four  = undefined :: Four
+class Add a b c | a b -> c where
+  add :: a -> b -> c
+instance              Add  Zero    b  b
+instance Add a b c => Add (Succ a) b (Succ c)
+class Mul a b c | a b -> c where
+  mul :: a -> b -> c
+instance                           Mul  Zero    b Zero
+instance (Mul a b c, Add b c d) => Mul (Succ a) b d
+class Fac a b | a -> b where
+  fac :: a -> b
+instance                                Fac  Zero    One
+instance (Fac n k, Mul (Succ n) k m) => Fac (Succ n) m
+
+Beginning Graduate Haskell Programmer
+data Nat = Zero | Succ Nat
+iter z s  Zero    = z
+iter z s (Succ n) = s (iter z s n)
+plus n = iter n     Succ
+mult n = iter Zero (plus n)
+primrec z s  Zero    = z
+primrec z s (Succ n) = s n (primrec z s n)
+fac  = snd . iter (one, one) (\(a,b) -> (Succ a, mult a b))
+fac' = primrec one (mult . Succ)
+int = iter 0 (1+)
+instance Show Nat where
+  show = show . int
+(zero : one : two : three : four : five : _) = iterate Succ Zero
+ 
+Origamist Haskell Programmer
+fold c n []     = n
+fold c n (x:xs) = c x (fold c n xs)
+prod = fold (*) 1
+unfold p f g x = 
+  if p x 
+     then [] 
+     else f x : unfold p f g (g x)
+downfrom = unfold (==0) id pred
+refold  c n p f g   = fold c n . unfold p f g
+refold' c n p f g x = 
+  if p x 
+     then n 
+     else c (f x) (refold' c n p f g (g x))
+fac   = prod . downfrom
+fac'  = refold  (*) 1 (==0) id pred
+fac'' = refold' (*) 1 (==0) id pred
+ 
+Cartesianally Inclined Haskell Programmer
+cata (n,c) []     = n
+cata (n,c) (x:xs) = c (x, cata (n,c) xs)
+mult = uncurry (*)
+prod = cata (1, mult)
+ana f = either (const []) (cons . pair (id, ana f)) . f
+cons = uncurry (:)
+downfrom = ana uncount
+uncount 0 = Left  ()
+uncount n = Right (n, n-1)
+hylo  f  g    = cata g . ana f
+hylo' f (n,c) = either (const n) (c . pair (id, hylo' f (c,n))) . f
+pair (f,g) (x,y) = (f x, g y)
+fac   = prod . downfrom
+fac'  = hylo  uncount (1, mult)
+fac'' = hylo' uncount (1, mult)
+ 
+Ph.D. Haskell Programmer
+newtype Mu f = Mu (f (Mu f))  deriving Show
+in      x  = Mu x
+out (Mu x) = x
+cata phi = phi . fmap (cata phi) . out
+ana  psi = in  . fmap (ana  psi) . psi
+data N b = Zero | Succ b  deriving Show
+instance Functor N where
+  fmap f = nelim Zero (Succ . f)
+nelim z s  Zero    = z
+nelim z s (Succ n) = s n
+type Nat = Mu N
+int = cata (nelim 0 (1+))
+instance Show Nat where
+  show = show . int
+zero = in   Zero
+suck = in . Succ      
+plus n = cata (nelim n     suck   )
+mult n = cata (nelim zero (plus n))
+data L a b = Nil | Cons a b  deriving Show
+instance Functor (L a) where
+  fmap f = lelim Nil (\a b -> Cons a (f b))
+lelim n c  Nil       = n
+lelim n c (Cons a b) = c a b
+type List a = Mu (L a)
+list = cata (lelim [] (:))
+instance Show a => Show (List a) where
+  show = show . list
+prod = cata (lelim (suck zero) mult)
+upto = ana (nelim Nil (diag (Cons . suck)) . out)
+diag f x = f x x
+fac = prod . upto
+ 
+Post Haskell Programmer
+newtype Mu f = In (f (Mu f))
+unIn (In x) = x
+cata phi = phi . fmap (cata phi) . unIn
+data N c = Z | S c
+instance Functor N where
+  fmap g  Z    = Z
+  fmap g (S x) = S (g x)
+type Nat = Mu N
+zero   = In  Z
+suck n = In (S n)
+add m = cata phi where
+  phi  Z    = m
+  phi (S f) = suck f
+mult m = cata phi where
+  phi  Z    = zero
+  phi (S f) = add m f
+data Prod e c = Pair c e
+outl (Pair x y) = x
+outr (Pair x y) = y
+fork f g x = Pair (f x) (g x)
+instance Functor (Prod e) where
+  fmap g = fork (g . outl) outr
+class Functor n => Comonad n where
+  extr :: n a -> a
+  dupl :: n a -> n (n a)
+instance Comonad (Prod e) where
+  extr = outl
+  dupl = fork id outr
+gcata :: (Functor f, Comonad n) =>
+           (forall a. f (n a) -> n (f a))
+             -> (f (n c) -> c) -> Mu f -> c
+gcata dist phi = extr . cata (fmap phi . dist . fmap dupl)
+zygo chi = gcata (fork (fmap outl) (chi . fmap outr))
+para :: Functor f => (f (Prod (Mu f) c) -> c) -> Mu f -> c
+para = zygo In
+fac = para phi where
+  phi  Z             = suck zero
+  phi (S (Pair f n)) = mult f (suck n)
+int = cata phi where
+  phi  Z    = 0
+  phi (S f) = 1 + f
+instance Show (Mu N) where
+  show = show . int
+ 
+Tenured Professor
+fac n = product [1..n]

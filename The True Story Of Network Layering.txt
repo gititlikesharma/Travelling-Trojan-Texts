@@ -1,0 +1,9 @@
+Layer 			Dwarf 			Name 			Explanations 
+
+1 			Sleepy			Physical		The group new that physical connections are boring, and figured it might as well assign the physical layer to dwarf 'Sleepy'. As it happens, a Layer 1 protocol specification does indeed put everyone to sleep. 
+2 			Sneezy 			Link 			If you monitor a network and watch the pattern of packets emitted by a computer, you'll immediately understand the relationship between link-layer protocols and 'Sneezy'. 
+3 			Happy 			Network 		Everyone's happy with the network layer. Well to be honest, the only network layer protocol that makes everyone's happy is the Internet Protocol. Unfortunately, the Internet protocol isn't part of OSI, and wasn't really built to follow the OSI model.
+4 			Doc 			Transport 		It definitely takes a Ph.D. to understand the subtleties of a transport layer protocol. 
+5 			Dope 			Session 		Yep, even the designers realized that having a separate session layer is a dopey idea. They decided to follow Disney's approach of adding comic relief, so they stuck in a completely unnecessary layer and laughed about it. 
+6 			Bashful 		Presentation		The designers realized that sooner or later someone would create a presentation layer protocol. 
+7 			Grumpy 			Application 		Programmers who design network applications are incredibly grumpy, they complain about the efficiency of other layers, the fundamental abstractions of the network, the long hours, the difficulty of debugging, and the API they are forced to use. And users add to the grumpiness because users never complain about protocols at other layers; they only complain about applications. 

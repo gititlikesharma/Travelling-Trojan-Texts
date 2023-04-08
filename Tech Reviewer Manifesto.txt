@@ -1,0 +1,23 @@
+Hi <Interviewer Name>
+I understand that I am applying for Dotnet Developer role and I am happy to be interviewed based on my ability to solve business problems with .NET Framework. If your selection process prioritises other criteria, however, such as proficiency with - 
+    - JS Frameworks
+    - Continuous Integration / Continuous Delivery
+    - Containerisation (Docker, Kubernetes)  
+    - Deployment (AWS, Azure, GCP)
+    - Testing
+... then I will not be applying for the role as I consider these to be skills which a developer should be given the chance to acquire on the job.
+I am happy to participate in a single-stage code interview according to the following criteria:
+    - It shall not exceed 2 hours.
+    - The subject matter of the code test be representative of your business domain.
+    - No abstract algorithm quizzes.
+If "cultural fit" is more important to you than my ability to solve business problems with code then let's not waste each other's time as I have found this to be a convenient smokescreen for ageism and other forms of discrimination. Otherwise, if your interview process can be conducted within these guidelines I think you will find that I have a lot of experience which could add value to your business.
+Regards
+Hiren Sharma
+
+S_2022012400002 - Created Date - 24-01-2022 09:13:46 	Report Date - 20220124034346904		DB Date - 20220208032346703
+S_2022012400021 - Created Date - 24-01-2022 09:36:17	Report Date - 20220124040617272		DB Date - 20220208032346703
+S_2022012400031 - Created Date - 24-01-2022 14:22:31	Report Date - 20220124085231133		DB Date - 20220208032346719
+S_2022010100002 - Created Date - 01-01-2022 10:11:02	Report Date - 20220101044102996		DB Date - 20220106043606017
+S_2022010300004 - Created Date - 03-01-2022 07:48:25	Report Date - 20220103021825718		DB Date - 20220106043558048
+S_2022010400083 - Created Date - 04-01-2022 14:55:23	Report Date - 20220104092523591		DB Date - 20220106043559314
+S_2022030800066 - Created Date - 08-03-2022 22:59:06  	Report Date - 20220308172906661		DB Date - 20220309034848245
