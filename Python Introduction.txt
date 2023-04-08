@@ -1,0 +1,296 @@
+Python Guide
+
+Python, a reference to Monty Python's Flying Circus, is an open-source scripting language that is extremely flexible and powerful. Python is a server-side language, meaning that python programs run on the web server in response to a user request to produce an output web page.
+
+Why Use Python ?
+
+Python is a universal programming language — this means it can express every computation just like Java and Scheme. The syntax of Python is somewhat similar to C++ or Java.Python has become very popular because of its simplicity, elegance, extensive libraries, and integration into popular web servers. In addition, because Python is interpreted and dynamically types, it is much quicker to write simple programs in Python than in a compiled, statically-typed language like Java.
+
+Describing Languages
+
+We will describe the syntax of Python (and the other languages you will use in this class) using Backus-Naur Form. This is a simple way of describing a potentially infinite set of strings in a language using replacement rules. The rules are of the form:
+Nonterminal ::= Replacement
+This means whenever Nonterminal appears, it can be replaced by Replacement. There can be several rules with the same nonterminal on the left hand side. For example, the rules:
+State ::= Virginia
+State ::= Maryland
+would mean that the expression State State could be any of four possible strings: Virginia Virginia, Virginia Maryland, Maryland Virginia, or Maryland Maryland.
+This form of description is powerful, since the rules can be recursively defined. For example,
+
+StateList ::= 
+StateList ::= State StateList
+means whenever StateList appears we can either replace it with empty, or replace it with a State followed by a StateList. This describes a list of zero or more State elements.
+Programing in Python
+
+All Python code is a sequence of statements separated by newlines:
+PythonCode ::= Statements
+Statements ::= Statement <newline> Statements
+Instructions ::=
+In Python, unlike C++ or Java, the whitespace (such as new lines) has meaning. Statements cannot be separated into multiple lines, and only one statement may appear on a single line. Indentation within a line also matters. Instead of using parentheses to provide code structure, Python uses the indentation to group statements into blocks.
+Python has many different kinds of statements. The three you will use most are assignment, applications and function definitions:
+
+Statement ::= AssignmentStatement
+Statement ::= ApplicationStatement
+Statement ::= FunctionDefinition
+Also note that the coment (statements that are there for notes and clarifications but not to be executed) are denoted by # (everything after the # until the end of the line is a comment).
+
+Assignment
+
+Python is designed for an imperative programming style (although one of the best features of Python is its incorporation of functional programming features). This means most of a Python program is assignments, very much like Java. In Python, we use the = sign to mean assignment (to do equality comparisons, Python uses ==, like Java):
+AssignmentStatement ::= Variable = Expression
+To evaluate an AssignmentStatement, Python evaluates the Expression and places the value in the place named Variable.
+
+Expressions
+
+An expression in Python is a code fragment that evaluates to a value. In Python, expressions use infix notation. The operator is placed between the operands (except for function calls, described below). Python supports most of the standard arithmetic operators. Here are some examples:
+four = 4
+two = four / 2
+bigger = (four * four) < 17
+print "four: %d two: %d bigger: %d" % (four, two, bigger)
+
+four: 4 two: 2 bigger: 1
+
+Python considers the empty string, 0, and the empty list to be false, and (almost) everything else to be true.
+
+The print procedure takes a string as input followed by a % and a list of values (in parentheses). The values are matched to the % codes in the string. Different % codes are used for printing different types of values. Here, %d is used to print an integer. Essentially, it provides an easy way to convert to strings other types of inputs. (Some other string formatting codes are: %s - string or any object, %c - character, %i - integer, %f - floating point decimal). The types can be combined together. For example:
+
+"%d -- %s -- %f" % (2, "hello", 3.14)
+will output: 2 -- hello -- 3.14
+
+Applying Functions
+
+In Python, we apply a function to operands by following the name of the function with a comma-separated list of arguments surrounded by parentheses (just as in Java):
+
+ApplicationStatement ::= Name ( Arguments )
+Arguments ::= 
+Arguments ::= MoreArguments
+MoreArguments ::= Argument ,MoreArguments
+MoreArguments ::= Argument
+Argument ::= Expression
+Python functions may return one or more results. When multiple results are returned, the call site can bind them to different variables listed in parentheses.
+
+Python only has a few primitive functions, but a very extensive standard library.
+
+Defining Functions
+
+Defining a procedure in Python is similar to in Java, except there is no explicit type information. We define a function using:
+FunctionDefinition ::= def Name ( Parameters ): <newline> Statements 
+Parameters ::= 
+Parameters ::= MoreParameters
+MoreParameters Parameter ,MoreParameters
+MoreParameters ::= Parameter
+Parameter ::= Variable
+For example,
+
+def square (x):
+   return x * x 
+def quadratic (a, b, c, x): 
+   return a * square (x) + b * x + c
+
+print quadratic (2,3,7,4)
+
+Note the identation in that code segment. It is extremely important to preserve the identation as it is what is going to indicate where the function body ends. The return statement is the similar to the return in Java, except multiple values can be returned:
+
+ReturnStatement ::= return ExpressionList 
+ExpressionList ::= Expression
+ExpressionList :: Expression, ExpressionList
+It is used to return a value from a procedure. When execution encounters a return statement, the listed expressions are evaluated and their values are returned to the caller.
+
+Control Statements
+
+Python also provides several statements similar to control structures in Java. Three useful ones are if and while and for which are described below.
+
+If
+
+The if statement is similar to Scheme's if special form:
+Statement ::= if Expression: <newline> Statements
+Python also supports alternative clauses but uses else to distinguish them:
+
+Statement ::= if (Expression) :    #if test
+                                Statements1
+            elif :             #else if in Python
+                                Statements2 
+            else : 
+                                Statements3
+
+While
+
+The while statement repeats a sequence of statements as long as the test expression is true:
+Statement ::= while Expression: 
+                             Statements 
+The indentation of the statements determines the statements that are in the loop body.
+Here is an example that will print out the first 10 Fibonacci numbers:
+
+i = 1;
+a = 1;
+b = 1;
+while (i <= 10):
+  print "Fibonacci %s = %s" % (i,b);
+  next = a + b;
+  a = b;
+  b = next;
+  i = i + 1;
+print "Done."
+
+For
+
+The for loop repeats a sequence of statements as long as the test expression is true:
+Statement ::= for i in range(n):
+                             Statements
+The indentation of the statements determines the statements that are looped. For the value of n either an integer can be used or abother function, such as the length of a string (which we obtain in Python using len(Expression). You can define a string by putting it it single quotes.
+
+X = 'hello'
+for i in range(len(X)):
+
+    print i
+Also you can use a for loop to iterate over the items in a collection object (see the section on Lists).
+
+Types
+
+Python has latent (invisible) types that are checked dynamically (we will cover what this means later in the class). The four types you will find most useful are numbers, strings, lists, and dictionaries.
+
+Numbers
+
+Python does not do exact arithmetic. Instead of using fractions, everything is treated as either an integer or a floating point number. Here are some examples:
+
+four = 4
+pi = 3.14159
+nothalf = 1/2     #(evaluates to 0)
+half = 1.0/2.0    #(evaluates to .5)
+
+What happened when we defined nothalf ?
+
+Python makes a distinction between integer math and floating point math. This normally isn't that important; when we do math between the same types, the result is the same type, and when we do math with a floating point number and an integer, the type returned is a floating point number. However, the result of division of an integer by another integer is not necessarily an integer. Python will silently discard the fractional part of the answer. By writing the operands with decimal points, we ensure that the operation will return a floating point number.
+
+Strings
+
+In Python strings need quotation marks. You can use single quotes ('), double quotes ("), or triple quotes ("""). However, there is a very important difference between triple quotes and other quotes; when you use triple quotes you can break lines in the string, but when you use single or double quotes you can not.
+
+You can concatenate (run together) two strings by using the plus sign (+):
+
+name = "Spot"
+print "See " + name + " run."
+If you want a literal quote to appear in a string you print, use \":
+print "My name is \"Spot\"."
+The triple quote, """ is an easy way to print large chunks of text that can include double quotes and new lines. For example,
+print """
+"I find that the harder I work, the more luck I seem to have."
+   --- Thomas Jefferson
+"""
+will print out
+"I find that the harder I work, the more luck I seem to have."
+  --- Thomas Jefferson
+
+Lists and Tuples
+
+Python provides a powerful list datatype. Elements in Python lists are can be accessed directly using bracket notation:
+lst = [10, 20, 30]
+print lst[0]
+10
+
+print lst[2]
+30
+
+Indices in Python are much more powerful than that, however. We can "slice" lists to only look at a subset of the list data.
+
+lst = [10, 20, 40, "string", 302.234]
+
+print lst[0:2]
+
+[10, 20]
+
+print lst[:3]
+
+[10, 20, 40]
+
+print lst[1:]
+
+[20, 40, 'string', 302.23399999999998]
+
+(Note that decimal numbers are not exact in Python! We put 302.234 in the list, but the printed value is 302.23399999999998.)
+
+Finally, if we want to iterate over an entire list, we use the for statement:
+
+Statement ::= for VaribleList in ExpressionList : Statements
+For example,
+def sum (lst):
+   total = 0
+   for el in lst:
+      total = total + el
+   return total
+
+print sum([1, 2, 3, 4])
+10
+
+Dictionaries
+
+Python also has "dictionaries", referred to as a "hash tables" or "lookup tables" in some other languages.
+A dictionary is a list of (key, value) pairs. In Python, the key can be any "immutable" object (tuples, strings, numbers), and the value can be any Python object. We can initialize a dictionary using the initialization expression:
+
+DictionaryInitializationStatment ::= Variable = { InitializationExpressions }
+InitializationExpressions ::= 
+InitializationExpressions ::= InitializationExpression, InitializationExpressions
+InitializationExpression ::= Expression : Expression
+The expression before the : is the key, and the following expression is the associated value.
+
+We can set the value associated with a key using a set statement:
+
+SetStatement ::= Expression [ Expression ] = Expression
+We get the value associated with a key using:
+FetchExpression ::= Expression [ Expression ]
+The first expression in a fetch expression must evaluate to a dictionary.
+Here are some examples:
+
+yellow = { 'red': 255, 'green': 255, 'blue': 0 }
+print '(%s, %s, %s)' % (yellow['red'], yellow['green'], yellow['blue'])
+(255, 255, 0)
+
+
+yellow['red'] = 230
+print '(%s, %s, %s)' % (yellow['red'], yellow['green'], yellow['blue'])
+(230, 255, 0)
+
+
+Of course, we can put arrays in arrays, just like we can make lists of lists in Scheme. To do something to everything in the array, we first have to use the built-in "keys" method of the dictionary. For example, to reset yellow, we would do:
+
+for key in yellow.keys():
+    yellow[key] = 0
+Classes
+
+Python provides classes as a way to package procedures and state, similar to Java classes.
+
+ClassDefinition ::= class Name:
+                                           FunctionDefinitions
+
+These function definitions will form the "methods" of the class. There are lots of special methods, and we can also create our own. The only special method we'll worry about now is the __init__ method that is used when we create an instance of an object.
+
+For example, here is the Timer class from Problem Set 1:
+import time # this imports the time library module
+
+class Timer:   
+    def __init__ (self):
+        self.running = 0
+        self.startTime = 0
+        self.endTime = 0
+        
+    def start (self):
+        self.running = 1
+        self.startTime = time.clock()
+    
+    def stop (self):
+        self.endTime = time.clock ()
+        self.running = 0
+        
+    # pre: The timer must not be running.
+    # post: Returns the elapsed time (between the start and stop events)
+    #       in seconds.
+    def elapsed (self):
+        assert (not self.running)
+        return self.endTime - self.startTime
+To create an instance of a class we use the class name (this invokes the special __init__ method:
+
+import Timer
+
+timer = Timer.Timer ()
+The syntax for calling methods is similar to Java:
+timer.start()
+will invoke the start method on the Timer object we created.

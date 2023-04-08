@@ -1,0 +1,43 @@
+THE FIVE ELEMENTS OF A PROTOCOL
+A protocol specification consists of five distinct parts. To be complete, each specification should include explicitly:
+1. The service to be provided by the protocol
+2. The assumptions about the environment in which the protocol is executed
+3. The vocabulary of messages used to implement the protocol
+4. The encoding (format) of each message in the vocabulary
+5. The procedure rules guarding the consistency of message exchanges
+ 
+GENERAL PRINCIPLES OF PROTOCOL DESIGN
+A designer will adhere to the discipline only if in return, provably and reproducibly, a more reliable product can be obtained. Below we give an overview of what is likely to become part of a general set of principles of sound design, which will allow us to enter the second phase of development in the field of protocol engineering. It is important to recognize that all these notes are variations on two common themes: simplicity and modularity.
+SIMPLICITY — THE CASE FOR LIGHT-WEIGHT PROTOCOLS
+A well-structured protocol can be built from a small number of well-designed and well-understood pieces. Each piece performs one function and performs it well. To understand the working of the protocol it should suffice to understand the working of the pieces from which it is constructed and the way in which they interact. Protocols that are designed in this way are easier to understand and easier to implement efficiently, and they are more likely to be verifiable and maintainable. A light-weight protocol is simple, robust, and efficient. The case for light-weight protocols directly supports the argument that efficiency and verifiability are not orthogonal, but complementary concerns.
+MODULARITY — A HIERARCHY OF FUNCTIONS
+A protocol that performs a complex function can be built from smaller pieces that interact in a well-defined and simple way. Each smaller piece is a light-weight protocol that can be separately developed, verified, implemented, and maintained. Orthogonal functions are not mixed; they are designed as independent entities. The individual modules make no assumptions about each other’s working, or even presence. Error control and flow control, for instance, are orthogonal functions. They are best solved by separate light-weight modules that are completely unaware of each other’s existence. They make no assumptions about the data stream other than what is strictly necessary to perform their function. An error-correction scheme should make no assumptions about the operating system, physical addresses, data encoding methods, line speeds, or time of day. Those concerns, should they exist, are placed in other modules, specifically optimized for that purpose. The resulting protocol structure is open, extendible, and rearrangeable without affecting the proper working of the individual components.
+WELL-FORMED PROTOCOLS
+A well-formed protocol is not over-specified, that is, it does not contain any unreachable or unexecutable code. A well-formed protocol is also not under-specified or incomplete. An incompletely specified protocol, for instance, may cause unspecified receptions during its execution. An unspecified reception occurs if a message arrives when the receiver does not expect it or cannot respond to it.
+A well-formed protocol is bounded: it cannot overflow known system limits, such as the limited capacity of message queues.
+A well-formed protocol is self-stabilizing. If a transient error arbitrarily changes the protocol state, a self-stabilizing protocol always returns to a desirable state within a finite number of transitions, and resumes normal operation. Similarly, if such a protocol is started in an arbitrary system state, it always reaches one of the intended states within finite time.
+A well-formed protocol, finally, is self-adapting. It can adapt, for instance, the rate at which data are sent to the rate at which the data links can transfer them, and to the rate at which the receiver can consume them. A rate control method, for instance, can be used to change either the speed of a data transmission or its volume.
+ROBUSTNESS
+As Polybius (Chapter 1) noted,
+‘‘it is chiefly unexpected occurrences which require instant consideration and help.’’
+It is not difficult to design protocols that work under normal circumstances. It is the unexpected that challenges them. It means that the protocol must be prepared to deal appropriately with every feasible action and with every possible sequence of actions under all possible conditions. The protocol should make only minimal assumptions about its environment to avoid dependencies on particular features that could change. Many link-level protocols that were designed in the 1970s, for instance, no longer work properly if they are used on very high speed data lines (in the Gigabits/sec range). A robust design automatically scales up with new technology, without requiring fundamental changes. The best form of robustness, then, is not over-design by adding functionality for anticipated new conditions, but minimal design by removing non-essential assumptions that could prevent adaptation to unanticipated conditions.
+CONSISTENCY
+There are some standard and dreaded ways in which protocols can fail. We list three of the more important ones.
+Deadlocks — states in which no further protocol execution is possible, for instance because all protocol processes are waiting for conditions that can never be fulfilled.
+Livelocks — execution sequences that can be repeated indefinitely often without ever making effective progress.
+Improper terminations — the completion of a protocol execution without satisfying the proper termination conditions.
+In general, the observance of these criteria cannot be verified by a manual inspection of the protocol specification. More powerful tools are needed to prevent or detect them. Such tools are discussed in Part III.
+ 
+TEN RULES OF DESIGN
+The principles discussed above lead to ten basic rules of protocol design.
+Make sure that the problem is well-defined. All design criteria, requirements and constraints, should be enumerated before a design is started.
+Define the service to be performed at every level of abstraction before deciding which structures should be used to realize these services (what comes before how).
+Design external functionality before internal functionality. First consider the solution as a black-box and decide how it should interact with its environment. Then decide how the black-box can internally be organized. Likely it consists of smaller black-boxes that can be refined in a similar fashion.
+Keep it simple. Fancy protocols are buggier than simple ones; they are harder to implement, harder to verify, and often less efficient. There are few truly complex problems in protocol design. Problems that appear complex are often just simple problems huddled together. Our job as designers is to identify the simpler problems, separate them, and then solve them individually.
+Do not connect what is independent. Separate orthogonal concerns.
+Do not introduce what is immaterial. Do not restrict what is irrelevant. A good design is ‘‘open-ended,’’ i.e., easily extendible. A good design solves a class of problems rather than a single instance.
+Before implementing a design, build a high-level prototype (Chapters 5 and 6) and verify that the design criteria are met (Chapters 11 to 14).
+Implement the design, measure its performance, and if necessary, optimize it.
+Check that the final optimized implementation is equivalent to the high-level design that was verified (Chapter 9).
+Don’t skip Rules 1 to 7.
+The most frequently violated rule, clearly, is Rule 10.

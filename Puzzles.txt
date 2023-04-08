@@ -1,0 +1,1854 @@
+Puzzles :- 
+
+1.In a family of eight persons - P, Q, R, S, T, U, V and W - there are four males and four females.
+There are three married couples and two persons are unmarried.
+Each of them reads a different magazine, viz India Today (R), India Today (H), Outlook (E), Outlook (H), Frontline, The Week, Businessworld and Sportsstar.
+No couple reads both the versions of the same magazine.
+In the family of two generations, each male member except W has two brothers and one sister.
+V is the mother-in-law of R and who reads India Today (H).
+Q, who reads Outlook (E), is the daughter-in-law of W.
+T, who reads Frontline, is the unmarried brother of U, who does not read Businessworld.
+No female reads Outlook (H) or The Week.
+S is the brother-in-law of R but he does not read Businessworld, Sportsstar or The Week.
+P does not read The Week.
+W has no son-in-law.
+U is Q's sister-in-law.
+
+Which letter/person reads which magazine ?
+
+Answer - 
+First, let us determine the relations.
+We know that 3 of the 4 male members (the remaining 4th being W) are brothers of each other (otherwise they could not have 2 brothers each). One of them is T (we know that T is male because he is U's brother), and now we know that U is the only sister of the three. Who are T's other 2 brothers?
+Obviously neither of U, V and Q, since all of them are female. S is one of them since both remaining male members of the family (apart from T and W) should be T's brothers. But R cannot be T's brother since S is brother-in-law (not the blood brother) of R. So, the 3rd (remaining) brother is P.
+So, P, S and T are brothers, and U is their only sister. Since S is the brother-in-law of R, then R (being female) must be married to one of the S's brothers. It must be P since T is unmarried.
+Since V is the mother-in-law of R, she must be the mother of P,S,T and U. U is Q's sister-in-law, that is, Q is married to U's brother, namely S (since T is unmarried, and P is married to R). Q is W's daughter-in-law, so W must be V's husband.
+Now, let us proceed to the newspapers. First, we know that R reads India Today (H) (since V is R's and Q's mother-in-law, and Q reads other newspaper), Q reads Outlook (E), and T reads Frontline. S does not read Businessworld, Sportsstar or The Week, so he must read either India Today (R) or Outlook (H). But S is Q's husband who also reads Outlook, so S must read India Today (R).
+The Week and Outlook (H) are read by male members, that is, P and W (since S and T read something other). P does not read The Week, so he reads Outlook (H), and W reads The Week. U does not read Businessworld, so she must read Sportsstar, the only remaining newspaper. And Businessworld should remain to V.
+Final answer (apart from the family tree):
+P reads Outlook (H),
+Q reads Outlook (E),
+R reads India Today (H),
+S reads India Today (R),
+T reads Frontline,
+U reads Sportsstar,
+V reads Businessworld,
+W reads The Week.
+Note:
+The clause "V is the mother-in-law of R and who reads India Today (H)" is interpreted as if R and one who reads India Today (H) could be the same person (and in fact, it is). If we assume that these must be different persons, we get a contradiction.
+
+2.There are 52 cards on a table and numbered in order from 1 to 52 with number 1 on top. 
+The following operation can be repeatedly done: split the pile into two piles without shuffling and take cards from the top of the two piles in any order and build one new pile from top to bottom.
+What is the minimum number of operations, which is needed to revert the original pile, i.e. from 1,2,3,...,50,51,52 to 52,51,50,...,3,2,1?
+
+Answer - The optimal strategy takes six operations using Radix Sort technique !
+
+3.Professor Matlogic posed this question to his smartest math student :-
+
+"Famous mathematician Ensquare was born on this day, this month and this year AD at this time (hour and minutes) pm. True to his name, all those five numbers (the day, month, year, hour and also minutes-seperate from hour number-) were square numbers. So can you tell me when Ensquare was born exactly?"
+"No, I cannot" said the student.
+"OK then. What if I tell you that those 5 numbers are made up of digits 1 to 9,with each digit used exactly once. No repeats. Now, can you?"
+"Hmm. Let me think."
+"No I cannot still" the student after a long thought.
+"OK then. He was born on a Wednesday" Professor declared.
+"Now I know!" said the student cheerfully.
+Do you know ? What is the logic?
+
+Answer - Ensquare was born on 25/04/81 at 09:36 and its a Wednesday too !
+Logic - 
+First let us get which numbers qualify for the month, hours, days, and minutes. That is a count of 7 (1,4,9,16,25,36,49) numbers that need to fill 4 spots.
+I then went the long way around and listed all squares from 1 to 2021. First I removed any number that had a repeated digit or a number that contained a 0, this left us with 27 numbers to choose from for the year.
+Looking at the 7 numbers for the min/hr/day/mnth spots, we can see that if the year contains a 6 and a 9, that would eliminate 4 of our 7 numbers (9, 16, 36, 49) and we wouldn't have enough left to populate our min/hr/day/mnth spots. Similarly, a year containing a 4 and a 6 would eliminate 4 numbers (4, 16, 36, 49). Similarly (again), if the year contains a 4 and a 9 that would eliminate 3 numbers (4, 9, 49) and then 16 would clash with 1 and 36. This leaves us with 17 years to choose from.
+From here we can start checking numbers. If there are less than 4 valid numbers, it is a bust and we can throw it out. I don't know how to make a table, so this is the best I can do.
+Year | valid numbers (1, 4, 9, 16, 25, 36)
+841 | 9, 25, 36 (bust)
+784 | 1, 9, 16, 25, 36
+729 | 1, 4, 16, 36 (bust, 36 and 16 clash)
+625 | 1, 4, 25, 49 (bust, 4 and 49)
+576 | 1, 4, 9, 49 (bust, 4 and 49)
+529 | 1, 4, 16, 36 (bust, 1 and 16)
+361 | 4, 9, 25, 49 (bust 4, and 49)
+324 | 1, 4, 9, 16, 49 (bust, 4 and 49/1 and 16)
+289 | 1, 4, 16, 36 (bust, 1 and 16)
+256 | 1, 4, 9, 49 (bust, 4 and 49)
+81 | 4, 9, 25, 36
+36 | 4, 9, 25, 49 (bust, 4 and 49)
+25 | 1, 4, 9, 16, 36, 49
+16 | 4, 9, 25, 49 (bust, 4 and 49)
+9 | 1, 4, 16, 25, 36
+4 | 1, 9, 16, 25, 36
+1 | 4, 9, 25, 36, 49
+This leaves us with the years 784, 81, 25, 9, 4, 1 as possible solutions
+From there I calculated valid dates starting with the largest year, and then checked their day of the week at timeanddate.
+For year 784, the number 36 has to be the minutes (it is too large for month, day, or hour) and 25 has to be the day (too large for month or hour).
+year | month | day | hour | min
+784 | 9 | 25 | 1 | 36 (Saturday)
+784 | 1 | 25 | 9 | 36 (Sunday)
+For year 81, the number 36 has to be the minutes and 25 has to be the day from similar logic as above.
+year | month | day | hour | min
+81 | 9 | 25 | 4 | 36 (Thurs)
+81 | 4 | 25 | 9 | 36 (Wednesday)
+
+4.If a number conforms to a special rule, I call it a Scary Number.
+Use the following examples below to find the rule :-
+Scary Numbers List - 
+-1555487920
+-739891358
+-142598657
+-70140871
+-1671766
+4450548
+17452800
+84508223
+272393477
+598734170
+730747057
+798300167
+1000212371
+1506920732
+
+Answer - A scary number is a timestamp of a date where a terrorist attacks happened.
+For example :-
+-1555487920 :- September 16, 1920 : Wall street bombing
+-739891358 :- July 22, 1946 : King David Hotel bombing
+-142598657 :- June 25, 1965 : Saigon bombing
+-70140871 :- October 12, 1967 : Cyprus Airways Flight 284 bombing
+-1671766 :- December 12, 1969 : Piazza Fontana bombing
+4450548 :- February 21, 1970 : Swissair Flight 330 bombing
+17452800 :- July 22, 1970 : Olympic Airways Flight 255 hijacking
+84508223 :- September 5, 1972 : Munich_massacre
+272393477 :- August 19, 1978 : Cinema Rex fire
+598734170 :- December 21, 1988 : Pan Am Flight 103 bombing
+730747057 :- February 26, 1993: 1993 World Trade Center bombing
+798300167 :- April 19, 1995 : Oklahoma City bombing
+1000212371 :- September 11, 2001 : September 11 attacks
+1506920732 :- October 1, 2017 : 2017 Las Vegas shooting
+
+5.Five positive integers should be put in a row such that each integer is the sum of the digit sum of its neighbours.
+The integers at the beginning and at the end have only one neighbour, i.e the first integer is the digit sum of the second integer, the fifth integer is the digit sum of the fourth integer.
+What is the smallest sum of those five integers ?
+
+Answer - Smallest sum is 45.
+Logic - 
+Possible Solutions are as follows :- 
+1 10 9 17 8
+2 11 9 16 7
+3 12 9 15 6
+4 13 9 14 5
+5 14 9 13 4
+6 15 9 12 3
+7 16 9 11 2
+8 17 9 10 1
+Reasoning
+Let a b c d e be a solution. Then (writing [] for digit sum) c = a + e = [b] + [d]. Also, b = 2[b] + [d] and d = [b] + 2[d]. Therefore b and d must be multidigit. The smallest possible way is b = 10 + B and d = 10 + D where B = a - 1 and D = e - 1 are single digit. From this it follows that c = a + e = 9.
+
+6.Seasons pass within a day and the sun moves in reverse. I am in love with this place. Where am I ?
+
+Answer - Venus / South Pole
+Venus Logic - 
+I think you are on Venus where the Sun goes in the opposite direction across the sky as compared to Earth because the rotation of Venus is opposite that of earth and
+One Venus year = 1.92 Venus days, so about 2 seasons per day, and you love it Venus, Goddess of Love.
+South Pole Logic -
+Seasons pass within a day
+A "day" , if counted from one sunrise to the next one, lasts 12 months on both poles. This is of course the same period of time it takes for the seasons to cycle.
+The sun moves in reverse.
+Assuming we're used to the sun moving clockwise across the sky as it does in the northern hemisphere. The reverse happens on the other side of the globe where the sun moves anticlockwise.
+
+7.Who am I ?
+
+It can't be made by a Snake,
+whether it is asleep or awake.
+It can be made by a Beagle,
+or sometimes even by an Eagle.
+Found in various places,
+we humans can easily make,
+You dont need hands to make it,
+Did this puzzle make your head shake ?
+
+Answer - Footprint
+Logic - Snakes don't have feet so cannot make them but beagles and eagles both have feet as do humans and footprints can be found in various places.
+
+8.Using creative thinking can you show all four equations follow the same logic/method.
+9 = 4
+9 = 8
+9 = 14
+9 = 24
+
+Hint - Think Roman Numeral for LHS.
+
+Answer - 
+IX = 2/3 of the word SIX = 2/3×6=4
+IX = 2/9 of THIRTY SIX = 2/9×36=8
+IX = 1/4 of FIFTY SIX = 1/4×56=14
+IX = 2/5 of SIXTY = 2/5×60=24
+
+9.How do you change the word Water to the word Steam by changing one letter at a time ? 
+The newly formed words must be from Merriam Webster dictionary.
+No proper nouns, abbreviations or acronyms.
+No rearranging of the letters either.
+
+Answer -
+In 10 Steps - 
+water
+later
+layer
+sayer
+shyer
+sheer
+steer
+steed
+stead
+steam
+
+10.What is the word ?
+I have , 
+One anagram
+Two Meanings
+Three primary directions
+Four numbers
+Five consonants 
+Six different multi-letter words formed by consecutive letters
+Seven letters
+
+Answer - 
+
+i.The word is SWEDISH - a word relating to a European country.
+One Anagram - Swished
+Two Meanings - (i) Being from Sweden; (ii) The language spoken in Sweden.
+Three Primary Directions - SWEDISH contains the compass points S (twice), W and E.
+Four Numbers - SWEDISH contains e (Euler's number), and the Roman numerals D (500), I (1) and DI (501).
+Five Consonants - SWeDiSH (5 consonants)
+Six different multi-letter words- at least (formed by consecutive letters)
+The dictionary words WE, WED, DIS, DISH, IS and SH (an interjection) can be found spelled out consecutively in the letters of SWEDISH.
+Seven letters - SWEDISH is a seven-letter word!
+
+ii.The word is Singled
+One Anagram - Dingles
+Two Meanings - (i) selected or distinguished from a number or group; (ii) advanced or scored by a single (baseball)
+Three Primary Directions - Singled contains the compass points S, N and E.
+Four Numbers - Singled contains e (Euler's number), and the Roman numerals D (500), I (1) and L (50).
+Five Consonants - SiNGLeD (5 consonants)
+Six different multi-letter words- at least (formed by consecutive letters)
+The dictionary words sin, sing, single, in, ingle and led can be found spelled out consecutively in the letters of Singled.
+Seven Letters - Singled is a seven-letter word!
+
+11.What is the word ?
+My prefix is in the sky.
+My suffix is in the ocean.
+My infix is on land.
+My whole is our home.
+
+Answer - The word is PLANET.
+Logic - 
+My prefix is in the sky - Look up in the sky and you might spot a PLANE flying overhead.
+My suffix is in the ocean - Cast your NET in the ocean to try and catch a fish.
+My infix is on land - A country LANE will help you get places on land.
+My whole is our home - All in all, for every one of us, this PLANET is our home.
+
+12.You come across two people. 
+One is a liar who always lies and the other is a truthteller who always tell the truth. You don't know who is who though.
+Both these people are allowed to say one sentence each. What shall each of them say to prove their identity ?
+Note: Both need to prove their identities individually. Just the truthteller proving his identity or just the liar proving his identity is not enough.
+
+Answer - 
+Truthteller will say - "One of us two is a truthteller" is true / 2+2=4 is true
+Liar will say - "One of us two is a truthteller" is false / 2+2=5 is false
+
+13.4 players enter a race. 
+The judge is not at the finish line to judge the ending. 
+When the judge shows up to award the prize, these are the statements by 4 players :-
+Alpha - I won the race
+Beta - I came in last
+Gamma - I did not finish last
+Theta - I was neither first nor last
+The judge goes to Alpha to hand the prize, when a member from the audience who has been watching the race all along shouts - "Exactly one of these 4 is lying".
+To whom should judge award the prize ?
+
+Answer :-
+Here's the situation if no one lied i.e Alpha at 1st , Beta at 4th, Gamma & Theta at 2nd or 3rd.
+If Alpha lied , then Gamma must have won and Beta must have come last.
+If it's Beta, no one comes last. This is not a valid race.
+If it's Gamma, both Beta and Gamma comes last. This is not a valid race either.
+If it's Theta, Alpha must have won and Beta must have come last. There's no place for Theta.
+Conclusion : Alpha lied and the real winner is Gamma.
+
+14.Each digit in 12345 represents a letter. Given that :-
+1     is a letter
+12    might be referring to you
+123   might be referring to you
+1234  might be referring to you
+12345 is a bird
+
+What is the hidden word ?
+
+Answer - The hidden word is HERON.
+H is a letter;
+HE might be referring to you (if that's how you identify);
+HER might be referring to you (if that's how you identify);
+HERO might be referring to you (if you'll do something brave);
+and a HERON is a water bird.
+
+15.Fill the gaps of the expression 1 4 9 100 with mathematical operations +,−,∗,/, physical units and an = sign, such that a correct equation is created.
+Example: 1m=100mm+100*9mm
+
+Answers :- 
+1 hour = 4 * 9 * 100 seconds
+1 feet - 4 inches = 9 feet - 100 inches
+
+16.Once, I said to my friend that, 
+"In 1932 I was as old as the last two digits of my birth year. 
+When I mentioned this interesting coincidence to my grandfather, he surprised me by saying that the same applied to him too. I thought that impossible !"
+"Of course that's impossible !" my friend said.
+"Believe me, it's quite possible and grandfather proved it too. How old was each of us in 1932 ?"
+What is my and my grandfather's age ?
+
+Answer :- 
+I guess you were 16 years old, born 1916 and your grandfather was 66 years old, born 1866.
+
+17.If a word conforms to a special rule, I like to call it an Amoeboid Word.
+Find the rule that decides whether a word is an Amoeboid Word or not, and why they are called so.
+Amoeboid Words
+BALLOONED
+HEAVIER
+FURRINESS
+ALLIED
+LOUNGE
+SOURNESS
+FRIEND
+STAINED
+SWEATY
+THEOREM
+
+Answer :- A word is Amoeboid if the odd letters and even letters both spell out words.
+BALLOONED      ->   BLOND     &    ALOE
+HEAVIER        ->   HAIR      &    EVE
+FURRINESS      ->   FRIES     &    URNS
+ALLIED         ->   ALE       &    LID
+LOUNGE         ->   LUG       &    ONE 
+SOURNESS       ->   SUNS      &    ORES
+FRIEND         ->   FIN       &    RED
+STAINED        ->   SAND      &    TIE
+SWEATY         ->   SET       &    WAY
+THEOREM        ->   TERM      &    HOE
+
+18.I close in all around you, making you nervous. You want to evade me as much as possible. Lifts, Tunnels, and under your bed. What am I ?
+
+Answer :- Darkness
+Logic -
+Darkness can make people nervous and with poor lighting is all around everyone.
+People want to evade darkness.
+In lifts, in tunnels, and under one's bed, darkness resides.
+
+19.I am an 8-letter word. 
+I have a special property that can be a headache for many scholars. Every day, I lose a letter and subsequently rearrange myself into a meaningful word.
+Based on the hints provided below, guess the word on Day 0.
+On Day 1, I am what dreamers do.
+On Day 2, No one can understand me.
+On Day 3, I finally get imprinted in everyone's memory.
+On Day 4, Everyone loves me, or at least some types of me.
+On Day 5, I realise I can only ever increase, and cannot be fought.
+
+Answer :-The answer is MIGRAINE.
+On Day 1, dreamers IMAGINE.
+On Day 2, an ENIGMA is hard to understand.
+On Day 3, an IMAGE gets imprinted in your memory.
+On Day 4, everyone loves a GAME.
+On Day 5, AGE only increases and cannot be fought.
+
+20.Let's say you have this set of equations :-
+_ = N
+_ + _ = N
+_ + _ + _ = N
+_ + _ + _ + _ = N
+_ + _ + _ + _ + _ = N
+If every blank has to be filled in with a different positive integer, what's the smallest possible value for N ?
+
+Answer :- 27
+Logic - 
+27 = 27
+13 + 14 = 27
+8 +  9 + 10 = 27
+4 +  5 +  7 + 11 = 27
+1 +  2 +  3 +  6 + 15 = 27 
+
+21.Complete a loop of five large cities.
+The starting city name starts with the letters MA. Each of the following cities starts with the last two letters of the previous city name. (Like PARIS ISTANBUL etc.). The fifth city name ends in MA, completing the loop.
+
+Answer :-
+MAniLA - LAgOS - OSaKA - KAracHI - HIroshiMA
+MAdrAS -> ASwAN -> ANkaRA -> RAncHI -> HIroshiMA
+MAkKA -> KAzAN -> ANkaRA -> RAncHI -> HIroshiMA
+
+22.What's common between these words ?
+Swerve , Ted , Rated , Fatter , Wade , Gassed , Scarf , Qatar , Trade , Texas , Vat , Tracer , Waxed , Fade , Serf & Vets
+
+Answer :- All of these words can be typed using just the letters on the left hand side of a (QWERTY) keyboard.
+
+23.What is the minimum number of turns of a solved 2x2 Rubik’s cube, such that no face will have two tiles of the same color ?
+
+Answer :- 5  ( Moves -> Right -> Down -> Right -> Down -> Front )
+
+24.If O^3 = DAD and (I*M) ^ 2 = MOM, then what is MAID ?
+
+Answer :- It can be seen that O^3=DAD can only happen with 7^3=343 and (I*M) ^ 2 = MOM can only happen with (2*6) ^ 2=676 and hence the value of MAID is 6423.
+
+25.I have 4 brothers
+My 1st brother is a bother, and points everything out.
+My 2nd brother is tall, and quite foul at heart.
+My 3rd brother is about as tall as my 1st, and quite decorative.
+My 4th brother is short and skinny, but among the strongest of us all.
+I am short and squat and weak, but am by far the most useful.
+
+What are we ?
+
+Answer :- Five Fingers of a Hand
+Narrator - Thumb
+My 1st brother is a bother, and points everything out. -> The index finger is used to point at something.
+My 2nd brother is tall, and quite foul at heart. -> The middle finger is usually the longest of all fingers.
+My 3rd brother is about as tall as my 1st, and quite decorative. -> The ring finger is often as long as the index and carry all sorts of rings
+My 4th brother is short and skinny, but among the strongest of us all. 
+-> The 4th brother is the pinky, short and skinny, but among three of the strongest fingers of the hand.
+
+26.Everyone will do crazy things for me. Change a letter and you lose. What am I ?
+
+Answer :- Love. Change v to s and you lose.
+
+27.I run uphill faster than downhill
+People don't touch me, that's chill
+I tend to destroy more than create
+But I can be used to make something great
+I am loud and I eat, but I have no mouth
+I travel around, west, east, north, or south
+People hate me, yet love me as well
+The smaller, the better, that's what they tell
+
+What am I ?
+
+Answer :- Fire
+Logic - 
+I run uphill faster than downhill - Fire travels faster going upwards because hot air is pushed upward and cold air is consequently pulled in from underneath.
+People don't touch me, that's chill -Usually, people don't touch fire. That's chill, because if they did touch fire, it wouldn't be very chill anymore.
+I tend to destroy more than create - Fire does create, but it mostly just destroys, specifically, whatever it's burning.
+But I can be used to make something great - Food, I guess. Also glass. And various other things.
+I am loud and I eat, but I have no mouth - No mouth. But fire is quite loud, and I suppose it "eats" fuel (and oxygen).
+I travel around, west, east, north, or south - Well, fire spreads indiscriminately of direction.
+People hate me, yet love me as well - Forest fires really suck. But we also couldn't live without it to warm us, help us travel, cook food, etc.
+The smaller, the better, that's what they tell - Smaller fires are better, in general; large fires get out of control and then cause damage and death.
+
+28.Steal my prefix and perform a sacrifice.
+Steal my suffix and venture all over ice.
+Steal my infix and a shove from fatality.
+Steal my whole and forget a part of me.
+
+What am I ?
+
+Answer :- Skill
+Logic -
+Steal my prefix and perform a sacrifice - Remove the prefix S to make KILL
+Steal my suffix and venture all over ice - Remove the suffix LL to make SKI
+Steal my infix and a shove from fatality - Remove the infix K and you are left standing on a SILL
+Steal my whole and forget a part of me - Remove all the letters - lose a SKILL and you forget how to do a particular task.
+
+29.The eight vertices of a cube are marked with numbers from 1 to 8 such that the sum of any three numbers on any face is not less than 10.
+What is the minimum sum of the four numbers on a face ?
+
+Answer :- 16
+Logic - 
+Let n be the largest number on the face with the smallest sum. 
+The remaining three numbers on that face must sum to at least 10 so cannot be all less than 5 (2+3+4=9) the largest must therefore be at least 6 + 10 = 16.
+
+30.You are given a rectangle with base b and height h with h,b>0. What is the minimum side length of a square, which completely covers this rectangle ?
+
+Answer :- min((h+b)/√2,h)
+Logic - 
+An optimal cover can always be chosen to have the centroids of the rectangle and the covering square aligned. Because by rotational symmetry of the rectangle the covering square rotated by 180° around the centroid of the rectangle will also cover, hence will the intersection of the original and the rotated square, and this will be a symmetric around the centroid of the rectangle.
+
+31.Can you fill a 4x4 grid with every number from 1 to 16, such that every row, every column and every 2x2 sub-grid of numbers sum to the same value ?
+
+Answer :- 
+01 15 02 16		01 16 05 12		
+14 04 13 03		08 09 04 13
+07 09 08 10		03 14 07 10
+12 06 11 05		15 02 11 06
+Logic - 
+For a 4*4 Matrix - 
+A B C D
+E F G H
+I J K L
+M N O P
+ 
+Constraints that needs to be satisfied are as below - 
+A+B = G+H = I+J = O+P
+C+D = E+F = K+L = M+N
+A+E = J+N = C+G = L+P
+I+M = B+F = K+O = D+H
+B+C = J+K = E+H = M+P
+F+G = N+O = A+D = I+L
+E+I = G+K = B+N = D+P
+F+J = H+L = A+M = C+O
+which are enough constraints to make it manageable by trial and error.
+
+32.Can you fill a 3x3 grid with every number from 1 to 9, such that the sum of numbers in the first row is equal to the sum of numbers in every 2x2 sub-grid ?
+
+Answer :- 
+7 1 9
+5 4 3
+6 2 8
+
+33.Professor Devonshire was losing his marbles, Dr. Wallaby thought, staring at the equations filling the board in Dr. Devonshire’s office. What kind of addition was this ?
+1+1 = 6
+2+1 = 6
+1+6 = 6
+2+6 = 6
+6+6 = 6
+1+3 = 8
+7+9 = X
+X stands for ?
+
+Answer :- 9
+Logic - 
+The addition is the number of letters in each one of the numbers to the left of the equal sign.
+So,
+one + one = 6 letters
+two + one = 6 letters
+one + six = 6 letters
+two + six = 6 letters
+six + six = 6 letters
+one + three = 8 letters &
+seven + nine = 9 letters
+
+34.How many ways are there to split the numbers 1, 2, 3, 4, 5, and 6 into two groups, such that the product of the numbers in one group is 24 and the sum of the numbers in the other group is 12 ?
+
+Answer :- The only possibility is - 1+5+6=12 & 2*3*4=24.
+
+35.Who is the only pre-teen that has traveled to outer space ? This is a person, not a dog or chimpanzee or other animal.
+
+Answer :- Jack Lousma
+Reasoning - 
+Jack was an astronaut born in 29 February 1936 and traveled to outer space in April 1966, which would mean he had 7 birthdays, making him a "pre-teen".
+
+36.If I am thirty-two, I am the smallest and I am alone.
+Twenty-two multiplied by four is twenty.
+Eight, twelve and sixteen are my own.
+If you can see me, we both have one of me.
+If you don't have one of me, you can't see me.
+
+What am I ?
+
+Answer :- An IPv4 Address
+Logic - 
+If I am thirty-two, I am the smallest and I am alone - In CIDR Notation, /32 designates the smallest possible network of one IP address
+Twenty-two multiplied by four is twenty - In CIDR Notation, the /20 subnet has four times as many hosts as the /22 subnet (4,096 vs 1,024)
+Eight, twelve and sixteen are my own - I think these are CIDR notation subnet masks reserved for special purpose address blocks
+If you can see me, we both have one of me - Both the server and viewer need to have an IP address to view this question
+If you don't have one of me, you can't see me - Without an IP address a viewer could not view this question.
+
+37.20, 21, 33, 68, 172.5, 520.5, ? What will come next in this number sequence problem ?
+
+Answer :- The next number in the sequence is 1825.25.
+Logic - 
+(20 x 1.0) + 1.0 = 21
+(21 x 1.5) + 1.5 = 33
+(33 x 2.0) + 2.0 = 68
+(68 x 2.5) + 2.5 = 172.5
+(172.5 x 3.0) + 3.0 = 520.5
+(520.5 x 3.5) + 3.5 = 1825.25
+
+38.In how many ways you can arrange the numbers from 1 to 8 in an order so that three consecutive terms cannot be increasing. 
+For example, 12345678 isn’t allowed but 81436572 is. How many ways are there to do it ?
+
+Answer :- 13358 Ways
+Logic - 
+Use inclusion-exclusion to count all permutations with at least one increasing triplet.
+For each of the possible 6 positions there are 8x7x6x5x4 = 6720 such triplets.
+Pairwise intersections give increasing quadruplets,quintuplets or pairs of triplets. These contribute terms 5 x 1680, 4 x 336 and 6 x 56 x 20. The last term arises as 6 placements of two triplets, 8x7 ways to fill the two remaining cells and 20 ways to distribute 6 numbers over two tiplets.
+Threeway intersections give increasing quintuplets to septuplets, and triplets paired with quadruplets or quintuplets. Terms: 4 x 336, 3 x 2 x 56, 2 x 8, 2 x 3 x 8 x 35, 2 x 56
+Fourway intersections give increasing sextuplets to octuplets and pairs of quadruplets or triplets and quintuplets. Terms: 3 x 56, 2 x 3 x 8, 3 x 1, 70, 2 x 56
+Fiveway intersections give increasing septuplets and octuplets. Terms: 2 x 8, 4 x 1
+The full intersection gives the octuplet. Terms: 1
+Taken together :-
+6 x 6720 - (5 x 1680 + 4 x 336 + 6 x 56 x 20) + (4 x 336 + 3 x 2 x 56 + 2 x 8 + 2 x 3 x 8 x 35 + 2 x 56) - (3 x 56 + 2 x 3 x 8 + 3 x 1 + 70 + 2 x 56) + (2 x 8 + 4 x 1) - 1 = X
+6 x 6720 - 5 x 1680 - 117 x 56 + 208 x 8 - 70 = X
+40320 - 8400 - 6552 + 1664 - 70 = X
+X = 26962
+This we have to subtract from the full permutation count 8! = 40320.
+Thus Final Answer - 40320-26962 = 13358 Ways
+
+39.Suppose we have 4 by 4 grid with numbers 1 to 16. 
+Can we fill the grid in such a way that the product of the first row is equal to the product of the first column, the product of the second row is equal to the product of the second column, and so on ?
+
+Answer :- 
+16 03 12 04
+09 10 14 01
+08 07 11 15
+02 06 05 13
+
+40.Suppose we have 6 by 6 grid with numbers 1 to 36. 
+Can we fill the grid in such a way that the product of the first row is equal to the product of the first column, the product of the second row is equal to the product of the second column, and so on ?
+
+Answer :- 
+19 25 36 09 06 13
+05 23 16 15 14 17
+18 03 29 32 02 22
+10 04 12 31 24 21
+27 28 01 08 35 20
+26 34 11 07 30 33
+
+41.Find three ways of forming the number 100 using 3,3,5,7.
+
+Answer :-
+Logic -  
+First Way - 100=7^3−3^5
+Second Way - 100=(3^3−7)*5
+Third Way - 100=(7+3)^(5−3)
+
+42.On an 8 x 8 chessboard, place three white queens, two white knights, and one white rook so that every cell of the board is under attack by at least one piece not standing on it.
+
+Answer :- Using integer linear programming , there exists only one solution i.e.
+. . . . . . . .
+. . K . K . . .
+. . . . . . . .
+. . . . . . . .
+. Q . Q . Q . .
+. . . . . . . .
+. . . . . . . R
+. . . . . . . .
+
+43.A stream of ants go from point A to point B and return to A along the same path. 
+All the ants move at a constant speed and from any given point 2 ants pass per second one way. 
+It takes 1 minute for an ant to go from A to B. Ho many returning ants will an ant meet in its journey from A to B ?
+
+Answer :- 240 Ants
+Logic -
+Consider the situation at the moment the ant is about to start moving from A to B.
+The ant will meet all the ants that are already returning from B to A. It will also meet all the ants that are ahead of him and moving to B, because they will all reach B before him and turn around and meet him while he is not yet at B.
+To answer the question we therefore have to work out the total number of ants that are currently between A and B.
+Consider the first ant he meets.
+This ant left A two minutes ago since he went to B and back. Our ant will therefore meet all the ants that left point A in the last two minutes. At 2 ants per second, that is 240 ants.
+
+44.Two knights are placed on opposite corners of a 4x4 grid. 
+Can you move* each knight 7 times, such that each cell of the grid is visited exactly once by exactly one of the knights ?
+*Note that a knight moves 1 cell in one direction (horizontal or vertical) and two cells in an orthogonal direction.
+
+Answer :- 
+Knight 1 - 
+. 2 . .
+. . 6 3
+5 . 1 .
+0 . 4 7
+Knight 2 -
+7 . 5 0
+4 1 . .
+. 6 . 2
+. 3 . .
+
+45.There is a secret operator F that takes two whole numbers and outputs a new number. For example
+F(6,9)=15
+F(66,11)=110
+F(86,18)=179
+Can you find what F does and what is the output of F(601,81) ?
+
+Hint: F may not be defined for all inputs.
+
+Answer :- 127
+Logic - 
+Rotating the whole numbers, rather parameters, and not the individual integers, by 180 degrees and adding them together.
+F(6,9) = 9+6=15
+F(66,11) = 99+11=110
+F(86,18) = 98+81=179
+Therefore the output of F(601,81) would be -> 109+18=127
+
+C# Code :- 
+void Main()
+{
+  F(6,9).Dump();      //15
+  F(66,11).Dump();    //110
+  F(86,18).Dump();    //179
+  F(601,81).Dump();   //127
+ }
+ int F(int x, int y)
+ {
+  return rotate(x)+rotate(y);
+ }
+ int rotate(int num)
+ {
+  int result =0;
+  for (; num > 0; num /= 10)
+  {
+      int digit = num % 10;
+      switch (digit)
+      {
+          case 0: case 1: case 2: case 5: case 8: break;
+          case 3: case 4: case 7: throw new ArgumentException($"can't flip {digit}");
+          case 6: digit = 9; break;
+          case 9: digit = 6; break;
+          default: throw new ArgumentException("I can't even");
+      }
+      result = result * 10 + digit;
+  }
+  return result;
+ } 
+
+46.8110423,259974,9814143,5512166,113322,?
+ 
+Answer :- 7911132
+Logic - 
+The sum of first two digits and the last two digits as a two digit addition gives the rest of the number (middle).
+
+47.When I looked in an old box of mine I found the following x items with 4 different colors exactly.
+5 items that are either blue or brown.
+7 items that are either brown or yellow.
+5 items that are either yellow or red.
+Oh, also there are more yellow items than brown items.
+How many items are blue, brown, yellow and red respectively ?
+
+Answer :- 1 red, 2 black, 3 brown and 4 yellow
+
+47.It swims, does a backflip, still swims. What is it ?
+
+Answer :- It is the word SWIMS because SWIMS is an ambigram when you rotate the capitalized word SWIMS around you still get SWIMS.
+
+48.I speak without a mouth and hear without ears. I have no body, but come alive with the wind. What am I ?
+
+Answer :- An Echo
+Logic - 
+I speak without a mouth - An echo echoes without a mouth.
+and hear without ears - An echo listens to you and copies you, so it listens without ears.
+I have no body, but come alive with the wind - The wind of our breath allows us to hear the echo. 
+
+49.5, 10, 6.5, 8.5, 8, 7, 9.5, 5.5, X. What is the next number X in the sequence ? 
+
+Answer :- 11
+Logic - 
+5 + 10 - 6.5 = 8.5
+10 + 6.5 - 8.5 = 8
+6.5 + 8.5 - 8 = 7
+8.5 + 8 - 7 = 9.5
+8 + 7 - 9.5 = 5.5
+7 + 9.5 - 5.5 = 11
+
+50.I say :-
+
+My prefix is my abbreviation.
+My infix is.
+My suffix is seeing something.
+Together, I need someone like you.
+
+You say :-
+
+My prefix is a place.
+My infix is eating something.
+My suffix is suspicious by its presence.
+Together, you cannot let the one like me be nothing.
+
+Answer :- 
+I believe - You are DIVISION and I am DENOMINATOR.
+Logic - 
+Prefix: DIV is the abbrevation for DIVISION, common in programming and proofs, and also the prefix.
+Infix: IS is the infix for DIVISION.
+Suffix: VISION is seeing something.
+Together: You need a DENOMINATOR to perform DIVISION.
+
+Prefix: DEN, a room or wild animal's lair is a place.
+Infix: NOM, to eat something loudly or with enjoyment.
+Suffix: TOR is an open source tool for anonymous communication and web browsing, Suspicious ! 
+Together: DENOMINATOR cannot be 0, otherwise DIVISION is undefined.
+
+51.What should fill the blank to complete the sequence ? G G G _ F F F D
+
+Answer :- Eb because it's Symphony No. 5 in C Minor by Beethoven follows the notes G G G Eb F F F D
+
+52.Take away 1, I am even. Take away 2, I am 22. Take away 3, I am the seasons.
+Who am I ?
+
+Answer :- I am 7
+Logic - 
+Take away 1, I am even - 7 minus 1 is 6, an even number.
+Take away 2, I am 22 - 7 minus 2 is 5, which is 'V' in Roman numerals - the 22nd letter of the alphabet.
+Take away 3, I am the seasons - 7 minus 3 is 4 - the number of seasons in a year (winter, spring, summer, autumn).
+
+53.How many positive integers less than 1,000,000,000 contain their length as part of their digit string ? 
+For Example : 123466 has a length of 6 and 6 is one of its digits. Hence this number needs to be counted.
+
+Answer :- 612579511 ( 10^9 - 9^10 )
+Logic - 
+1 number of length 1 with digit 1
+18 numbers of length 2 with digit 2
+252 numbers of length 3 with digit 3
+3168 numbers of length 4 with digit 4
+37512 numbers of length 5 with digit 5
+427608 numbers of length 6 with digit 6
+4748472 numbers of length 7 with digit 7
+51736248 numbers of length 8 with digit 8
+555626232 numbers of length 9 with digit 9
+Summing all them up they'll return 612579511.
+
+54.What is the fewest number of queens needed to attack every white square ?
+Rules:-
+Only queens allowed, Every white square is attacked, No queen attacks another queen
+
+Answer :- 4
+
+55.I'm laying on the highway, but you can't drive over me, for as soon as you're over me, I'm over you. What am I ?
+
+Answer : - A Shadow
+Logic - When you drive on a shadow, the shadow of the object will be on top of your car.
+
+56.My eight cousins are all a different prime number of years old, and their average age is a whole number. 
+Recently they all came to visit me and, as they left one by one, I noticed that at all times the average age of the cousins remaining was also a whole number. Moreover, I noticed that the sum of their ages was the least it could have been for this to happen.
+How old are my eight cousins ?
+
+Answer :- 
+Their ages are 3,5,7,11,13,17,19,29 which is a combined total age of 104.
+This is one possible order in which they left - 13, 7, 19, 5, 3, 11, 17, 29.
+Logic - 
+None of their ages can be 2 since the overall sum must be even. The smallest sum of primes is then 3+5+7+11+13+17+19+23 = 98 but this is not divisible by 8. The next smallest is the solution given (which is divisible by 8) and it is not too difficult to work out an order in which they must leave to satisfy the constraints.
+
+57.Take the first 10 primes. 
+Can you divide them into g disjoint groups, such that the sum of numbers in each group is prime. In particular can you make this work for every value of g in the range [2,10] ?
+
+Answer :- 
+G10 - (2,3,5,7,11,13,17,19,23,29)
+G9 - (3,5,7,11,13,17,19,23,29+2)
+G8 - (2,3,5,7+11+13,17,19,23,29)
+G7 - (3,5,7+11+13,17,19,23,29+2)
+G6 - (2,3+5+11,7+13+23,17,19,29)
+G5 - (3+5+11,7+13+23,2+17,19,29)
+G4 - (2,11,7+13+23,17+19+29+3+5)
+G3 - (3+5+11,7+13+23,2+17+19+29)
+G2 - (2,3+5+7+11+13+17+19+23+29)
+
+58.What letter comes next in the sequence: A, P, I, W, A, T, ?
+
+Answer :- W because, A Picture Is Worth A Thousand Words.
+
+59.Gaby numbers her 21 students with the primes between 11 and 97. 
+She now asks them to sit around a circle making sure that any two of them sitting next to each other have either their tens or units digit equal.
+In how many essentially different ways can they so sit ?
+
+Answer :- The graph has 21 nodes, 62 edges, and 2,924,976 Hamiltonian Cycles.
+
+60.Can you change the word Three to the word Seven in five steps or less with the following rules :-
+You must exactly replace two letters; one vowel and one consonant of the word in each step with a different consonant and a different vowel. 
+The new vowel or the new consonant can go in the place of either the consonant or the vowel in the preceeding word. 
+You cannot replace the letter with exact same letter. 
+Replacing the vowel and the consonant with either 2 vowels or two consonants not allowed.
+The new word must be in the Merriam Webster dictionary.
+No anagrams or rearrangements or Proper nouns or abbreviations or acronyms.
+
+Answer :- 
+Step I - T H R E E --> T I R E S
+Step II - T I R E S --> S E R E S
+Step III - S E R E S --> S I R E N
+Step IV - S I R E N --> S E V E N
+
+61.Can you fill a 8x8 grid with numbers from 1 to 8 such that :-
+Every number occurs exactly once in each row and in each column (Latin square).
+No two adjacent (horizontally or vertically) numbers sum to a prime.
+
+Answer :- 
+7 5 3 1 8 6 4 2
+5 3 1 8 6 4 2 7
+3 1 8 6 4 2 7 5
+1 8 6 4 2 7 5 3
+8 6 4 2 7 5 3 1
+6 4 2 7 5 3 1 8
+4 2 7 5 3 1 8 6
+2 7 5 3 1 8 6 4
+
+7 5 3 1 8 6 4 2
+1 7 5 3 6 4 2 8
+3 1 7 5 4 2 8 6
+5 3 1 7 2 8 6 4
+4 6 8 2 7 1 3 5
+2 4 6 8 1 3 5 7
+8 2 4 6 3 5 7 1
+6 8 2 4 5 7 1 3
+
+8 2 4 6 3 1 7 5
+6 4 2 8 1 7 5 3
+3 5 7 1 8 2 4 6
+1 7 5 3 6 4 2 8
+5 3 1 7 2 8 6 4
+7 1 3 5 4 6 8 2
+2 8 6 4 5 3 1 7
+4 6 8 2 7 5 3 1
+
+1 5 3 7 2 6 8 4
+7 3 1 5 4 2 6 8
+5 1 7 3 6 8 4 2
+3 7 5 1 8 4 2 6
+6 2 4 8 1 5 7 3
+2 6 8 4 5 1 3 7
+4 8 6 2 7 3 1 5
+8 4 2 6 3 7 5 1
+
+7 3 1 5 4 8 6 2
+3 7 5 1 8 2 4 6
+5 1 3 7 2 6 8 4
+1 5 7 3 6 4 2 8
+8 4 2 6 3 5 7 1
+4 6 8 2 7 1 3 5
+2 8 6 4 5 7 1 3
+6 2 4 8 1 3 5 7
+
+62.Can you fill a 4x4 grid with numbers from 1 to 4 such that :-
+Every number occurs exactly once in each row and in each column.
+No row or column contains 3 adjacent numbers that are all in increasing or decreasing order. 
+For example you cannot have "1, 2, 3" or "3, 2, 1", but you can have "1, 3, 2".
+
+Answer :-
+ 1  3  2  4
+ 3  1  4  2
+ 2  4  1  3
+ 4  2  3  1
+
+63.I start with nothing. If you remove 1, 2 or 3 of my characters then my meaning does not change. What 5-letter word am I ?
+
+Answer :- I think you're EMPTY.
+EMPTY - it is nothing
+Removing Y, it gives EMPT that sounds like EMPTY
+Removing P, it gives EMT that sounds like EMPTY
+Removing E, it gives MT that sounds like EMPTY
+I guess if you removed all the characters, it'd also be EMPTY
+
+64.We have 6 weights: 2 red, 2 black, 2 blue. 
+Of each color, there is one that's 100g and one that's 101g. 
+How can you identify which ones are 101g, in two measurements, with a one-armed scale ? 
+
+Answer :- 
+Name 6 weights as R1, R2, K1, K2, B1, B2.
+Meansure R1 + K1 + B1
+R1 + K1 + B1 = 300g: R2, K2, B2 are 101g
+R1 + K1 + B1 = 301g:
+Meansure R1 + K2
+R1 + K2 = 200g: R2, K1, B2 are 101g
+R1 + K2 = 201g: R2, K2, B1 are 101g
+R1 + K2 = 202g: R1, K2, B2 are 101g
+R1 + K1 + B1 = 302g:
+Meansure R1 + K2
+R1 + K2 = 200g: R2, K1, B1 are 101g
+R1 + K2 = 201g: R1, K1, B2 are 101g
+R1 + K2 = 202g: R1, K2, B1 are 101g
+R1 + K1 + B1 = 303g: R1, K1, B1 are 101g
+
+65.Place the numbers 1 to 14 around this circle so that both the sum and absolute difference of any two neighboring numbers is a prime.
+
+Answer :- Going clockwise , 10 -> 13 -> 6 -> 11 -> 8 -> 3 -> 14 -> 9 -> 2 -> 5 -> 12 -> 1 -> 4 -> 7
+
+66.A standard analog clock face has numbers 1 to 12 around the edge arranged sequentially, which is nice for telling the time, but not especially interesting. 
+Is it possible to arrange the numbers in a different order so that the difference between any two adjacent numbers is prime ?
+For example, on the standard clock face, 3 lies between 2 and 4 and so the difference in either direction is not prime, being only 1.
+
+Answer :- Going clockwise, 10 -> 7 -> 5 -> 2 -> 4 -> 1 -> 3 -> 6 -> 8 -> 11 -> 9 -> 12
+
+67.Can you find a number that is a product of two consecutive primes and when multiplied by its own reversal produces a palindrome ?
+
+Answer :- 11021 = 103 × 107, where 11021 × 12011 = 132373231 is a palindrome.
+
+68.Imagine we have a ruler on which just numbers 0 and 2 and 5 are marked and the rest numbers are erased. How could we draw a 6 cm line by this ruler ?
+
+Answer :- Draw from 2 to 5. Shift the ruler 3cm to the right so that the 2 mark is at the end of your line, and draw from 2 to 5 to extend your line by another 3cm.
+
+69.2021 has started and can be written as (−9+8)*7−6*(5−(4+3)^2+1)+0=2021 For 2022 is it possible ?
+
+Answer :- 2022 has started and can be written as (−9+8)*7−6*(5−(4+3)^2+1)+0!=2022 Also,
+9876/5+4+32+10 = 2022
+9876/5+43+2+1+0!=2022
+9+8*7*6*(5+4−3)−2−1+0=2022
+9*(8+7*6*5+4+3)−2−1+0=2022
+9*8*7*(6−5)*4+3+2+1+0=2022
+9*8*7*(6−5)*4+3*2+1*0=2022
+(9*8*7+6−5)*4+3−2+1+0=2022
+9*(8*7*6+5−4)/3*2+1*0=2022
+(9*8*7*6+5+4)/3*2+1*0=2022
+(9−8+7)*654−3210=2022
+9+(87+654)*3−210=2022
+
+70.Complete the sequence B - D - H - P - ?
+
+Answer :- F
+Logic -
+If you convert A, B, C, ... into 1, 2, 3, ... then you get B = 2, D = 4, H = 8, P = 16. 
+The simplest way to describe this pattern is that they are powers of 2, so the next value must be 32. 
+Since we have only 26 letters in the alphabet, we count the letters in cycles to get the letter F. 
+(Alternatively, if you know modular arithmetic, you can get F by 32 mod 26 = 6)
+
+71.Steal my prefix and the end is here.
+Steal my suffix and the end is near.
+Steal my infix and there will be fear.
+Steal my whole and lose your dear.
+Who am I ?
+
+Answer :- FRIEND
+Logic - 
+Steal my prefix and the end is here. - If we 'steal' (remove) the prefix (FRI), we literally see the word END here.
+Steal my suffix and the end is near. - If we 'steal' (remove) the suffix (END), we have FRI - a shortening of Friday, which indicates that the end of the week
+Steal my infix and there will be fear. - If we 'steal' (remove) the infix (R), we are left with FIEND - an evil spirit or demon, which could certainly bring much fear.
+Steal my whole and lose your dear. - If we 'steal' (remove) the whole word and we will lose a dear FRIEND.
+
+72.My prefix is a built-in python function.
+My suffix is a built-in python class.
+My infix is a built-in python operator.
+My whole is a tasty Christmas treat !
+
+Answer :- MINT
+Logic -
+My prefix is a built-in python function. - MIN() is a built-in function to find the lowest of a set or list of values.
+My suffix is a built-in python class. - Variables or objects of the INT class are positive or negative whole numbers with no decimal point.
+My infix is a built-in python operator. - The IN operator enables the user to check if a particular value occurs within a particular range or sequence.
+My whole is a tasty Christmas treat. - Many sweet treats at Christmas include MINT as an ingredient - generally peppermint.
+
+73.Make the numbers from 1-10 using 5 3s.
+
+Answer :-
+3−3/3−3/3=1 
+3−3/3*3/3=2
+3+3−3+3−3=3
+3+3/3−3+3=4
+((3*3)+(3+3))/3=5
+(3*3)−(3−3)−3=6
+(3*3)+(3/3)−3=7
+3+3+((3+3)/3)=8
+3+3+3+3−3=9
+3/3+3+3+3=10
+
+74.How many shapes can you form with squares ?
+There is a 6 by 6 dot-grid. You will draw two squares by joining the dots.
+The squares cannot have common dots/points or areas.
+Rotations or reflections of a drawing are considered distinct.
+
+Answer :- 1256 shapes.
+Code -
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import colors
+import shapely.geometry as sg
+# plotting
+col = it.cycle(colors.CSS4_COLORS)
+plt.figure(tight_layout=True)
+def ps(Sq,c):
+    plt.plot(*Sq.exterior.xy,"-",color=c,linewidth=3)
+    plt.fill(*Sq.exterior.xy,"-",color=c,linewidth=3,alpha=0.5)
+# grid
+P = np.array([[sg.Point(i,j) for j in range(6)] for i in range(6)],"O")
+# all squares on grid
+S = [sg.Polygon([P[s+y,s+x-r],P[s+y-r,x],P[y,x+r],P[y+r,s+x]])
+     for s in range(1,6) for y,x,r in it.product(*map(range,(6-s,6-s,s)))]
+# pairs
+sol = []
+for j,S1 in enumerate(S):
+    plt.subplot(7,15,j+1)
+    ps(S[-5],"white")
+    ps(S1,"black")
+    for i,S2 in enumerate(S):
+        if not S1&S2: # no overlap
+            ps(S2,next(col))
+            if j<i: # no double counts
+                sol.append((S1,S2))
+    plt.axis("equal");plt.box("off");plt.axis("off")
+plt.show(block=False)
+print(len(sol))
+
+75.What is the maximum number of queens that can be placed on a standard 8x8 chessboard such that no one of them is capable of attacking any others in a single move ?
+Answer :- 8 
+Logic - According to Wolfram Alpha, there are 12 unique solutions plus an additional 80 solutions using rotations / reflections.
+
+76.You are in a room with three switches, labeled A, B, and C. Initially, each switch is in an off state. In an adjoining room, there are three incandescent light bulbs. Your task is to correctly label which switch goes to which bulb.
+The catch: you may only enter the bulb room once. You have as long as you need in the switch room, and you may flip any switch as many times as you'd like, but once you leave the switch room, you may not enter it again.
+There is a way to know for certain which bulb goes to which switch. How ?
+
+Answer :- Turn switches A and B on. Wait about a minute. Turn switch B off. Go to the bulb room. The bulb that is on corresponds to switch A. The bulb that is off, but warm, corresponds to switch B. The bulb that is off, but cold, corresponds to switch C.
+
+Logic :- Incandescent bulbs produce a significant amount of heat. In the amount of time it takes you to walk from one room to the other, the bulb will have not had time to cool down, unless the rooms are unreasonably large.
+
+77.What is the sum of the digits of the numbers x and y in the sequence 335,333,x,y,318,307,294,.. ?
+Answer :- 16
+Logic - It looks like the differences between the terms are 2, ?, ?, ?, 11, 13 which looks like the primes.
+Therefore considering it , x=330 and y=325 so the sum of their digits is 3+3+0+3+2+5=16.
+
+78.You are lost in a jungle and suddenly get caught by a tribal group who are cannibals. 
+They keep you captive and however think of offering you a second chance to save your life.
+
+Their leader says - "We will give you one chance to say something. It should be a sentence, not a question. It should not be a single word. This will make it easy for us to decide which way to kill you. If that sentence is a truth, you will be burnt to death. If it is a lie, we will shoot you."
+
+What should the captive say to escape this tragic death ? 
+Assume this tribe knows how to figure out what is true and what is false even if it is something personal to the captive.
+
+Answer :- The best option is for the captive to say one of the following :- I will die by getting shot or I will not die by getting burnt to death.
+Logic - Both of these are the same. 
+If the leader thinks it's the truth, he will get burnt, but by that logic he should be lying, and therefore shot, but it's the truth, so it's a paradox ! 
+Same logic for if it is a lie; if it is a lie, he gets shot, but he said the truth, so he's supposed to be burnt, but he lied about that, so again, a paradox !
+
+79.Using any calculation through BEDMAS rule prove that 8642=9 and 8645 = 9. Numbers can only be repeated once !
+Answer :- 
+(8+((6-4)/2)) = (8+(2/2)) = (8+1) = 9 / (6+5-(8/4))) = (6+5-(2)) = (11-2) = 9
+((6-2)/4) + 8 = (4/4) + 8 = 1+8 = 9   /  (8/(6-4))+5 = (8/2) + 5 = (4) + 5 =9
+
+80.Every letter and every question mark stands for a digit. Different letters stand for different digits. Leading digits are always non-zero.
+ALFRED ÷ E = NEUMAN
+Which digit does each letter represent ? 
+
+Answer :- 
+A - 7
+L - 0
+F - 4
+R - 8
+E - 3
+D - 6
+N - 2
+U - 1
+M - 5
+
+Logic :- We can re-write it as follows :-
+NEUMAN
+*    E
+------
+ALFRED
+
+OK, we know E does not belongs to (0,1). 
+Since the result is a 6 digit number, we know that N belongs to either (1,2,3,4).
+Since E*N shows up twice, once with a D result and once with an A result, we know that the fifth column (E×E) must have a carry over.
+Also, we will use the fact that the carry over for multiplying any two numbers must be less than the two numbers.
+If N=4, then E=2 and A=8. But then D=8 too, which is impossible.
+If N=3, then E=2 and D=6⟹A∈{7,8}. Since E2=4, we need a carry over of at least 4 from the U×E column, which is impossible.
+If N=1, then E*N=D => E=D, Thus N=2 !
+So E=3 and D=6 thus A is either 7 or 8. The only value that works for the second column where A*E yields E is 7 since 7*3=23.
+Looking at the fifth column, E*E yields L. 
+Since E2=10, we know that L is simply the carry over from the previous column, which cannot be greater than 2. Thus, L is either 0 or 1 since 2 is already taken.
+Assume, L=1 So U*E has a carry over of 1, U must be 4 or 5.
+The remaining values are (0,4,5,8).
+And since A=7 the carry over from the second column into the third is 2.
+If M=0, then M*3+2=2 so, R=2, which is already taken.
+If M=4, then M*3+2=13+2 so,R=5, leaving nothing for U.
+If M=8, then M*3+2=26+2 so,R=8 too.
+If M=5, then M*3+2=16+2 so,R=8.
+And U=4. This leave F=0, but doing the math gets 234572*3=714836 implies that F=4.
+Thus L=0, U*E has a carry over of 0, so U=1.
+The remaining values are {4,5,8}.
+M=8 =>2318728*3=705836, so R=8
+M=4 =>2314728*3=704536, so F=4
+Thus, M=5 =>231572*3=704836 so R=8 and F=4.
+So we have
+
+231572
+*    3
+------
+704836
+
+81.Every letter and every question mark stands for a digit. Different letters stand for different digits. Leading digits are always non-zero.
+ALFRED * E = NEUMAN
+Which digit does each letter represent ? 
+
+Answer :- 
+A - 1
+L - 6
+F - 4
+R - 0
+E - 5
+D - 7
+N - 8
+U - 2
+M - 3
+
+Logic :- We can see that E>1 and A must be in between (1,2,3,4) since other values would either create a leading zero or too many digits. 
+Also, N is greater than both A and E.
+If A=4, then E=2 and N=8. But no value for D can result in D*E yielding 8.
+If A=3, then E=2. But D*E can have at most a carry over of 1. Thus, A is either 2 or 3.
+Assume A=2
+Then E is either 3 or 4. If E=4, then D*E must carry over 4 which is impossible.
+Thus E=3 which means D*E must carry over 2 which means D is either 7 or 8 and N is either 3 or 6.
+Only the second pair of these doesn't result in a conflict, so D=8 and N=6.
+This means that L*E must result in no carry over. 
+This is only possible if L is either 0 or 1 of the remaining valid values. 
+If L=0 then we need the carry over of F*E to be E which is impossible. Thus, L=1 and the carry over of F*E is 2.
+Thus, F=7. Since F*E=7*3=23, and the only remaining values for U can only be 0 or 4 or 5, we know that the carry over must be 1 and R=5.
+But then we have 217538×3=645726 which gives U=7 Thus A=1
+The ones column is D*E which yields a carry over less than both D and E. Lets look at the second column where adding this carry over to E*E yields A
+if E=2, then it requires carry over of 6.
+if E=3, then it requires carry over of 1. 
+Thus, D is either 4 or 5 and N is either 3 or 6. Since 3 is already taken, we know D=5 and N=6. But this requires a carry over of 3 in the L*E spot.
+if E=4, requiring carry over of 3.
+if E=5, requiring carry over of 3.
+if E=6, requiring carry over of 1. Thus, D=2 & N=3.
+if E=7, requiring carry over of 6. Thus D=8 & N=2.
+if E=8, requiring carry over of 0. Thus D & N = 0.
+So, the only ones that don't lead to immediate contradiction are E which maybe either 4 or 5.
+Assume E=4, so D=7,N=1,D=8 and N=5 is the only way to get our carry over of 3. We then need a carry over of 1 in the L*E spot.
+So, we need to have L either 2 or 3. If L=2, then L*E=8, so we need a carry over of 5 to get E. This is impossible, so L=3.
+Then, L*E=13 so in order to yield E again, we need another carry over of 1 from the F*E spot. Thus, F=2 and we need a carry over from the R*E spot. If this carry over is greater than 1, then U will conflict, so it needs to be 1 and U=0.
+But now we've run out of numbers that will result in a carry over of 1 !
+Thus, E=5 We need a carry over of 3, so D is either 6 or 7.
+If D=6, then D*E=6*5=33. This means N=3 which is too small.
+Therefore, D=7 and D*E=7*5=38 so,N=8. This means we also need a carry over of 3 from L*E, so L=6.
+If, L*E=6*5=33 and we need this to yield E=5, so we need a carry over of 2 from the F*E spot. This means we need F is either 3 or 4 such that F*E is either 16 or 22. If F=3, then we need R*E to yield a carry over of 4. But 8 and 7 are already taken, and R=6 is insufficient. Thus, F=4.
+The remaining values are (0,2,3). If R=2, then M=4.If R=3, then M=0 and U=4.Thus, R=0, then M=3 and U=2.
+
+164057
+x    5
+------
+852318
+
+82.A man walks up a hill at 2mph, and back down the same way at 4mph. Upon returning to where he started, what is his average speed ?
+Answer :- 8/3 mph
+Logic - 
+Let's take the distance up and down the hill as d.
+Then,
+Time taken in reaching top of the hill is : d/2 &
+Time taken in coming down the hill is : d/4
+Thus, 
+Average speed = Total Distance / Total Time Taken i.e.
+AS = (d+d) / (d/2+d/4)
+AS = 4*2d / 2d+d
+AS = 8d / 3d = 8/3 or 2.67 mph.
+
+82. _ _ _ _ _ × 8 = _ _ _ _ _
+There is a number that you can put in the left-hand side of the above equation so that the blanks are filled in using every digit from 0 to 9 exactly once. What is that number ? You can use 0 at the start of the number on left hand side too !
+Answers :- 
+(03187, 25496)
+(04589, 36712)
+(04591, 36728)
+(04689, 37512)
+(04691, 37528)
+(04769, 38152)
+(05237, 41896)
+(05371, 42968)
+(05789, 46312)
+(05791, 46328)
+(05839, 46712)
+(05892, 47136)
+(05916, 47328)
+(05921, 47368)
+(06479, 51832)
+(06741, 53928)
+(06789, 54312)
+(06791, 54328)
+(06839, 54712)
+(07123, 56984)
+(07312, 58496)
+(07364, 58912)
+(07416, 59328)
+(07421, 59368)
+(07894, 63152)
+(07941, 63528)
+(08174, 65392)
+(08179, 65432)
+(08394, 67152)
+(08419, 67352)
+(08439, 67512)
+(08932, 71456)
+(08942, 71536)
+(08953, 71624)
+(08954, 71632)
+(09156, 73248)
+(09158, 73264)
+(09182, 73456)
+(09316, 74528)
+(09321, 74568)
+(09352, 74816)
+(09416, 75328)
+(09421, 75368)
+(09523, 76184)
+(09531, 76248)
+(09541, 76328)
+(10459, 83672)
+(10469, 83752)
+(10537, 84296)
+(10579, 84632)
+(10592, 84736)
+(10674, 85392)
+(10679, 85432)
+(10742, 85936)
+(10794, 86352)
+(10932, 87456)
+(10942, 87536)
+(10953, 87624)
+(10954, 87632)
+(12073, 96584)
+(12307, 98456)
+(12345, 98760)
+
+83.This is where yesterday follows tomorrow, departure follows arrival, front follows back, start follows end, past follows future and even life follows death.
+What is this ?
+
+Answer - A Dictionary
+Logic - The word 'yesterday' comes after 'tomorrow' in a dictionary. The word 'departure' comes after 'arrival' in a dictionary. And so on ......
+
+84.9+5=2, What is the answer ?
+Answer - 9am + 5 hours = 2pm
+
+85.There are 100 cards on a table numbered 1,2,..,99,100. 
+What is the maximum number of cards which can be selected such that no two cards have a product which is a perfect square ?
+Example - You cannot choose the cards with number 27 and 48 as 27*48=81*16=36^2
+
+Answer - 61
+Logic - We cannot choose two numbers whose square-free part is the same but any two numbers which have a square-free part which is different won't produce a square as a product. This means we could just choose all the numbers which are completely square-free i.e have no factor which is a square. This results in the following set :-
+{1,2,3,5,6,7,10,11,13,14,15,17,19,21,22,23,26,29,30,31,33,34,35,37,38,39,41,42,43,46,47,51,53,55,57,58,59,61,62,65,66,67,69,70,71,73,74,77,78,79,82,83,85,86,87,89,91,93,94,95,97}
+
+86.What is the smallest prime number when written out would encounter the letters P, R, I, M, E in that order.There can be any number and type of letters between them.
+Hint - The first instance of the letter P in a number is 1 Se'P'tillion.
+
+Answer :- 1000000000000000035000061 a.k.a. one se'P'tillion thi'R'ty f'I've 'M'illion and sixty on'E'
+
+87.James was flying his plane for a commercial flight. The plane was travelling from Chicago to New York. The plane crashed. The problem is that since the plane crashed on the border of Ohio and Pennsylvania, nobody knows where to bury the survivors. Where must they be buried ?
+
+Answer :- No where because they are not dead since they are survivors i.e alive.
+
+88.What is the minimum number of chess pieces and number of ways used to dominate i.e. attack all squares on a 8x8 chessboard in shape of a toroid ? 
+
+Answer :- We can do it with 4 Queens like this - 
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . .
+. . . . . . . .
+. . . Q . . . .
+. . . . . . . Q
+. . . . . . . .
+. . . . . . . .
+
+Python Script - 
+Q = 1
+N = 2
+VALS = 'QN'
+def initBoard():
+    return [[0 for c in range(8)] for r in range(8)]
+def place(board, piece, r, c):
+    board[r][c] = piece
+def dominated(board, r, c, justTruth=True):
+    if board[r][c]:
+        return True
+    for d in range(1,8):
+        if board[r-d][c] == Q or board[r][c-d] == Q or board[r-d][c-d] == Q or board[(r+d)%8][c-d] == Q:
+            return justTruth or 'q'
+    for rd, cds in ((-2,(-1, 1)), (-1,(-2, 2)), (1,(-2, 2)), (2,(-1, 1))):
+        for cd in cds:
+            if board[(r+rd)%8][(c+cd)%8] == N:
+                return justTruth or 'n'
+    if justTruth:
+        return False
+    return '.'
+def printBoard(board):
+    s = ''
+    for r in range(8):
+        for c in range(8):
+            if board[r][c]:
+                s += VALS[board[r][c]] + ' '
+            else:
+                s += dominated(board, r, c, False) + ' '
+        s += '\n'
+    print(s)
+There are 832 possible ways to choose 4 of the 64 cells such that placing queens in those cells would totally dominate the torus.
+
+89.We are three sisters, Our job is the same, but the way of work is different.
+We repeat our task number of times. We help people do their work !
+Who are we ?
+Hint :- We are used in Programming !
+
+Answer :- The 3 different loops i.e. for-loop, while-loop & do while-loop.
+
+90.Find the largest integer that is a product of three-digit number and a one-digit number and also a product of two two-digit numbers. ( 3d*1d = 2d*2d )
+For example, 200 x 1 = 10 x 20. Of course, 200 is not the largest !
+
+Answer - 8928 = 992*9 = 96*93
+
+C# Code Snippet - 
+static void Main(string[] args)
+{
+    int largestProduct = 200;
+    int[] largestABCD = { 200, 1, 10, 20 };
+
+    for(int a = 100; a <= 999; a++)
+    {
+        for(int b = 1; b <= 9; b++)
+        {
+            int product1 = a * b;
+
+            for(int c = 10; c <= 99; c++)
+            {
+                for(int d = 10; d <= 99; d++)
+                {
+                    int product2 = c * d;
+                    if(product1 == product2)
+                    {
+                        if (product1 > largestProduct)
+                        {
+                            largestProduct = product1;
+                            largestABCD[0] = a;
+                            largestABCD[1] = b;
+                            largestABCD[2] = c;
+                            largestABCD[3] = d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    Console.WriteLine("Largest Product = " + largestProduct.ToString());
+    Console.WriteLine("Largest A = " + largestABCD[0].ToString());
+    Console.WriteLine("Largest B = " + largestABCD[1].ToString());
+    Console.WriteLine("Largest C = " + largestABCD[2].ToString());
+    Console.WriteLine("Largest D = " + largestABCD[3].ToString());
+    Console.ReadLine();
+}
+
+91.What is the next number in this sequence 2,3,10,12,13,20,?
+
+Answer - 21 because the list consists of all numbers whose name begins with the letter 't'.
+
+92.My prefix can be seen in "three things that think" !
+My infix is used before vowels.
+And my suffix can be seen attached to a computer.
+I can wipeout half of the universe, Who am I ?
+
+Answer - Thanos
+Logic - Prefix - 
+th(ree) th(ings) th(at) th(ink)
+Infix - 
+‘an’ used instead of ‘a’, before words starting with a vowel sound
+Suffix - 
+OS (A Computer’s Operating System)
+
+93.Let's try to find out the numbers satisfying the given equations below :- 
+ab=(a+b)^2
+abc=(a+b+c)^3
+abcd=(a+b+c+d)^4
+There are only 3 unique answers !
+Note: a,b,c,d are all digits and might be different than each other for each equation. ab, abc and abcd are positive integers and and all a values are nonzero.
+
+Answers :- 81,512 & 2401.
+Logic - 81=9^2=(8+1)^2, 512=8^3=(5+1+2)^3, 2401=7^4=(2+4+0+1)^4
+
+94.Eight People A,B,C,D,E,F,G,H are sitting in a straight line, all of them facing the same direction (hypothetically North). 
+Each one of them has passed a recruitment exam and must join the office on different months i.e 
+January(1),February(2),March(3),April(4),May(5),June(6),July(7) and August(8) but not necessarily in the same order.
+G sits third to the right of the person who joins in May. 
+The person who joins in August sits second to the right of G. 
+A and E are immediate neighbors of each other. 
+Neither A nor E have joining dates either in May or August. 
+Neither A nor E is an immediate neighbor of G.
+H sits third to the right of the person whose joining date is in January. 
+Neither A nor E join in January. 
+H's joining date is not in August. 
+Only two people sit between E and the person whose joining date is in July.
+The person whose joining date is in February sits to the immediate left of D. 
+Only one person sits between E and B. 
+C joins on one of the months before July. 
+E joins after April. 
+G joins the office after A.
+What is the seating arrangement of those eight peoples ?
+
+Answer - 
+A  E  C  B  F  G  H  D
+3  6  5  1  7  4  2  8
+
+95.What music band does this HTML snippet represent ? <i style="color:#000">PPPP</i>
+
+Answer - Black Eyed Peas
+
+96.The numbers from 1 to 1000 are written on a board. 
+You are allowed to select any two numbers, erase them and write their difference on the board. 
+If this process is repeated often enough, there is only one number written on the board.
+Is this number always even, always odd or can it be even or odd ?
+
+Answer :- This number is always even.
+Logic - Let L be the number of odd numbers on the board at any step, and note that initially L is even. At each step, either -
+- Two odd numbers are selected, in which case two odds are deleted, and an even added;
+- Two even numbers are selected, in which case no odds are deleted and one even added;
+- One of each is selected, in which case one odd is deleted, and one odd is added.
+In any case, the number of odd numbers is always even. 
+Hence, at the last step when only one number is left, the number of odd numbers on the board must be even and less than 1. 
+Hence there are no odd numbers on the board and the result is even.
+
+97.You have two hour glasses - A seven minute one and an 11 minute one. 
+Using just these two hour glasses, accurately time 15 minutes.
+
+Answer :- 
+1. Start both hourglasses.
+2. When the seven minutes runs out turn it.
+3. When the eleven minutes runs out, turn the seven minute hour glass again. It now has 4 minutes of sand.
+4. When the seven minutes hourglass runs out, you will have 15 minutes.
+
+98.You have two hour glasses - A four minute one and a five minute one. 
+Using just these two hour glasses, accurately time 7 minutes.
+
+Answer :-
+1.Turn both the 5 and the 4. 
+2.When the 4 runs out flip it over.
+3.Now when the 5 runs out start timing. 
+4.The 4 will run for three more minutes after which you can flip it over to reach 7.
+
+99.You have two hour glasses - A five minute one and an eight minute one. 
+Using just these two hour glasses, accurately time 14 minutes.
+
+Answer :-
+1.Turn both the 5 and the 8. 
+2.When the 5 runs out flip it. 
+3.The 8 will then run out after 3 minutes leaving 2 minutes in the 5. 
+4.Flip the 8 then. 
+5.When the 5 runs out start timing. 
+6.There are now 6 minutes left in the 8 and flipping the 8 after those 6 minutes gives 6 + 8 = 14 minutes.
+
+100.What is the longest word in ENGLISH language that can be formed by combining chemical symbols and has no repeat elements in its name ?
+
+Answer :- HYPErCoAgULaBiLiTiEs & HYPErCoNScIOUSnEsSeS
+
+101.How many pieces can you organize on a Chess board without one side being attacked by the other ? This scoring will be used to prove you have the highest.
+Piece Cost - 
+Pawn - 1
+Knight - 3
+Bishop - 3
+Rook - 5
+Queen - 9
+
+Rules - 
+Both sides must have the same pieces on the board
+Your score is totalled by only 1 side
+One color cannot attack the other
+No king allowed.
+
+Answer :- 224 
+From bottom up - 
+Three rows of 8 black queens
+One row of black pawns
+One row of white pawns
+Three rows of white queens
+
+102.What is the meaning of the following characters ? 13579 vs U
+
+Answer :- Is it you against all odds because 1,3,5,7,9 are all odd numbers vs U (You)
+
+103.Suppose 9 men take 9 hours to dig 9 holes in the ground.
+How many hours would it take 3 men to dig 3 holes ?
+How many men would it take to dig 54 holes in 54 hours ?
+
+Answer :- 9 men take 9 hours to dig 9 holes => 1 man takes 9 hours to dig 1 hole => 3 men take 9 hours to dig 3 holes
+1 man take 9*54 hours to dig 54 holes => 9 men take 54 hours to dig 54 holes
+
+104.The little old man has twelve children: some short, some long, some cold, some hot. Who is he ?
+
+Answer : A Year
+
+105.There is a group of 300 Twitter users. 
+Each user is following exactly one other user in the group. 
+Prove that there exists a smaller group of 100 users where no one is following anyone else.
+
+Logic :- 
+
+Imagine all 300 Twitterites are standing in a room. Each person follows one other, so the average number of followers a person has is one. This means there exists a person P with at most one follower. We select person P to be in the smaller group, and we dismiss the person P follows and the one person following P (if there is such a person) from the room. Now nobody left in the room follows or is followed by P. We repeat this process. Each time, we choose a person in the room who has at most one follower still in the room, we add that person to the smaller group, and we lose at most three people from the room (the person we add to the smaller group, the person they follow, and the person following them, if there is one). The room starts with 300 people, so we can do this 100 times, resulting in a small group of 100 people in which nobody follows anybody else.
+
+106.If ,
+TWO + THREE = TILAS
+THREE + NINE = TUZRI
+FOUR + TWO = GIRF
+EIGHT + NINE = EVOUX
+NINE + NINE = BARAI
+Can you tell what is TWO + NINE = ?
+
+Answer :- OCJS
+Logic - Interpret each word as a number in base 26 with A=0, B=1, etc. Then use normal addition (be sure to carry 26's when necessary) !
+
+107.Can I ask a yes/no question so that no matter whether the answerer answers yes or no he always lies ?
+
+Answer :- Is your answer to this question going to be no ?
+
+108.If Teresa's daughter is my daughter's mother , What am I to Teresa ?
+
+Answer :- You are the parent of her grand child !
+
+109.18 points are selected on the circumference of a circle all of which are connected to each other by straight lines.
+If no three lines intersect at a common point what is the number of a triangles whose three vertices lie inside the circle ?
+
+Answer :- 18C6 i.e. 18564 distinct interior triangles.
+
+110.Two long sharp teeth , Two holes beneath , My bite is neat , I do not eat . What am I ?
+
+Answer :- Scissors
+
+111. What's common between all these sentences ? 
+Pack my box with five dozen liquor jugs.
+The five boxing wizards jump quickly.
+The quick brown fox jumps over a lazy dog.
+Watch "Jeopardy!", Alex Trebek's fun TV quiz game.
+
+Answer :- They all are Pangram Sentences i.e. a sentence that uses each letter of the alphabet only one time.
+
+112.A man possesses a large quantity of stamps of only two denominations: 5-cent stamps and 17-cent stamps. 
+What is the largest finite amount of cents which the man cannot make up with a combination of these stamps ?
+
+Answer :- 63
+Logic - For the more visually inclined, arrange all positive integers in a 5-wide chart, as follows - 
+ 1   2   3   4   5
+ 6   7   8   9  10
+11  12  13  14  15
+16  17  18  19  20
+21  22  23  24  25
+26  27  28  29  30
+31  32  33  34  35
+36  37  38  39  40
+41  42  43  44  45
+46  47  48  49  50
+51  52  53  54  55
+56  57  58  59  60
+61  62  63  64  65
+66  67  68  69  70
+..  ..  ..  ..  ..
+To start, all the values in the right most column are divisible by 5, and thus can be made up simply of a number of 5-cent stamps. They can all be eliminated.
+ 1   2   3   4  --
+ 6   7   8   9  --
+11  12  13  14  --
+16  17  18  19  --
+21  22  23  24  --
+26  27  28  29  --
+31  32  33  34  --
+36  37  38  39  --
+41  42  43  44  --
+46  47  48  49  --
+51  52  53  54  --
+56  57  58  59  --
+61  62  63  64  --
+66  67  68  69  --
+..  ..  ..  ..  --
+Note that if you can generate a solution for any particular value on the chart, you can also generate a solution for the value directly below it by adding one 5-cent stamp. Likewise, you can find a solution for the next value down by adding another 5-cent stamp, and this cascades down into infinity.
+Thus, since a solution for the value 17 is simply a single 17-cent stamp, we can eliminate that and every value below it in the second column.
+ 1   2   3   4  --
+ 6   7   8   9  --
+11  12  13  14  --
+16  --  18  19  --
+21  --  23  24  --
+26  --  28  29  --
+31  --  33  34  --
+36  --  38  39  --
+41  --  43  44  --
+46  --  48  49  --
+51  --  53  54  --
+56  --  58  59  --
+61  --  63  64  --
+66  --  68  69  --
+..  --  ..  ..  --
+Similarly, since a solution for the value 34 is two 17-cent stamps, we can eliminate that and every value below it in the fourth column.
+ 1   2   3   4  --
+ 6   7   8   9  --
+11  12  13  14  --
+16  --  18  19  --
+21  --  23  24  --
+26  --  28  29  --
+31  --  33  --  --
+36  --  38  --  --
+41  --  43  --  --
+46  --  48  --  --
+51  --  53  --  --
+56  --  58  --  --
+61  --  63  --  --
+66  --  68  --  --
+..  --  ..  --  --
+Since a solution for the value 51 is three 17-cent stamps, we can eliminate that and every value below it in the first column.
+ 1   2   3   4  --
+ 6   7   8   9  --
+11  12  13  14  --
+16  --  18  19  --
+21  --  23  24  --
+26  --  28  29  --
+31  --  33  --  --
+36  --  38  --  --
+41  --  43  --  --
+46  --  48  --  --
+--  --  53  --  --
+--  --  58  --  --
+--  --  63  --  --
+--  --  68  --  --
+--  --  ..  --  --
+Finally, since a solution for the value 68 is four 17-cent stamps, we can eliminate that and every value below it in the third column.
+ 1   2   3   4  --
+ 6   7   8   9  --
+11  12  13  14  --
+16  --  18  19  --
+21  --  23  24  --
+26  --  28  29  --
+31  --  33  --  --
+36  --  38  --  --
+41  --  43  --  --
+46  --  48  --  --
+--  --  53  --  --
+--  --  58  --  --
+--  --  63  --  --
+--  --  --  --  --
+--  --  --  --  --
+
+113.Make 63 using  2, 5, 10, 20, 50 rupees in 6 or less instances.
+
+Answer :- 50+5+2+2+2+2
+
+114.Tell me a correct way by which adding 22 to 4 will give 2.
+
+Answer :- If you consider the numbers as 24 hour time then 22 would be 10pm and then 10 pm + 4 hours=2am
+
+115.By placing only + signs between some of the numbers on the left hand side, make this expression true - 123456789=855
+For example if we had 1234=19, the answer is 12+3+4=19
+
+Answer :- 1+2+3+54+6+789=855 / 12+3+45+6+789=855 / 123+45+678+9=855
+
+116.Which one of the numbers below is the odd one out and why ? 1, 2, 3, 4, 5, 8, 13
+
+Answer :- 4 because the rest forms the Fibonacci Sequence.
+
+117.You are on your way to your friend's house. 
+You decide to carry 2 apples to your friend. 
+To get to their house, you must pass across 8 gates. 
+At each gate, the keeper will take half the amount of apples you have and return one apple back. 
+The question is, how many apples should you carry at the beginning ?
+
+Answer :- 2 Apples
+Logic - You need 2 apples because each gatekeeper will take one apple i.e half of two and return one to you meaning the same number of apples through each gate.
+
+118.Looking for a grid with five letters horizontally three words vertically and eight words in total. All 8 words must be easy words it must not be necessary to check the dictionary.
+
+Answer :- 
+     H A P P Y       M E A N S       R E P L Y
+     A G R E E       A R G U E       A G R E E
+     D O O R S       P R O N E       G O O D S
+
+     L E A S T       R E A C T       S T E A L
+     A G R E E       A R G U E       H E N C E
+     W O M A N       G R E E N       E N D E D
+
+     L E A S T       R E A D Y       T R E A T
+     A R G U E       A R G U E       E A R T H
+     G R E E N       T R E E S       A G R E E
+
+119.I am a word with 6 letters. I contain a la in the middle, in in the beginning, and at the end. What am I ?
+
+Answer :- inland
+
+120.A CEO of a multi-million dollar business has to go on a business trip to Las Vegas.
+Before going to the airport in the morning with his limousine, he's going to the office first to get some files that he forgot the previous night.
+When arriving at the office, the night guard opens the gate & door for him. 
+The CEO gets the files and drinks a coffee while chatting a bit with the guard, and he mentions that he's flying to LV today for a deal he cannot miss, it would bring millions of dollars to the business.
+The night guard looks shocked, and explains why.
+Guard: I just had a dream this night. A plane that would fly to LV is going to crash in the middle of the Ocean.
+The night guard begs his CEO not to go on this business trip. 
+And the CEO believes him. He doesn't go to the airport and cancels his flight. 
+Later that day, on the news, an air-plane crash. It was the plane that flew to LV. It crashed in the middle of the ocean.
+The CEO thanks the night guard later and gives him $10.000.
+The CEO also tells the night guard that he's fired.
+Why did the CEO fire the night guard after he saved his life ?
+
+Answer :- He had the dream this night which means that he was sleeping during his shift.
+
+121.One mosquito is born at T=0 and after 2 seconds it makes a new mosquito, and another every second thereafter. 
+All such mosquitoes have this same property and do not die. 
+How many mosquitoes there are at T=8.5?
+
+Answer :- 34
+Logic - 
+Python Script - 
+def mosquitos(stopTime=8.5):
+     adults = 0
+     juveniles = 0
+     infants = 1
+     time = 0
+     while time <= stopTime:
+         yield time, adults + juveniles + infants
+         adults += juveniles
+         juveniles = infants
+         infants = adults
+         time += 1
+At T=0 there is 1 infant, at T=1 that infant becomes a juvenile and at T=2 the same mosquito becomes an adult. 
+At every time step of one second the number of new adults increases as the juveniles mature to adults, the new juveniles are simply the old infants, and the new infants are equal in number to all of the adults. Writing m for baby mosquitoes and M for adult mosquitoes - 
+t=0 m
+t=1 M
+t=2 Mm
+t=3 MMm
+t=4 MMMmm
+t=5 MMMMMmmm
+t=6 MMMMMMMMmmmmm
+t=7 MMMMMMMMMMMMMmmmmmmmm
+t=8 MMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmm
+Baby mosquitoes grow into adult mosquitoes. 
+Each adult mosquito produces a baby mosquito for the next generation.
+The recurrence relation is -
+adults(t+1) = adults(t) + babies(t)  // babies grow into adults
+babies(t+1) = adults(t)              // adults each produce a baby
+Thus, total(8) = adults(8) + babies(8) = 21 + 13 = 34
+There are 34 mosquitoes at t=8. If you play about with the recurrence relation you can deduce,
+total(t+2) = adults(t+2) + babies(t+2) 
+           = adults(t+1) + babies(t+1) + adults(t+1) 
+           = total(t+1) + total(t)
+The sequence 1,1,2,3,5,8,13,21,34 is the famous Fibonacci Sequence.
+
+122.There are two cars, Car A and Car B. 
+Each can only carry enough fuel to travel 100 miles. 
+You set out on a journey with both cars. 
+In the middle of the journey one car can transfer some amount of fuel to another car but should have enough fuel left to travel back home. 
+One car has to go far away and one car has to return home. 
+What is the highest possible distance you can travel from your home ?
+
+Answer :- 133 1/3 miles.
+
+Logic - 
+You drive both cars 33 1/3 miles. Then you transfer 33 1/3 miles worth of gas from one car to the other. That car now has enough gas to go another 100 miles, and the other car has exactly 33 1/3 miles worth of gas left in the tank. That's just enough to get home.
+
+123.If you swallow me you'll live, but if I swallow you you'll die ! What am I ? Hint - I'm not an animal.
+
+Answer :- Water (Drink water and you live, Drown in it and you don't !)
+
+124.Find the missing number.
+
+   17   |   8   |   5   |   5
+--------------------------------
+   20   |   4   |   6   |   4   
+--------------------------------
+   18   |   3   |   7   |   3   
+--------------------------------
+    7   |   ?   |   8   |   2
+
+Answer - 9
+Logic = 
+17+8=5*5=25
+20+4=6*4=24
+18+3=7*3=21
+7+9=8*2=16
+
+125.My prefix is a part of a reflex
+My infix is very complex
+my suffix is more than two
+but the whole thing is not true
+Who am I ?
+
+Answer :- A Lie
+Logic - 
+My prefix is a part of a reflex; the letter L is part of refLex.
+My infix is very complex i=sqrt(-1)
+My suffix is more than two e=2.71828
+
+126.Bud and Terence visit a Christmas Market.
+Bud checks his money and notes that he could buy 8 gingerbreads and 1 wheatbread and is left with 70 rs and cannot buy anything further.
+Terence checks his money and states that he can also do it in a way that 70 rs are left but prefers to take 5 gingerbreads and 2 wheatbreads and 40 rs are left.
+If Bud and Terence put their money together, they can take 9 gingerbreas and 4 wheatbreads and are left with 50 rs.
+What is the price for one gingerbread and for one wheatbread ?
+
+Answer :- 
+Let A=gingerbread and B =wheatbread 
+Let X=Money of Bud and Y=Money of Terence
+
+The conditions are - 
+8A+B+70=X
+A,B>70
+5A+2B+40=Y
+9A+4B+50=X+Y
+From the three identities, we get 
+B=4A+60
+X=12A+130
+Y=13A+160
+Now consider the possibilities of u,v
+Case v=0 :
+(u−13)A=90 , Since A>70, we must have u=14, which leads to A=90,B=420
+Case v=1 :
+(u−9)A=30, This has no solution with A>70
+Case v=2 :
+(5−u)A=30, This also has no solution with A>70
+Case v=3 :
+(1−u)A=90 , Since A>70, we must have u=0, which leads to A=90,B=420
+Case v≥4 :
+(u+4v−13)A+(60v−90)=0 This only has solutions with negative A
+Thus the answer is gingerbread 0.9 rs, wheatbread 4.2 rs.
+
+https://puzzling.stackexchange.com/questions?tab=newest&page=468&pagesize=50

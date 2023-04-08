@@ -1,0 +1,30 @@
+The Scales of the Slide Rule - Doing the Math
+
+The first column is the scale name. The second column is the formula used for that scale. Any simplification is left as an exercise for the reader. The convention used is that R denote the length of the rule and # denotes the number on the scale whose position is being calculated. The final column contains notes about the particular scale.
+
+Scale			Formula			Comments
+A/B			(R/2)*log(#)		Used to calculate squares and square roots with the D scale,used to calculate the sine of an angle with the S scale 
+C/D			R*log(#)		Used in multiplication and division and also used with many other scales in various operations
+CF/DF			(log# - logPI)*R 	The folded scales used as a shortcut in multiplication and division
+CI			abs[R*log(10/#)-R]	The inverse of the C scale, often used as a shortcut in division
+CIF						The inverse of the CF scale	
+abs[R*(log(1/#) - log(1/PI))]
+if #<(10/PI)
+abs[R*(log(1/#) - log(1/PI)) - 25]
+if #>(10/PI)
+K			(R/3)*log(#)		Used with the D scale to find the cube or cube root of a number
+L			#*R			Used with the D scale to calculate the logarithm log10(#) of a number
+LL0			log(ln(#))*R + 3*R	Contains all numbers greater than or equal to 1.001 and less than or equal to 1.01
+LL1			log(ln(#))*R + 2*R	Contains all numbers greater than or equal to 1.01 and less than or equal to 1.105
+LL2			log(ln(#))*R + R	Contains all numbers greater than or equal to 1.105 and less than or equal to e
+LL3			log(ln(#))*R		This contains all numbers greater than or equal to e
+LL/0			log(ln(1/#))*R + 3*R	This contains all numbers greater than or equal to e-0.01 and less than or equal to e-0.001
+LL/1			log(ln(1/#))*R + 2*R	This contains all numbers greater than or equal to e-0.1 and less than or equal to e-0.01
+LL/2			log(ln(1/#))*R + R	This contains all numbers greater than or equal to e-1.0 and less than or equal to e-0.1
+LL/3			log(ln(1/#))*R		This contains all numbers greater than or equal to e-10.0 and less than or equal to e-1.0
+R1			log(#)*2*R		Used with the D scale to find squares and square roots; those numbers greater than about 3.13 are on the R2 scale
+R2			[log(#)*2*R] - 25	Used with the D scale to find squares and square roots; those numbers greater than about 3.13 are on the R2 scale
+Smannheim		(R/2)*[2 + log(sin(#))]	Used with the A scale to calculate the sine of a number, or the tangent of a number less than 5.7 degrees
+S,T			[log(100*sin(#))]*R	Used with the C scale to calculate the sine or the tangent of a number less than 5.7 degrees
+S			[log(10*sin(#))]*R	Used with the C scale to calculate the sine of a number greater than 5.7 degrees
+T			R*log[10*tan(#)		Used with the D scale to calculate the tangent of angles greater than 5.7 degrees

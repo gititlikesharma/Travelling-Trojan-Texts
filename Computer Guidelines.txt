@@ -1,0 +1,1237 @@
+IF YOU HAVE NEVER USED A COMPUTER BEFORE -
+
+Welcome!  Computers have been around since the Chinese Abacus.
+They are here to stay.  There is a certain feel and flow to the
+logic which directs their activities.
+
+Electronically all computers work about the same.  The one you
+are using is called a MICROcomputer.  This is due to its size.
+Larger computers include MINIcomputers and Mainframe computers.
+
+RAM
+
+Think of a computer as a human brain.  Your brain is a memory sponge.
+It contains a lifetime of memories which cause us to act or react
+based on inputs.  Inputs come via our 5 senses.  If you see and smell
+a steak burning on the grill (inputs) you know how to react based on
+previous experiences (memory - go out to eat).
+
+The computer's brain is comprised of a large memory area called Random
+Access Memory (RAM) and a calculating portion called the Central Processing
+Unit (CPU).  The CPU and RAM work together as the computer's "brain".  Each
+day when we start up the computer one of the first tasks will be to fill
+RAM with instructions to give it an ability to perform work.  This work may
+be in the creation of documents or tracking accounting data (more information
+on CPU is found under the HARDWARE section).
+
+You control which instructions will go into the computer's brain.
+You control which sets of experiences you will provide the
+computer.  Once in RAM, the computer will evaluate inputs from
+many devices and react.  The most typical input device is a
+keyboard.  As you type commands, the computer evaluates them and
+based on the set of instructions within its RAM, will follow some
+action - perhaps print a document, calculate, or send information
+over a telephone line.
+
+At some later point you may empty the computer's brain and
+install a different set of instructions, thus giving it a
+different ability.
+
+Unlike a human, the computer requires electricity to keep the
+information within RAM.  Each time the computer is turned off,
+all information within RAM is lost.  RAM is a temporary memory.
+To save instructions for use at a later date, a storage device is
+required.  Computers use many such devices.  Your computer uses a
+Floppy Disk and/or a Hard Disk.  Both are similar.
+
+DISKS
+
+Think of these disks as cassettes.  You can record information on
+a cassette which can be replayed indefinitely and if desired,
+recorded over.  Floppy and Hard Disks operate in a similar fashion.
+We record (Save) something we have created - like a document - onto the
+disk.  Then, hours, days, or months later we are able to play back
+(Retrieve) the document into the computer to alter or print out.  Just
+like cassettes, the Floppy and Hard Disks do not require electricity to  
+retain their information.
+
+Hard Disks and Floppy Disks are similar.Hard Drives have a larger
+capacity for file storage, are faster and are less likely to fail due
+to the protected environment from within which they operate.
+
+RAM is called volatile memory because of the electricity
+requirement.  Floppy and Hard Disks are called non-volatile
+memory because they will retain their information without the aid
+of electricity.
+
+A computer system includes computer hardware, software and
+people.  A computer is a device capable of solving problems
+or manipulating data by accepting data, performing prescribed
+operations on the data, and displaying the results.
+
+HARDWARE versus SOFTWARE
+
+HARDWARE:  Physical equipment such as electronic,
+magnetic, and mechanical devices (monitor, keyboard,
+printer, microchip boards,...).  Includes INPUT/OUTPUT
+DEVICES which allow the operator to communicate with the
+computer and vice versa.
+
+SOFTWARE:  Sets of programs (stored sets of
+instructions) that govern the operation of computer system
+and make the hardware run.  These programs (instructions)
+tell the hardware how to perform a particular task such as
+word processing, games, database management, etc.
+
+Software refers to the instructions that are used to enable
+an otherwise dead machine to understand your inputs and
+transform them into desired outputs.
+
+Computer hardware by itself has no personality; this is
+determined by the software.  Word processing software turns
+the computer into a word processor, accounting software turns
+the computer into an accounting tool, etc.
+
+The computer requires two types of Software:
+
+  DOS - Disk Operating System
+  Application Software - Word Processing, Spreadsheet, Games,
+                         Database Management, Accounting, Payroll.
+
+DOS (Disk Operating System)
+
+All computers require an operating system and the one IBM
+PC's use is referred to as DOS (sounds like floss).  DOS is
+software that allows the terminal, printer, computer and mass
+storage systems (floppy disks) to work together as a unit,
+and controls the execution of programs.  It also allows you
+to perform housekeeping chores in regards to managing disks
+and files.                                                                  
+
+Therefore - DOS: 1. Links Hardware
+                 2. Enables File Management
+
+PROPER HANDLING OF DISKS  -  DISKS NEED CARE !
+
+ - Never touch the mylar surface  - Do not bend the disks
+ - Always store in their protective sleeve
+ - Hold the disk by its label or any part of the sleeve
+ - Avoid bringing disks near magnets (TVs, telephones,..)
+ - Do not leave in hot or cold areas (radiators, car-dash, in
+   car during winter, etc.)
+ - Use felt tip pens if possible when labeling.  Ball points
+   can crease the mylar.
+
+Note the write-protect notch on the disk.  If this is covered
+by tape or non-existent, data cannot be "written" to the disk.
+However, data can still be "read" from the disk.
+
+It is a good idea to always save data and programs on two
+separate disks in case one is destroyed.  Even with the most
+cautious of care, the delicate Floppy Disks sometimes fail
+for no apparent reason.
+
+HISTORY
+
+The first computational device was the abacus.  This has been
+in continuous use for thousands of years.  During the 1600's the
+Pascal adding machine was developed.  This was a mechanical
+device which laid the groundwork for today's odometers and
+gas meters.  The 1800's saw many machines developed that were
+controlled by punch cards - weaving looms, etc.  The
+theoretical basis for electronic circuitry was developed in
+the mid 1800's.
+
+The first electronic computer was developed in 1942 at Iowa
+State College.  From this point forth there were numerous
+firsts as computers became less mechanical, smaller, faster
+and cheaper.  IBM began dominating the computer market by the
+mid-1950's and still does today in the mainframe (very large
+computer installation) market.  Digital Equipment Corp.
+(DEC) became a significant competitor by the mid-1960's.  DEC
+is generally considered technically better (faster, smaller,
+etc.) than IBM but still only has a fraction of the total
+market due to marketing snafus.  Today the Cray Supercomputer
+is the fastest in the world, is manufactured in Wisconsin,
+and is set in a vat of liquid helium to increase the
+conductivity for faster operation.
+
+TIME vs SPEED
+
+Method of Calculation             Approximate Speed
+Human (manual calculation)        1 each 60 seconds
+Burroughs E101 (1954)             4 per second
+IBM 1130 (1964)                   600,000 per second
+DEC PDP 11 (1974)                 1,000,000 per second
+Cray supercomputer                13,000,000 per second
+
+The Personal Computer is defined by its size, cost
+applications for small business and the home.   The first one
+appeared in January 1975 and was the Altair 8800 kit.  Only
+hobbyist bought these.  Then the Radio Shack TRS 80 and Apple
+computers hit the market as the first pre-assembled
+microcomputers.
+
+Market growth remained sluggish until two business students -
+Dan Bricklin and Dan Fylstra developed a program to run on
+Apple computers to handle the tedious recalculations in their
+school assignments.  This program was called VisiCalc and is
+the forerunner to the spreadsheet program Lotus 123.
+
+With VisiCalc as a useful tool, Apple sales took off.  Apple
+became the standard because all programs were written for
+Apple.  Today we still see Apple dominate the school market.
+
+In 1981 IBM introduced its PC which is unable to run Apple
+software. Unlike Apple or other IBM products, the IBM PC had
+an open architecture which means the technical details of how
+it operated were published right along with the product's
+introduction.  This permitted hundreds of companies to write
+software (programs) for the IBM PC as well as a variety of
+accessories.  Adding IBM's sterling reputation, the open
+architecture did enable rapid market penetration.  The
+microcomputer was no longer a toy, it was a business tool.
+
+The open architecture however, also allowed for the
+generation of a host of lower cost compatible computers.
+IBM had traded quick initial market entry for eventual erosion
+of market share.  In both instances, we the consumers
+benefit.
+
+HARDWARE
+
+CENTRAL PROCESSOR UNIT (CPU):  Heart of the PC - it contains
+the microprocessor. The CPU is a set of miniaturized circuits that
+does all the "thinking".  It controls the interpretation
+(arithmetic-logic unit) and execution (control unit) of instructions.
+It is this CPU in conjunction with RAM that comprise the computer's
+"brain".  The CPU does the "thinking/calculating" while RAM contains
+the instructions or "memories".  It is the CPU that largely determines
+the operating speed of the computer.
+
+BIT:  Smallest unit of information recognized by the
+computer.  BIT is short for Binary Digit.  A Binary Digit can
+be either a 0 or a 1.  Several bits make up a byte.
+
+BYTE:  A group of 8 BITS.  This grouping of adjacent binary
+digits (bits) is operated on by the computer as a unit.
+Computers use 1 BYTE to represent 1 character such as a
+letter of the alphabet, a number, a punctuation mark, a
+space, etc.  A BYTE is also a unit of measure since it
+represents 1 character.  For example, when the letter "A" is
+pressed, the keyboard actually sends the following to RAM:
+10000001  - a set of 8 bits.  See RAM, FLOPPY DISK.
+
+RANDOM ACCESS MEMORY (RAM):  A set of miniaturized circuits which
+represents the working memory of the computer.  This is where
+application programs (software) can be loaded from the outside and then
+executed.  The larger the RAM the better.  A typical single-user
+computer system may contain approximately 640,000 bytes of RAM.  (This is
+often abbreviated as 640k RAM: 1 k bytes is actually = 1024 bytes)
+
+The RAM is emptied when the computer is turned off - thus it is
+often called "volatile" memory.  WHAT YOU SEE ON YOUR COMPUTER MONITOR
+IS ACTUALLY IN RAM ONLY - a temporary storage location.  To make it
+permanent we "save" it, or "write" it to a floppy disk or hard drive.
+These devices are not volatile storage - they do not require
+electricity.
+
+READ ONLY MEMORY (ROM):  This is a special section of memory
+that contains instructions which are activated each time the
+computer is turned on.  These instructions are set at the
+factory and cannot be changed - thus, they can only be "read"
+not written to.  ROM instructions perform equipment checks
+and initialization of the computer prior to each use.
+
+DISK DRIVE:  The port in which a floppy disk is inserted.  Device that "reads"
+data from a magnetic disk and copies it into the computer's memory (RAM) so it
+can be used by the computer, and that "writes" data from the computer's memory
+onto a disk so it can be stored for later use.  Each Disk Drive is labeled
+A,B,C,etc because we often must tell the computer which drive has the disk
+with the information or where to send the information.  A Disk Drive reads and
+writes on a 5.25 inch or 3.5 inch floppy disk.
+
+FLOPPY DISKS:  The most commonly used mass storage device.  Allows
+entering programs to RAM and saving data from RAM.  Will hold data even    
+after the computer is turned off.  Data on these disks is stored in
+concentric rings called tracks.  The Disk surface is a thin piece of
+mylar and is coated with a magnetized material similar to audio or
+video tape.The read/write heads can magnetize and demagnetize the coated 
+surface repeatedly.  Therefore, the Disk can be used, erased, and reused
+indefinitely.  An IBM PC disk holds approximately 360k worth of
+information (250 double-spaced pages of text).  This is called a
+Double-sided, Double-density Diskette.  Newer, smaller 3.5 inch disk
+exist which hold at least twice as much - 720k.
+
+FIXED DISK DRIVE:  Usually named disk drive C.  It is essentially a
+very large floppy disk.  This Fixed Disk (commonly called a Hard Drive)
+is secured within the machine and cannot be seen or transported.  The
+storage capacity is so large it is measured in megabytes (1M = 1K
+squared = 1,048,576 bytes).  Fixed Disks are available from 5M on up.
+The advantage is that it is enough space to meet most users' total
+storage needs, operates much faster than a floppy (5-10x faster), and is less
+likely to fail since it lives within the protected computer.
+
+KEYBOARD:  Input device that lets you enter data into the
+computer.  The layout is similar to the standard QWERTY
+typewriter keyboard, however there are many extra special
+keys that are defined by the software you are running.
+
+MONITOR:  A television-like device that the computer uses to
+communicate with you.  Typically the monitor displays 80
+columns (characters) by 25 rows (lines) of information.
+
+PRINTER:  Most users get at least one Printer for their
+computer.  It produces a "Hard-Copy" output of your data
+rather than just being able to view it on the monitor.  Dot-
+Matrix printers are inexpensive and fast and can draw
+graphics.  Letter-Quality printers are more expensive and
+slower but create pages better than typewritten (even
+pressure on each keystroke).
+
+MODEM:  Short for Modulator/Demodulator.  A device to send
+and receive computer output over telephone lines.
+
+DOS Level 1
+
+SOFTWARE:  Sets of programs (stored sets of instructions) that govern
+the operation of computer system and make the hardware run.  These
+programs (instructions) tell the hardware how to perform a particular
+task such as word processing, games, database management, etc.
+
+DOS
+
+DOS - Disk Operating System - is a piece of software.  However, it is
+different from most software because a computer cannot run without it.  It is
+the first piece of software that is installed in RAM every time the computer
+is turned on.
+
+When the user first starts the computer, the DOS files must be available in
+either the A drive or on a Hard Disk.  The computer finds the desired DOS
+files and automatically loads them into RAM.  This process is often called
+"BOOTING" the computer -from the computer pulling itself up by its BOOTstraps.
+
+TO LOAD DOS
+
+"Cold" Boot:  Turning the computer on
+
+"Warm" Boot:  The computer has already been started, but you wish to
+              completely "clean-out" RAM and re-load DOS.  This is a
+              much faster method of re-starting the computer since it
+              skips the usual system checks.  To accomplish, you press
+              three keys simultaneously: <CTRL>-<ALT>-<DEL>
+
+DOS performs 2 functions:
+
+              1. Links the Hardware
+              2. Allows for file management
+
+We think of most software as enabling us to create something - like a document
+or a spreadsheet.  DOS's mission is vital.  Firstly, it enables the hardware
+devices to properly communicate with each other.  It is a set of instructions
+so that the computer's brain understands how its arms and legs operate
+We take this ability for granted.  It is like starting a car - many complex 
+systems must work in unison for it to work, yet we take it for granted that it will start.
+
+The second function of DOS is also important.  We must have a means to manage
+the files that we save on our Floppy Disks or Hard Drives.  There are times
+when we wish to copy these files from one disk to another, or erase them, or
+determine which files are on a disk.  These tasks are performed often and the
+software required to do so is DOS.
+
+When DOS has been properly loaded from either a Floppy Disk or a Hard Drive,
+the familiar "DOS Prompt" will appear.  This prompt will look something
+like this:
+
+This symbol signals 3 things:
+
+              1. DOS has been properly loaded into RAM
+              2. "A" is the DEFAULT drive
+              3. Awaits a DOS file management command
+
+Each disk drive and hard disk has a letter associated with it.  If a drive is
+considered the DEFAULT drive, then the computer will always assume that the
+information needed is in that drive, OR if something you have created is saved
+- it will be saved to that drive, UNLESS you tell the computer otherwise.
+
+All types of disks contain files.  We use DOS as a software tool to manage
+these files.  We not only tell the computer which file we want to erase or
+copy but also which drive it is currently in.
+
+DOS FILE CONVENTIONS
+
+FILES:  Any related set of instructions - programs, documents,
+spreadsheets, etc..  A floppy disk is like a file cabinet with each
+folder representing files on the disk (in the cabinet).
+
+Rules:   filename  | extension (optional)
+                   |
+    1-8 Characters | 1-3 Characters
+    No Spaces      | No Spaces
+    Letters/Numbers| Letters/Numbers
+
+If an optional extension is used, a period is used to separate the filename
+and extension.
+
+Many characters are allowed in filenaming.  The following are INVALID
+for filenames OR extensions:
+
+        .   "   /   \   [   ]   :   |   <   >   +   =   ;   ,
+
+Each file has a name.  When you want DOS to act on a file, you must
+specify its proper name (including its extension if applicable). A
+file's name is made up of a filename and an optional extension:
+
+Some filenames:   SAMPLE
+                  SAMPLE.DOC
+                  BUDGET.WK1
+
+Two files with the same exact name CANNOT exist on the same disk or
+subdirectory (subdirectories are covered under hard disk sections).
+                                                                           
+FILESIZE
+
+Computers use 1 BYTE to represent 1 character such as a letter of the
+alphabet, a number, a punctuation mark, a space, etc.  A BYTE is also a unit
+of measure since it represents 1 character.  We measure the size of RAM in
+Bytes, as well as the size of Files/Programs in Bytes.
+
+We also measure the capacity of Disks and RAM in Bytes.  So many Bytes
+can be contained on disks or RAM that we talk about:
+
+     KILObytes = 1,000     bytes   (often abbreviated "k")
+     MEGAbytes = 1,000,000 bytes   (often abbreviated "meg")
+
+5.25" disks Double Sided, Double Density = 360k
+            Double Sided, High Density   = 1.2meg
+
+3.5" disks  Double Sided, Double Density = 720k
+            Double Sided, High Density   = 1.4meg
+
+Hard Drives = 10meg, 20meg, 30meg, 40meb, 60meg,......350meg
+
+FREQUENTLY USED DOS COMMANDS
+
+When DOS is booted, a copy of INTERNAL DOS commands are placed in the
+computer's memory (RAM).  These are called INTERNAL commands because
+they stay in RAM until the computer is turned off.  To use these
+commands you do not have to re-insert the DOS diskette.
+
+The rest of the commands on the DOS disk are called EXTERNAL commands
+because they are NOT read into RAM when you boot DOS.  Rather, to use them
+DOS must accessible in one of the disk drives.
+
+The following are some frequently used DOS commands:
+
+INTERNAL       ³   EXTERNAL (Insert DOS in Drive A)
+               ³
+DIR     TYPE   ³   FORMAT    CHKDSK
+COPY    CLS    ³   DISKCOPY
+ERASE   DATE   ³   COMP
+RENAME  TIME   ³   DISKCOMP
+
+Internal DOS Commands
+
+A>DIR B:  - To find out what files are on a diskette in the specified
+            drive (B in this example). If just DIR is typed and entered,
+            a listing of files in the default drive (A in this case) will be
+            displayed.
+
+A>DIR B:/P - Displays list of files one screen at a time
+
+A>DIR B:/W - Displays list of files using the entire width of the screen
+
+NOTE: The  /P  and  /W  options shown above for the DIR command are called
+      command switches.  Most DOS commands have a variety of switches to alter
+      the core command.
+
+A>COPY A:filename.ext B: -  To copy one file from Disk A to Disk B
+                            instead of an entire diskette.
+
+A>DEL B:filename.ext - To remove the specified file(s) from the disk in
+                       the specified drive.
+
+A>DATE  - To change the system date.  This date will be "stamped" on each
+          file created or edited.
+
+A>TIME  - To change the system time.
+
+A>CLS  - To clear the screen
+
+External DOS Commands -  DOS Disk required in Drive A or Hard Drive
+
+A>FORMAT B:  - Prepares a new disk in Drive B for use on the IBM PC.  If an
+               old disk is used, it will erase its contents.  (Follow on-
+               screen directions)
+
+A>FORMAT B:/S - Same as above, BUT ALSO Installs the INTERNAL DOS
+                commands on the new disk.  Thus, this disk is now
+                capable of starting the machine.
+
+A>CHKDSK B: - Indicates the number of files and amount of free storage
+              space remaining on the disk in drive B.  It also indicates the
+              amount of RAM storage.
+
+A>CHKDSK A: /F  - Fix any problems that CHKDSK finds (converts lost clusters
+                  to *.CHK files which can later be deleted)
+
+A>DISKCOPY A: B:  - Making an exact copy of the diskette in Drive A onto the
+                    diskette in Drive B.  (Follow on-screen directions)
+
+Remember, if the computer is not told differently, it will assume the DEFAULT
+drive:
+             A>COPY A:sample.wk1 B:
+
+is the same as:
+
+             A>COPY sample.wk1 B:
+
+The "A:" in the first example is redundant.
+
+DOS Level 2
+
+We have seen that DOS's mission is one of file management.  Every software
+has a purpose and DOS's is for housekeeping of files.  However, we also saw
+that DOS is unique because we can't run the computer without it.  We must
+"boot" the system with the internal DOS files each time we start the computer.
+Finally, most people don't realize that DOS is also the Swedish word for
+toilet.  Which DOS is more important in your life?   Too obvious to comment.
+
+WHEN A COMPUTER IS POWERED-UP
+
+What actually happens when the computer is started?  First, a factory preset
+set of instructions residing in ROM are activated.  ROM stands for Read Only
+Memory.  This set of chips can send instructions TO RAM, but it cannot receive
+them - thus cannot be altered.  The unalterable set of ROM instructions
+performs systems checks to make sure all critical hardware components are
+hooked up properly and in the case of RAM - operating properly.
+
+Once the hardware check is performed, ROM instructs RAM to search the A drive
+for internal DOS files.  If no disk is present in drive A, then ROM directs
+RAM to check the Root directory of the hard drive for the necessary files
+(more on Root directories in Hard Disk DOS lessons).  If the files are found,
+they are automatically loaded into to RAM (booted).
+
+There are 3 files which comprise internal DOS:  IBMDOS.SYS, IBMBIO.SYS and
+COMMAND.COM.  The first 2 files are hidden files.  They cannot be seen in a
+DIR command, nor can they be copied or deleted with conventional DOS commands.
+These files are responsible for the linking of the hardware components.  The
+final file, COMMAND.COM CAN be seen, copied or deleted, and contains the
+frequently used internal DOS file management commands.  Again, the system will
+not boot without these 3 files.
+
+It is from the DOS prompt:       A>
+that we can go forward with
+the task of file management.
+
+We have already seen a handful of the most useful DOS file management
+commands.  Lets expand their abilities with the use of file WILDCARDS.
+
+WILDCARDS
+
+Wildcards allow the power of a DOS command to expand.  For example, imagine
+that you need to copy 12 files from a disk containing 100.  The 10 files all
+begin with the word SALES.   Sales.Jan, Sales.Feb, Sales.Mar ...
+
+We could copy each file individually:  A>Copy Sales.Jan B:
+                                       A>Copy Sales.Feb B:
+                                       ......
+
+Or, we could do it in one command with the use of a wildcard:
+
+                                       A>Copy Sales.* B:
+
+The asterisk (*) represents a wildcard.  It is often referred to as a star.
+The above command would read "Copy Sales dot star space B full colon".
+
+Any DOS command that references a filename can make use of wildcards to
+expand the command.  When a Copy command is issued, DOS is instructed which
+single file to copy.  However, when we use a wildcard, DOS is instructed to
+use any files that meet the criteria.  The asterisk expands the criteria for
+qualifying files.
+
+A>Copy Sales.* B:   says "copy any file from drive A to drive B that contains
+                          SALES as the filename, regardless of the extension"
+
+What if we wanted to include the files:   SALES1.DOC, SALES10.DOC and
+                                          SALESMAN.SUM
+
+SALES.* is not broad enough criteria to include these files.  Rather, we would
+state it:
+             A>Copy SALES*.* B:
+
+Now the criteria is to copy ANY file as long as the first 5 characters are S A
+L E S regardless of what other characters come after these first 5 in the
+filename or what exists in the extension.
+
+The asterisk is the broadest and most often used wildcard.  Some other
+examples of its use:
+
+             A>Copy *.DOC B:    (all files with the extension DOC)
+             A>Del S*.*         (any file that begins with the letter S)
+             A>Del B:*.*        (ALL files from the B drive - be careful!)
+             A>Dir B:*.COM      (A list of all files with an extension of COM
+                                 on the B drive)
+
+Anywhere a file specification can be given in DOS, the specification can be
+broadened with a wildcard.  The asterisk is very useful.
+
+Another wildcard is the question mark (?).  It too broadens the criteria for a
+command,  however,  it is "location specific".  For example:
+
+              A>Copy S?.DOC B:
+
+Any file that has S as the first character followed by a single character
+in the second position or not, but NO more characters in the filename plus an
+extension of DOC.
+
+Therefore, these files would make it:   S.DOC    SA.DOC SI.DOC    S5.DOC.
+          And, these files would not:  SALES.DOC   SAT.DOC   S5.EXE
+
+Wildcards can be used together:
+
+              A>Copy S?L*.* B:
+
+This will use the following:     SALES.COM    SAL     S5L.DOC    SL.EXE
+                    But not:    SAM.DOC    BUDGET.SL
+
+The wildcard characters,  *  and ?  are used with DOS commands such as DIR,
+COPY and DEL to broaden their application.  An asterisk, or "star" allows up
+to 8 characters at any position in a file name.  A question mark does the
+same, but for only 1 character position.
+
+DOS Level 3
+
+The world of DOS is a large one.  There are many, many commands with optional
+switches in the realm of file management.  Fortunately, like most software
+there is a flow and feel to DOS.  After you are familiar with the core
+commands, looking up additional ones and figuring out how to use them becomes
+easier.  The pattern is a DOS word followed by the
+necessary, minimum information to make it go.  For example:
+
+      A>DIR B:                  DIR only needs the drive the directory is
+                                desired
+
+      A>Copy C:sample.doc B:    COPY needs 3 pieces of information - what file
+                                on which drive is to be copied to which drive
+
+      A>DEL B:Test.EXE          DEL needs 2 pieces of information - what file
+                                on which drive to delete
+
+SOFTWARE VERSIONS
+
+Software is labeled with a version number.  With each subsequent release of
+the product, the version number increases.  The reason for these upgrades are
+to rid "bugs" (problems) within the software, significant product
+improvements, and/or to exploit new hardware advancements.  In general,
+anything created on an earlier version of a software will work with a later
+version of the same software.  This is known as upward compatibility.  The
+reverse is rarely true.
+
+DOS first hit the market as version 1.0 in 1981.  It has gone thru many
+upgrades as new hardware components became available and new DOS features were
+added.  Currently DOS 4.X is available.  However, most systems are still
+using DOS 3.X versions.  For a single user system, any DOS version over 2.1
+is probably adequate.  If you are using high density 3.5 inch floppy
+drives, you will need at least DOS 3.X.
+
+When application software is purchased, DOS version requirements are noted on
+the package as well as RAM requirements.
+
+FILE ALLOCATION TABLE
+
+As was discussed earlier formatting a new floppy disk prior to use,
+electronically superimposes a grid system on the disk.  Each grid intersection
+(sector) is numbered.  The location of files pieces on a disk are noted in a
+File Allocation Table (FAT) on each disk.  When a file is copied to a disk,
+the FAT is checked for available sector locations.
+
+The FAT is like an index to the location of file pieces on the disk.  File
+portions DO NOT have to be in adjacent sectors.  As a disk repeatedly has new
+files copied to it and old files deleted, files become fragmented - portions
+of the file exist in non-adjacent sectors.  This situation is referred to
+as non-contiguous sectors.  Data integrity is not affected by this situation,
+but the speed in which data can be retrieved is.  There are many third party    
+products to "defragment" a disk.  If the programs you will be using are disk
+intensive - like accounting or database management, you will notice a slowing
+of program execution over time as files become fragmented.
+
+When a file is deleted from a disk, the contents are not wiped from the
+sectors, rather the file name is removed from the FAT and the associated
+sectors are now simply declared available for new data.  This is important to
+understand because deleted files are actually still on the disk but their
+locations are now not considered off limits.  Again, many third party software
+products are available to undelete these files.
+
+If you do delete a file, try not to use the disk until the proper utility
+software is available to reverse the deletion.  With more use, you are running
+the risk that the next file that is copied to the disk will occupy the
+sectors of file you wish to undelete.  If that should happen, you will not be
+able to undelete the "old" file.
+
+Some popular third party utility tools to defragment a disk and allow
+undeletion include PC TOOLS, NORTON UTILITIES, MACE UTILITIES, VOPT DISK
+OPTIMIZER.
+
+BATCH FILES
+
+Batch files are a DOS tool that allow you to automatically execute 1 or more
+DOS commands sequentially.  A more detailed explanation can be found under
+Hard Disk Dos sections.
+
+For example, you are tired of changing default drives, subdirectories and
+typing the word LOTUS each time you wish to enter into the LOTUS 123
+spreadsheet program.  The 3 steps required are:
+
+                    A>C:
+                    C>cd\lotus
+                    C>lotus
+
+These steps can be combined with a single BATCH file called LOT.BAT.
+
+To build:
+
+                  C>copy con:lot.bat  --- Begin creating a file called lot.bat
+                    C:
+                    cd\lotus
+                    lotus
+                    <F6>              --- End building and save to disk by
+                                          pressing the <F6> function key
+
+Now, each time LOT is entered at the DOS prompt, the commands within the
+LOT.BAT file are automatically executed sequentially.
+
+                C>lot
+
+REDIRECTION
+
+Redirection refers to having input or output come or go to devices other than
+the standards of Keyboard (Input) and Monitor (output).  In DOS we expect to
+enter commands from the Keyboard and have the results displayed on the
+Monitor.
+
+          A>DIR           --- Gives a directory of the A drive disk on the
+                              monitor
+
+          A>DIR >PRN      --- PRN  means to send the results of this command
+                              to the printer
+
+          A>DIR >LIST.TXT --- Now the output of this command is put into a
+                              file on the A disk called LIST.TXT  (any
+                              filename could have been used)
+
+The greater than sign ( > )  used above was to REDIRECT the output to a
+Printer and a Disk File rather than the default output device; the monitor.
+This is useful for getting a hard copy print-out of a particular disk's
+contents.
+
+PIPING - FILTERS
+
+Piping is a way of telling DOS to transfer the output from one command to be
+the input for another command.  Piping is a form of redirection except DOS
+will create a temporary file on a disk to accomplish the task.
+
+Piping usually involves the use of special commands, termed Filters, to accept
+data, do something with it, and then pass it to the next step.  There are 3
+standard filters used by DOS in piping:
+
+    FIND - used to search a file directory for a specified string of text
+    MORE - used to display one 1 screen of output at a time
+    SORT - used to sort disk filenames
+
+The symbol used by DOS to indicate a Piping operation is the vertical bar (|).
+
+Examples -
+
+         A>DIR |sort     --- Will display on the monitor the list of files
+                             on the A disk, BUT in filename alphabetic order.
+
+         A>DIR |sort/+10 --- Will display on the monitor the list of files
+                             on the A disk, BUT by alphabetic order of the
+                             filename extensions.  Extensions are 10
+                             characters from the left on the screen during a
+                             DIR.
+
+        A>DIR |sort >prn  -- Same as the 1st example except the results of
+                             this command will be printed out.
+
+        A>DIR |sort >SAM.D - Same as the 1st example except the results of
+                             this command will be saved in a file on the disk
+                             called  SAM.D
+
+	A>DIR |sort |more -- Will display in sorted order one screen at a time
+
+        A>DIR |find "05-14-89"  -- Will display a list of files that were last
+                                   changed on May 14, 1989
+
+        A>DIR |find "SALES"     -- Will display a list of files that have the
+                                   word SALES in the file name
+
+DOS    Disk Operating System   (Director Of Services)
+
+Master control program for the flow of information within a PC.  One of
+its primary functions is to oversee all disk activities -
+reading/writing information from/to a disk, and loading/executing
+programs.  It controls (links) all hardware devices so they may
+communicate with one another including:
+
+      Floppy Drives:   5.25", 3.5"
+        Hard Drives:   10mb, 20mb, .....
+           Ram Disk:   Simulates a disk drive from within RAM
+         Laser Disk:   "CD's" for computers
+Tape Storage Device:   Backup system typically using cassette type
+                       tapes
+
+PLUS,  Screen, Keyboard, Printer, Modem, Mouse, ...
+
+As if this wasn't enough, this modest software called DOS also keeps
+track of the current time and date, and the usage of all memory
+locations within RAM.
+
+Once DOS has been properly BOOTed, you will see the familiar "DOS
+Prompt":
+
+     A>
+
+This says:  1. DOS has been properly installed
+            2. "A" is the default drive
+            3. DOS is awaiting your next command
+
+HARD DISK DRIVES
+
+Also called Hard Drive, Hard Cards, Fixed Disk Drives.  Hard Drives are
+essentially large floppies housed within the computer.  They are much faster,
+much higher capacity, and less likely to fail due to the safe environment from
+within which they operate.
+
+Hard Disk cost is related to its capacity and it Access Time.  Access Time is
+the amount of time it take the disk to locate a random piece of information.
+Access Time is measured in milliseconds (ms-millionths of a second).  A fast
+one would be 28ms, a slow one 65ms.
+
+DOS REALITIES
+
+There are three types of FILES that may be successfully "executed" from
+the DOS Prompt:
+
+    1. *.EXE Commands      ("EXECUTE" Program files  Lotus, dBASE,....)
+    2. *.COM Commands      ("COMMAND" Program files  Lotus, dBASE,....)
+    3. *.BAT               ("BATCH" Custom programs )
+
+To successfully execute one of the *.EXE, *.COM, or *.BAT  command
+files, the file itself must be either:
+
+          1. In the Current directory
+          2. Within a directory that is part of the DOS "PATH" command
+
+Batch (.BAT) files are the only executable files you can write using a
+simple word processor, or DOS's built in Line Editor (EDLIN) - more later.
+
+BOOTING (or Bootstrap)  To load and execute the Disk Operating System-DOS
+
+This term comes from the phrase "pull yourself up by your own bootstraps".
+This happens within a PC when it is turned on.  Actually, a built-in program
+(ROM) is executed, then a couple of "hidden" files from the ROOT directory
+(hard drive) or DOS Disk (floppy disk), then COMMAND.COM (DOS internal command
+interpreter) followed by the Optional CONFIG.SYS and AUTOEXEC.BAT files.
+
+COMMAND.COM:  Must by loaded for DOS to operate properly, it contains
+              the Internal DOS commands - those used most often: Copy,
+              Dir, Del, etc.  The remainder of files on the DOS disk
+              are called External Files (DISKCOPY, CHKDSK,...).  To
+              utilized one of these commands, the DOS disk must be
+              accessible.
+
+CONFIG.SYS:   Optional.  If it is located on the Disk that you are
+              BOOTing from, DOS will "open" it and read and interpret a
+              list of system configuration commands.  This is a ASCII
+              text file which can be created by any text editor.
+              Configuration commands include: FILES, BUFFERS,
+              DEVICE,...
+
+AUTOEXEC.BAT: Optional.  An ASCII text file. "Opened" and read after
+              CONFIG.SYS, IF it exists on the BOOT disk.  A "batch"
+              file.  A set of DOS commands and other special commands.
+
+SOME FREQUENTLY USED DOS COMMANDS WITHIN A HARD DISK ENVIRONMENT
+
+A Hard Disk is just like a floppy.  However, due to its size additional file
+management commands are needed.  The following can also be used on floppy
+disks, but they are most common in Hard Drive Environments.
+
+INTERNAL  і   EXTERNAL (Insert DOS in Drive A)
+          і
+ MD       і   CHKDSK
+ CD       і   BACKUP
+ RD       і   RESTORE
+ PROMPT   і   SUBST
+ PATH     і   TREE
+
+Internal DOS Commands
+
+MD - Make a directory (see below)
+
+CD - Change to a directory (see below)
+
+RD - Remove a directory - must be rid of files first (see below)
+
+PROMPT $p$g - Changes the way the DOS prompt is display.  $p$g insures that
+              the current directory is shown at the prompt.  Very useful.
+              Usually "set" in the AUTOEXEC.bat file (see below)
+
+PATH=c:\DOS;c:\BATCH;c:\UTILITY
+
+     Sets up a command (*.EXE, *.COM, *.BAT) search path in the DOS
+     environment.  When a command is issued from the DOS prompt, it
+     first looks in the directory you are currently in, then looks in
+     each directory noted on this path.  Usually this command is built
+     into the AUTOEXEC.bat file (see below)
+
+External DOS Commands
+
+CHKDSK C:\*.*  /F
+
+  Checks the integrity of disk files - the level of fragmentation of files.
+  Indicates the number of files and amount of free storage space remaining on
+  the disk in drive A.  It also indicates the amount of RAM storage.
+  If any lost clusters are found (data without a home), they can be converted
+  to *.CHK files so you can delete them to free up the disk space.
+
+SUBST  E:  c:\LOTUS\123FILES    - Assigns a 1-letter drive ID to a
+                                  directory path
+
+SUBST E: /D   - Cancel previous designation
+
+TREE  /F  -  Displays a list of files and directories on the disk.
+             /F - more detail - all files, all directories
+
+DIRECTORIES
+
+As previous mentioned, a hard disk is essentially a large floppy disk.
+However, it offers some distinct advantages:
+
+   Is much larger
+   Stays inside the machine
+   Operates (transfers data) at a much higher rate (5-10x)
+
+Because a Hard Disk is so much larger than a floppy, we use an
+additional file organization tool called SUBDIRECTORIES.
+
+If a floppy is like a filing drawer, than a Hard Drive is like a wall
+of file drawers, each drawer call a SUBDIRECTORY.
+
+DOS lets you organize files using tree-structured directories rather than a
+single directory.  In other words, since a 20  meg (20,000,000 byte) capacity
+hard drive can contain approximately 60  floppy disks worth of files, an
+additional organization tool is needed.  The creation of SUBDIRECTORIES allows
+us to subdivide a disk to contain related files.  It's as if we have many file
+cabinets available to store our files rather than a single giant one.
+
+DOS permits up to 112 files on a floppy disk.  However, with that many
+it is a labor to examine via a DIR and it also slows DOS's file access
+and retrieval.
+
+ROOT DIRECTORY - Main directory - it provides support for all the
+SUBDIRECTORIES.  It contains all the SUBDIRECTORIES.
+
+Each SUBDIRECTORY can contain files as well as other SUBDIRECTORIES.
+These other Subdirectories could be thought of as SUB-SUBDIRECTORIES.
+
+To use a file in a different drive we have specified the drive and
+filename (B:Filename.ext).  Similarly, if we want to access a file in a
+SUBDIRECTORY we specify a PATH, OR make that SUBDIRECTORY the "current"
+one.
+
+PATH:  A PATH specifies the names of the directories that DOS must go
+through from the ROOT DIRECTORY to get to the file.  The directories
+are separated by a forward slash (  \  ).  (NOT the same as the DOS PATH
+                                            command noted above)
+
+     EX:   C:\123FILES\PROJECTX\BUDGET.WK1
+
+DOS & SUBDIRECTORIES  - there are only 3 key commands in dealing with
+Subdirectories:  MD, CD, and RD
+
+TO MAKE A SUBDIRECTORY
+
+MD dirspec  - Internal - to MaKe a DIRectory -dirspec is the name of
+                         the subdirectory or its PATH
+
+     EX: C>MD 123FILES  <ENTER>   -  This creates a subdirectory
+                                     called 123FILES
+
+         - Naming a SUBDIRECTORY follows the same rules for
+           file naming, except extensions are not used
+         - You can created unlimited number of SUBDIRECTORIES
+         - Identical Filenames can exist in different SUBs
+           (Remember, 2 files with identical filenames CANNOT coexist
+            in the same SUBDIRECTORY)
+
+TO CHANGE THE "CURRENT" SUBDIRECTORY
+
+The computer can only have 1 "file drawer" open at a time - thus this is
+called the current directory.  Unless instructed otherwise, the computer will
+assume all files sought and sent will go into this current subdirectory.
+
+CD\dirspec - to Change the "current" Directory
+
+   - EX:  C>CD\LOTUS    <ENTER>    -  This makes a subdirectory
+                                      called LOTUS the current one
+TO REMOVE/ERASE A SUBDIRECTORY
+
+     1. First make this directory the current one C>cd/dirspec
+     2. DELETE all the files within this directory
+           C>DEL *.*
+        It will ask if you are sure - Y
+     3. Go to the ROOT DIRECTORY   C>cd\
+     4. RD dirspec     - Reove Directory
+
+              C>RD dirspec
+
+BATCH FILES
+
+These are user created files that have the extension .BAT
+
+The file itself contains lines of DOS commands.  Some think of these
+files as "macros".  They can be created with an ASCII text editor
+including the built in EDLIN editor (see below), or can be created from "the
+console" (keyboard) via COPY CON.
+
+These are very useful for program startups.
+
+Use the TYPE command to view the contents of a batch file:
+
+C:\>TYPE 123.BAT
+
+   c:\
+   cd\lotus
+   123
+   cd\
+   cls
+
+Use the PRINT command to print out the contents of a batch file:
+
+C:\>PRINT AUTOEXEC.BAT
+
+The PRINT command is like the TYPE command except it is an external DOS
+command and send output to the printer instead of the screen.  Another
+approach using redirection discussed earlier would be:
+
+C:\>TYPE AUTOEXEC.BAT >PRN
+
+AUTOEXEC.BAT
+
+This user created, optional batch file is sought out by DOS when the
+system is BOOTed.  If this file is on the BOOT disk, DOS will
+AUTOmatically open it and EXECute it.
+
+This is outstanding way to automate the execution of certain DOS
+commands like DATE, TIME, PATH, PROMPT, etc - which should be done
+EVERY time the system is booted.
+
+EX:
+
+          date
+          time
+          path c:\;c:\dos;c:\batch;c:\utility
+          subst e: c:\dbase\dbfiles
+          prompt $p$g
+          cls
+
+CONFIG.SYS
+
+This too is an ASCII file created and viewed like AUTOEXEC.bat.  It
+also is optional and is sought out by DOS when the system is BOOTed. HOWEVER,
+the command lines that this file uses ARE NOT DOS type commands found in .BAT
+files.  Rather, these are special CONFIGuration SYStem commands.
+
+CONFIGuration SYStem commands are needed to define certain hardware
+parameters.  For example, if your system uses special size disk drives,
+extra printers, extra modems, extra input devices (joysticks, mouse),
+RAM disks, etc.
+
+EX:  CONFIG.sys
+
+        FILES = 20
+        BUFFERS = 15
+
+In this example, FILES = 20 means that DOS will allow up to 20 files opened
+simultaneously.  If this line were not present in CONFIG.SYS, DOS would only
+allow up to 7 files.  Do we need up to 20?  Certain programs (dBASE,
+Accounting, etc) state early in their manuals that this parameter needs to be
+set at 20 for the software to operate correctly.
+
+The BUFFERS = 15 defines a staging area within RAM for portions of files that
+are not on the screen yet.  For example, in an Accounting program if you told
+the computer to bring up the last 10 invoices entered, it would display these
+10 invoices.  However, unknown to you it actually took the last 30 invoices in
+anticipation that you would want to see them right away also.  The extra 20
+that the system brought into RAM are sitting within the BUFFERS.  DOS allows
+this and does this as a way to speed up the system.  Items that are sitting in
+RAM can be accessed seemingly instantly versus items that must be sought from
+a disk.
+
+If not told, DOS automatically sets BUFFERS to 3.  If BUFFERS are so useful,
+why not set them to their maximum of 99?  The reason is that DOS is guessing
+which information you will need next.  If it guesses wrong - for example the
+next invoice you wish to look at is 1500 ago, it must first check all the
+BUFFERS before realizing that it will have to go to the disk to retrieve the
+needed information.  It actually slows the process down in this case.  Most
+purchased software will note if this command is needed and what to set it to.
+BUFFERS = 15 is a common level to operate at.
+
+EDLIN
+
+Edlin is a LINe EDitor supplied with the DOS disks.  It is a very basic word
+processor that allows the creation and editing of Batch Files including
+AUTOEXEC.BAT and the CONFIG.SYS file.  These files are like documents that the
+computer reads and interprets.  Each line of these files contains a single
+thought for the computer.  EDLIN is a device to create these documents.
+
+To enter the EDLIN environment you type the word EDLIN followed by the name of
+the file you wish to create or edit:
+
+        C:\>EDLIN CONFIG.SYS
+
+An asterisk will appear:
+
+  *
+
+You will type the letter  I  and press enter to go into the Insert mode:
+
+  *I
+
+The computer responds with:
+
+       1:*
+
+This 1 refers to line 1 of the CONFIG.SYS you are now creating.  You will now
+just type each line and press enter.  When finished you will press the <F6>
+key to return to the furthest left asterisk:
+
+       1:*FILES = 20
+       2:*BUFFERS = 15
+       3:<F6>
+  *
+
+At this asterisk you will now type  E  and press enter to  End the process and
+save what you just created:
+
+  *E
+
+C:\>
+
+Other EDLIN commands from the left most asterisk:
+
+  *L      - this would List on the screen the entire contents of the
+            file being edited
+
+  *3D     - this would delete line #3 from the file
+
+  *4I     - this would allow inserting a new command beginning at line #4
+
+  *5      - this would allow making changes to line #5
+
+EDLIN is adequate for creating and editing small Batch type files.  We saw
+earlier that there is another technique for creating these files utilizing the
+COPY CON  command.  It is even more limited than EDLIN.
+
+BACKUP and RESTORE
+
+Periodically the entire hard drive or at least the subdirectories
+containing data files should be BACKed-UP onto floppies or tape for
+safe storage in the event of a hard drive crash or accidental erasure.
+
+Should that happen, the files are then simply RESTOREd.
+
+DOS provides two commands to accomplish this - BACKUP and RESTORE
+commands.  Unfortunately, these are slow and problematic.  The world is
+full of third party alternatives that are far superior in speed, ease
+of use, data compression, and ability to incorporate into batch files
+so the operator only need to "kick-off" a batch file and have a supply
+of floppies nearby to complete.
+
+EX: Using DOS commands:
+
+     C:\>BACKUP C:\lotus\*.wks A:  /S  /M
+
+"A" is the DESTINATION drive
+ C:\lotus  is the SOURCE directory
+ *.wks   specifies any files with an extension  .wks  (worksheet files)
+
+ /S      specifies any Subdirectories beneath \LOTUS directory
+         (that contain *.wks files)
+
+ /M      only the files that have been Modified since Last BACKUP (using the
+         same disk set as last used during the BACKUP)
+
+NOTE: Have a supply of disks for the "A" drive ready.  These floppies do not
+have to be formatted.  If more than 1 is required, be sure to number in
+sequence.  This process will erase whatever used to be on the disk.
+
+Now, if the files need to be restored to the hard drive due to failure
+or erasure:   Start out with "disk #1" in the "A" drive.
+
+     A:\>RESTORE A: C:\lotus\*.wks  /S  /M
+
+"A" is now the SOURCE
+
+ /M     only files Modified or Deleted since they were backed up
+
+These commands were designed for emergency situations.  It is better than
+nothing.  Many wish to use them as a way to transfer a large group of files
+from one machine to another.  This will only work if the version of DOS on
+each machine is identical.
+
+Another problem is that you end up with a very large number of disks.  There
+is no data compression which most competing products provide which results
+in up to 50% fewer backup disks.
+
+A final hazard:  If you end up with 20 disks, and disk number 10 is lost or
+destroyed, you may never be able to access disks 11-20 or 1-9.  The 20 disk
+set is like one continuous floppy disk.  By destroying 1 disk, it is like you
+destroyed the giant continuous floppy.  This is not true of competing products
+like FASTBACK, PCTOOLS or NORTON UTILITIES.
+
+XCOPY
+
+Beginning with DOS 3.2, the XCOPY command is a useful hybrid of the COPY
+command and the BACKUP/RESTORE mess.  It addresses the issue that COPY cannot
+copy more files than a disk can hold.  But, XCOPY cannot copy a single file
+that is larger than a single disk like the BACKUP command can.
+
+C:\>XCOPY C:\*.* a:  /S /M /D:mm-dd-yy
+
+The options:   /S    - includes all subdirectories hung from the current one
+                       (in the case shown we are in the root directory)
+
+               /M    - includes only files that have been modified since the
+                       last XCOPY was performed
+
+               /D:mm-dd-yy   - include only files with a date greater or
+                               equal to the one specified
+
+XCOPY is:   - Faster than the COPY or BACKUP commands
+            - Able to transfer entire directories like BACKUP can
+            - Copy files selectively by modification status or date
+            - Able to use the COPY command (which is DOS version independent)
+              to copy individual files at a later date - unlike BACKUP
+            - Unable to copy single files that are larger than a single disk
+              (BACKUP is able to do this - remember the 1 continuous disk
+               concept)
+            - Target disks must be formatted
+
+HARD DISK ORGANIZATION PRINCIPALS
+
+     1. Put only directories in the Root directory except;
+        Command.com, Config.sys, Autoexec.bat
+
+     2. Use many batch files.  Put them in a \BATCH subdirectory
+
+     3. Keep the PATH command short in autoexec.bat
+        PATH = c:\DOS;c:\BATCH;c:\UTILITY
+
+     4. Keep the directories sorted (use third party software tools)
+
+     5. Defragment files on a regular basis - use some third party
+        software; PC-TOOLS, NORTON UTILITIES, VOPT, etc

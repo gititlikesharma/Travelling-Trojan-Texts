@@ -1,0 +1,857 @@
+Software Models & their Short Description
+Waterfall Model - We can not go back in previous project phase as soon as as we proceed to next phase so inflexible in nature.
+Evolutionary Model - It keeps changing with evolution so incremental in nature.
+Component Model - Reuse-based approach to defining, implementing and composing loosely coupled independent components into systems.
+Spiral: Spiral model is the most advanced software model. Phases: Planning, Risk Analysis, Engineering and Evaluation 
+Bisection Method is used to converge to a root of f if f is a continuous function on the interval [a, b] and f(a) and f(b) have opposite signs.
+Example - The bisection method to compute a zero of the function f(x)=x4–x3–x2–4 in the interval [1,9] will converges to a solution after how many iterations ?
+Solution :- Bisection method is exactly like binary search on a list.
+In bisection method, in each iteration, we pick the mid point of the interval as approxiamation of the root, and see where are we, i.e. should we choose left sub-interval, or right-subinterval, and we continue until we find the root, or we reach some error tolerance.
+So in first iteration, our guess for root is mid point of [1,9] i.e. 5. Now f(5) > 0, so we choose left sub-interval [1,5] (as any value in right sub-interval [5,9] would give more positive value of f).
+In second iteration, we choose mid point of [1,5] i.e. 3, but again f(3) > 0, so we again choose left sub-interval [1,3].
+In third iteration, we choose mid point of [1,3] i.e. 2, now f(2) = 0. So we found root in 3 iterations.
+The cyclomatic complexity of a module is equal to the maximum number of linearly independent paths in the graph.
+The cyclomatic complexity of a module is the number of decisions in the module plus one, where a decision is effectively any conditional statement in the module.
+The cyclomatic complexity can also be used as a number of linearly independent paths that should be tested during path coverage testing.
+Consider a HTML table definition given below :-
+<table border=1>
+    <tr> <td rowspan=2>ab</td>
+         <td colspan=2>cd</td>
+    </tr>
+    <tr> <td>ef</td>
+         <td rowspan=2>gh</td>
+    </tr>
+    <tr> <td colspan=2>ik</td>
+    </tr>
+</table>
+The number of rows in each column and the number of columns in each row are 2,3,2 and 2,3,2.
+Coupling between modules can be ranked in the order of strongest to weakest as follows :-
+Content Coupling > Common Coupling > External Coupling > Control Coupling > Stamp Coupling > Data Coupling
+Content Coupling: Occurs when one module modifies or relies on the internal workings of another module
+Common Coupling: Occurs when two modules share the same global data
+External Coupling: Occurs when two modules share an externally imposed data format or communication protocol
+Control Coupling: One module controlling the flow of another, by passing it information
+Stamp Coupling: Occurs when modules share a composite data structure and use only parts of it
+Data Coupling: Occurs when modules share data through parameters
+It is desired to design an object-oriented employee record system for a company. Each employee has a name, unique id, and salary. Employees belong to different categories and their salary is determined by their category. The functions are getName, getId and getSalary.
+Design Structure :-
+getId & getName is implemented in the superclass,getSalary is an abstract function in the superclass & is implemented in the subclass.
+Coupling is the manner and degree of interdependence between software modules.
+Cohesion is the degree to which the elements of a module belong to each other.
+In a good software design, it is always desirable to have low coupling and high cohesion. 
+Euclid’s GCD Computation Algorithm :-
+ int compute_gcd(x, y) 
+ {
+  int x, y;
+  while (x! = y){
+   if (x>y) then
+      x= x – y;
+   else
+     y= y – x;
+  }
+  return x;
+ }
+Method	 	Order of Convergence
+Bisection	1 bit per iteration
+Newton-Raphson	2 or more
+Secant		1.62
+Regula Falsi 	1 
+False Position 	1
+The cyclomatic complexity of a structured program is defined with reference to the control flow graph of the program, a directed graph containing the basic blocks of the program, with an edge between two basic blocks if control may pass from the first to the second.
+V(G) = E - N + 2K, where E = the number of edges of the graph, N = the number of nodes of the graph & K = the number of connected components
+Thus, Cyclomatic complexity, V(G), for a flow graph, G, is defined as V(G) = P + 1, where P is the number of predicate nodes contained in the flow graph G.
+( A predicate node is a node containing a condition.)
+Example :-
+IF ((A > B) AND (C > D)) THEN  A = A + 1  B = B + 1  ENDIF
+The cyclomatic complexity of the pseudo-code is 3 , P=2(A>B & C>D) , We V(G)=P+1 V(G)=2+1=3
+Signal processing  is a candidate example of a pipe and filter architecture.
+Example :-
+int module1 (int x, int y) {
+    while (x! = y) {
+        if (x > y)
+             x = x - y,
+        else y = y - x;
+        }
+    return x;
+}
+The cyclomatic complexity of the above module is 3, P=2(x!=y & x>y) , We V(G)=P+1 V(G)=2+1=3 
+HTTP runs over TCP
+HTTP allows information to be stored in a URL
+HTTP can be used to test the validity of a hypertext link
+Use Case Diagram helps in understanding and representing user requirements for a software project using UML (Unified Modeling Language).
+In a software project, COCOMO (Constructive Cost Model) is used to estimate effort and duration based on the size of the software.
+Effort Applied (E) = ab(KLOC)bb [ person-months ]
+Development Time (D) = cb(Effort Applied)db [months]
+Example :-
+void swap(float* A1, float* A2)
+{
+    float temp;
+    if (*A1 == *A2) return;
+    temp = *A1;
+    *A1 = *A2;
+    *A2 = temp;
+    return;
+}
+The program volume for the above module using Halstead's method is 63.
+Explanation :-
+Operator	Frequency
+if		1
+*		6
+==		1
+return		2
+=		3
+Number of unique operators (n1) = 5
+Number of operators (N1) = 13
+Operand	Frequency
+temp	2
+A1	3
+A2	3
+Number of unique operands (n2) = 3
+Number of operands (N2) = 8 
+N = N1+N2 = 8 + 13 = 21
+n = n1+n2 = 5 + 3 = 8
+Program Volume (V) = N log2 n
+= 21 log2 8
+= 21*3 = 63
+Example :-
+Consider the following C program segment.
+while (first <= last)
+{
+    if (array[middle] < search)	first = middle + 1; 
+    else if (array[middle] == search)	found = TRUE;
+    else	last = middle - 1;  	middle = (first + last)/2;
+}
+if (first > last) notpresent = TRUE;
+The cyclomatic complexity of the program segment is 5, P=4(first<=last,array[middle]<search,array[middle]==search,first>last) ,We V(G)=P+1 V(G)=4+1=5
+Module design is used to maximize the cohesion and minimize the coupling using encapsulation. 
+Unit testing: Smallest testable parts of an application, called units, are independently checked. This stage checks whether data flows properly,data structure works.
+Integration testing: A few modules are combined and tested as a group. It occurs after unit testing.
+System testing: System testing is done with full system implementation and environment to determine whether the system meets all customer requirements.
+Regression Testing:  When a software is corrected, a part of the software configuration (code/documentation/data) may change.
+Example :-
+If a program P calls two subprograms P1 and P2 and P1 can fail 50% of the time and P2 can fail 40% of the time, what is the failure rate of program P?
+Solution :-
+Program P fails when either P1 fails or P2 fails, i.e. failure of P1 + failure of P2. 
+But this will also contain the case when both P1 and P2 fails at the same time, i.e. failure of P1 n failure of P2, since this case will be already be counted on (P1+P2). 
+Therefore, our final answer will be failure of P1 + failure of P2 - (failure of P1 n failure of P2)
+= (50/100) + (40/100) -(50/100*40/100)
+= (90/100) - (2000/10000)
+= (90/100) - (20/100)
+= (70/100)
+= 70%
+Example :-
+What is the output of the following program?
+Class Test
+{ 
+    public static void main (String [] args) 
+    {  
+        int x = 0; 
+        int y = 0 
+        for (int z = 0; z < 5; z++)
+        { 
+            if((++x >2)||(++y  > 2)) 
+            {
+                x++;
+            }
+        }
+    System.out.printIn (x+ "" + y); 
+    }
+}
+Explanation :-
+For,z=0,x=1 and y=1 because x++ will not be executed because condition is false
+For,z=1,x=2 and y=2 because x++ will not be executed because condition is false
+For,z=2,x=4 and y=2 here x++ will be executed but ++y will not be executed due to short circuit evaluation
+For,z=3,x=6 and y=2 here x++ will be executed but ++y will not be executed due to short circuit evaluation
+For,z=4,x=8 and y=2 here x++ will be executed but ++y will not be executed due to short circuit evaluation
+Hence at the end, It will print 8 2.
+The Guass-Seidal iterative method can be used to solve linear algebraic equations.
+Shading is referred as the implementation of illumination model at the pixel points or polygon surfaces of the graphics objects.
+Gouraud shading removes the intensity discontinuities associated with the constant-shading model, but it has some other deficiencies. Highlights on the surface are sometimes displayed with anomalous shapes, and the linear intensity interpolation can cause bright or dark intensity streaks, called Mach bands.
+Phong shading is one of the most useful shading algorithms in computer generated images as it provides high degree of practicality. It is slowest but provides best quality of images.
+The algorithm for shading is as follows :-
+1) Compute a normal N for each vertex of the polygon
+2) From bi-linear interpolation compute a normal, Ni for each pixel
+3) From Ni compute intensity Ii for each pixel of the polygon
+4) Paint pixel to shade corresponding to Ii.
+How much memory is required to implement z-buffer algorithm for a 512 x 512 x 24 bit-plane image?
+Explanation :-
+In Z-buffer algorithm 2 buffers are used :- Frame Buffer & Depth Buffer
+Depth buffer is used to store depth values for (x, y) position, as surfaces are processed (0 < depth < 1).
+Frame buffer is used to store the intensity value of color value at each position (x, y).
+Total Space Required= Depth Buffer + Frame Buffer
+=512 * 512 * 24 + 512 * 512 * 24
+= 6291456 + 6291456 bits
+=12582912 bits
+=1572864 Bytes
+=1.5 MB
+To execute all loops at their boundaries and within their operational bounds is an example of White Box Testing.
+The level of aggregation of information required for operational control is Detailed whereas its strategic planning is Aggregate.
+Pixel mask is formed by digits 1 and 0 to determine the positions to create a plot within the line path.
+In graphics, the number of vanishing points depends on the perspective projections of any set of parallel lines that are not parallel to the projection plane.
+Throwable is the base class of all exceptions in java. Exception and Error are sub classes of Throwable.
+Clean room software engineering (CSE) is a process model that removes defects before they can precipitate serious hazards.
+It is a team-oriented, theory based software, which is developed using the formal methods, correctness verification and Statistical Quality Assurance (SQA).
+While designing the user interface, one should reduce the demand on short-term memory.
+Polymorphism is the ability of an object to take on many forms. The most common use of polymorphismin OOP occurs when a parent class reference is used to refer to a child class object. Any Java object that can pass more than one IS-A test is considered to be polymorphic.
+We can make a class abstract by making at least one member function as pure virtual function.
+The device which is used to connect a peripheral to bus is known as interface.
+Compression ratio in a typical mp3 audio file is 10:1
+The advantage of MOS devices over bipolar devices is that it allows higher bit densities and also cost effective,easy to fabricate.
+The Warnier diagram enables analyst to represent information hierarchy in a compact manner. It is also referred to as Warnier-Orr diagram.
+Apriori algorithm occupies large space due to more candidates and hence execution time is more because of more generation of candidates so every time there is scanning , it leads to generation of candidates.
+FP tree growth method has no candidate generation so it requires low memory and hence scaaning is not done multiple times which results in low execution time.
+Both are used to find frequent patterns , but FP tree method is more eficient to find difficult frequent patterns in large database.
+The raw throughput of USB 2.0 technology is 480 Mbps.
+PNG uses a non-patented lossless data compression algorithm method known as DEFLATE.
+Display controller simply reads each successive byte of data from the frame buffer.
+ML Concept		ML Algorithm
+Classification		K-Nearest Neighbour  
+Clustering		K-Means   
+Feature Extraction	Principal Component Analysis
+Feature Selection	Branch and Bound
+Regression testing,a kind of maintenance testing is used to confirm that a recent program or code change has not adversely affected existing features.
+There are 14 Relative Complexity Adjustment Factors in Function Point Analysis. They are as follows :-
+1. Requirement for reliable backup and recovery 
+2. Requirement for data communication
+3. Extent of distributed processing
+4. Performance requirements
+5. Expected operational environment
+6. Extent of online data entries
+7 Extent of multi-screen or multi-operation online data input.
+8. Extent of online updating of master files
+9. Extent of complex inputs, outputs, online queries and files
+10. Extent of complex data processing
+11. Extent that currently developed code can be designed for reuse
+12. Extent of conversion and installation included in the design
+13. Extent of multiple installations in an organization and variety of customer organizations
+14. Extent of change and focus on ease of use
+Key process area (KPA) used in CMM identifies a cluster of related activities that, when performed collectively, achieve a set of goals considered important. 
+Let R be the radius of the circle. What is the angle subtended by an arc of length R at the center of the circle? 1 radian or 57.3 degrees
+ZAP command deletes the entire file except the file structure.
+If a class C is derived from class B, which is derived form class A, all through public inheritance, then a class C member function can access public and protected data of A and B and all data of C.
+A cube of side 1 unit is placed in such a way that the origin coincides with one of its top vertices and the three axes along three of its edges. What are the co-ordinates of the vertex which is diagonally opposite to the vertex whose co-ordinates are (1, 0, 1)? (0, -1, 0)
+A circle cuts the axis at right angles.
+An ellipse cuts the axis at a angle less than 90.
+A parabola cuts parallel to the side of the cone.
+A hyperbola cuts parallel to the axis.
+Software Reliability is the probability of failure free software operation for a specified period of time in a specified environment.
+If a process is under statistical control, then it is predictable.
+fopen() returns a file pointer on success and NULL otherwise
+fclose() returns 0 on success and EOF otherwise
+ferror() checks the error indicator for the given file stream returning non-zero if set and 0 otherwise
+feof() checks the end of file indicator for the given file stream returning non-zero if set and 0 otherwise 
+The control string in C++ consists of format specifiers, white-space characters and non-white space characters classifications of characters
+Perceptron learning, Delta learning and LMS learning are learning methods which falls under the category of Error correction learning - learning with a teacher.
+RGB Color Mode stands for Red,Green,Blue
+HSV Color Mode stands for Hue, Stauration,Value
+HLS Color Mode stands for Hue, Stauration,Lightness
+CMY Color Mode stands for Cyan, Magenta, yellow is a subset of RGB.
+Line primitive has attributes type,width & color.
+Fill Area primitive has attributes style,color & pattern.
+Text primitive has attributes color,size & font.
+Marker primitive has attributes type,size & color.
+Two main methods for producing color in CRT Monitors are as below :-
+1. Beam Penetration Method
+2. Shadow-Mask Method
+Beam Penetration Method					Shadow Mask Method
+Used with Random Scan System					Used With Raster Scan System
+Can Displays Red , Green, Orange,Yellow 				Can Display Millions of colors
+Less Expensive as compared to Shadow Mask				More Expensive as compared to Beam Penetration
+Quality of picture is poor with Beam Penetration Method			Quality of picture is excellent with Shadow Mask Method
+It gives High Resolution.					It gives Low Resolution.
+Hibernation in computing is powering down a computer while retaining its state.
+Upon hibernation, the computer saves the contents of its random access memory (RAM) to a hard disk or other non-volatile storage.
+HTML is defined using SGML, an ISO-8879 standard, information processing-text and office systems (SGML) for text information processing.
+A* algorithm uses f'=g+h' to estimate the cost of getting from the initial state to the goal state, where g is a measure of cost getting from initial state to the current node and the function h' is an estimate of the cost of getting from the current node to the goal state. To find a path involving the fewest number of steps, we should test g=1
+Data warehouses are supposed to provide storage, functionality and responsiveness to queries beyond the capabilities of today's transaction-oriented databases.
+The quantiser in an image-compression system is a lossy element which exploits the psychovisual redundancy.
+Self-organizing maps are data visualization techniques which reduce the dimensions of data through the use of self-organizing neural networks.
+It is a type of unsupervised learning. The goal is to discover some underlying structure of the data.
+The pure object oriented programming language with extensive metadata available and modifiable at run time is Small talk.
+Smalltalk was one of the earliest object-oriented (OO) languages and can be said to be extremely "pure" in an OO sense having following properties -
+Everything is an object and objects are only communicated with via the sending of messages
+No primitives (no ints, booleans etc)
+No control structures (no for, while, if etc).
+The"a-part-of", relationship in which objects representing the components of something associated with an object in the entire assembly is called as an Aggregation.
+Umbrella activities are the activities that span across all the stages of the SDLC.
+Umbrella activities includes :-
+• software project management
+• formal technical reviews
+• software quality assurance
+• software configuration management
+• reusability management
+• measurement
+• document preparation and production
+• risk management
+Basis Path Testing is a white box method to analyze the control flow graph of a program and to find a set of linearly independent paths of execution.
+Unix Command 		Usage
+$? 			Exit status of last command  
+b. $# 			The number of arguments 
+c. $0 			File name of the current script
+d. $* 			List of arguments
+Rapid Application Development systems provide a number of tools to help build graphical user interfaces that would normally take a large development effort.
+A frame has a set of slots, A slot represents a relation to another frame. A slot has one or more facets,A facet represents some aspect of the relation.
+A Software error is a mismatch between the program and its specification OR
+A Software error is present in a program when the program does not do what its end user expects.
+Categories of Software Errors :-
+User Interface errors
+Function errors
+Hardware defects
+Requirements errors
+Design errors
+Documentation errors
+Architecture errors
+Module Interface errors
+Performance errors
+Boundary Related errors
+Logic errors
+Communication errors
+Term			Definition
+Correctness           		The extent to which a software meets its specifications 
+Accuracy               		Meeting specifications with precision
+Robustness           		The extent to which a software tolerates the unexpected problems
+Completeness       		The extent to which a software has specified functions
+CMMI Levels :-  
+Initial - the starting point for use of a new or undocumented repeat process.
+Repeatable - the process is at least documented sufficiently such that repeating the same steps may be attempted.
+Defined - the process is defined/confirmed as a standard business process.
+Managed - the process is quantitatively managed in accordance with agreed-upon metrics.
+Optimizing - process management includes deliberate process optimization/improvement.
+Halftoning is defined as a technique for using minimum number of intensity levels to obtain increased visual resolution.
+Depth Buffer/Z-Buffer Method
+An X x Y matrix is used to store all depth values of screen pixels.
+Take one object. Store its Z coordinate value to corresponding pixel.
+If another object also comes in same screen pixel, the pixel closer to observer will be saved.
+If dual has an unbounded solution, then its corresponding primal has no feasible solution.
+In a Linear Programming Problem, suppose there are three basic variables and 2 non-basic variables, then the possible number of basic solutions are 10.
+Explanation :-
+Total number of basic solutions are given by the equation = n!/m! * (n-m)!
+where m=3 no of basic variables and n=3+2 =5 total no of variables
+Hence Total Solution =5!/3!*2!=120/12=10
+The aspect ratio of an image describes the relationship between its width and its height. It is commonly expressed as two numbers separated by a colon, as in 16:9.
+Any maximization assignment problem can be converted into a minimization problem by subtracting each entry in the table from the maximum value in that table.
+Given an image of size 1024×1024 pixels in which intensity of each pixel is an 8-bit quality. It requires One Megabyte of storage space if image is not compressed.
+Linking to another place in the same or another webpage require two Anchor tags, the first with the HREF attribute and the second with the NAME attribute. 
+ServletContext defines a set of methods that a servlet uses to communicate with its servlet container which enables servlets to log events.
+ServletRequest defines an object to provide client request information to a servlet.
+ServletRequest object provides data including parameter name and values, attributes and an input stream.
+ServletResponse defines an object to assist a servlet in sending a response to the client.
+ServletContainer creates a ServletResponse object and passes it as an argument to the servlet's service method.
+The refresh rate above which a picture stops flickering and fuses into a steady image is called Critical Fusion Frequency
+Bresenham line drawing algorithm is attractive because it uses integer point arithmetic only.
+Digital Differential Analyzer drawing algorithm is unattractive because it uses floating point arithmetic only.
+An actor in an animation is a small program invoked once per frame to determine the characteristics of some object in the animation.
+Data Distribution Method for each RAID level - 
+RAID 0 Striping - Data is distributed among all the disks as blocks, sectors, or some other unit.
+RAID 1 Mirroring - Duplicate all data in another set of disks.
+RAID 2 Hamming Code - Error-correcting code is calculated for bits on data disk and stored in the corresponding bit positions on parity disks.
+RAID 3 Bit-interleaved parity - A simple parity bit is computed for all the bits in the same position on the data disks and stored in same bit position of parity disk.
+RAID 4 Block-interleaved parity - A parity strip is computed for all the strips in the same position on the data disks and stored in parity disk.
+RAID 5 Block-interleaved distributed parity - Distributes the parity strips across all disks. It is the most versatile RAID level.
+RAID 6 Block-interleaved dual distributed parity - Two different parity calculations are carried out and stored in separate blocks on different disks.
+Software safety is a software quality assurance activity that focuses on the identification and assessment of potential hazards that may affect software negatively.
+Mandel's Golden Rules for Interface Design are as follows - Place the user in control, Reduce the user’s memory load & Make the interface consistent.
+Equivalence partitioning is a black-box testing method that divides the input domain of a program into classes of data from which test cases can be derived.
+Watson-Felix Model is a cost estimation model.
+Quick Fix Model is a software maintenance approach in which we wait till problem occurs and fix it as quickly as possible
+Putnam Resource Allocation Model is used for effort estimation for a project and is used while planning a project.
+Logarithmic Poisson Execution Time Model is a model for Software Reliability Measurement.
+A* algorithm is guaranteed to find an optimal solution if h' never overestimates h.
+A*  is a computer algorithm that is widely used in path-finding and graph traversal.
+An expert system shell is an expert system without domain knowledge.
+An Audit Trail establishes information about when,why and by whom changes are made in a Software.
+The factors that determine the quality of a software system are correctness, reliability, efficiency, usability, maintainability, testability, portability & accuracy.
+Functions defined with class name are called a constructor.
+The Object-Modelling Technique (OMT) describes Object model or static structure of the system.
+OMT has proposed three main types of models :-
+Object Model: The object model represents the static modelled domain. Main concepts are classes and associations with attributes and operations. Aggregation and generalization (with multiple inheritance) are predefined relationships.
+Dynamic Model: The dynamic model represents view on the model. Main concepts are states, transitions between states, and events to trigger transitions. Actions can be modelled as occurring within states. Generalization and aggregation (concurrency) are predefined relationships.
+Functional Model: The functional model handles the process perspective of the model. Main concepts are process, data store, data flow, and actors.
+OMT is a predecessor of the Unified Modelling Language (UML).
+If an artificial variable is present in the ‘basic variable’ of optimal simplex table then the solution is infeasible solution.
+The Blocks World Problem in Artificial Intelligence is normally discussed to explain a planning system.
+Classification Technique is a systematic approach to build classification models from an input data set.
+For example, decision tree classifiers, neural networks, support vector machines, and naive Bayes classifiers are different technique to solve a classification problem.
+XSTL - eXtensible Style Sheet Language Transformations is a language for transforming XML documents into other XML documents.
+Software architecture of a program is the structure of the system, which comprise software components,properties of these components and relationship among them.
+Method Overloading happens at compile time while Method Overriding happens at run time.
+A friend function of a class is defined outside that class scope but it has the right to access all private and protected members of the class. 
+The map colouring problem can be solved using constraint satisfaction technique.
+If f(x, y) is a digital image, then x, y and amplitude values of f are Finite.
+The number of distinct binary images which can be generated from a given binary image of right M × N are 2^MN.
+If 40 black lines interleaved with 40 white lines can be distinguished across one inch, the resolution is 40 line-pairs per inch.
+In homogenous coordinate system (x, y, z) the points z=0 are called point of infinity.
+A diametric projection is said to be trimetric projection when two of the three foreshortening factors are equal and third is arbitrary.
+MPEG involves both spatial compression and temporal compression. The former is similar to JPEG, and the latter removes redundant frames.
+Two modules are stamp coupled if they communicate via a passed data structure that contains more information than necessary for them to perform their functions.
+There are four types of maintenance. They are as follows :-
+Corrective Maintenance :- It is concerned with fixing errors that are observed when the software is in use.
+Adaptive Maintenance :- It is concerned with the change in the software that takes place to make the software adaptable to new environment.
+Perfective Maintenance :- It is concerned with the change in the software that occurs while adding new functionalities in the software.
+Preventive Maintenance :- It involves implementing changes to prevent the occurrence of errors.
+Error refers to the discrepancy among a computed, observed or measured value and the true specified or theoretically correct values.
+A factless fact table is a fact table that does not have any measures. It is essentially an intersection of dimensions.
+There are two types of factless tables - One is for capturing an event, and one is for describing conditions.
+Debugger allows to set breakpoints, execute a segment of program and display contents of register.
+An optimal assignment requires the minimum number of horizontal and vertical lines that can be drawn to cover all zeros be equal to the number of rows or columns.
+Active X controls are Pentium binary programs that can be embedded in Web Pages.
+In Cyrus-Beck algorithm the value of t parameter is computed by the relation - (f-p1)/(p2-p1) where f is a value from point & p1 and p2 are end points.
+A technique used to approximate halftones without reducing spatial resolution is known as Dithering.
+Location transparency allows users,programmers & managers to treat the data as if it is done at one location.
+Distributed system represents a global view of the network and considers it as a virtual uniprocessor system by controlling and managing resources across the network on all the sites.
+Converting a primitive type data into its corresponding wrapper class object instance is called Autoboxing.
+Synchronized methods are utilized to control the access to an object in multi-threaded programming.
+Important advantage of using new and delete operators in C++ is we can allocate and deallocate memory at any time.
+Function points can be calculated by UFP * CAF, where UFP =unadjusted function points & CAF =complexity adjustment factor
+An A* algorithm is a heuristic search technique which generates all successor nodes and computes cost from start node to goal node and chooses the successor with shortest cost.
+When the inheritance is private, the private methods in base class are inaccessible in the derived class.
+Temporal cohesion happens when parts of a module are grouped by when they are processed at a particular time in program execution 
+Example - A function which is called after catching an exception which closes open files, creates an error log, and notifies the user.
+FANIN of a component A is defined as count of the number of components that can call, or pass control, to a component A.
+FANOUT of a component A is defined as count of the number of components that can be called by component A.
+The transformation required for conversion of CMY colour model to RGB colour model is - [R G B] = [1 1 1] - [C M Y]
+Squash and Stretch & Slow-in and Slow-out are applied in case of Animation.
+Two successive translations are additive since translation are just addition by translating vector or displacement hence it is additive.
+Two successive relations are additive since rotation are done with some angles (angles will be added or subtracted).
+Two successive scaling operations are multiplicative since scaling is done by multiplying by scaling vectors
+Applet Life Cycle - init()->start()->paint()->stop()->destroy()
+Stereotype, tags and constraints are used for extending the UML.
+They allow designers to extend the vocabulary of UML in order to create new model elements which are derived from existing ones.
+ A Stereotype is rendered as a name enclosed by <<  >>
+A stereotype cannot be used by itself, but must always be used with one of the metaclasses it extends & cannot be extended by another stereotype.
+The behaviour of the document elements in XML can be defined by using document object, registering appropriate event handlers & using element object.
+In XML we can specify the frequency of an element by using symbols +*?
+In Java, when we implement an interface method, it must be declared as Public
+The five main primitives in GKS are :-
+polyline which draws a sequence of connected line segments.
+polymarker which marks a sequence of points with the same symbol.
+fill area which displays a specified area.
+text which draws a string of characters &
+cell array which displays an image composed of a variety of colours or grey scales.
+Message Passing Interface (MPI) is a standardized and portable message-passing system which can run on any hardware platform.
+The PVM communication model provides asynchronous blocking send, asynchronous blocking receive, amd non-blocking receive function
+The PVM communication model assumes that any task can send a message to any order PVM task and that there is no limit to the size or number of such messages.
+In PVM model, the message order is not preserved & message buffers are allocated dynamically.
+Cohesion is a natural extension of the information hiding concept.
+A cohesive module performs a single task within a software procedure, requiring little interaction with procedures being performed in other parts of software
+Types of cohesion
+A module that performs tasks that are related logically is logically cohesive.
+When a module contains tasks that are related by the fact that all must be executed with the same span of time, the module exhibits temporal cohesion.
+At the low-end of the spectrum, a module that performs a set of tasks that relate to each other loosely, called coincidentally cohesive.
+Classic Waterfall Model Life Cycle :-
+Requirement Analysis & Gathering->Designing->Implementation->Testing->Deployment->Maintenance
+Waterfall Model is also referred to a linear-sequential life cycle model.
+Waterfall Model is very simple to understand and use. In a waterfall model, each phase must be completed fully before the next phase can begin.
+In Waterfall Model phases do not overlap.
+The occurrence of degeneracy while solving a transportation problem means that the solution so obtained is not feasible.
+If an artificial variable is present in the ‘basic variable’ column of optimal simplex table, then the solution is not feasible.
+The transfer function of a Butterworth lowpass filter of order n with cutoff frequency at distance D0 from the origin is defined as H(u,v) =  1/1+(D(u,v)/D0)^2n
+In the Hungarian method for solving assignment problem, an optimal assignment requires the maximum number of lines that can be drawn through squares with zero opportunity cost be equal to the number of rows or columns.
+A CRT(Cathode Ray Tube) is an electronic tube designed to display electrical data.
+The basic CRT consists of four major components.
+1. Electron Gun  
+2. Focussing & Accelerating Anodes 
+3. Horizontal & Vertical Deflection Plates &
+4. Evacuated Glass Envelope
+A Software Design is highly modular if cohesion is functional cohesion and coupling is data type coupling.
+In XML, DOCTYPE declaration specifies to include a reference to Document Type Definition file.
+In CRC based design, a CRC Team consists of one or two users representatives, one or two system analysts & project co-ordinators.
+Forward chaining systems are Data driven whereas backward chaining systems are Goal driven.
+Error leads to fault, fault leads to Bug, Bug leads to failure and at last failure leads to defect.
+There are four views regarding the design of a data warehouse system. They are as follows :- 
+I.Top-Down view
+This view allows selection of the relevant information which is necessary for the data warehouse
+II.Data source view
+This view exposes the information being captured, stored, and managed by operational systems
+III.Data warehouse view
+This view consists of fact tables and dimension tables
+IV.Business query view
+This view sees the perspectives of data in the warehouse from the view of end-user
+OLAP system is market oriented and is used for data analysis by knowledge workers including Managers, Executives & Analysts.
+A data cube C has n dimensions and each dimensions has exactly p distinct values in the base cuboid, the maximum number of cells possible in the data cube 
+C can be calculated by the equation - (p+1)^n
+Parallel computing means that different activities happen at the same time i.e spread out a single application over many many cores/processors/processes to get it done bigger/faster. Current big parallel computers have 100 thousand to a million parallel processors/cores/threads/whatever.
+Trojan horse is a program that performs a legitimate function that is known to an operating system or its user and also has a hidden component that can be used for malicious purposes like attacks on message security or impersonation.
+A point P(5,1) is rotated by 90 degree about a pivot point (2,2). What is the coordinate of new transformed point P?
+Solution :-
+Translation  (5-2,1-2) = (3,-1)
+Rotation      x=xcos90-ysin90 =3.0+1 = 1 ; y=ycos90-xsin90 =0+3 =3
+Translation  (1+2,3+2)= (3,5)
+In perspective projection, if a line segment joining a point which lies in front of the viewer to a point in back of the viewer is projected to a broken line of infinte extent is known as topological distortion.
+The Principle Components of a Memory Tube Display are as follows - 
+Flooding Gun
+Collector
+Phosphorus Grains &
+Ground
+The distributed system is a collection of tightly coupled software and communication is achieved in distributed system by loosely coupled hardware and message passing.
+Basic Feasible Solution - A feasible solution to LP problem which is also the basic solution is called the “basic feasible solution”.
+Basic feasible solutions are of two types :-
+(a) Degenerate: A basic feasible solution is called degenerate if value of at least one basic variable is zero.
+(b) Non-degenerate: A basic feasible solution is called ‘non-degenerate’ if all values of m basic variables are non-zero and positive.
+Blind image disconvolution is combination of blur identification and image restoration.
+In constraint satisfaction problem, constraints can be stated as arithmetic equations and inequalities that bind the values of variables.
+Language model used in LISP is functional programming.
+Reasoning strategies used in expert systems includes forward chaining, backward chaining and problem reduction.
+Forward Chaining: Expert system is driven by the antecedent (left hand side)
+Backward Chaining: Expert system is driven by the consequent (right hand side)
+An interface is an empty shell there are only signatures of the methods which implies that the methods do not have a body. The interface can't do anything.
+The key technical differences between an abstract class and an interface are:
+Abstract classes can have constants, members,methods without a body and defined methods, whereas interfaces can only have constants and methods stubs.
+Methods and members of an abstract class can be defined with any visibility, whereas all methods of an interface must be defined as public.
+A child class can only extend a single class (abstract or concrete), whereas an interface can extend or a class can implement multiple other interfaces.
+A child class define abstract methods with same or less restrictive visibility, whereas a class implementing an interface must define methods with exact same visibility.
+Reverse engineering is the process of extracting knowledge or information from anything man-made and re-producing it based on the extracted information.
+Data Scrubling/Data Cleaning is a process of removing data in a database that is incorrect, incomplete, improperly formatted, or duplicated before sending it into data warehouse.
+Accuracy of a software refers to the deviation of a measurement from a standard or true value of the quantity being measured.
+Correctness of a software is the degree to which a system is free from [defects] in its specification, design, and implementation.
+Robustness of  a software is the degree to which a system continues to function in the presence of invalid inputs or stressful environmental conditions.
+Reliability of a software is the ability of a system to perform its requested functions under stated conditions whenever required.
+Active X controls are Pentium binary programs that can be embedded in web pages.
+int (*f())[ ]; A function returning a pointer to an array of integers.
+int *f()[ ]; : A function returning an array of pointers to integers.
+The region of feasible solution of a linear programminig problem has a convexity property in geometry, provided the feasible solution of the problem exists.
+A chain code is a lossless compression algorithm for monochrome images. The basic principle of chain codes is to separately encode each connected component or "blob" in the image.
+For each such region, a point on the boundary is selected and its coordinates are transmitted. The encoder then moves along the boundary of the region and, at each step, transmits a symbol representing the direction of this movement.
+This continues until the encoder returns to the starting position, at which point the blob has been completely described, and encoding continues with the next blob in the image.
+This encoding method is particularly effective for images consisting of a reasonably small number of large connected components.
+Run-length encoding (RLE) is a simple form of lossless data compression in which runs of data i.e sequences in which the same data value occurs in many consecutive data elements are stored as a single data value and count, rather than as the original run.
+A quadtree is a tree data structure in which each internal node has exactly four children. Quadtrees are most often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions. The regions may be square or rectangular, or may have arbitrary shapes. This data structure was named a quadtree by Raphael Finkel and J.L. Bentley in 1974.      
+3D projection is a method of mapping three-dimensional points to a two-dimensional plane.
+Software risk estimation involves risk probability and risk impact.
+A server crashes on the average once in 30 days, that is, the Mean Time Between Failures (MTBF) is 30 days. When it happens it takes 12 hours to reboot it, that is, Mean Time To Repair (MTTR) is 12 hours. The availability of server with these reliability data values is approximately 98.3%.
+A = MTBF / (MTBF+MTTR)
+So MTBF=30day=30*24=720 hr
+A=720/(720+12)
+=98.3%
+When one object reference variable is assigned to another object reference variable then a copy of the reference is created.
+There are four kinds of nested classes in Java. In brief, they are as follows :-
+static class: declared as a static member of another class
+inner class: declared as an instance member of another class
+local inner class: declared inside an instance method of another class
+anonymous inner class: like a local inner class, but written as an expression which returns a one-off object
+The implicit return type of a class constructor is the class type itself. It is the constructor's job to initialise the internal state of an object.
+The COCOMO model was introduced in the book title “Software Engineering Economics” authored by Barry Boehm.
+In JAVA,class cannot be declared as static.
+For a program of k variables, boundary value analysis yields 4k+1 test cases.
+For a program of k variables, robustness testing yields 6k+1 test cases.
+For a program of k variables, worst case testing yields 5^k test cases.
+Data Mining uses data set,information set and process set to build effective predictive model.
+The Warnier diagram enables analyst to represent information hierarchy in a compact manner.
+A top-down approach is essentially the breaking down of a system to gain insight into the sub-systems that make it up.
+In a top-down approach an overview of the system is formulated, specifying but not detailing any first-level subsystems.
+Each subsystem is then refined in yet greater detail, sometimes in many additional subsystem levels, until the entire specification is reduced to base elements.
+A loop invariant is a condition among program variables that is necessarily true immediately before and immediately after each iteration of a loop. 
+The data transfer rate of a double-density floppy disk system is about 500K bits/sec.
+Brainstorming is a group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members.
+A version is an instance of a system, which is functionally distinct in some way from other system instances.
+A release is an instance of a system, which is distributed to users outside of the development team.
+External Quality Characteristics of a software product :-
+Correctness, Usability, Efficiency, Reliability, Integrity, Adaptability, Accuracy, and Robustness.
+Internal Quality Characteristics of a software product :- 
+Maintainability, Flexibility, Portability, Re-usability, Readability, Testability, and Understandability.
+The ISO quality assurance standard that applies to software Engineering is ISO 9001 : 2000
+Java uses thread to enable Asynchronous threading to improve CPU efficiency.
+Software Model			Functionality
+Code & Fix Model			Write some code, debug it, repeat.
+Evolutionary Model			Build an initial small requirement specifications, code it, then “evolve” the specifications & code as needed
+Spiral Model			Assess risks at each step; do most critical action first.
+Waterfall Model			Standard phases (requirements, design, code, test) in order
+<address> </address> tag in HTML is used to surround information, such as signature of the person who created the page.
+Every class containing abstract method must be declared abstract.
+Abstract class can not be directly be initiated with ‘new’ operator.
+Abstract class can be initiated.
+Abstract class does not contain any definition of implementation.
+Composition is a strong type of association between two classes with full ownership.
+Method overriding can be prevented by using final as a modifier at the start of method declaration.
+In perspective projection objects behind the center of projection are projected upside down and backward on the view-plane is known as View Confusion.
+Topological Distortion is a  line segment joining a point lying in front of the viewer to a point in back of the viewer is projected to a broken line of infinite extent.
+Size of object varies inversely with the distance from the center of projection can be termed as perspective shortening.
+Points where set of parallel lines (not parallel to view plane) appear to meet are called vanishing points.
+Consider a N-bit plane frame buffer with W-bit wide lookup table with W>N. How many intensity levels are available at a time ? 2^N
+How long it would take to load a 512 x 480 frame buffer with 12 bits per pixel,if 1000 bits can be transferred per second? 
+Solution :- Total number of bits=12*512*480 =2949120=2949.120 seconds
+Operators which cannot be overloaded
+?: (conditional)
+. (member selection)
+.* (member selection with pointer-to-member)
+:: (scope resolution)
+sizeof (object size information)
+typeid (object type information)
+XPath is used to navigate through elements and attributes in XML document.
+Estimation at software development effort for organic software in basic COCOMO is E = 2.4*(KLOC)^1.05 PM
+Newton-Raphson method is a root-finding algorithm for finding successively better approximations to the roots or zeroes of a real-valued function.
+Insertion sorting algorithm is best if the list has exactly half of the elements are in correct position.
+MTBF = MTTF + MTTR where,
+MTBF = Mean Time Between Failure
+MTTF = Mean Time To Failure &
+MTTR = Mean Time To Repair
+Order of Constructor Invocation is Base Class then Derived Class while order of Destructor Invocation is Derived Class and then Base Class.
+Cyclomatic Complexity - Cyclomatic Complexity is a measure of the control complexity of a program.
+Length of Identifiers - It is the measure of average length of identifiers (names for variables. classes, methods, etc.) in a program.
+The longer the identifiers, the more likely they are to be meaningful and hence the more understandable the program.
+Conditional Nesting - It is the measure of the depth of nesting of if-statements in a program.
+Deeply nested if-statements are hard to understand and potentially error-prone.
+Fog Index - It is the measure of the average length of words and sentences in documents.
+The higher the value of a document's Fog Index. the more difficult the document is to understand. 
+In software maintenance tackling the changes in the hardware or software environment where the software works is adaptive maintenance.
+The Capability Maturity Model (CMM) is a methodology used to develop and refine an organization's software development process.
+The model describes a five-level evolutionary path of increasingly organized and systematically more mature processes. 
+SATA stands for Serial Advanced Technology Attachment.
+UML 2.0 diagrams which capture behavioral aspects of a system :-
+Activity Diagram
+Communication Diagram
+Interaction Diagram
+State Machine Diagram
+Timing Diagram
+Use-Case Diagram
+Files that are related to input/output and are used to model serial I/O devices such as terminals, printers and networks are called block special files.
+The Constructive Cost Model (COCOMO) is a procedural software cost estimation model developed by Barry W. Boehm.
+CMM classifies software development industries into the following five maturity levels. The different levels of SEI CMM have been designed so that it is easy for an organization to slowly build its quality system starting from scratch.
+Level 1: Initial. A software development organization at this level is characterized by ad hoc activities. Very few or no processes are defined and followed. Since software production processes are not defined, different engineers follow their own process and as a result development efforts become chaotic. Therefore, it is also called chaotic level. The success of projects depends on individual efforts and heroics. When engineers leave, the successors have great difficulty in understanding the process followed and the work completed. Since formal project management practices are not followed, under time pressure short cuts are tried out leading to low quality.
+Level 2: Repeatable. At this level, the basic project management practices such as tracking cost and schedule are established. Size and cost estimation techniques like function point analysis, COCOMO, etc. are used. The necessary process discipline is in place to repeat earlier success on projects with similar applications. Please remember that opportunity to repeat a process exists only when a company produces a family of products.
+Level 3: Defined. At this level the processes for both management and development activities are defined and documented. There is a common organization-wide understanding of activities, roles, and responsibilities. The processes though defined, the process and product qualities are not measured. ISO 9000 aims at achieving this level.
+Level 4: Managed. At this level, the focus is on software metrics. Two types of metrics are collected. Product metrics measure the characteristics of the product being developed, such as its size, reliability, time complexity, understandability, etc. Process metrics reflect the effectiveness of the process being used, such as average defect correction time, productivity, average number of defects found per hour inspection, average number of failures detected during testing per LOC, etc. Quantitative quality goals are set for the products. The software process and product quality are measured and quantitative quality requirements for the product are met. Various tools like Pareto charts, fishbone diagrams, etc. are used to measure the product and process quality. The process metrics are used to check if a project performed satisfactorily. Thus, the results of process measurements are used to evaluate project performance rather than improve the process.
+Level 5: Optimizing. At this stage, process and product metrics are collected. Process and product measurement data are analyzed for continuous process improvement. For example, if from an analysis of the process measurement results, it was found that the code reviews were not very effective and a large number of errors were detected only during the unit testing, then the process may be fine tuned to make the review more effective. Also, the lessons learned from specific projects are incorporated in to the process. Continuous process improvement is achieved both by carefully analyzing the quantitative feedback from the process measurements and also from application of innovative ideas and technologies. Such an organization identifies the best software engineering practices and innovations which may be tools, methods, or processes. These best practices are transferred throughout the organization.
+In C++, a Copy Constructor may be called in following cases :-
+When an object of the class is returned by value.
+When an object of the class is passed to a function by value as an argument.
+When an object is constructed based on another object of the same class.
+When compiler generates a temporary object.
+Software Engineering is a discipline that integrates processes,methods & tools for the development of computer software.
+Black Box Testing, also known as Behavioral Testing, is a software testing method in which the internal structure/ design/ implementation of the item being tested is not known to the tester. These tests can be functional or non-functional, though usually functional.
+A tester, without knowledge of the internal structures of a website, tests the web pages by using a browser; providing inputs (clicks, keystrokes) and verifying the outputs against the expected outcome.
+Any error whose cause cannot be identified anywhere within the software system is called External Error.
+A virtual function cannot be global or static because, by definition, a virtual function is a member function of a base class and relies on a specific object to determine which implementation of the function is called. You can declare a virtual function to be a friend of another class.
+Let m=313 Base 4  and n=322 Base 4.Find the base 4 epansion of m+n.
+Solution :-
+Binary Equivalent of m is 11 01 11 Base 2
+Binary Equivalent of n is 11 10 10 Base 2
+Adding (11 01 11  +  11 10 10) Base 2,we get 1 11 00 01 Base 2 which is equal to 1301 Base 4.
+The three aspects of quantization, programmers generally concerned with are sampling rate, aperture time & coding error.
+With respect to CRT, the horizontal retrace is defined as the path an electron beam takes when returning to the left side of the CRT..
+With respect to CRT, the vertical retrace is defined as the path an electron beam takes when returning to the right side of the CRT.
+Main components of Memory Tube Display are enlisted below :-
+Flood Gun
+Primary Gun
+Writing Beam
+Collector
+Storage Grid
+Screen
+Focusing & Deflection System
+Flood Electron
+Ground/Base
+Successive layer of design in software using bottom-up design is called layer of abstraction.
+The testing of software against SRS is called acceptance testing.
+Snowflake schema consists of a fact table surrounded by multiple dimension tables which mainly are normalized usually in 3NF Form
+Principles of Agile Philosophy :-
+Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.
+Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+Business people and developers must work together daily throughout the project.
+Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+Working software is the primary measure of progress.
+Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+Continuous attention to technical excellence and good design enhances agility.
+Simplicity the art of maximizing the amount of work not done—is essential.
+The best architectures, requirements, and designs emerge from self– organizing teams.
+At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+In Distributed system, the capacity of a system to adapt the increased service load is called scalability.
+Cohesion are of seven types. They are as follows :-
+Functional Cohesion - A functional cohesion performs the task and functions of every essential element for a single computation in the component.
+Sequential Cohesion - An element outputs some data that becomes the input for other element, i.e. data flow between the parts.
+Communicational Cohesion - Two elements operate on the same input data or contribute towards the same output data.
+Procedural Cohesion - Elements of procedural cohesion ensure the order of execution. Actions are still weakly connected and unlikely to be reusable. 
+Temporal Cohesion - Elements are related by their timing involved. A module connected with temporal cohesion all the tasks must be executed in the same time-span.
+Logical Cohesion - Elements are logically related and not functionally. Operations are related, but the functions are significantly different.
+Coincidental Cohesion - Elements are unrelated. The elements have no conceptual relationship other than location in source code. It is the worst form of cohesion.
+The network capacity in neural netwok is the number of fundamental memories or the number of patterns that can be stored and recalled in a network.
+Cloaking is a search engine optimization technique in which the content presented to the search engine spider is different from that presented to the user's browser.
+A prison houses 100 inmates, one in each of 100 cells, guarded by a total of 100 warders. One evening, all the cells are locked and the keys left in the locks. As the first warder leaves, she turns every key, unlocking all the doors. The second warder turns every second key, re-locking every even numbered cell. The third warder turns every third key and so on. Finally the last warder turns the key in just the last cell. Which doors are left unlocked and why?
+Solution :- The square number of cells are left unlocked, i.e 1,4,9,16,25,36,49,64,81,100.
+A simple software utility is to be developed in ’C’ programming by a team of software experts for a computer running Linux and the overall size of this software is estimated to be 20,000 lines of code.Considering (a, b) = (2.4,1.05) as multiplicative and exponention factor for the basic COCOMO effort estimation equation and (c, d)=(2.5,0.38) as multiplicative and exponention factor for the basic COCOMO development time estimation equation, approximately how long does the software project take to complete ?
+Solution :- We have 20,000 LOC=20 KLOC 
+We knew that,
+Effort=a*(KLOC)^b PM
+Tdev=c*(Effort)^d Months
+Calculating both we get,
+Effort=2.4*(20)^1.05 PM =55.756
+Tdev=2.5*(55.756)^0.38 Months =11.52 Months
+Consider the following information of a source code given below :-
+10 operators are used which includes 4 unique operators. 
+6 operands are used which include 4 unique operands. 
+Estimate the program length N = N1 + N2 = 10 + 6 = 16
+Estimate the vocabulary	       n = n1 + n2 = 4 + 4 = 8
+Estimate the volume	       V = N*logbase2*n = 16*logbase2*8=16*3=48
+In artificial Intelligence (AI), an environment is uncertain if it is not fully observable and not deterministic.
+In artificial Intelligence (AI), a simple reflex agent selects actions on the basis of current percept and completely ignoring rest of the percept history.
+In convex minimization problem, if a local minimum exists then it is global minimum.
+The set of global minima is convex in convex minimization problem.
+For each strictly convex function, if the function has a minimum then the minimum is unique.
+The Painter’s algorithm sorts polygons by depth and then paints each polygon to the screen starting with the most farthest polygon.
+Perform window to viewport transformation for the point (20,15). Assume that
+Xwmin,Ywmin = (0,0)
+Xwmax,Ywmax= (100,100)
+Xvmin,Yvmin= (5,5)
+Xvmax,Yvmax=(20,20)
+Solution :- We have Xw,yw=(20,15)
+We have to find out Xv,Yv.
+We knew that Xv-Xvmin/Xvmax-Xvmin = Xw-Xwmin/Xwmax-Xwmin
+Xv-5/20-5=20-0/100-0
+Xv-5/15=20/100
+Xv-5=20*15/100
+Xv-5=3
+Xv=3+5
+Xv=8
+We knew that Yv-Yvmin/Yvmax-Yvmin = Yw-Ywmin/Ywmax-Ywmin
+Yv-5/20-5=15-0/100-0
+Yv-5/15=15/100
+Yv-5=15*15/100
+Yv-5=2.25
+Yv=2.25+5
+Yv=7.25
+Refactoring is the process of changing a software system in such a way that it does not alter the external behavior of the code yet improves the internal architecture.
+A software design pattern often used to restrict access to an object is proxy.
+Coupling is defined as the extent to which a system, subsystem, method or module depends on others.Coupling measures interdependency.
+Types of Coupling :-
+Content coupling - modules rely on each others’ internal data or internal organization
+Common coupling - modules share the same global data
+External coupling - modules share an externally imposed data format, communication protocol or device interface
+Control coupling - one module controls the flow of another, such as by passing it a flag or other information
+Stamp coupling - modules share a composite data structure but use different parts of it
+Data coupling - modules share data through parameters, such as in a subroutine call
+Message coupling - modules communicate by passing messages.
+A graphic display system has a frame buffer that is 640 pixels high,480 pixels high and 1 bit of color depth. If the access time for each pixel on the average is 200 nanoseconds, then the refresh rate of this frame buffer is 16 frames per second.
+Baud rate measures the number of symbols transmitted per second.
+If a graph requires k different colors for its proper coloring,  then chromatic number of the graph is k.
+How many complex numbers z are there such that z+1=z+i and z=5? 2 (i.e. sqrt(5)+i*sqrt(5) & sqrt(5)-i*sqrt(5))
+The reflection of the point (1,2) with respect to the line x+2y=15 is (5,10).
+(cos 100+i sin100)(cos 100+i sin100) is equal to 1/2(-sqrt(3)-i)
+A software system has 940 modules. The latest release required that 90 of these modules be changed. In addition, 40 new modules were added and 12 old modules were removed. Compute the software maturity index for the system.
+Solution :-
+We knew that Software Maturity Index =  Mt – ( Fa + Fc + Fd)/Mt 
+where
+Mt – is the number of software functions/modules in the current release = 940 in our case
+Fc – is the number of functions/modules that contain changes from the previous release = 90 in our case
+Fa – is the number of functions/modules that contain additions to the previous release = 40 in our case
+Fd – is the number of functions/modules that are deleted from the previous release = 12 in our case
+Putting altogether these values, we get
+SMI =(940 - (40 + 90 + 12 ))/940 =0.8489
+A Web Application and its support environment has not been fully fortified against attack. Web engineers estimate that the likelihood of repelling an attack is only 30 percent. The application does not contain sensitive or controversial information, so the threat probability is 25 percent. What is the integrity of the web application?
+Solution :-
+We knew that Integrity of Web Application = (1- Threat*(1 - Security))
+Here Threat=0.25 & Security=0.3
+Thus Integrity = (1-0.25(1-0.3)) = 1-(0.25*0.70)=1-0.175=0.825
+Software validation mainly checks for inconsistencies between detailed specifications and user requirements.
+Software validation is performed to ensure that the product actually meets the user's needs and specifications were correct in the first place.It also demonstrate that the product fulfills its intended use when placed in its intended environment.
+Artificial Intelligence Methods		Minimal
+Greedy Best First			Minimal Heuristic Cost from current node to goal node
+Lowest Cost First 			Minimal Cost to reach a particular node
+A* Algorithm			Minimal Cost to reach a particular node+Heuristic Cost from current node to goal node
+The STRIPS representation is an action-centric representation which for each action specifies when the action can occur and the effects of the action. 
+STRIPS stands for “STanford Research Institute Problem Solver” was the planner used in Shakey, one of the first robots built using AI technology.
+Different Defuzzification Methods :-
+1.Center of Sums Method (COS) 
+2.Center of Gravity Method (COG)
+3.Bisector of Area Method (BOA) 
+4.Weighted Average Method (WA)
+5.Centroid of Area Method (COA) 
+First of Maxima Method (FOM) 
+Last of Maxima Method (LOM) 
+Mean of Maxima Method (MOM)
+Genetic Algorithm Phases -
+1.Initial Population
+2.Fitness Function
+3.Selection
+4.Cross Over &
+5.Mutation
+A self-organizing map (SOM) is a type of artificial neural network that uses unsupervised learning to build a two-dimensional map of a problem space.
+Consider a raster system with resolution 640 by 480. What size is frame buffer in bytes for this system to store 12 bits per pixel ?
+Resolution = 640*480 pixels
+No of bits per pixel=12
+Frame Buffer Size = Resolution* No. of bits per pixel
+                            = 640*480*12 bits 			= 3686400 bits
+                            = (640*480*12) / 8			= 460800 Bytes (1 bit = 1/8 Bytes) 
+                            = (640*480*12) / (8 * 1024)		= 450 Kilo Bytes (1 Bytes = 1/ 2^10 Kilo Bytes)
+Orthographic projection is a form of parallel projection in which all the projection lines are orthogonal to the projection plane resulting in every plane of the scene appearing in affine transformation on the viewing surface.
+Using the phong reflectance model, the strength of the specular highlight is determined by the angle between the reflected vector and the view vector.
+A software design is said to be a good design, if the components are strongly cohesive and weakly coupled.
+A minimal test set that achieves 100% path coverage will also achieve 100% statement coverage & will generally detect more faults than one that achieves 100% statement coverage.
+Software reuse is the process of creating new software systems from pre-defined software components.
+Let the sides opposite to the angles A,B,C in a triangle ABC be represented by a,b,c respectively. If (c+a+b)(a+b-c)=ab, then the angle C is 120.
+Determining whether you have built the right system is called Software Validation.
+Determining whether you have built the system right is called Software Verification.
+For overloaded functions in C++,compiler sets up a separate function for every definition of function.
+Software Product Aspects addressed by McCall’s Software Quality Factors are as follows :-
+Ability to undergo change
+Adaptiability to new environments
+Operational characteristics
+The prototyping model of software development is a useful approach when a customer cannot define requirements clearly.
+A software design pattern used to enhance the functionality of an object at run-time is Decorator.
+In a class definition with 10 methods to make the class maximally cohesive maximum number of direct connections required among the methods are 45
+Solution :- Here n=10 and we knew that to make the class maximally cohesive every method should be related to every other method.
+Thus maximum number of direct connections = n*(n-1)/2 = 10*9/2 = 90/2 = 45 Direct Connections
+The defect rate for Six Sigma is 3.4 defects per million lines of code.
+The Function Point metric is calculated from software’s complexity assessment.
+A data warehouse is always subject oriented.
+Scan Conversion is a process of representing continuous graphics objects into a discrete collection of pixels in either on or off state.
+Aliasing effect in scan conversion occurs due to bad sampling of scan lines over the object which occurs due to discontinuity of objects.
+Abstraction means working with something we know how to use without knowing how it works internally.
+Encapsulation allows us to focus on what something does without considering the complexities of how it works.
+The maximum size of SMS in IS-95 is 120 octets.
+Link analysis operation in data mining uses Association Discovery Technique and generates new rules as it analyzes more data.
+2 wires are threaded through the cores in a coincident-current core memory.
+Object oriented inheritance models "is a kind of" relationship.
+The noise due to random behavior of charge carriers is Shot Noise.
+An analog electrical signal is a signal with infinite number of amplitudes in the range of values of independent variable. 
+A sinusoidal signal is always an analog signal because it can have a number of values between the negative and positive peaks.
+The T Carrier is a member of the series of carrier systems developed by AT&T Bell Laboratories for digital transmission of multiplexed telephone calls.
+The first version,Transmission System 1 was introduced in 1962 and could transmit 24 telephone calls simultaneously over a single transmission line of copper wire.
+T-carrier is a hardware specification for carrying multiple time-division multiplexed (TDM) telecommunications channels over a single four-wire transmission circuit.  
+T-carriers are commonly used for trunking between switching centers in a telephone network including to private branch exchange (PBX) interconnect points.
+A low pass filter passes the frequencies lower than the specified cut off frequency, rejects higher frequencies & is used to recover signals from sampled signals.
+Standard IOS Class Functions :-
+width(): The width method is used to set the required field width. The output will be displayed in the given width
+precision(): The precision method is used to set the number of the decimal point to a float value
+fill(): The fill method is used to set a character to fill in the blank space of a field
+setf(): The setf method is used to set various flags for formatting output
+unsetf(): The unsetf method is used To remove the flag setting
+LOC is a software metric used to measure the size of a software program by counting the number of lines in the text of the program's source code.
+LOC is mainly used to predict the amount of effort that will be required to develop a program & to estimate programming productivity once the software is produced.
+The IETF standard documents are called RFC.
+Data Flow is described by means of Data Flow Diagrams and represented in algebraic form as described in data flow diagrams.
+The sequence of operation in which PCM is done is Sampling->Quantizing->Encoding.
+Cohesion between modules can be ranked in the order of highest to lowest as follows - 
+Functional Cohesion>Sequential Cohesion>Communicational Cohesion>Procedural Cohesion>Temporal Cohesion>Logical Cohesion>Coincidental Cohesion
+By open domain CASE tools we mean software packages for each phase of the system analysis and design which can be downloaded free of cost from the Internet.
+At 100% modulation, the power in each sideband is 25% of that of carrier.
+The capacity relationship is denoted by equation C=W*log2(1+S/N)
+Computer Generation			Content
+First Generation 			Vacuum Tubes
+Second Generation 			Transistors
+Third Generation 			Integrated Circuits
+Fourth Generation 			Microprocessors
+By setting the path of a cookie to "/" we can set a cookie visibility scope to local storage.
+Bounded minimalization is a technique for generating primitive recursive functions.
+In reenterable module multiple instances of execution will yield the same result even if one instance has not terminated before the next one has begun.
+According to Brooks, if n is the number of programmers in a project team, then the number of communication path is n*(n-1)/2.
+Object-oriented design is the process of planning a system of interacting objects for the purpose of solving a software problem. 
+An object contains encapsulated data and procedures grouped together to represent an entity.
+The 'object interface' defines how the object can be interacted with.
+An object-oriented program is described by the interaction of these objects.
+Object-oriented design is used to define the objects and their interactions to solve a problem that was identified and documented during object-oriented analysis.
+The extent to which the software can control to operate correctly despite the introduction of invalid input is called as robustness.
+James Gosling initiated Java language project in June 1991.
+The language, initially called 'Oak' after an oak tree that stood outside Gosling's office, also went by the name 'Green' and ended up later being renamed as Java, from a list of random words.
+In a microprocessor, WAIT states are used to interface slow peripherals to the processor.
+A wait state is a delay experienced by a computer processor when accessing external memory or another device that is slow to respond.
+Each of the cycles spent waiting is called a wait state. Wait states are a pure waste of a processor's performance.
+Microprogramming is a technique for programming the control steps of a computer.
+The convergence of the bisection method is Linear.
+In testing phase, the effort distribution is upto 50%.
+The final value theorem is used to find the steady state value of the system output.
+Twelve 1 ohm resistances are used as edges to from a cube. The resistance between two diagonally opposite corners of the cube is 5/6 ohm.
+The gain margin of the open-loop transfer function of a feedback control system is 8.
+Memory mapped displays uses ordinary memory to store the display data in character form.
+The process of removing detail from a representation is called abstraction.
+The data node and name node in HADOOP are Worker Node and Master Node respectively.

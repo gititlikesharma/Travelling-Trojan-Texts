@@ -1,0 +1,11 @@
+How to "hack" the Google Chrome Dino Game ?
+Step 1
+Open the game by typing chrome://dino in your Chrome Browser
+Step 2
+Open the Developer Mode by pressing Ctrl + Shift + I simultaneously
+Step 3
+Go to Console and type - Runner.prototype.gameOver = ()=>{};
+Step 4
+Close the Developer Mode and Start the Game
+Step 5
+BOOM! That's it ! The dino goes past all without getting killed by cactus and birds 

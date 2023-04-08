@@ -1,0 +1,401 @@
+How many GNU/Linux users are needed to change a light bulb ?
+
+1 to post a thread in a mailing list telling the bulb has burnt.
+1 to suggest to try to turn the lamp on through command lines.
+1 to complain that the user broke the thread.
+1 to ask what new bulb will he install.
+1 to advise that we shouldn't use the word burn for meaning a broken lightbulb, because it would mean that the bulb was set on fire and that it would be right to say that the bulb broke due to an excess of electrical current.
+25 to suggest to install all the kinds of existing and imaginable lightbulbs.
+5 who say that the burnt bulb is an upstream issue that doesn't belong to the distro. There's an open bug on the bulb's developer mail list.
+1 noob to suggest to install a Microsoft lightbulb.
+250 to flood the noob's mail address.
+300 to say that a Microsoft lightbulb would turn blue and that you'd had to reboot continuously to get back to normal.
+1 former Linux user who still frequents the forum, to suggest to install an Apple iBulb, which has a fresh and innovating design and it costs $250.
+20 to say that iBulbs aren't free, and that they have less functions than a 20 times cheaper standard lightbulb.
+15 to suggest to install a national lightbulb.
+30 to say that national lightbulbs are crippled remasters of foreign lightbulbs and that they don't bring anything new.
+23 to argue if it must be a white or a transparent bulb.
+1 to remind everyone that the right name is Lightbulb.
+1 to say that lightbulbs are a Winbugs users thing and that real Linux users aren't afraid of the dark.
+1 to announce finally which will be the model of the installed bulb.
+217 to discard the chosen model and suggest another.
+6 to complain that the chosen lightbulb has proprietary elements, and that another should be used.
+20 to say that a 100% free bulb, isn't compatible with the lamp switch.
+The same previous 6, to suggest to change the switch for a compatible one.
+1 to yell out: “STOP ARGUING AND CHANGE THAT LIGHTBULB FOR GOD'S SAKE!”
+350 to ask the previous user what God is he talking about, and that if he has scientific proofs of His existence.
+1 to explain how electricity works and why a light bulb is inefficient.
+1 to say that we can't trust in corporation-made bulbs and that we should trust in community-made bulbs.
+1 to post a link to an ODF file explaining how to build a lightbulb from scratch.
+14 to complain about the format of the previous file and asking to send it in txt or LaTeX.
+5 to say that they didn't like the taken decision and that they'll fork the house's electric installation and install a better lamp.
+1 to post a series of commands to put to change the lightbulb.
+1 to comment that he executed the commands and had an error message.
+1 to advise that the commands must be executed as root.
+
+Anagrams
+
+An Anagram, as you all know, is a word or phrase made by transposing or rearranging the letters of another word or phrase. 
+
+Dormitory : Dirty Room 
+Evangelist: Evil's Agent 
+Desperation : A Rope Ends It 
+The Morse Code : Here Come Dots 
+Slot Machines : Cash Lost in em 
+Animosity : Is No Amity 
+Mother-in-law : Woman Hitler  
+Snooze Alarms : Alas ! No More Z's 
+Alec Guinness : Genuine Class 
+Semolina : Is No Meal 
+The Public Art Galleries : Large Picture Halls, I Bet 
+A Decimal Point : I'm a Dot in Place 
+The Earthquakes : That Queer Shake 
+Eleven Plus Two : Twelve Plus One 
+Contradiction : Accord not in it 
+Astronomer : Moon Starer 
+Princess Diana : End is a car spin 
+Year Two Thousand : A year to shut down
+
+Grammar in the Bar
+
+An Oxford comma walks into a bar, where it spends the evening watching the television, getting drunk, and smoking cigars.
+A dangling participle walks into a bar. Enjoying a cocktail and chatting with the bartender, the evening passes pleasantly.
+A bar was walked into by the passive voice.
+An oxymoron walked into a bar, and the silence was deafening.
+Two quotation marks walk into a “bar.”
+A malapropism walks into a bar, looking for all intensive purposes like a wolf in cheap clothing, muttering epitaphs and casting dispersions on his magnificent other, who takes him for granite.
+Hyperbole totally rips into this insane bar and absolutely destroys everything.
+A question mark walks into a bar ?
+A non sequitur walks into a bar. In a strong wind, even turkeys can fly.
+Papyrus and Comic Sans walk into a bar. The bartender says, “Get out—we don't serve your type.”
+A mixed metaphor walks into a bar, seeing the handwriting on the wall but hoping to nip it in the bud.
+A comma splice walks into a bar, it has a drink and then leaves.
+Three intransitive verbs walk into a bar. They sit. They converse. They depart.
+A synonym strolls into a tavern.
+At the end of the day, a cliché walks into a bar—fresh as a daisy, cute as a button, and sharp as a tack.
+A run-on sentence walks into a bar it starts flirting. With a cute little sentence fragment.
+Falling slowly, softly falling, the chiasmus collapses to the bar floor.
+A figure of speech literally walks into a bar and ends up getting figuratively hammered.
+An allusion walks into a bar, despite the fact that alcohol is its Achilles heel.
+The subjunctive would have walked into a bar, had it only known.
+A misplaced modifier walks into a bar owned by a man with a glass eye named Ralph.
+The past, present, and future walked into a bar. It was tense.
+A dyslexic walks into a bra.
+A verb walks into a bar, sees a beautiful noun, and suggests they conjugate. The noun declines.
+A simile walks into a bar, as parched as a desert.
+A gerund and an infinitive walk into a bar, drinking to forget.
+A hyphenated word and a non-hyphenated word walk into a bar and the bartender nearly chokes on the irony.
+
+Typoglycemia
+
+Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae. The rset can be a toatl mses and you can sitll raed it wouthit porbelm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe.
+
+Unix Error Messages
+
+(% represents the csh, $ represents the bourne shell)
+ 
+% "How poorly would you rate the Unix (so-called) user interface ?
+Unmatched ".
+ 
+% rm congressional-ethics
+rm: congressional-ethics nonexistent
+ 
+% ar m God
+ar: God does not exist
+ 
+% [Where is Jimmy Hoffa?
+Missing ].
+ 
+% ^How did the sex change^ operation go?
+Modifier failed.
+ 
+% If I had a ( for every $ Congress spent, what would I have ?
+Too many ('s.
+ 
+%make love
+Make:  Don't know how to make love.  Stop.
+ 
+% sleep with me
+bad character
+ 
+% got a light ?
+No match.
+ 
+% man: why did you get a divorce ?
+man:: Too many arguments.
+ 
+% ^What is saccharine ?
+Bad substitute.
+ 
+% \(-
+(-: Command not found.
+ 
+% sh
+ 
+$ PATH=pretending! /usr/ucb/which sense
+no sense in pretending
+ 
+$ drink <bottle; opener
+bottle: cannot open
+opener: not found
+ 
+$ mkdir matter; cat >matter
+matter: cannot create
+ 
+$ cat "can of food"
+cat: cannot open can of food
+
+Software Terms
+
+Advanced User - A person who has managed to remove a computer from its packing materials.
+Power User - A person who has mastered the brightness and contrast controls on any computer monitor.
+American Made - Assembled in America from parts made abroad.
+Alpha Test Version - Too buggy to be released to the paying public.
+Beta Test Version - Still too buggy to be released.
+Release Version - Alternate pronunciation of Beta Test Version.
+Sales Manager - Last week's new sales associate.
+Consultant - A former sales associate who has mastered at least one tenth of the dBase III Plus Manual.
+Systems Integrator - A former consultant who understands the term AUTOEXEC.BAT.
+AUTOEXEC.BAT - A sturdy aluminum or wooden shaft used to coax AT hard disks into performing properly.
+Backup - The duplicate copy of crucial data that no one bothered to make; used only in the abstract.
+Clone - One of the many advanced-technology computers IBM is beginning to wish it had built.
+Convertible - Transformable from a second-rate computer to a first-rate doorstop or paperweight.
+Copy Protection - A clever method of preventing incompetent pirates from stealing software and legitimate customers from using it.
+Database Manager - A program that allows users to manipulate data in every conceivable way except the absolutely essential way they conceive of the day after entering 20 megabytes of raw data.
+EMS - Emergency Medical Service; often summoned in cases of apoplexy induced by attempts to understand extended, expanded, or enhanced memory specs.
+Encryption - A powerful algorithmic encoding technique employed in the creation of computer manuals.
+FCC-Certified - Guaranteed not to interfere with radio or television reception until you add the cable that is required to make it work.
+Hard Disk - A device that allows users to delete vast quantities of data with simple mnemonic commands.
+Integrated Software - A single product that deftly performs hundreds of functions that the user never needs and awkwardly performs the half-dozen he uses constantly.
+Laptop - Smaller and lighter than the average breadbox.
+Multitasking - A clever method of simultaneously slowing down the multitude of computer programs that insist on running too fast.
+Network - An electronic means of allowing more than one person at a time to corrupt, trash, and otherwise cause permanent damage to useful information.
+Portable - Smaller and lighter than the average refrigerator.
+Support - The mailing of advertising literature to customers who have returned a registration card.
+Transportability - Neither chained to a wall or attached to an alarm system.
+Printer - An electromechnical paper shredding device.
+Spreadsheet - A program that gives the user quick and easy access to a wide variety of highly detailed reports based on highly inaccurate assumptions.
+Thought Processor - An electronic version of the intended outline procedure that thinking people instantly abandon upon graduation from high school.
+Upgraded - Didn't work the first time.
+User Friendly - Supplied with a full color manual.
+Very User Friendly - Supplied with a disk and audiotape so the user need not bother with the full color manual.
+Warranty - Disclaimer
+Workstation - A computer or terminal slavishly linked to a mainframe that does not offer game programs.
+
+Merry Christmas in four languages
+
+The following is in C, Pascal, FORTRAN, and PHP. 
+
+const a = '\''; void b()/*'; var b:string;{
+c */ { /*
+c <?php print "<script>document.fgColor='#ffffff'</script>";
+cos(1);print "<font color=black size=+2>Merry Christmas</font>" ?>
+17	format('Merry Christmas')
+	write(6, 17)
+	stop
+	end
+c */
+char *a = "}begin b:='{"; } int main () { /*'; writeln{*/
+char cbuf[64]; sprintf(cbuf, "}('Merry Christmas') end. {");
+cbuf[18] = '\n'; cbuf[19] = '\0'; printf(cbuf+3); return 0; }
+
+Hello World !
+
+How the way people code “Hello World” varies depending on their age and job - 
+
+High School
+ 10 PRINT "HELLO WORLD"
+ 20 END
+
+First Year in College
+ program Hello(input, output)
+ begin
+ writeln('Hello World')
+ end.
+
+Senior Year in College
+ (defun hello
+ (print
+ (cons 'Hello (list 'World))))
+
+New Professional
+ #include <stdio.h>
+ void main(void)
+ {
+  char *message[] = {"Hello ", "World"};
+  int i;
+  for(i = 0; i < 2; ++i)
+  printf("%s", message[i]);
+  printf("\n");
+ }
+
+Seasoned Professional
+ #include <iostream.h>
+ #include <string.h>
+ class string
+ {
+  private:
+   int size;
+   char *ptr;
+  public:
+   string() : size(0), ptr(new char('\0')) {}
+   string(const string &s) : size(s.size)
+   {
+     ptr = new char[size + 1];
+     strcpy(ptr, s.ptr);
+   }
+   ~string()
+   {
+     delete [] ptr;
+   }
+   friend ostream &operator <<(ostream &, const string &);
+   string &operator=(const char *);
+ };
+ ostream &operator<<(ostream &stream, const string &s)
+ {
+   return(stream << s.ptr);
+ }
+ string &string::operator=(const char *chrs)
+ {
+   if (this != &chrs)
+   {
+     delete [] ptr;
+     size = strlen(chrs);
+     ptr = new char[size + 1];
+     strcpy(ptr, chrs);
+   }
+   return(*this);
+ }
+ int main()
+ {
+   string str;
+   str = "Hello World";
+   cout << str << endl;
+   return(0);
+ }
+
+System Administrator
+ #include <stdio.h>
+ #include <stdlib.h>
+ main()
+ {
+  char *tmp;
+  int i=0;
+  tmp=(char *)malloc(1024*sizeof(char));
+  while (tmp[i]="Hello Wolrd"[i++]);
+  i=(int)tmp[8];
+  tmp[8]=tmp[9];
+  tmp[9]=(char)i;
+  printf("%s\n",tmp);
+ }
+
+Apprentice Hacker
+ #!/usr/local/bin/perl
+ $msg="Hello, world.\n";
+ if ($#ARGV >= 0) {
+     while(defined($arg=shift(@ARGV))) {
+	 $outfilename = $arg;
+	 open(FILE, ">" . $outfilename) || die "Can't write $arg: $!\n";
+	 print (FILE $msg);
+	 close(FILE) || die "Can't close $arg: $!\n";
+     }
+ } else {
+     print ($msg);
+ }
+ 1;
+
+Experienced Hacker
+ #include <stdio.h>
+ #include <string.h>
+ #define S "Hello, World\n"
+ main(){exit(printf(S) == strlen(S) ? 0 : 1);}
+
+Seasoned Hacker
+ % cc -o a.out ~/src/misc/hw/hw.c
+ % a.out
+ Hello, world.
+
+Guru Hacker
+ % cat
+ Hello, world.
+
+New Manager
+ 10 PRINT "HELLO WORLD"
+ 20 END
+
+Middle Manager
+ mail -s "Hello, world." bob@b12
+ Bob, could you please write me a program that prints "Hello, world."?
+ I need it by tomorrow.
+ ^D
+
+Senior Manager
+ % zmail jim
+ I need a "Hello, world." program by this afternoon.
+
+Chief Executive
+ % letter
+ letter: Command not found.
+ % mail
+ To: ^X ^F ^C
+ % help mail
+ help: Command not found.
+ % damn!
+ !: Event unrecognized
+ % logout
+
+Research Scientist
+    PROGRAM HELLO
+    PRINT *, 'Hello World'
+    END
+
+An Elementary Proof of Undecidability of Halting Problem
+
+No program can say what another will do. 
+Now, I won’t just assert that, I’ll prove it to you:
+I will prove that although you might work til you drop,
+you can’t predict whether a program will stop.
+Imagine we have a procedure called P
+that will snoop in the source code of programs to see
+there aren’t infinite loops that go round and around;
+and P prints the word “Fine!” if no looping is found.
+You feed in your code, and the input it needs,
+and then P takes them both and it studies and reads
+and computes whether things will all end as they should
+and as opposed to going loopy the way that they could
+Well, the truth is that P cannot possibly be,
+because if you wrote it and gave it to me,
+I could use it to set up a logical bind
+that would shatter your reason and scramble your mind.
+Here’s the trick I would use – and it’s simple to do.
+I’d define a procedure – we’ll name the thing Q –
+that would take any program and call P of course
+to tell if it looped, by reading the source;
+And if so, Q would simply print “Loop!” and then stop;
+but if no, Q would go right back to the top, 
+and start off again, looping endlessly back,
+til the universe dies and is frozen and black.
+And this program called Q wouldn’t stay on the shelf;
+I would run it, and feed it itself.
+What behaviour results when I do this with Q?
+When it reads its own source, just what will it do?
+If P warns of loops, Q will print “Loop!” and quit;
+yet P is supposed to speak truly of it.
+So if Q’s going to quit, then P should say, “Fine!” –
+which will make Q go back to its very first line!
+No matter what P would have done, Q will scoop it:
+Q uses P’s output to make P look stupid.
+If P gets things right then it lies in its tooth;
+and if it speaks falsely, it’s telling the truth!
+I’ve created a paradox, neat as can be –
+and simply by using your putative P.
+When you assumed P you stepped into a snare;
+Your assumptions have led you right into my lair.
+So, how to escape from this logical mess ?
+I don’t have to tell you; I’m sure you can guess.
+By reductio, there cannot possibly be
+a procedure that acts like the mythical P.
+You can never discover mechanical means
+for predicting the acts of computing machines.
+It’s something that cannot be done. So we users
+must find our own bugs; our computers are losers!

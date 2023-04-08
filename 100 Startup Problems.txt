@@ -1,0 +1,597 @@
+1. Facebook 
+Founded: 2004
+Valuation: $914 Billion 
+Customer: Ivy League University Students.
+Problem: You couldn't find and connect with your friends online.
+
+2. Stripe 
+Founded: 2010
+Valuation: $95 Billion 
+Customer: Developers at early-stage startups.
+Problem: Accepting payments online was stupidly complicated to set up.
+
+3. OpinionX 
+Founded: 2020
+Customer: Product teams at scaling tech companies.
+Problem: Roadmap prioritization is based almost entirely on internal assumptions, as product teams have no data to inform things they haven't built yet.
+
+4. Instagram 
+Founded: 2009
+Valuation: Acquired by Facebook for $1 Billion in April 2012.
+Customer: Amateur photographers already on social media 
+Problem: Mobile photos looked crappy, they were time-consuming to upload and difficult to share with friends.
+
+5. Intercom 
+Founded: 2011
+Valuation: $1.275 Billion 
+Customer: Other startup founders.
+Problem: Customer relationship management was impersonal and disjointed.
+
+6. Hubspot 
+Founded: 2006
+Valuation: $24.56 Billion 
+Customer: "Marketing Mary; a marketing manager who worked in a company of between 10 and 1000 employees." 
+Problem: SMBs don't have the internal expertise to build their own marketing-tech stack.
+
+7. Klarna 
+Founded: 2005
+Valuation: $45.6 Billion 
+Customer: Swedish eCommerce companies that Co-Founder Sebastian Siemiatkowski had worked within a previous job.
+Problem: eCommerce companies struggled to secure their online payments.
+
+8. Instacart 
+Founded: 2012
+Valuation: $39 Billion 
+Customer: Working professionals in San Francisco without a car .
+Problem: Grocery shopping is a time-consuming and inefficient use of time every week.
+
+9. Telegram 
+Founded: 2013
+Valuation: $40 Billion 
+Customer: Security conscious smartphone users (tbh, pretty broad from the start).
+Problem: Online messaging is dominated by companies with commercial and political ties that place sensitive end-user messages in potentially compromising and insecure situations.
+
+10. Databricks 
+Founded: 2013
+Valuation: $28 Billion 
+Customer: Data engineers and data analysts at large companies.
+Problem: Big data processing engines like MapReduce were too inefficient for the rapidly growing data lakes of the late 2000s.
+
+11. Canva 
+Founded: January 2012
+Valuation: $15 Billion 
+Customer: Non-designer professionals like business owners and marketers 
+Problem: Digital design tools like photoshop were extremely complex and difficult to learn.
+
+12. Plaid 
+Founded: May 2013
+Valuation: $13.4 Billion 
+Customer: Technical executives at companies building fintech solutions
+Problem: Companies had to build unique integrations for every single banking provider that they needed to integrate with.
+
+13. Chime 
+Founded: 2013
+Valuation: $14.5 Billion 
+Customer: Digital-Native American Millennials.
+Problem: Traditional banks are full of hidden fees designed to get more money from consumers.
+
+14. Robinhood 
+Founded: 2013
+Valuation: $11.2 Billion 
+Customer: Young professionals (28-41) interested in using leftover spending money to participate in amateur stock market trading.
+Problem: Trading commissions placed financial barriers to mass market participation in the stock market.
+
+15. OYO 
+Founded: 2013
+Valuation: $9 Billion 
+Customer: Small business travelers and budget tourists in India.
+Problem: Budget hotels have wildly varying levels of quality, price and geographic availability.
+
+16. Uber 
+Founded: 2009
+Valuation: $103.5 Billion 
+Customer: Cold called black cab drivers to offer an hourly rate for supply-side, gave free rides at local tech events in San Francisco for the demand side.
+Problem: The unreliability of hailing a taxi.
+
+17. Brex 
+Founded: 2017
+Valuation: $7.4 Billion 
+Customer: International early-stage startup founders in the US.
+Problem: Startups were unable to get a corporate credit card without taking a personal liability guarantee.
+
+18. Reddit 
+Founded: 2005
+Valuation: $6 Billion 
+Customer: lol they had no initial target customer 🤷‍♂️
+Problem: There was no way to discover and discuss the best content of the day online.
+
+19. Square 
+Founded: 2009
+Valuation: $104.74 Billion 
+Customer: Small merchants selling in person.
+Problem: Small merchants had no way of accepting credit card payments.
+
+20. Spotify 
+Founded: 2006
+Valuation: $72 Billion 
+Customer: Music fans in the UK.
+Problem: Torrenting sites made music cheaply accessible at scale but they were slow, restricted to desktop devices and riddled with potential viruses.
+
+21. Airtable 
+Founded: 2013
+Valuation: $5.77 Billion 
+Customer: Non-technical individuals or small teams working on CRMs, ERP and Project Management.
+Problem: Using a spreadsheet as a makeshift database is very common but creates a bloated, messy, and frustrating experience for non-technical knowledge workers.
+
+22. Discord 
+Founded: 2015
+Valuation: $7 Billion 
+Customer: Online gamers playing social/multiplayer games.
+Problem: Tools for communicating with friends while gaming were slow, unreliable and complex.
+
+23. Hopin 
+Founded: June 2019
+Valuation: $5.65 Billion 
+Customer: Organizers of large events with up to 100,000 attendees like conferences, fairs, and expos.
+Problem: The inability to connect with other people remotely.
+
+24. Revolut 
+Founded: 2015
+Valuation: $5.5 Billion 
+Customer: Young professionals traveling in Europe.
+Problem: Currency exchange while traveling or sending money abroad was very expensive.
+
+25. Snyk 
+Founded: 2015
+Valuation: $4.7 Billion 
+Customer: Software developers.
+Problem: There was so much friction in building secure products that many developers would skip over the requirements.
+
+26. N26 
+Founded: February 2013
+Valuation: $3.5 Billion 
+Customer: Young professional ex-pats in Europe.
+Problem: Changing bank when you moved to a new country was a long and frustrating process.
+
+27. Better.com 
+Founded: January 2016
+Valuation: $6 Billion 
+Customer: First-time home buyers in the US.
+Problem: Sourcing a mortgage is a long, stressful and uncertain process that destroys many would-be homeowner's chances of purchasing a property.
+
+28. Wealthsimple 
+Founded: September 2014
+Valuation: $5 Billion 
+Customer: Young professionals (under 45) that are first-time investors.
+Problem: As retail investing became more accessible, nobody really had any plan for how to invest their money.
+
+29. Freshworks 
+Founded: 2010 (originally named Freshdesk)
+Valuation: $3.5 Billion 
+Customer: US companies with multi-brand support requirements.
+Problem: SaaS-based CRMs like Zendesk were overpriced and lacked broad functionality required for SMBs.
+
+30. Zenefits 
+Founded: February 2013
+Valuation: Previously valued at $4.5 Billion 
+Customer: HR Managers at small and medium-sized businesses (less than 1,000 employees).
+Problem: Buying health insurance for employees was very complicated.
+
+31. Rubrik 
+Founded: January 2014
+Valuation: $3.3 Billion 
+Customer: Enterprise and Fortune 500 companies.
+Problem: Legacy data management tools lock data in disparate silos without quick access and mobility.
+
+32. Tinder 
+Founded: September 2012
+Valuation: $40.26 Billion (Match Group, which includes Tinder) 
+Customer: Student influencers in fraternities and sororities at elite US universities.
+Problem: The new onslaught of 'shoot your shot' DMs during the rise of social media in the early 2010s aka surfacing mutual attraction online without the embarrassment.
+
+33. Bumble 
+Founded: December 2014
+Valuation: $13 Billion 
+Customer: Sororities at US universities.
+Problem: Social media is full of negativity and bullying.
+
+34. Dropbox 
+Founded: 2007
+Valuation: $12.2 Billion 
+Customer: People working in tech.
+Problem: The user experience and connectivity of online drives weren't good enough.
+
+35. Airbnb 
+Founded: August 2008
+Valuation: $100 Billion 
+Customer: Conference attendees visiting San Francisco.
+Problem: Being broke and needing to pay higher rent.
+
+36. Zapier 
+Founded: 2011
+Valuation: $7 Billion 
+Customer: SaaS companies.
+Problem: SaaS companies didn't have the resources to build native integrations for all the product integrations that customers wanted.
+
+37. Flexport 
+Founded: 2013
+Valuation: $3.2 Billion 
+Customer: Large product manufacturers.
+Problem: Freight shipping was a traditional pen-and-paper industry with multiple untrustworthy middlemen that was extremely opaque and lacking customer control.
+
+38. Gusto 
+Founded: 2011
+Valuation: $3.8 Billion 
+Customer: Small business owners in the US.
+Problem: Running payroll as a small business owner is frustrating and time-consuming.
+
+39. Faire 
+Founded: 2017
+Valuation: $7 Billion 
+Customer: Marketplace → (1) Small retailers with typically just 1 to 10 stores, (2) Independent and small team makers.
+Problem: The risk of taking on new products deters small retailers from expanding their portfolios, so tradeshows are a significant derisking opportunity where retailers get a better sense of the risks associated with a new product and vendor.
+
+40. Heap 
+Founded: 2012
+Valuation: Between $100 Million to $500 Million 
+Customer: Directors of Analytics at Digital-First Companies.
+Problem: Answering very simple questions with product analytics tools required cross-functional support and months of waiting for enough data to inform an answer.
+
+41. Scale AI 
+Founded: 2016
+Valuation: $7.3 Billion 
+Customer: Tech companies building AI products.
+Problem: Companies couldn't build AI products because they had no standardization tools for collecting, annotating and managing data at scale.
+
+42. PagerDuty 
+Founded: January 2009
+Valuation: $1.8 Billion 
+Customer: DevOps teams at tech companies.
+Problem: Configuring and routing product alerts required a great deal of complexity but is an essential aspect of devops.
+
+43. Segment 
+Founded: September 2011
+Valuation: Acquired by Twilio for $3.2 Billion 
+Customer: Product manager or marketer at a tech company.
+Problem: Inability to understand user segment differences with existing product analysis tools. **
+
+44. Coinbase 
+Founded: June 2012
+Valuation: $86 Billion 
+Customer: Early adopters of Bitcoin.
+Problem: The high cost of credit card fees and lack of cryptocurrency wallet.
+
+45. MessageBird 
+Founded: 2011
+Valuation: $3.8 Billion
+Customer: Their first customer was the initial market incumbent (story here).
+Problem: Sending text messages to customers at scale via existing providers was unreliable.
+
+46. Amplitude 
+Founded: 2012
+Valuation: $4 Billion 
+Customer: Early-stage startup founders.
+Problem: There were no tools that could help Chris and Spenser to understand why their users were churning or what drove retention.
+
+47. Doordash 
+Founded: January 2013
+Valuation: $72 Billion 
+Customer: Takeout consumers in Palo Alto.
+Problem: Restaurants couldn't afford delivery drivers and delivery drivers were underutilized.
+
+48. Kissmetrics 
+Founded: 2008
+Customer: Facebook Application Developers
+Problem: Facebook app developers didn't have any purpose-built analytics solutions.
+
+49. Mixpanel 
+Founded: 2009
+Valuation: $865 Million 
+Customer: "Our idea is to target small under-served startups before they build out an internal system." 
+Problem: Beyond page views and referral tracking, companies had to build their own expensive analytics solutions (particularly for conversion funnels).
+
+50. Checkr 
+Founded: 2014
+Valuation: $2.2 Billion 
+Customer: On-demand/gig economy companies.
+Problem: Background checks were a time-consuming bottleneck process.
+
+51. Rippling 
+Founded: 2016
+Valuation: $1.35 Billion 
+Customer: N/A → Parker Conrad doesn't believe in niche segmentation focus .
+Problem: Managing permissions and data accuracy across an increasingly fragmented set of software products is the largest source of a company's administrative work.
+
+52. Front 
+Founded: 2013
+Valuation: $800 Million 
+Customer: Decision-makers in operations, client services or customer success.
+Problem: Managing shared email inboxes for functions like customer support is a messy solution using traditional individual email products. 
+
+53. Webflow 
+Founded: 2013 (Vlad previously tried and failed with the same idea in 2005, 2007 and 2008)
+Valuation: $2.1 Billion 
+Customer: Web designers.
+Problem: Creating the backend for web design projects was a repetitive, time-consuming, and manual task.
+
+54. Fivetran 
+Founded: 2012
+Valuation: $1.2 Billion 
+Customer: Enterprise tech companies.
+Problem: Connecting data from internal sources like Salesforce and Zendesk to Amazon Redshift's data warehouse product.
+
+55. DocuSign 
+Founded: 2003
+Valuation: $38.6 Billion 
+Customer: Couldn't find this, sorry. 2003 is a long time ago :)
+Problem: Businesses couldn't accept digital signatures for documents.
+
+56. The Athletic 
+Founded: 2015
+Valuation: $500 Million 
+Customer: Digital-native sports super fans.
+Problem: Consumers don't mentally bundle sports with news coverage since the internet democratized access to sports, and they don't want their sports coverage dominated by ads.
+
+57. Scribd 
+Founded: March 2007
+Valuation: $160.7 Million (unreliable source)
+Customer: Academics.
+Problem: Distributing academic papers in industry journals or for peer review takes forever.
+
+58. Braze 
+Founded: 2011
+Valuation: $850 Million 
+Customer: Mobile app developers.
+Problem: Mobile app developers had no tools for understanding and personalizing their communications with customers.
+
+59. Nurx 
+Founded: 2015
+Valuation: $300 Million 
+Customer: The 20 million women living in "contraceptive deserts" in the US (areas of the country where there is limited access to birth control).
+Problem: Reducing the stigma and increasing the availability of birth control in the US.
+
+60. Squarespace 
+Founded: 2003
+Valuation: $2.4 Billion 
+Customer: Friends and family.
+Problem: Website builders at the time we're made for creating personal identity websites.
+
+61. Weebly 
+Founded: February 2006
+Valuation: Acquired by Square for $365 Million in 2018 
+Customer: Individuals, solo merchants and hobby groups.
+Problem: Individuals, solo merchants and hobby groups need websites but don't have the skills to build one themselves.
+
+62. Optimizely 
+Founded: January 2010
+Valuation: Acquired for ~$600 Million 
+Customer: Digital-first SMBs.
+Problem: A/B testing was very difficult to set up and manage.
+
+63. Rent the Runway 
+Founded: 2009
+Valuation: $1 Billion 
+Customer: Professional women.
+Problem: Designer clothes are too expensive for the average female consumer.
+
+64. Hotjar 
+Founded: 2015
+Valuation: Unknown (acquired in September 2021)
+Customer: Product and UX teams.
+Problem: It's difficult to know what users are doing on your website.
+
+65. Sendbird 
+Founded: 2013
+Valuation: $1 Billion 
+Customer: Their entrepreneur friends.
+Problem: Consumer messaging apps like Telegram, Whatsapp and Facebook Messenger were all the rage but there was a lack of messaging apps for companies to communicate with consumers.
+
+66. LinkedIn 
+Founded: 2002
+Valuation: Acquired by Microsoft for $26.2 Billion 
+Customer: Working professionals.
+Problem: There was no space online for 'real name' professional identities.
+
+67. Twitter 
+Founded: 2004
+Valuation: $35.5 Billion 
+Customer: They never really got customers with their first product...
+Problem: Podcasting in 2004/5 was like the web pre-blogging; distribution without democratization of production.
+
+68. Substack 
+Founded: 2017
+Valuation: $650 Million 
+Customer: Existing newsletter creators and writers.
+Problem: Newsletters are the last channel that creators maintain full control of, but they're difficult to monetize outside of advertising/sponsorship.
+
+69. Snapchat 
+Founded: September 2011
+Valuation: $50 Billion 
+Customer: University students.
+Problem: Stanford student Reggie Brown didn't want his nudes getting leaked.
+
+70. Edmodo 
+Founded: September 2018
+Valuation: Acquired in 2018 for $137.5 Million 
+Customer: K-12 schools in the US.
+Problem: Schools were restricting teacher's access to the internet but teachers needed online resources for their classes.
+
+71. Warby Parker 
+Founded: 2010
+Valuation: $3 Billion 
+Customer: Medium and low-budget glasses buyers.
+Problem: Glasses are too expensive.
+
+72. Houzz 
+Founded: June 2008
+Valuation: $4 Billion 
+Customer: New and renovating homeowners.
+Problem: An inability to matching a chosen home style to purchasable products.
+
+73. Nextdoor 
+Founded: 2008
+Valuation: $2.1 Billion 
+Customer: US neighborhood groups.
+Problem: Neighbors no longer knew or trusted each other.
+
+74. Superhuman 
+Founded: 2015
+Valuation: $260 million 
+Customer: "For those whose email is work and work is email. Our average user spends three hours a day doing email."
+Problem: Clearing your Gmail inbox can be difficult.
+
+75. Udemy 
+Founded: 2009
+Valuation: $3.25 Billion 
+Customer: Couldn't find this information...
+Problem: People around the world lack access to quality education.
+
+76. Figma 
+Founded: 2016
+Valuation: $10 Billion 
+Customer: Software designers at big companies
+Problem: Design tools were not very intuitive, collaborative, easy to use, or find information on. 
+
+77. Basecamp 
+Founded: 1999
+Valuation: $100 Billion 
+Customer: Design Firms
+Problem: As a company grows it's difficult to stay organized.
+
+78. Roblox 
+Founded: 2004
+Valuation: $45.3 Billion 
+Customer: Couldn't find this info... sorry!
+Problem: An exception to the "Initial Problem" rule, Roblox was created based on a technological opportunity identified in a previous startup that Baszucki had founded and sold (not uncommon for gaming).
+
+79. Peloton 
+Founded: 2014
+Valuation: $24.6 Billion 
+Customer: Busy parents who want to stay fit and healthy.
+Problem: It's difficult for parents to find time to go to the gym.
+
+80. Quora 
+Founded: 2009
+Valuation: $2 Billion 
+Customer: People using search engines to answer questions.
+Problem: There was nowhere on the internet for really good questions and answers.
+
+81. Snowflake 
+Founded: 2012
+Valuation: $60 Billion 
+Customer: Companies that collect lots of customer data.
+Problem: Company data is siloed and difficult to govern.
+
+82. Zoom 
+Founded: 2011
+Valuation: $57.5 Billion 
+Customer: Forward-thinking companies in need of remote communication.
+Problem: There was no way to easily do cheap video calls.
+
+83. MongoDB 
+Founded: 2007
+Valuation: $23 Billion 
+Customer: Scaling tech companies.
+Problem: Software companies struggled with scalability and agility.
+
+84. Slack 
+Founded: 2009
+Valuation: $5.1 Billion 
+Customer: They didn’t intentionally set out to create a SaaS product for the workplace. They built a tool for themselves (gaming devs). They only later realized their tool’s commercial potential.
+Problem: There was good solution for centralizing internal company communication via messaging.
+
+85. GitHub 
+Founded: 2008
+Valuation: $7.5 Billion 
+Customer: Software developers.
+Problem: It's difficult for software developers to read and understand one another's code when not documented.
+
+86. Google 
+Founded: 1998
+Valuation: $1.7 trillion 
+Customer: Academics
+Problem: There wasn't a good way to determine the importance of web pages.
+
+87. Atlassian 
+Founded: 2002
+Valuation: $26.6 Billion 
+Customer: Software Developers.
+Problem: Collaboration tools for developers didn't yet exist.
+
+88. YouTube 
+Founded: 2005
+Valuation: $170 Billion 
+Customer: People who made home videos.
+Problem: There was nowhere to share "home videos" on the internet.
+
+89. Glossier 
+Founded: 2012
+Valuation: $1.2 Billion 
+Customer: Millennial women who care about their appearance.
+Problem: Women want to have better skin and be more beautiful.
+
+90. BlaBlaCar 
+Founded: 2006
+Valuation: $2 Billion 
+Customer: Travellers who want to share transport.
+Problem: There was no way to easily organize carpooling.
+
+91. Deezer 
+Founded: 2007
+Valuation: $1.5 Billion 
+Customer: Music Lovers.
+Problem: Streaming music wasn't legally available.
+
+92. Away 
+Founded: 2015
+Valuation: $1.4 Billion 
+Customer: Travellers who learned about Away through social media.
+Problem: Suitcases were fragile and unsuitable for travel
+
+93. Grammarly 
+Founded: 2009
+Valuation: $1 Billion 
+Customer: Students
+Problem: You couldn't use spellcheck outside of Microsoft Office.
+
+94. StockX 
+Founded: 2015
+Valuation: $3.8 Billion 
+Customer: Sneakerheads
+Problem: Collectors of rare shoes had nowhere to buy and sell
+
+95. Duolingo 
+Founded: 2011
+Valuation: $2.4 Billion 
+Customer: People who wanted to learn Spanish, German and English.
+Problem: Teaching a language to large populations in a cheap and self-sustaining way was pretty much impossible.
+
+96. Unbabel 
+Founded: August 2013
+Valuation: Undisclosed
+Customer: B2C companies.
+Problem: Machine translation was not accurate enough for business use cases.
+
+97. Bolt 
+Founded: 2013 (originally Taxify)
+Valuation: $1 Billion 
+Customer: Taxi drivers/users.
+Problem: Ordering a taxi could be frustrating and slow as there wasn't a centralized platform.
+
+98. Pipe 
+Founded: 2019
+Valuation: $2 Billion 
+Customer: Founders with reoccurring revenue streams.
+Problem: Founders need to give away large amounts of equity in their company to raise capital from VCs.
+
+99. Ramp 
+Founded: 2019
+Valuation: $ 1.6 Billion 
+Customer: Financial Controllers.
+Problem: Companies can easily spend and lose track of expenses when using corporate cards.
+
+100. Alibaba 
+Founded: 1999
+Valuation: $50.3 Billion 
+Customer: Small and medium-size businesses.
+Problem: SMBs didn't have good ways to sell internationally.

@@ -1,0 +1,30 @@
+Suppose that every day, ten men go out for dinner and the bill for all ten comes to ₹1000. If they paid their bill the way we pay our taxes, it would go something like this -
+
+The first four men i.e. the poorest would pay nothing
+The fifth would pay ₹10
+The sixth would pay ₹30
+The seventh would pay ₹70
+The eighth would pay ₹120
+The ninth would pay ₹180
+The tenth man i.e. the richest would pay ₹590
+
+So, that’s what they decided to do. The ten men eat in the hotel every day and seemed quite happy with the arrangement, until one day, the owner threw them a curve. “Since you are all such good customers”, he said, “I’m going to reduce the cost of your daily dinner by ₹200”. Dinner for the ten now cost just ₹800.
+
+The group still wanted to pay their bill the way we pay our taxes so the first four men were unaffected. They would still eat for free. But what about the other six men - the paying customers ? How could they divide the ₹200 windfall so that everyone would get his “fair share ?”
+
+They realized that ₹200 divided by six is ₹33.33. But if they subtracted that from everybody’s share, then the fifth man and the sixth man would each end up being paid to eat his dinner. So, the hotel owner suggested that it would be fair to reduce each man’s bill by roughly the same amount, and he proceeded to work out the amounts each should pay.
+
+And so - 
+
+The fifth man, like the first four, now paid nothing (100 % savings)
+The sixth now paid ₹20 instead of ₹30 (33% savings)
+The seventh now pay ₹50 instead of ₹70 (28% savings)
+The eighth now paid ₹90 instead of ₹120 (25% savings)
+The ninth now paid ₹140 instead of ₹180 (22% savings)
+The tenth now paid ₹490 instead of ₹590 (16% savings)
+
+Each of the six was better off than before. And the first four continued to eat for free. But once outside the restaurant, the men began to compare their savings. “I only had 22% savings whereas the other one has 25%,” declared the ninth man.“I only got 28% whereas the other one has 33%", declared the seventh man. “Wait a minute,” yelled the first four men in unison. “We didn’t save anything at all. The system exploits the poor !” The nine men surrounded the tenth and beat him up.
+
+The next night the tenth man didn’t show up for dinner, so the nine sat down and had dinner without him. But when it came time to pay the bill, they discovered something important. They didn’t have enough money between all of them for even half of the bill !
+
+And that, boys and girls, journalists and college professors, is how our tax system works. The people who pay the highest taxes get the most benefit from a tax reduction. Tax them too much, attack them for being wealthy, and they just may not show up anymore. In fact, they might start eating overseas where the atmosphere is somewhat friendlier.

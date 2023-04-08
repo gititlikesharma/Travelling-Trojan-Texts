@@ -1,0 +1,230 @@
+Memory Leak - 
+
+Dear Kid, it is like when you play with lego bricks, and you leave some lying around, and daddy later can't walk around the house without stumbling. So the house is the memory, you are a badly written piece of code, the lego bricks are pieces of memory that you didn't let go, and other pieces of code that can't run properly because of you.
+
+Kubernetes & Docker - 
+
+Docker images: A blueprint for creating a cow.
+Docker daemon: A cattle for letting the cows run wild.
+Kubernetes: A manager that manages the cows.
+Let's say you create many cows (docker containers) with the same blueprint (docker image) and let the cows do their thing in the cattle (docker daemon).
+You have all the dairy cows in one place but it's getting pretty crowded and they're eating all the stuff around them (resources) and you need to redistribute them to other areas or they will die.
+You hire the manager named Kubernetes and tell him of all the other cattles (nodes). The rancher checks each cattles capacities (resources) that they can handle. The manager will take care of moving the cows around when the cattles are low on food to more abundant areas and the manager will also take care of creating new cows for you if cows die for any reason.
+The manager is responsible optimizing your cattle ranch as efficient as possible and making it scale as long as you tell him of all the locations that he's allowed to move the cows to. You can also tell him to only grow to a certain size or to dynamically scale larger to produce more milk based on the dairy consumption demand by the population (auto-scaling).
+
+Artifacts/Deployment - 
+
+Alice and Bob decide to battle each other using clay figurines.
+In order to do this, Alice first get her hands on the raw material - clay. In the first attempt, she manages to create a simple one with just a head, hands and legs. She kept it aside because that's the best she had got right now. On her next attempt, she learnt from her first figurine and added a sword as well. She kept that aside as well. On her 3rd attempt, she managed to add a little hat to her figurine. Each of those figurines that she kept aside is an "artifact" that she can use in herr super-hero battle. For some reason, in her battle, if her 3rd figurine is destroyed, she can bring out the next best thing she had got (and so on and so forth).
+In CI/CD systems, artifacts refer to the output of your build process that you would deploy. This could be a jar, tar or binary. You then deploy these artifacts onto your production servers. If you encounter issues with your current deployed binary, you could revert back to an earlier build artifact and ensure that your system continues to run.
+
+Client/Server Side Rendering - 
+
+Client-side rendering is like getting a large toy at Christmas that requires batteries to work. Server-side rendering is like getting the same large toy with batteries included.
+
+Scenario 1 (Client Side Rendering)
+You open a very large present to discover it is a LEGO Batman set, and it is completely disassembled. Dad hands you a screwdriver and says have fun. You put your construction hat on and spend hours going back and forth between the manual and the under-construction castle, putting it together step-by-step. Eventually construction is done. Your friends come over, and they play with it.
+
+Translation
+You open a complex web app and it is completely client rendered. The CDN hands you all the assets and says have fun. You start initializing the client app and spend milliseconds or seconds going back and forth between the app's data API and the under-construction app, constructing the UI step-by-step. Eventually construction is done. Everything is now ready for the user, and they play with it.
+
+Scenario 2 (Server Side rendering)
+You open a very large present to discover it is a LEGO Batman set, and it is fully assembled. Your friends come over, and they play with it.
+
+Translation
+You open a complex web app, and it is fully server rendered. Everything is pre-loaded for the user, and they play with it.
+
+Quantum Computing - 
+
+Imagine I have a whole row of coins, more coins than you can see. Each one is laying heads up or tails up, right ?
+A regular computer is a big machine that rolls up and down the row of coins flipping them over and looking at them to do all sorts of calculations and remember things its been told.
+A quantum computer instead of simply turning coins over and leaving them on the ground tries to flip them up into the air and keep them spinning as long as it can.
+When we flip a coin in the air, is it heads or tails ? We could say at one moment it's exactly heads; and the next it's exactly tails; sometimes it's exactly neither. Mathematically it turns out to be useful to describe it as "both". It doesn't mean the coin is literally both heads and tails, more trying to describe this time its flipping in the air; the coin will be either heads or tails at some time later, right now we don't know, it could be either, but we know how likely heads and tails are, and say its "both" (with 50% likelyhood of each).
+So a quantum computer is a big machine that flips coins in the air instead of keeping them on the ground like a regular computer. But what makes it actually useful and not just a coin flipping machine, is the quantum computer can blow air onto the flipping coins while they are in the air to make them much more likely to land facing the answer we asked (like 99.99999% likely).
+So for certain kinds of questions, a regular computer would have to roll down the whole row of coins searching for the right answer, a quantum computer can do its coin flipping trick and get the answer much faster. But not all questions are like that. Regular computers are also much easier to build and we've been building them for awhile. Building a quantum computer that can flip a lot of coins correctly has been pretty hard, but scientists and engineers have been building better and better ones every year.
+
+Software Dependency - 
+
+A software dependency is some code that you need to run other code. Your code depends on it to work.
+Dependencies also have dependencies. A Double Cheese Pizza depends on cheese to function. The cheese itself depends on milk,salt and a bunch of enzymes.
+
+Middleware - 
+
+When you brush your teeth, your toothbrush is the middleware between the toothpaste and your teeth. We could just pour toothpaste directly in our mouth and call it done, but using a toothbrush is easier and very helpful.
+
+Tech Stack - 
+
+Backend : The kitchen is where all the processing happens and the user or customer doesn't need to see how it is working under the hood i.e. how the chef is preparing the food.
+Frontend: This is where the user places an order to the backend(kitchen). The presentation also happens here(the UI of the application).
+APIs: The waiter works as an API that carry out users' request to the backend from the frontend.
+
+Code Smell - 
+
+When someone is really good at something, like a cricketer, what that means is that they have been in so many and varied cricket match situations that they have learnt how best to act in those situations. We often call that instinct, because of how fast they can apply what they have learnt.
+So if a really experienced cricketet looks over a field of players, they will be able to see when to attack bowlers or when to defend few overs. They might not be able to fully explain how they know, but they can feel it.
+So even though nothing bad might happen because of what is going on on the field in the moment, something bad might happen later because of it, maybe the team loses, or a player ends up getting out.
+You might call that a "play smell" because the experienced player can sense something isn't right, even though nothing bad is immediately evident, like how you can smell smoke before you can see a fire.
+A code smell is a lot like that. An experienced programmer can look over code, maybe even their own, and see over complexity or other inefficiencies in the making.
+The code is beginning to smell.
+A lot of code smells are so frequently done by less experienced or very tired programmers that the types of smell can be documented, which is why you often see blog posts about how "[this code pattern] is a code smell".
+
+State Machine - 
+
+Think of game of snake and ladders - and that is a state machine. You roll a dice and whatever comes on top, you move your piece by that much number. The piece will move from one square, to some other square depending on what was on that dice. Now sometimes, one can change the square without a dice, just because they are on that square, for example when the encounter snake or when they encounter a ladder.
+Now imagine starting to watch a game being played some time after it has started. One of the pieces is on square number 11, but we have no way of telling how it got there. Maybe player rolled a five then a six, or maybe they rolled a five, another five and then a one, or maybe they are there because a snake on 21 got them back to 6 and then they rolled 5. But in the game it doesn't matter how they got there, what matter, is that players have fun and also what players roll next on the dice, as the next movement depends only on that.
+State machines are like that, too. A machine's state (position of piece) changes depending only on what is the next input (what comes next on dice), and there may be multiple ways of reaching a state (How it reached square 11), but which way it used does not affect its next transition (move). There can be ways to change state just because one is in a particular state, using epsilon transitions (one can move squares because they encountered snake or ladder, without rolling dice).
+
+Developer Roles - 
+
+Think of a restaurant. You have greeters (CDNs) and hostesses (reverse proxies) to direct customers (users) to their seats.
+When they get there there are servers (FrontEnd Devs) who provide the customers a pleasurable experience (UX) as well as serve them food (data).
+In the back you have cooks (BackEnd Devs) doing prep work, dishwashers (SREs) making sure everything is clean and ready, as well as Kitchen Managers (DevOps) to ensure everything in the back is setup to run smoothly.
+SPAs operate like a buffet in that they leave more work for the customers to do themselves and put more emphasis on the FrontEnd.
+Where do FullStack devs fit in. They're the restaurant managers. They can fit into and accel at any role they have likely worked in every role at one point or another.
+It takes a lot of work to get good enough to be a FullStack dev. So much so that some other types of devs deny that they even exist.
+The truth is, the hardest part about becoming a legit FullStack dev is pushing back against your employer so they don't keep you pigeonholed into a very narrow role.
+Many devs are perfectly happy to get paid a lot to work a narrowly defined role. Pursuing FullStack is the hard path and the sacrifice in time/effort to get there may not be worth it.
+Like every restaurant wants a badass restaurant manager like Gordon Ramsey, companies would really love to have badass FullStack devs on their team.
+But! Very few companies will invest the time and resources to raise a dev to that level.
+FullStack devs have a lot more freedom to migrate elsewhere if the work conditions are bad and they're very difficult and costly to replace.
+FullStack devs have the capability to raise everybody up. But companies don't want to raise devs up to FullStack status.
+
+DNS - 
+
+If you're familiar with a modern smart phone with a "contact list" or "phone book", ask yourself when the last time you've had to recall the actual digits of the phone number are for a friend/family member. Hardly? If ever?
+The Internet is made up of IP (Internet Protocol) addresses, the phone numbers of the internet, an address is simply the location representing an entity and/or resource. It's hard to remember compared to your friend's name or the URL of a site, whose IP from where I am, resolves to 151.101.130.217. That would be difficult to remember each time I wanted to visit this site.
+A DNS aka domain name service, provides translation of the URL (top-level domain) to an IP address in a decentralized, semi-federated, fashion that provides essentially a map to take what we can remember and translate it to something that we don't (the actual IP address).
+
+TCP - 
+
+You and a friend need to share a toy:
+You ask a friend if he can play with the toy.
+Your friend asks you if you actually asked him for the toy.
+You tell your friend that you asked for that toy.
+He gives you the toy.
+
+UDP - 
+
+You ask a friend if he can play with the toy.
+Your friend throws a toy at you and walks away.
+
+Websockets - 
+
+You have a agreement with your best friend that he'll help with your math homework when you're stuck.
+When you have a question, you call him, wait for him to answer, then ask your question, and listen while he replies. Then he hangs up and you carry on with your homework.
+Most evenings, you call him a few times over the course of an hour or so. Sometimes he's too busy to answer, so you hang up, twiddle your thumbs and try in a few minutes.
+But some evenings, homework is too hard, and you're practically calling him every five minutes. Although he doesn't mind helping you, neither of you are happy about the constant process of dialling him, waiting for him to answer, and hanging up, only to do the same thing a few minutes later.
+Finally you settle upon a sane solution. You call him, and keep the line open. There's silence while you're working on your own, but when you have a question, you just have to start speaking and he can already hear you. When your homework is over, you can hang up for the evening.
+Your friend is the server, you're the browser app, the call is a network connection and keeping the line open after calling is a websocket connection.
+
+Git/GitHub - 
+
+Git is like saving multiple drafts of written papers.
+Github is a hub for those multiple drafts of papers that other people can view, work on, and collaborate on !
+
+Promises - 
+
+You ask your mom if you can have some sweets later. She can either resolve sweets (yes you can have some), or reject your request (no sweets for you. You’ve been naughty).
+When it gets to later, if her promise resolved (ie she said you can have some) THEN you can eat them. Otherwise, you have to CATCH the tears you cry because you can’t eat sweets. Simple, huh?
+A promise contains a resolve and reject. When it is actually called (the function is invoked), if it resolves, use THEN, or CATCH the rejection.
+
+Smoke Testing - 
+
+For your upcoming birthday, you ask your parents to buy you a Lego 1989 Batmobile.
+The day finally arrives, and you are presented with a wrapped package, but they don't tell you what's inside. It is a surprise.
+Your excitement rises, but before you get your hopes up - you examine the package.
+Judging by the shape and size of the package, it matches the size of the box for the Lego 1989 Batmobile. Smoke test 1 passed.
+You take the present in your hand and feel its weight. Its not too heavy, not too light. Just about right for a box of Legos. Smoke test 2, passed.
+You decide to give it one final test before calling it. You shake the box and hear the familiar sound of Legos inside. Smoke test 3, passed!
+Now you are fairly confident that the present is some kind of Lego, but you cannot really be sure if it is the Batmobile, so you start with user acceptance testing, unwrapping the present and validating the contents of the box.
+Had any of the smoke tests failed, you would have immediately known that the present is not what you asked for, without investing time in detailed testing.
+
+DevOps - 
+
+It is winter, and one cold evening, a fairy visits you.
+"You've got three wishes", the fairy says.
+"I want a machine that throws snowballs", you say.
+And puff, there's the machine. And the fairy disappears.
+You invite your friend Bob over, and tell her what happened.
+"Wow", say Bob. "How do you use the machine?"
+"I have no idea. It's got like 1000 buttons.
+It is way to complicated."
+"Oh my god", says Bob. "What a pity."
+That night, you sit in your room crying. 
+Suddenly, the fairy appears again. 
+"What's up ? Why are you crying ?"
+"Well, you gave me that awesome machine, but I can't use it. 
+Bob can't use it either. It's too complicated."
+"Well, you didn't say it needs to be simple. But remember.
+You've got 2 wishes left."
+"Ok. My friend Bob and me, we want to know which buttons to press. So that the machine builds snowballs, and throws them."
+"Your wish is my command", says the fairy, and disappears.
+You invite Bob over. But now, there is another problem:
+you know exactly which buttons to press to make the machine build a snowball. But only that. You're kind of like the developer of snowballs.
+Your friend Bob knows which buttons to press to make the machine throw a snowball. But only that. He's kind of like the operator of the machine.
+If Bob and you work together, you can make the machine build and throw a snowball. But neither of you knows the whole story. Neither of you can use the machine alone. You always need Bob around. And while you can build snowballs that look really good, Bob often complains that they are too heavy and don't fly far enough.
+But you're friends. You observe each other, and talk about the machine a lot. Because it's the most fascinating thing you know. And over time, you learn which buttons to press to operate the machine. And Bob learns to build a snowball with the machine.
+You were a developer, and learned to operate the machine.
+Bob was an operator, and learned to develop snowballs.
+So now both of you are a developer, and an operator. You are DevOps.
+
+Containers - 
+
+A Container is a box with all the pieces required to use a single toy. You can have multiple containers to combine your toys and create more better toys. Some boxes only have the pieces and you need to have multiple boxes to create a single toy.
+A virtual machine is like having a box with the pieces to use a toy, but you all need eat your vegetables first each time you want to use the toy.
+Docker is the name of a possible boxes where your toy can come. Is the most used and looks like a whale.
+Azure Container Service, AWS and GCP are glue you can use to combine your Docker boxes to create better toys.
+
+Database Connection Pooling - 
+
+Let's say a connection pool is like the books at your local library. If you want to borrow a book, you check it out (the connection from the pool is assigned to you), and start reading. The library has multiple copies of popular books (multiple connections in the pool), so other people can still borrow a book even if you've got a copy checked out. When you return the book to the library (return the connection to the pool), it becomes available again for the next person. Let's say a book is so popular that all of the local copies are checked out (no more connections in the pool). In that case, you may order the book from another branch (create a new connection), but this takes much longer. Alternatively, you may just wait until a copy is returned by someone else (wait for the pool to have a free connection again).
+
+Regular Expressions - 
+
+Regular expressions are a way of finding specific parts of something written. A bit like finding a specific part of a story book, or a certain word in a song.
+Actually let's begin with a random song
+
+Twinkle twinkle little star,
+How I wonder what you are!
+Up above the world so high!
+Like a diamond in the sky!
+
+Let's find some words:
+
+1: Find the word "star" in the song
+
+Twinkle twinkle little [star],
+How I wonder what you are!
+Up above the world so high!
+Like a diamond in the sky!
+
+Here it is, right there! On the first line of our song. That was easy!
+
+Now let's try something else:
+
+2: Find every character that's not a letter!
+Twinkle twinkle little star[,]
+How I wonder what you are[!]
+Up above the world so high[!]
+Like a diamond in the sky[!]
+
+Now that looked a little bit more complex than our first exercise. But it wasn't too difficult, was it?
+
+The reason you found it slightly more difficult was because you weren't looking for a specific word this time. You were looking for something else more general. You were looking at a... PATTERN!
+
+You know patterns, right? They're on the shirt you're wearing, outside on the trees and leaves. They're everywhere!
+
+Now let's try one more:
+
+3. Find every word in the song that is 3 letters or less:
+Twinkle twinkle little star,
+[How] [I] wonder what [you] [are]!
+[Up] above [the] world [so] high!
+Like [a] diamond [in] [the] [sky]!
+
+API Gateway - 
+
+An API gateway is like a supermarket.
+You could go to a farmer and buy vegetables and go to a bakery to buy bread, but you could also simply go to a supermarket and buy both.
+The supermarket doesn't make these things, it just gives it to you after it bought them from a producer.
+An API gateway doesn't make data, it just gives it to you after it got them from a microservice.

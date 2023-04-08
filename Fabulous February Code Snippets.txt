@@ -1,0 +1,574 @@
+Coding Challenge Day 1
+
+Print Numbers from 1 to 50.
+
+for(var i = 1; i <= 50; i++)
+{
+    console.log(i);
+}
+
+Coding Challenge Day 2
+
+Print Odd Numbers less than 1000.
+
+for(var i = 1; i <= 1000; i += 2)
+{
+    console.log(i);
+}
+
+Coding Challenge Day 3
+
+Print Multiplication Tables with Numbers from 1 to 10.
+
+for(var i = 1; i <= 10; i++)
+{
+    printTable(i);
+    console.log("");
+}
+function printTable(n)
+{
+    for(var i = 1; i <= 10; i++)
+    {
+        var row = n + " * " + i + " = " + n * i;
+        console.log(row);
+    }
+}
+
+Coding Challenge Day 4
+
+Calculate Sum of Numbers from 1 to 50.
+
+var sum = 0;
+for(var i = 1; i <= 50; i++)
+{
+    sum += i;
+}
+console.log(sum);
+
+Coding Challenge Day 5
+
+Calculate 69!
+
+var prod = 1;
+for(var i = 1; i <= 69; i++)
+{
+    prod *= i;
+}
+console.log(prod);
+
+Coding Challenge Day 6 
+
+Calculate Sum of Even Numbers greater than 10 and less than 50.
+
+var sum = 0;
+for(var i = 11; i <= 50; i += 2)
+{
+    sum += i;
+}
+console.log(sum);
+
+Coding Challenge Day 7
+
+Create a Function that will Convert Celsius Temperature to Fahrenheit.
+
+function celsiusToFahrenheit(n)
+{
+    return n * 1.8 + 32;
+}
+var fahrenheit = celsiusToFahrenheit(50);
+console.log(fahrenheit);
+
+Coding Challenge Day 8
+
+Create a Function that will Convert Fahrenheit Temperature to Celsius.
+
+function fahrenheitToCelsius(n)
+{
+    return (n - 32) / 1.8;
+}
+var celsius = fahrenheitToCelsius(69);
+console.log(celsius);
+
+Coding Challenge Day 9
+
+Calculate Sum of Numbers in an Array of Numbers.
+
+function sumArray(ar)
+{
+    var sum = 0;
+    for(var i = 0; i < ar.length; i++)
+    {
+        sum += ar[i];
+    }
+    return sum;
+}
+var ar = [2, 3, -1, 5, 7, 9, 10, 15, 95];
+var sum = sumArray(ar);
+console.log(sum);
+
+Coding Challenge Day 10 
+
+Calculate Average of Numbers in an Array of Numbers.
+
+function averageArray(ar)
+{
+    var n = ar.length;
+    var sum = 0;
+    for(var i = 0; i < n; i++)
+    {
+        sum += ar[i];
+    }
+    return sum / n;
+}
+var ar = [1, 3, 9, 15, 90, 69];
+var avg = averageArray(ar);
+console.log("Average : ", avg);
+
+Coding Challenge Day 11
+
+Create a Function that receives an Array of Numbers and returns an Array containing only Positive Numbers.
+
+function getPositives(ar)
+{
+    return ar.filter(el => el >= 0);
+}
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1 -69, 62];
+var ar2 = getPositives(ar);
+console.log(ar2);
+
+Coding Challenge Day 12
+
+Find Maximum Number in an Array of Numbers.
+
+function findMax(ar)
+{
+    var max = ar[0];
+    for(var i = 0; i < ar.length; i++)
+    {
+        if (ar[i] > max)
+        {
+            max = ar[i];
+        }
+    }
+    return max;
+}
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1, 69, -68];
+var max = findMax(ar);
+console.log("Maximum Value : ", max);
+
+Coding Challenge Day 13
+
+Print First 100 Fibonacci Numbers without Recursion.
+
+var f0 = 0;
+console.log(f0);
+var f1 = 1;
+console.log(f1);
+for(var i = 2; i < 100; i++)
+{
+    var fi = f1 + f0;
+    console.log(fi);
+    f0 = f1;
+    f1 = fi;
+}
+
+Coding Challenge Day 14
+
+Create a Function that will find the nth Fibonacci Number using Recursion.
+
+function findFibonacci(n)
+{
+    if (n == 0)
+        return 0;
+    if (n == 1)
+        return 1;
+    return findFibonacci(n - 1) + findFibonacci(n - 2);
+}
+var n = findFibonacci(10);
+console.log(n);
+
+Coding Challenge Day 15 
+
+Create a Function that will return Boolean Value specifying if a Number is Prime.
+
+function isPrime(n)
+{
+    if (n < 2)
+        return false;
+    if (n == 2)
+        return true;
+    var maxDiv = Math.sqrt(n);
+    for(var i = 2; i <= maxDiv; i++)
+    {
+        if (n % i == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+console.log(2, " is prime ? ", isPrime(2));
+console.log(3, " is prime ? ", isPrime(3));
+console.log(5, " is prime ? ", isPrime(5));
+console.log(8, " is prime ? ", isPrime(8));
+console.log(10, " is prime ? ", isPrime(10));
+
+Coding Challenge Day 16
+
+Calculate Sum of Digits of a Positive Integer Number.
+
+function sumDigits(n)
+{
+    var s = n.toString();
+    var sum = 0;
+    for(var char of s)
+    {
+        var digit = parseInt(char);
+        sum += digit;
+    }
+    return sum;
+}
+var sum = sumDigits(1235231);
+console.log("Sum: ", sum);
+
+Coding Challenge Day 17
+
+Print First 100 Prime Numbers.
+
+printPrimes(100);
+function printPrimes(nPrimes)
+{
+    var n = 0;
+    var i = 2;
+    while(n < nPrimes)
+    {
+        if (isPrime(i))
+        {
+            console.log(n, " --> ", i);
+            n++;
+        }
+        i++;
+    }
+}
+function isPrime(n)
+{
+    if (n < 2)
+        return false;
+    if (n == 2)
+        return true;
+    var maxDiv = Math.sqrt(n);
+    for(var i = 2; i <= maxDiv; i++)
+    {
+        if (n % i == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+Coding Challenge Day 18
+
+Create a Function that will return in an Array the First "nPrimes" Prime Numbers greater than a particular number "startAt".
+
+console.log(getPrimes(25,50));
+function getPrimes(nPrimes, startAt)
+{
+    var ar = [];
+    var i = startAt;
+    while(ar.length < nPrimes)
+    {
+        if (isPrime(i))
+        {
+            ar.push(i);
+        }
+        i++;
+    }
+    return ar;
+}
+function isPrime(n)
+{
+    if (n < 2)
+        return false;
+    if (n == 2)
+        return true;
+    var maxDiv = Math.sqrt(n);
+    for(var i = 2; i <= maxDiv; i++)
+    {
+        if (n % i == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+Coding Challenge Day 19
+
+Rotate an Array to the left 1 Position.
+
+var ar = [1, 2, 3, 4, 5];
+rotateLeft(ar);
+console.log(ar);
+function rotateLeft(ar)
+{
+    var first = ar.shift();
+    ar.push(first);
+}
+
+Coding Challenge Day 20
+
+Rotate an Array to the right 1 Position.
+
+var ar = [1, 2, 3, 4, 5];
+rotateRight(ar);
+console.log(ar);
+function rotateRight(ar)
+{
+    var last = ar.pop();
+    ar.unshift(last);
+}
+
+Coding Challenge Day 21
+
+Reverse Array.
+
+var ar = [1,2,3,4,5,6,7,8,9,10];
+var ar2 = reverseArray(ar);
+console.log(ar2);
+function reverseArray(ar)
+{
+    var ar2 = [];
+    for(var i = ar.length - 1; i >= 0; i--)
+    {
+        ar2.push(ar[i]);
+    }
+    return ar2;
+}
+
+Coding Challenge Day 22
+
+Reverse String.
+
+var s = reverseString("JavaScript is Awesome");
+console.log(s);
+function reverseString(s)
+{
+    var s2 = "";
+    for(var i = s.length - 1; i >= 0; i--)
+    {
+        var char = s[i];
+        s2 += char;
+    }
+    return s2;
+}
+
+Coding Challenge Day 23 
+
+Create a Function that will merge two Arrays and return the Result as a new Array.
+
+var ar1 = [1, 2, 3, 9, 10];
+var ar2 = [4, 5, 6, 7, 8];
+var ar = mergeArrays(ar1, ar2);
+console.log(ar);
+function mergeArrays(ar1, ar2)
+{
+    var ar = [];
+    for(let el of ar1)
+    {
+        ar.push(el);
+    }
+    for(let el of ar2)
+    {
+        ar.push(el);
+    }
+    return ar;
+}
+
+Coding Challenge Day 24
+
+Create a Function that will receive two Arrays of numbers and return an Array of all the Numbers that are either in the first Array or second Array but not in both.
+
+var ar1 = [1, 2, 3, 10, 5, 3, 14];
+var ar2 = [1, 4, 5, 6, 10, 14];
+var ar = mergeExclusive(ar1, ar2);
+console.log(ar);
+function mergeExclusive(ar1, ar2)
+{
+    var ar = [];
+    for(let el of ar1)
+    {
+        if (!ar2.includes(el))
+        {
+            ar.push(el);
+        }
+    }
+    for(let el of ar2)
+    {
+        if (!ar1.includes(el))
+        {
+            ar.push(el);
+        }
+    }
+    return ar;
+}
+
+Coding Challenge Day 25
+
+Create a Function that will receive two Arrays and will return an Array with Elements that are in the first Array but not in the second.
+
+var ar1 = [1, 2, 3, 10, 5, 3, 14];
+var ar2 = [1, 4, 5, 6, 14];
+var ar = mergeLeft(ar1, ar2);
+console.log(ar);
+function mergeLeft(ar1, ar2)
+{
+    var ar = [];
+    for(let el of ar1)
+    {
+        if (!ar2.includes(el))
+        {
+            ar.push(el);
+        }
+    }
+    return ar;
+}
+
+Coding Challenge Day 26
+
+Create a Function that will receive an Array of Numbers as Argument and will return a new Array with distinct Elements.
+
+var ar = getDistinctElements([1, 2, 3, 6, 1, 2, 9, 7, 10, -1, -10]);
+console.log(ar);
+function getDistinctElements(ar)
+{
+    var ar2 = [];
+    var lastIndex = ar.length - 1;
+    for(let i = 0; i <= lastIndex; i++)
+    {
+        if (!isInArray(ar[i], ar, i + 1, lastIndex))
+        {
+            ar2.push(ar[i]);
+        }
+    }
+    return ar2;
+}
+function isInArray(n, ar, fromIndex, toIndex)
+{
+    for(var i = fromIndex; i <= toIndex; i++)
+    {
+        if (ar[i] === n)
+            return true;
+    }
+    return false;
+}
+
+Coding Challenge Day 27
+
+Calculate Sum of First 100 Prime Numbers.
+
+var n = 10;
+console.log("Sum of First ", n, " Positive Primes is ", sumPrimes(10));
+function sumPrimes(n)
+{
+    var foundPrimes = 0;
+    var i = 2;
+    var sum = 0;
+    while(foundPrimes < n)
+    {
+        if (isPrime(i))
+        {
+            foundPrimes++;
+            sum += i;
+        }
+        i++;
+    }
+    return sum;
+}
+function isPrime(n)
+{
+    if (n < 2)
+        return false;
+    if (n == 2)
+        return true;
+    var maxDiv = Math.sqrt(n);
+    for(var i = 2; i <= maxDiv; i++)
+    {
+        if (n % i === 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+Coding Challenge Day 28
+
+Print Distance between First 100 Prime Numbers.
+
+printDistances(100);
+function printDistances(n)
+{
+    var lastPrime = 2;
+    var i = lastPrime + 1;
+    var foundPrimes = 1;
+    while(foundPrimes < n)
+    {
+        if (isPrime(i))
+        {
+            console.log(i - lastPrime, "\t", i, " - ", lastPrime);
+            foundPrimes++;
+            lastPrime = i;
+        }
+        i++;
+    }
+}
+function isPrime(n)
+{
+    if (n < 2)
+        return false;
+    if (n == 2)
+        return true;
+    var maxDiv = Math.sqrt(n);
+    for(var i = 2; i <= maxDiv; i++)
+    {
+        if (n % i === 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+Coding Challenge Day 29
+
+Create a Function that will Add Two Positive Numbers of Indefinite Size. The numbers are received as strings and the result should be also provided as string.
+
+var n1 = "1234567896969987654321";
+var n2 = "1478523696969963258741";
+var sum = add(n1, n2);
+console.log(n1);
+console.log(n2);
+console.log(sum);
+function add(sNumber1, sNumber2)
+{
+    var maxSize = Math.max(sNumber1.length, sNumber2.length);
+    var s1 = sNumber1.padStart(maxSize, "0");
+    var s2 = sNumber2.padStart(maxSize, "0");
+    var s = "";
+    var carry = 0;
+    for(var i = maxSize - 1; i >= 0; i--)
+    {
+        var digit1 = parseInt(s1[i]);
+        var digit2 = parseInt(s2[i]);
+        var sum = digit1 + digit2;
+        var digitSum = sum % 10;
+        digitSum += carry;
+        s = digitSum.toString() + s;
+        carry = sum >= 10 ? 1 : 0;
+    }
+    if (carry > 0)
+        s = carry + s;
+    return s;
+}

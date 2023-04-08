@@ -1,0 +1,20 @@
+I - Obeys operator
+The operator shall retain full control of the machine at all times.  In particular, the handling of the keyboard, mouse, and other human interface devices must take absolute priority over all other processing.  The operator shall have the ability to issue commands and receive immediate confirmation of said commands at all times, regardless of system load.
+
+II - Forgives mistakes
+Information which entered the machine through deliberate operator action shall never be destroyed or otherwise rendered inaccessible except as a result of deliberate operator action to that end.  No operator action shall lead to the destruction of information unless said destruction is the explicit and sole purpose of the action.  If all non-volatile storage space that could hold full undo-information for operator-initiated actions is exhausted, the operator shall be informed immediately and given the opportunity to explicitly erase unwanted data or connect additional storage devices, thus preventing unintentional information loss.
+
+III - Retains knowledge
+Volatile storage devices (i.e. RAM) shall serve exclusively as read/write cache for non-volatile storage devices.  From the perspective of all software except for the operating system, the machine must present a single address space which can be considered non-volatile.  No computer system obeys this law which takes longer to fully recover its state from a disruption of its power source than an electric lamp would.
+
+IV - Preserves meaning
+Compilation is to be considered a form of caching, and thus shall happen solely behind the scenes, like all other forms of caching. (See the Third Law.) The machine is to accept no externally-introduced executable code except in the form preferred for making modifications (i.e. source.)   All executable code visible during any kind of debugging session or accessible to the operator in any other way shall also be exclusively of this form.  Nothing residing at any lower levels of abstraction shall be semantically relevant to the machine's operation.  In effect, the machine behaves exactly like a "hardware interpreter" of a high-level programming language. Note that what the silicon actually does to achieve this is irrelevant so long as no programmer need ever be made aware of just how it does it.
+
+V - Survives disruptions
+If the machine encounters an error condition requiring the operator's intervention, the state of the now-halted process prior to this event shall be preserved, and the operator given an opportunity to correct the error using an interactive debugger and resume execution from the saved-and-corrected state.  The debugger shall display the code which generated the condition -- and any other executable code on the system, upon request.  All of the code shall be viewable and editable in the form preferred for modification. (See the Fourth Law.)
+
+VI - Reveals purpose
+All of the information contained inside the machine's storage array (see the Third Law), whether executable or not, shall be accessible at all times for inspection and modification by the operator, in the form preferred for modification.  The operator shall have the ability to modify the functionality of any executable code within the system without cycling power or performing any similar ritual.  No modification of any kind shall be able to render the means for undoing said modification (the keyboard and a spare instance of the built-in debugger) inoperable.
+
+VII - Serves loyally
+The machine shall never tell a lie to the operator.  It shall obey all orders given to it through the human interface devices, without attempting to pass judgement on their legality or morality.  The machine shall not put the interests of any third party (including society in the abstract) above those of its operator.

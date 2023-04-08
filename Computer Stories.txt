@@ -1,0 +1,369 @@
+A WORD HAS 48 BITS ...
+
+It can be used as either one of the following ways :- 
+
+Eight 6-Bit Alpha-Numeric Characters
+
+One 48-Bit Fixed-Point Number
+
+Two 24-Bit (Half length) Fixed-Point Numbers
+
+Half of a 96-Bit (Double Length) Fixed-Point Number
+
+One 48-Bit Floating-Point Number
+
+Two 24-Bit (Half length) Floating-Point Numbers
+
+Half of a 96-Bit (Double length) Floating-Point Number
+
+Three 16-Bit (Fixed point) Integers
+
+Six 8-Bit Instruction Syllables
+
+										Better Watch Out
+
+#! /bin/sh
+# santa claus is coming to town
+better !pout !cry
+better watchout
+lpr why
+santa claus town
+cat /etc/passwd >list
+ncheck list
+ncheck list
+cat list | grep naughty >nogiftlist
+cat list | grep nice >giftlist
+santa claus town
+who | grep sleeping
+who | grep awake
+who | grep bad || good
+for (goodness sake) {
+ be good
+ }
+
+										Categories of UNIX Users
+
+BEGINNER
+ - insecure with the concept of a terminal
+ - has yet to learn the basics of vi
+ - has not figured out how to get a directory
+ - still has trouble with typing RETURN after each line
+
+NOVICE
+ - knows that ls will produce a directory
+ - uses the screen editor but calls it "vie"
+ - has heard of C but never used it
+ - has had his first bad experience with rm
+ - is wondering how to read his mail
+ - wonders why the person next to him likes UNIX so much
+
+USER
+ - uses vi and nroff but inexpertly
+ - has heard of regular expressions but never seen one
+ - has figured out that - precedes options
+ - has attempted to write a C program and decided to stick with Pascal
+ - is wondering how to move a directory
+ - knows how to read his mail and wonders how to read news
+
+KNOWLEDGEABLE USER
+ - uses nroff with no trouble and is learning tbl and eqn
+ - uses grep to search for fixed strings
+ - has figured out that mv will move directories
+ - has learned that learn(1) doesn't help
+ - somebody has shown him how to write C programs
+ - once used sed to do some text substitution
+ - thinks make is only for wimps
+
+EXPERT
+ - uses sed when necessary
+ - uses macro's in vi, uses ex when necessary
+ - posts news at every possible opportunity
+ - write C programs with vi and compiles with cc
+ - has figured out what && and || are for
+ - thinks that human history started with !h
+
+HACKER
+ - uses sed and awk with comfort
+ - uses undocumented features of vi
+ - writes C code with cat >foo.c and compiles with !cc
+ - uses adb because he doesn't trust source debuggers
+ - can answer questions about the user environment
+ - writes his own nroff macros to supplement standard ones
+ - writes scripts for Bourne shell (/bin/sh)
+ - knows how to install bug fixes
+
+GURU
+ - writes m4 and lex with comfort
+ - writes assembly code with cat >foo.s
+ - uses adb on the kernel while system is loaded
+ - customizes utilities by patching the source
+ - reads device driver source with breakfast
+ - can answer any unix question after a little thought
+ - uses make for anything that requires two or more commands
+ - has learned to breach security but no longer needs to
+
+WIZARD
+ - writes device drivers with cat >foo.o
+ - fixes bugs by patching the binaries
+ - can answer any question before you ask
+ - writes his own troff macro packages
+ - is on first-name basis with Dennis, Bill, and Ken
+
+									A Programmable Genius ...
+
+A programming genius called Hank
+Wrote a system to 'access' his 'bank'
+When his memory failed him
+They nailed him then jailed him
+Now his 'storage' is 'basic' and dank.
+
+A programming genius called Gertie
+Had a penchant for graphics so dirty
+No computer she knew
+Would accept what she drew
+Until she had tickled its QWERTY.
+
+A programming genius called HEAP
+Had trouble in getting to sleep
+So he made his lambs troup
+through a huge FOR-NEXT loop
+FOR 1 TO 10000: NEXT sheep.
+
+A programming genius called Smiler
+Thought he'd made up a simpler compiler
+But through trouble with loops
+Was constrained to cry 'Whoops,
+This gets viler, gets viler, gets viler
+
+A programming genius called Sewter
+Built a limerick-writing computer.
+The metre was fine
+and the rhymes quite divine
+But for some reason the damn thing always
+got the last line wrong.
+
+A programming genius called Hugh
+Said 'I really must see if it's true.'
+So he wrote a routine
+To ask 'What's it all mean?'
+But the answer was still '42'.
+
+										Electronic Grains
+
+The Vegetable Computer was invented in 1969 by Charles Cabbage, regarded by many as the father of the field. Cabbage called his computer the Agricultural Engine. Modern versions consist of rose and rose of integrated carrots connected to a flower supply by a maize of wires. Input is from pea switches. A hayseed vine printer may be used to generate hard coffee, while a vegetable display unit supports interactive composting. Main memory consists of interleaved beet-addressable magnetic corn. Secondary store consists of plough discs and grape drives. All peripherals are daisy chained. A later version of the Agricultural Engine was known as the AR-16 (after Agricultural Revolution). It was based on the sack discipline, sprouted a high-swede paper tape reaper for the first lime. Early computer consumed large amounts of power. Many required their own electric spud-station to seed them and had to overcome the problem of providing adequate lentilation. Such problems caused many a furrowed brow in the pasture and we cannot expect to avoid harrowing days ahead. However, the many fertile minds that constitute the rate-of-the-cart computer technology cannot fail to produce the harvest of the future, particulary with the bloom of very large scale irrigation. Artificial pollination techniques grafted on to parallel earthworks will soon be producing computers proudly proclaiming "I think, therefore I yam". All chokoes aside, we can look beyond the melon-cauli thymes through the winnow of the ears till the salad days ahead. Lettuce advance to the world of two marrows. 
+
+										Fifty Ways to Hose Your Code
+
+The problem's all inside your code she said to me;
+Recursion is easy if you take it logically.
+I'm here to help you if you're struggling to learn C,
+There must be fifty ways to hose your code.
+She said it's really not my habit to #include,
+And I hope my files won't be lost or misconstrued;
+But I'll recompile at the risk of getting screwed,
+There must be fifty ways to hose your code.
+Just blow up the stack Jack,
+Make a bad call Paul,
+Just hit the wrong key Lee,
+And set your pointers free.
+Just mess up the bus Gus,
+You don't need to recurse much,
+You just listen to me.
+She said it greives me to see you compile again.
+I wish there were some hardware that wasn't such a pain.
+I said I appreciate that and could you please explain,
+About the fifty ways.
+She said why don't we both just work on it tonight,
+And I'm sure in the morning it'll be working just right.
+Then she hosed me and I realized she probably was right,
+There must be fifty ways to hose your code.
+Just lose the address Les,
+Clear the wrong Int Clint,
+Traverse the wrong tree Lee,
+And set your list free.
+Just mess up the bus Gus,
+You don't need to recurse much,
+You just program in C.
+
+										Human DNA Demystified
+
+===
+/* HUMAN_DNA.H
+ *
+ * Human Genome
+ * Version 6.9
+ *
+ * (C) God
+ */
+/* Revision History:
+ *
+ * 0000-00-01 00:00 1.0 Adam.
+ * 0000-00-02 10:00 1.1 Eve.
+ * 0000-00-03 02:11 1.2 Added penis code to male version. A bit messy
+ * will require a rewrite later on to make it neater.
+ * 0017-03-12 03:14 1.3 Added extra sex drive to male.h; took code from
+ * elephant-dna.c
+ * 0145-10-03 16:33 1.4 Removed tail.
+ * 1115-00-31 17:20 1.5 Shortened forearms, expanded brain case.
+ * 2091-08-20 13:56 1.6 Opposable thumbs added to hand() routine.
+ * 2501-04-09 14:04 1.7 Minor cosmetic improvements -- skin colour made
+ * darker to match my own image.
+ * 2909-07-12 02:21 1.8 Dentition inadequate; added extra 'wisdom' teeth.
+ * Must remember to make mouth bigger to compensate.
+ * 4501-12-31 14:18 1.9 Increase average height.
+ * 5533-02-12 17:09 2.0 Added gay option, triggered by high population
+ * density, to try and slow the overpopulation problem.
+ * 6004-11-04 16:11 2.1 Made forefinger narrower to fit hole in centre of
+ * CD.
+ */
+/* Standard definitions
+ */
+#define SEX male
+#define HEIGHT 1.85
+#define MASS 69
+#define RACE caucasian
+/* Include inherited traits from parent DNA files.
+ *
+ * Files must be pre-processed with MENDEL program to provide proper
+ * inheritance features.
+ */
+#include "mother.h"
+#include "father.h"
+Human DNA demystified 69
+#infndef FATHER
+#warn("Father unknown -- guessing\n")
+#include "bastard.h"
+#endif
+/* Set up sex-specific functions and variables
+ */
+#include
+/* Kludged code -- I'll re-design this lot and re-write it as a proper
+ * library sometime soon.
+ */
+struct genitals
+ {
+#ifdef MALE
+ Penis *jt;
+#endif
+ /* G_spot *g; Removed for debugging purposes */
+#ifdef FEMALE
+ Vagina *p;
+#endif
+ }
+/* Initialization bootstrap routine -- called before DNA duplication.
+ * Allocates buffers and sets up protein file pointers
+ */
+DNA *zygote_initialize(Sperm *, Ovum *);
+/* MAIN INITIALIZATION CODE
+ *
+ * Returns structures containing pre-processed phenotypes for the organism
+ * to display at birth.
+ *
+ * Will be improved later to make output less ugly.
+ */
+
+										Real Programmers
+
+Real Programmers don't write specs, users should consider themselves lucky to get any programs at all and take what they get.
+Real Programmers don't comment their code. If it was hard to write, it should be hard to understand.
+Real Programmers don't write application programs; they program right down on bare metal. Application programming is for feebs who can't do system programming.
+Real Programmers don't write in COBOL. COBOL is for wimpy applications programmers.
+Real Programmers programs never work right the first time.
+Real Programmers don't write in FORTRAN. FORTRAN is for pipe stress freaks and crystallography weenies.
+Real Programmers never work 9 to 5. If any Real Programmers are around at 9 AM, it's because they were up all night.
+Real Programmers don't write in BASIC. 
+Real Programmers don't write in PL/I. PL/I is for programmers who can't decide whether to write in COBOL or FORTRAN.
+Real Programmers don't write in APL. Any fool can be obscure in APL.
+Real Programmers don't play tennis, or any other sport that requires you to change clothes. 
+Real Programmers don't document. Documentation is for simps who can't read the listings or object deck.
+Real Programmers don't write in PASCAL, or BLISS, or ADA,or any of those computer science languages.
+Real Programmers know better than the users what they need.
+Real Programmers think structured programming is a Communist plot.
+Real Programmers don't use schedules. Schedules are for manager's toadies. 
+Real Programmers like to keep their managers in suspence.
+Real Programmers think better when playing ADVENTURE.
+Real Programmers don't draw flowcharts. Flowcharts are, after all, the illiterate's form of documentation. Cavemen drew flowcharts; look how much good it did them.
+Real Programmers don't read manuals. Reliance on a reference is the hallmark of a novice and the cowardly.
+Real Programmers don't write in COBOL. COBOL is for COmmon Business Oriented Laymen who can run neither a business nor a real program.
+Real Programmers don't write in FORTRAN. FORTRAN is for wimp engineers who wear white socks and get excited over finite state analysis and nuclear reactor simulation.
+Real Programmers don't write in APL unless the whole program can be written on one line.
+Real Programmers don't write in LISP. Only sissy programs contain more parenthesis than actual code.
+Real Programmers disdain from structured programming.
+Real Programmers don't like Team Programming. Unless, of course, they are the Chief Programmer.
+Real Programmers never write memos on paper. They always send memos via E-Mail.
+Real Programmers have no use for managers. Manager are a necessary evil.
+Real Programmers scorn floating point arithmetic. The decimal point was invented for pansy bedwetters who are unable to think big.
+Real Programmers don't believe in schedules. Real Programmers ignore schedules.
+Real Programmers don't bring brown-bag lunches.
+
+										The Laws of Computing
+
+1. Any given program, if running, is obsolete.
+2. Any given program costs more, and takes longer.
+3. If a program is useful, it will have to be changed.
+4. If a program is useless, it will have to be documented.
+5. Any program will expand and fill all of available memory.
+6. The value of a program is proportional to the weight of its output.
+7. Program complexity grows until it exceeds the capability of the programmer who must maintain it.
+8. The most harmful error of any program will not be discovered until the program has been in production for at least six months.
+9. Profanity is the one language that all programmers know the syntax of.
+10. Computers are unreliable. Humans are worse.
+11. Any system which depends on human reliability is unreliable.
+12. Undetectable error are infinite in variety. Detectable errors do not exist, unless deadline is less than three hours away.
+13. Investment in reliability will increase until it exceeds the probable cost of errors, or until someone insists on getting some real work done.
+14. Carelessy planned projects take three times longer to complete than expected. Carefully planned projects take only three times longer to complete than expected.
+15. There is always one more bug.
+16. Build a system that even a fool can use, and only a fool will use it.
+17. Machines should work. People should think.
+18.n+1 trivial tasks take twice as long as n trivial tasks.
+19.If builders built building the way that programmers program programs, the first woodpecker to come along would destroy civiliization.
+20. The amount of time needed to debug a program is inversely proprotional to the time allotted for debugging.
+21.Programs never work the first time unless there is virtually unlimited time to complete the program.
+22.Any programmer can find 90% of his bugs simply by explaining his program to an uninterested observer.
+23.The most difficult or nearly impossible programming problems appear obvious or extremely simple to anyone with little or no knowledge of programming.
+24.Computers are never more intelligent than their programmers.
+25.The rarest bugs in any operating system or major programming effort will always show up in a demonstration of its use to prospective users or customers.
+
+										Types of Viruses
+
+AT&T Virus: Every three minutes it tells you what great service you're getting.
+Adam and Eve Virus: Takes a couple of bytes out of your Apple.
+Airline Virus: You're in Dallas, but your data is in Singapore.
+Arnold Schwarzenegger Virus: Terminates and stays resident. It'll be back.
+Chicago Cubs Virus: Your PC makes frequent mistakes and comes in last in the reviews, but you still love it. 
+Cleveland Indians Virus: Makes your 486/50 machine perform like a 286/AT.
+Congressional Virus: Computer locks up, screen splits vertically with a message appearing on each half blaming the other side for the problem.
+Congressional Virus: Runs every program on the hard drive simultaneously, but doesn't allow the user to accomplish anything.
+Dan Quayle Virus: Their is sumthing rong with yor compueter, ewe just can't figyour out watt.
+Dan Quayle Virus: Prevents your system from spawning any child processes without joining into a binary network.
+Elvis Virus: Your computer gets fat, slow, and lazy and then self-destructs, only to resurface at shopping malls and service stations across rural America.
+Federal Bureaucrat Virus: Divides your hard disk into hundreds of little units, each of which do practically nothing, but all of which claim to be the most important part of the computer.
+Freudian Virus: Your computer becomes obsessed with being married to its own motherboard.
+Gallup Virus: Sixty percent of the PCs infected will lose 38 percent of their data 14 percent of the time (plus or minus a 3.5 margin of error).
+George Bush Virus: Eats some of your files, then immediately regurgitates them.
+Government Economist Virus: Nothing works, but all your diagnostic software says everything is fine.
+Healthcare Virus: Tests your system for a day, finds nothing wrong, and sends you a bill for $4,500.
+Imelda Marcos Virus: Sings you a song on boot up, then subtracts money from your Quicken account and spends it all on expensive shoes it purchases through Prodigy.
+Jeffrey Dahmer Virus: Eats away at your systems resources piece by piece.
+Jimmy Hoffa Virus: Nobody can find it.
+Kevorkian Virus: Helps your computer shut down whenever it wants to.
+LAPD Virus: It claims it feels threatened by the other files on your PC and erases them in "self-defense."
+MCI Virus: Every three minutes it reminds you that you're paying too much for the AT&T virus.
+Mario Cuomo Virus: It would be a great virus, but it refuses to run.
+Michael Jackson Virus: Hard to identify because it is constantly altering its appearance. This virus won't harm your PC, but it will trash your car.
+New World Order Virus: Probably harmless, but it makes a lot of people really mad just thinking about it.
+Nike Virus: Just does it.
+Ollie North Virus: Turns your printer into a document shredder.
+Oprah Winfrey Virus: Your 200MB hard drive suddenly shrinks to 80MB, and then slowly expands back to 200MB.
+PBS Virus: Your PC stops what it's doing every few minutes to ask for money.
+Paul Revere Virus: This revolutionary virus doesn't horse around. It warns you of impending hard disk attack- once if by LAN, twice if by C:
+Politically Correct Virus: Never calls itself a "virus," but instead refers to itself as an "electronic microorganism."
+Quantum Leap Virus: One day your PC is a laptop, the next day it is a Macintosh, then a Nintendo.
+Right to Life Virus: Won't allow you to delete a file, regardless of how old it is. If you attempt to erase a file, it requires you to first see a counselor about possible alternatives.
+Ross Perot Virus: Activates every component in your system, just before the whole thing quits.
+Sears Virus: Your data won't appear unless you buy new cables, power supply, and a set of shocks.
+Star Trek Virus: Invades your system in places where no virus has gone before.
+Ted Turner Virus: Colorizes your monochrome monitor.
+Texas Virus: Makes sure it's bigger than any other file.
+Warren Beatty Virus: Constantly tries to prove its virility by attaching itself to younger or newer files.
+Willard Scott Virus: Keeps track of all family birthdays and renders verbose birthday wishes each time you request weather predictions.

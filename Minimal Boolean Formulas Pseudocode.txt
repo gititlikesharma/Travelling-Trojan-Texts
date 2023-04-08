@@ -1,0 +1,53 @@
+func compute():
+    for each function f
+        size[f] = ∞   
+    for each single variable function f = v
+        size[f] = 0
+    for k = 1 to max_generate
+        for each canonical function f
+            for each function ff equivalent to f
+                for each canonical function g of size k − size(f) − 1
+                    visit(k, ff OR g)
+                    visit(k, ff AND g)
+                    visit(k, ff AND ¬g)
+                    visit(k, ¬ff AND g)
+    for k = max_generate+1 to ∞
+        for each missing function fg
+            for each canonical function g
+                fsize = k − size(g) − 1
+                if fg OR g == fg
+                    if f = find(fg AND ¬g, g, fsize) succeeds
+                        visit(k, fg)
+                        next fg
+                if fg OR ¬g == fg
+                    if f = find(fg AND g, ¬g, fsize) succeeds
+                        visit(k, fg)
+                        next fg
+                if ¬fg OR g == ¬fg
+                    if f = find(¬fg AND ¬g, g, fsize) succeeds
+                        visit(k, fg)
+                        next fg
+                if ¬fg OR ¬g == ¬fg
+                    if f = find(¬fg AND g, ¬g, fsize) succeeds
+                        visit(k, fg)
+                        next fg
+        if nvisited == 22n
+            return
+func visit(d, fg):
+    if size[fg] != ∞
+        return    
+    record fg as canonical
+    for each function ffgg equivalent to fg
+        if size[ffgg] != ∞
+            size[ffgg] = d
+            nvisited += 2  // counts ffgg and ¬ffgg
+    return
+func find(x, any, xsize):
+    if size(x) == xsize
+        return x
+    while any != 0
+        bit = any AND −any  // rightmost 1 bit in any
+        any = any AND ¬bit
+        if f = find(x OR bit, any, xsize) succeeds
+            return f
+    return failure

@@ -1,0 +1,68 @@
+The world has grown more complex recently, and the number of ways of measuring complexity has grown even faster. 
+This multiplication of measures has been taken by some to indicate confusion in the field of complex systems. 
+In fact, the many measures of complexity represent variations on a few underlying themes.
+Here is an incomplete list of measures of complexity grouped into the corresponding themes.
+
+An historical analog to the problem of measuring complexity is the problem of describing electromagnetism before Maxwell's equations. 
+In the case of electromagnetism,quantities such as electric and magnetic forces that arose in different experimental contexts were fundamentally different. 
+Three questions that researchers frequently ask to quantify the complexity of the thing under study are as follows - 
+
+1. How hard is it to describe ?
+2. How hard is it to create ?
+3. What is its degree of organization ?
+
+Here is a list of some measures of complexity grouped according to the question that they try to answer. 
+Measures within a group are typically closely related quantities.
+
+1. Difficulty of description. Typically measured in bits.
+
+Information
+Entropy
+Algorithmic Complexity or Algorithmic Information Content
+Minimum Description Length
+Fisher Information
+Renyi Entropy
+Code Length
+Chernoff Information
+Dimension
+Fractal Dimension
+Lempel-Ziv Complexity
+
+2. Difficulty of creation. Typically measured in time, energy, dollars, etc.
+
+Computational Complexity
+Time Computational Complexity
+Space Computational Complexity
+Information--Based Complexity
+Logical Depth
+Thermodynamic Depth
+Cost
+Crypticity
+
+3. Degree of organization. This may be divided up into two quantities :-
+
+a) Effective Complexity
+
+Metric Entropy
+Fractal Dimension
+Excess Entropy
+Stochastic Complexity
+Sophistication
+Effective Measure Complexity
+True Measure Complexity
+Conditional Information
+Conditional Algorithmic Information Content
+Schema Length
+Ideal Complexity
+Hierarchical Complexity
+Tree subgraph diversity
+Homogeneous Complexity
+Grammatical Complexity
+
+b) Mutual Information
+
+Algorithmic Mutual Information
+Channel Capacity
+Correlation
+Stored Information
+Organization

@@ -1,0 +1,50 @@
+Use anonymous functions.
+Create new functions at run time.
+Use the most natural notation available to solve a problem.
+Use the same data for several programs.
+Be specific. Use abstractions. Be concise. Use the provided tools. Don't be obscure. Be consistent.
+Use macros if really necessary.
+There are 20 or 30 major data types; familiarize yourself with them.
+Whenever you develop a complex data structure, develop a corresponding consistency checker.
+To solve a problem, describe it, specify it in algorithmic terms, implement it, test it, debug and analyze it. Expect this to be an iterative process.
+AI programming is largely exploratory programming; the aim is often to discover more about the problem area.
+A general problem solver should be able to solve different problems.
+We must resist the temptation to belive that all thinking follows the computational model.
+If we left out the prompt, we could write a complete Lisp interpreter using just four symbols. Consider what we would have to do to write a Lisp (or Pascal, or Java) interpreter in Pascal (or Java).
+Design patterns can be used informally, or can be abstracted into a formal function, macro, or data type often involving higher-order functions. 
+Use data-driven programming, where pattern/action pairs are stored in a table.
+Sometimes "more is less": its easier to produce more output than just the right output.
+Lisp is not inherently less efficient than other high-level languages.
+First develop a working program. Second, instrument it. Third, replace the slow parts.
+The expert Lisp programmer eventually develops a good "efficiency model".
+There are four general techniques for speeding up an algorithm: caching, compiling, delaying computation, and indexing.
+We can write a compiler as a set of macros.
+Compilation and memoization can yield 100-fold speed-ups.
+Low-level efficiency concerns can yield 40-fold speed-ups.
+For efficiency, use declarations, avoid generic functions, avoid complex argument lists, avoid unnecessary consing, use the right data structure.
+A language that doesn't affect the way you think about programming is not worth knowing.
+Prolog relies on three important ideas: a uniform data base, logic variables, and automatic backtracking.
+Prolog is similar to Lisp on the main points.
+Object orientation = Objects + Classes + Inheritance
+Instead of prohibiting global state as functional programming does, object-oriented programming breaks up the unruly mass of global state and encapsulates it into small, manageable pieces, or objects.
+Depending on your definition, CLOS is or is not object-oriented. It doesn't support encapsulation.
+Prolog may not provide exactly the logic you want, nor the efficiency you want. Other representation schemes are possible.
+Rule-based translation is a powerful idea, however sometimes you need more efficiency, and need to give up the simplicity of a rule-based system.
+Translating inputs to a canonical form is often a good strategy.
+An "Expert System" goes beyond a simple logic programming system: it provides reasoning with uncertainty, explanations, and flexible flow of control.
+Certainty factors provide a simple way of dealing with uncertainty, but there is general agreement that probabilities provide a more solid foundation.
+The strategy you use to search for a sequence of good moves can be important.
+You can compare two different strategies for a task by running repeated trials of the two.
+It pays to precycle.
+Memoization can turn an inefficient program into an efficient one.
+It is often easier to deal with preferences among competing interpretations of inputs, rather than trying to strictly rule one interpretation in or out.
+Logic programs have a simple way to express grammars.
+Handling quantifiers in natural languiage can be tricky.
+Handling long-distance dependencies in natural language can be tricky.
+Understanding how a Scheme interpreter works can give you a better appreciation of how Lisp works, and thus make you a better programmer.
+The truly amazing, wonderful thing about call/cc is the ability to return to a continuation point more than once.
+The first Lisp interpreter was a result of a programmer ignoring his boss's advice.
+The simplest compiler need not be much more complex than an interpreter.
+An extraordinary feature of ANSI Common Lisp is the facility for handling errors.
+If you can understand how to write and when to use once-only, then you truly understand macros.
+A word to the wise: don't get carried away with macros.

@@ -1,0 +1,40 @@
+Ever wondered what happens when you type an URL in the Browser? What happens behind the scenes to fetch the page ?? How does the page load ???
+
+Stage 1 :-Let's say you type maps.google.com into the Address Bar of your Browser and press Enter.
+
+Stage 2 :-Every URL has an unique IP Address associated with it. The mapping is stored in Name Server and this procedure is called Domain Name System.
+
+Stage 3 :-The Browser checks its cache to find the IP Address for the URL.
+
+Stage 4 :- If it doesn't find it, it checks its OS to find the IP Address (gethostname) then checks the Router's Cache, & atlast checks the ISP's Cache.
+
+Stage 5 :- It checks the com name Server and will redirect to google.com then google.com's name Server will find the matching IP Address for maps.google.com in its  DNS Records and return it to your DNS Recursor which will send it back to your Browser.
+
+Stage 6 :- Browser initiates a TCP Connection with the Server using a 3-way handshake Technique. It includes three levels of handshaking. They are :- 
+
+	Level 0 - Client Machine sends an SYN Packet to the Server over the Internet asking if it is open for any new Connection/s.
+	Level 1 - Server accepts and initiate new Connection/s, it’ll respond with an ACKnowledgment of the SYN Packet using an SYN/ACK Packet.	
+	Level 2 - Client will receive the SYN/ACK Packet from the Server and will acknowledge it by sending an ACK Packet.
+
+Stage 7 :- The browser will send a GET Request asking for a maps.google.com web page to the Server & the Server will send the Response.
+
+Stage 8 :- Once the Server supplies the Resources (HTML, CSS, JS, images, etc.) to the Browser it undergoes the below Processes :-
+Parsing HTML, CSS, JS?Rendering?Construct DOM Tree?Render Tree?Layout of Render Tree ? Painting the Render Tree
+
+Stage 9 :- The Rendering Engine starts getting contents of the requested Document from the Networking Layer and is usually done in 8kB Chunks.
+
+Stage 10 :- A DOM tree is built out of the broken Response.
+
+Stage 11 :- New Requests are made to the Server for each new Resource found in the HTML Source (typically images, CSS sheets, and JavaScript files).
+
+Stage 12 :- At this stage the Browser marks the Document as Interactive and starts parsing Scripts that should be executed after the document is parsed. 
+
+Stage 13 :- Each CSS File is parsed into a StyleSheet Object, where each Object contains CSS Rules with Selectors and Objects corresponding CSS Grammar.
+
+Stage 14 :-  A Tree is built on top of DOM and CSSOM which is a set of Objects that describes the Visual Representation of a DOM to be rendered.
+
+Stage 15 :- The Render Tree goes through a 'LAYOUT' Process which means giving each node the exact coordinates where it should appear on the screen.
+
+Stage 16 :- The Last Stage is painting the Render Tree using the UI Back-End Layer. Changing Element Styles don't affect the Element's position on a Page here the Browser just repaints the Element again with the new Styles applied to it.
+
+Stage 17 :- When the changes affect Document contents a Reflow (or relayout) happens and finally you see the results on your Computer Screen.

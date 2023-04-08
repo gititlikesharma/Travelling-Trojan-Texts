@@ -1,0 +1,154 @@
+Bit Twiddling - Is an integer number a power of 2 ?
+
+#define ISPOW2(x) (x && !(x & (x-1)))
+#define ISPOW2(n) (!( n & (n-1))
+#define ISPOW2(x) ((~(~0U >> 1) | x) & x - 1)
+
+Swap two integer numbers
+
+int a, b;
+...
+a ^= b;
+b ^= a;
+a ^= b;
+
+...
+
+Detect if there is a zero byte in a 32bit word.
+
+#define has_null_byte(x) (((x) - 0x01010101) & ~(x) & 0x80808080)
+
+Divide an integer number by 15
+
+unsigned div15(unsigned x)
+{
+    unsigned s,t;
+    s = x >> 4;
+    t = (x & 0xf) + s + 1;
+    t += t >> 4;
+    t = t + (t >> 8) >> 4) + s;
+}
+unsigned short div15(unsigned short x)
+{
+    unsigned t;
+    t = x + 1;
+    t += t << 4;
+    t += t >> 8;
+    t += t >> 16;
+    return (unsigned short)(t >> 8);
+}
+long div15(long x)
+{
+
+    long s = (x >> 4) + (x >> 8);
+    s += s >> 8;
+    s += s >> 8;
+    return s;
+}
+
+Bit Counting - Count the number of bits in an integer
+
+int countbits(unsigned long num)
+{
+    int count;    
+    for(count = 0; num; num &= num - 1) count++;    
+    return count;
+}
+
+Bit Counting using a lookup table
+
+int lookup[256];
+void buildlookup(void)
+{
+    int i;
+    for(i = 0; i < 256; i++)
+    {
+        unsigned char t = i;
+        lookup[i] = 0;
+        for(int j = 0; j < 8; j++)
+        {
+            if(t & 1) lookup[i]++;
+            t >>= 1;
+        }
+    }
+}
+int countbits(int x)
+{
+
+    int count = lookup[x & 0xf] + 
+            lookup[(x >> 8) & 0xf] +
+            lookup[(x >> 16) & 0xf] +
+            lookup[(x >> 24) & 0xf];
+    return count;
+}
+
+Number Rounding - Round an integer up to the nearsest alignment boundary.
+
+n = (n + ALIGN - 1) - (n + ALIGN - 1) % ALIGN;
+num = mod * ((num + mod - 1) / mod);
+
+Base Conversion - A FAST cast from float to long
+
+inline long float2long(float d)
+{
+    #define MAGIC (((65536.0 * 65536.0 * 16.0) + 32768.0) * 65536.0)
+    double dtemp = d + MAGIC;
+    return (*(long *) &dtemp) - 0x80000000;
+}
+
+String & Memory routines
+int memcmp2(void *mem1, void *mem2, size_t length)
+{
+    unsigned char *mptr1 = (unsigned char *)mem1;
+    unsigned char *mptr2 = (unsigned char *)mem2;
+    if(*mptr1++ != *mptr2++) return !0;
+    unsigned char tempch = mem1[length-1];
+    mem1[length-1] = ~mem2[length-1];
+    /* do the comparison */
+    while(*mptr1++ != *mptr2++);
+    mem1[length-1] = tempch;
+    if(mptr1 == (mem1 + length - 1))
+        return 0;
+    else
+        return 1;
+}
+
+Calculate if a year is a leap year or not
+
+int isleapyear(int year)
+{
+    return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
+}
+
+Work out what the day of the week is for a given date
+
+int dayofweek(int d, int m, int y)
+{
+    static int t[] = { 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4 };	 
+    y -= m < 3;
+    return ( y + y/4 - y/100 + y/400 + t[m-1] + d) % 7;
+}
+
+C program which source is the same as its output format as one line
+
+char *s = "char *s = %c%s%c; 
+main(){printf(s,34,s,34);}"; 
+main(){printf(s,34,s,34);}
+
+Calculate the value of PI
+
+double PI = 4.0 * atan(1.0);
+
+Calculate a random number in the range 0..N
+
+int rand_lim(int limit) 
+{
+    /* return a random number between 0 and limit inclusive. */
+    int divisor = RAND_MAX / (limit+1);
+    int retval;
+    do 
+    {
+        retval = rand() / divisor;
+    } while (retval > limit);
+    return retval;
+}

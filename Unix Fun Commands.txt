@@ -1,0 +1,149 @@
+ % make love
+Make:  Don't know how to make love.  Stop.
+
+ % got a light?
+No match.
+
+ % sleep with me
+bad character
+
+ % man: Why did you get a divorce?
+man:: Too many arguments.
+
+ % rm God
+rm: God nonexistent
+
+ % man woman
+No manual entry for woman.
+
+ % man ' automatic insertion'
+No manual entry for  automatic insertion.
+
+ % make 'heads or tails of all this'
+Make:  Don't know how to make heads or tails of all this.  Stop.
+
+ % make sense
+Make:  Don't know how to make sense.  Stop.
+
+ % make mistake
+Make:  Don't know how to make mistake.  Stop.
+
+ % make bottle.open
+Make:  Don't know how to make bottle.open.  Stop.
+
+ % \(-
+(-: Command not found.
+
+ % rm -i God
+rm: remove God? y
+ % ls God
+God not found
+ % make God
+Make:  Don't know how to make God.  Stop.
+ % make light
+Make:  Don't know how to make light.  Stop.
+
+ % date me
+You are not superuser: date not set
+Thu Aug 25 15:52:30 PDT 1988
+
+ % who is smart
+suvax1!hirayama tty12   Aug 25 15:04
+
+ % man rear
+No manual entry for rear.
+
+ % If I had a ) for every dollar Reagan spent, what would I have?
+Too many )'s.
+
+ % * How would you describe George Bush
+*: Ambiguous.
+
+ % %Vice-President
+%Vice-President: No such job.
+
+ % ls Meese-Ethics
+Meese-Ethics not found
+
+ % "How would you rate Reagan's senility?
+Unmatched ".
+
+ % [Where is Jimmy Hoffa?
+Missing ].
+
+ % ^How did the^sex change operation go?
+Modifier failed.
+
+ % cp /dev/null sex;chmod 000 sex
+ % more sex
+sex: Permission denied
+ % mv sex show
+ % strip show
+strip: show: Permission denied
+
+ % who is my match?
+No match.
+
+ % set i="Democratic_Platform";mkdir $i;chmod 000 $i;ls $i
+Democratic_Platform unreadable
+
+ % awk "Polly, the ship is sinking"
+awk: syntax error near line 1
+awk: bailing out near line
+
+ % %blow
+%blow: No such job.
+
+% 'thou shalt not commit adultery'
+thou shalt not commit adultery: Command not found.
+
+$ drink < bottle;opener
+bottle: cannot open
+opener: not found
+
+$ test my argument
+test: too many arguments
+
+$ "Amelia Earhart"
+Amelia Earhart: not found
+
+$ PATH=pretending! /usr/ucb/which sense
+no sense in pretending!
+
+$ man -kisses dog
+dog: nothing appropriate
+
+$ mkdir "Yellow Pages";fiYellow Pages
+$ mkdir matter;cat > matter
+matter: cannot create
+
+$ lost
+lost: not found
+
+$ found
+found: not found
+
+$ i=Hoffa ;>$i ;$i ;rm $i ;rm $i
+Hoffa: cannot execute
+rm: Hoffa nonexistent
+
+% strip bra
+bra:  Cannot open
+
+% sccs what bottle
+can't open bottle (26)
+
+$ cat "door: paws too slippery"
+can't open door: paws too slippery
+
+$ cat food_in_tin_cans
+cat: can't open food_in_tin_cans
+
+% test without warning
+test: too many arguments
+
+ % test without arguments
+test: too many arguments
+
+ % test I bet five bucks you will say argument expected
+test: too many arguments

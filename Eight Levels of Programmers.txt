@@ -1,0 +1,34 @@
+Dead Programmer
+
+This is the highest level. Your code has survived and transcended your death. You are a part of the permanent historical record of computing. Other programmers study your work and writing. You may have won a Turing Award, or written influential papers, or invented one or more pieces of fundamental technology that have affected the course of programming as we know it. You don't just have a wikipedia entry – there are entire websites dedicated to studying your life and work.
+
+Very few programmers ever achieve this level in their own lifetimes. Examples : Dijkstra,Knuth,Kay
+
+Successful Programmer
+
+Programmers who are both well known and have created entire businesses – perhaps even whole industries – around their code. These programmers have given themselves the real freedom i.e. the freedom to decide for themselves what they want to work on. And to share that freedom with their fellow programmers.
+
+This is the level to which most programmers should aspire. Getting to this level often depends more on business skills than programming. Examples : Gates,Jobs
+
+Famous Programmer
+
+This is also a good place to be, but not unless you also have a day job.You're famous in programming circles. But being famous doesn't necessarily mean you can turn a profit and support yourself. Famous is good, but successful is better. You probably work for a large, well known technology company, an influential small company, or you're a part of a modest startup team. Either way, other programmers have heard of you, and you're having a positive impact on the field.
+
+Working Programmer
+
+You have a successful career as a software developer. Your skills are always in demand and you never have to look very long or hard to find a great job. Your peers respect you. Every company you work with is improved and enriched in some way by your presence.
+
+Average Programmer
+
+At this level you are a good enough programmer to realize that you're not a great programmer. And you might never be.Talent often has little do do with success. You can be very successful if you have business and people skills. If you are an average programmer but manage to make a living at it then you are talented, just not necessarily at coding.Don't knock the value of self-awareness. It's more rare than you realize. There's nothing wrong with lacking talent. Be bold. Figure out what you're good at, and pursue it. Aggressively.
+
+Amateur Programmer
+An amateur programmer loves to code, and it shows: they might be a promising student or intern, or perhaps they're contributing to open source projects, or building interesting "just for fun" applications or websites in their spare time. Their code and ideas show promise and enthusiasm. Being an amateur is a good thing; from this level one can rapidly rise to become a working programmer.
+
+Unknown Programmer
+
+The proverbial typical programmer. Joe Coder. Competent usually but unremarkable. Probably works for a large, anonymous MegaCorp. It's just a job, not their entire life. Nothing wrong with that, either.
+
+Bad Programmer
+
+People who somehow fell into the programmer role without an iota of skill or ability. Everything they touch turns into pain and suffering for their fellow programmers with the possible exception of other Bad Programmers, who lack even the rudimentary skill required to tell that they're working with another Bad Programmer.

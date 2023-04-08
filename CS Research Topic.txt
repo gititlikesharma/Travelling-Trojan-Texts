@@ -1,0 +1,35 @@
+A CS Research Topic Generator
+
+Column 1		Column 2		Column 3
+integrated		mobility		network 
+parallel		functional		preprocessor 
+virtual			programmable  		compiler 
+interactive  		distributed  		system 
+responsive  		logical  		interface 
+synchronized  		digital  		protocol 
+balanced  		concurrent  		architecture 
+virtual  		knowledge-based  	database 
+meta-level  		multimedia  		algorithm 
+optimized  		binary  		toolkit 
+active  		object-oriented  	display 
+parameterized  		secure  		technology 
+conceptual  		high-speed  		solution 
+scalable  		real-time  		language 
+dynamic  		functional  		agent 
+high-level  		parallelizing  		theorem prover 
+collaborative  		watermarking  		work cluster 
+type-safe  		proxy  			cache 
+reliable  		cloud-based  		network 
+open  			big data  		data center 
+coordinated  		bioinformatic  		hypervisor  
+
+To generate a research topic randomly choose one item from each Column.
+For example, selecting synchronized from Column 1, secure from Column 2, and protocol from Column 3 produces A synchronized secure protocol.
+
+Best of all two phrases can be combined with simple connectives making the result suitable for the most demanding uses.
+Possible connectives includes for,related to,derived from,applied to,embedded in etc.  
+
+Some Random Research Topics - 
+A parameterized mobility cache for a reliable digital system
+A reliable functional architecture derived from a synchronized functional theorem prover
+A reliable big data technology related to a high-level functional display

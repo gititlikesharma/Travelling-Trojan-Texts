@@ -1,0 +1,21 @@
+Who are the users ? 
+Who cares ?
+What is the essence of their dissatisfaction ? If they read this answer, would they say “Thanks, I wish I’d thought of putting it that way !” ? 
+What are you building for them ? 
+Is the product being designed for the customer, or at the customer ?
+Are you really doing the best you can to help the customer ?
+Write a blog post title for your product launch. Is it surprising ? Is it new ? Will your target customers want to click on it ? Will they want to share the link ? Will they still share it the next day ? 
+What “metrics of goodness” do your target customers care about ? Does your product dominate every available alternative on these metrics ? 
+Is your product as awesome as it could be ? 
+Fill in the bottom-up market size equation: NUM_USERS * ACV = MARKET_SIZE. Are your numbers credible ? 
+List your first ten customers. 
+Which playbook will you use to get customers after the first ten ? 
+What would need to be true in 18 months for you to get essentially unlimited cheap capital ? How will you achieve that ? 
+Why now ? What’s true about the world that nobody else figured out yet ? 
+What is the most ambitious achievable milestone for your company within a 25 year time horizon ? 
+Is your product a credible advance toward this milestone ? What’s the next credible advance toward this milestone ? The one after that ? The one after that ? 
+What would reaching your 25 year milestone mean for the world ? Is this future really exciting ? How many years of your life would you give up to teleport there ? If you found yourself in this counterfactual world, would you want to go back ? 
+If another company was working on this idea and not you, what would you think about it ? Would you join them ? 
+Imagine yourself standing in front of your team, investors, family, and friends. You’ve failed, and they’re waiting for you to speak. What will you say ? Are you willing to work on this problem given that failure is the default ? 
+What’s your company’s stock ticker symbol ? 
+Is it likely to be the most important company started this decade ? 

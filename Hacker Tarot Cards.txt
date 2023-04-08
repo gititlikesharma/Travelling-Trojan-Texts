@@ -1,0 +1,43 @@
+The FOOL: a manager using a SPARCStation 413,1432 to run a screensaver.
+
+The MAGICIAN: a hacker with a Mac, a Pentium box, a Sparc, and a Cray on the table in front of him all running the same program with the same GUI. 
+
+The HIGH PRIESTESS: a woman holding the Documentation, closed and concealed. The crescent moon is showing on an Indigo behind her.
+
+The EMPEROR: Steve Jobs sitting on a NeXT cube, holding an optical disk vertically in his hand.
+
+The EMPRESS: A secretary with a NeXT Machine.
+
+The HEIROPHANT: Bill Gates with two flunkies kneeling before him, their faces averted, offering him floppy disks. He wears a laptop computer on his head.
+
+The LOVERS: a PowerMAC and an IBM Power PC exchanging software as an angel bathed in glory regards them.
+
+The CHARIOT: A man in a chariot, hurtling up an exponential curve, drawn by the twin sphinxes of Technology (black) and Culture (white).
+
+STRENGTH: A woman holding the entire design and implementation of Microsoft Excel in her mind as she corrects the final error. An infinity sign is over her head.
+
+The HERMIT: An old hacker, white-bearded, burns the midnight oil; its Star-of-David flame illuminates his keyboard.
+
+The WHEEL OF FORTUNE: A rotating wheel. Cray is on the side going down, despite its good technology; Smalltalk is opposite it, and C++ is sitting on top.
+
+JUSTICE. A cold-faced woman holds a calculator in one hand and a delete- key in the other.
+
+The HANGED MAN: A programmer is tied by his ankle to a cable duct. His phase is completely shifted: he awakens at sunset, he sleeps at dawn. 
+
+DEATH: A skeleton weilding a scythe surveys a field, on which are scattered PDP-11s, Apple ]['s, IBM 360/91's, Xerox Alto's, and many other machines.
+
+TEMPERANCE: An angel stands with one foot on her chair and one on the floor, as she copies files from one disk to another. A cursor blinks from her chest.
+
+The DEVIL: The goat-headed Lord of the Pit stands on a pile of Windows manuals, holding an inverted torch in one hand.
+
+The TOWER: An ivory tower is struck by a bolt of lightning. Two robed figures, denied tenure, are hurtled to the ground.
+
+The STAR: A Mac is running its `warp' screen saver, in a transient fragile moment of peace.
+
+The MOON: A wolf and a jackal are typing at two PC's. A crayfish crawls out of a pool, offering suggestions that may ultimately prove deadly.
+
+The SUN: A naked child riding a winged rocking horse programs clever applications on a high-quality workstation.
+
+JUDGEMENT: An angel blows a trumpet; all over the net, web pages arise, to be rated Cool or not.
+
+The WORLD: A woman dances on the clouds, unclothed, unencumbered, in a ring of clouds, a 3-d mouse in each hand. The four winged beings from the Wheel of Fortune surround her.

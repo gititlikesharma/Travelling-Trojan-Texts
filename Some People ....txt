@@ -1,0 +1,82 @@
+Some people, when confronted with a problem, think, “I know, I’ll use regular expressions.” Now they have two problems.
+
+Some people, when faced with a problem, think, “I know, I’ll use binary.” Now they have 10 problems.
+
+Some people, when confronted with a problem, think, “I know, I’ll use threads,” and then two they hav erpoblesms.
+
+Some people, when confronted with a problem, think “I know, I’ll use multithreading”. Nothhw tpe yawrve o oblems.
+
+Some people see a problem and think “I know, I’ll use Java!” Now they have a ProblemFactory.
+
+Some programmers, when confronted with a problem, think “I know, I’ll use floating point arithmetic.” Now they have 1.999999999997 problems.
+
+Some people, wanting an escape from their full-time job, think “I know, I’ll contribute to open source.” Now they have two full-time jobs.
+
+Some people, when confronted with a problem, think "I know, I'll solve it." But the Void is inescapable and our short lives are meaningless.
+
+Some people when confronted with a problem think "I know, I'll quote jwz". Now everyone has a problem.
+
+Some people when confronted with a desire to use pithy quotes in their presentations think "I know, I'll use something from Star Wars". Now two problems they have.
+
+Some people, when confronted with a problem, think, "I know, I'll use anagrams." Now they have bloom twerps.
+
+Some people, when confronted with a problem, think, "I know, I'll watch Countdown." Now they have two conundrums.
+
+Some people, when confronted with a problem, think, "I know, I'll use Shareware." Now they have two trials.
+
+Some people, when confronted with a problem, think: "I know, I'll use caching." Now they have one problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use node!"
+
+Now
+    they
+        have
+            three
+                more
+                    problems.
+
+Some people, when confronted with a problem, think, "I know, I'll ignore it." Now someone else has one more problem.
+
+Some people, when confronted with a problem, think "I know, I'll use capabilities." Now they can solve their problem but cannot convince anyone else they've solved it.
+
+Some people, when confronted with a problem, think, "I know, I'll use delegations." Now their problem is a problem of their problem.
+
+Some people, when confronted with a problem, think "I know, I'll use recursion!" Now now they now they have now they have two now they have two problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use eval". Now they have all the problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use metaprogramming". Now the problem has a problem.
+
+Some people, when confronted with a problem, think, "I know, I'll use AI". Now the problem says they are they problem.
+
+Some people, when confronted with a problem, think, "I know, I'll use linked lists". Now they have a problem. Now they have a problem. Now they have a problem.
+
+Some people, when confronted with a problem, think, "I know, I'll use heuristics". Now they have approximately 2 problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use calculus". Now they have infinity problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use physics". Now they one real problem and a spherical one on vacuum.
+
+Some people, when confronted with a problem, think, "I know, I'll use JavaScript." Now they have undefined problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use quantum computing". Now it is highly likely that they have two problems.
+
+Some people, when confronted with a problem, think, "I know, I'll linear algebra". Now they have two problems and two equations.
+
+Some people, when confronted with a problem, think, "I know, I'll use recursion". Now they have a problem about themselves having a problem.
+
+Some people, when confronted with a data storage problem, think "I know, I'll use RAID." Now they have an array of problems.
+
+Some people, when confronted with a problem, think, “I know, I’ll hire a consultant.” Now they have an unknown number of problems and a lot less money.
+
+Some people, when confronted with a problem, say, "I know, I'll use a state machine!" Now they have a finite set of problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use enums!" Now they have 32 - 1 problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use containers!" Now they have a contained problem.
+
+Some people, when confronted with a problem, think, “I know, I’ll use cron-jobs.” Now they have a problem each morning a 5am.
+
+Some people, when confronted with a problem, think, "I know, I'll use complex numbers". Now they have 2i problems.
+
+Some people, when confronted with a problem, think, "I know, I'll use C". Now they have segmentation fault (core dumped).

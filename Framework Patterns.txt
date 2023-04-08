@@ -1,0 +1,221 @@
+Framework Patterns
+
+A software framework is code that calls your code. That's how we distinguish a framework from a library. Libraries have aspects of frameworks so there is a gray area.
+
+A software framework is a text where you fill in the blanks. The framework defines the grammar, you bring some of the words. The words are the code you bring into it.
+
+Pattern I
+
+Callback Function
+The framework lets you pass in a callback function to configure its behavior.
+
+Example
+from framework import Form
+def my_save(data):
+    ... application code to save the data somewhere ...
+my_form = Form(save=my_save)
+
+Real World Example
+>>> list(map(lambda x: x * x, [1, 2, 3]))
+[1, 4, 9]
+
+Pattern II 
+
+Subclassing
+The framework provides a base-class which you as the application developer can subclass. You implement one or more methods that the framework will call.
+
+Example
+from framework import FormBase
+class MyForm(FormBase):
+    def save(self, data):
+        ... application code save the data somewhere ...
+
+Real World Example
+Django REST Framework
+class AccountViewSet(viewsets.ModelViewSet):
+    """
+    A simple ViewSet for viewing and editing accounts.
+    """
+    queryset = Account.objects.all()
+    serializer_class = AccountSerializer
+    permission_classes = [IsAccountAdminOrReadOnly]
+
+Pattern III
+
+Interfaces
+The framework provides an interface that you as the application developer can implement. You implement one or more methods that the framework calls.
+
+Example
+from framework import Form, IFormBackend
+class MyFormBackend(IFormBackend):
+    def load(self):
+        ... application code to load the data here ...
+    def save(self, data):
+        ... application code save the data somewhere ...
+my_form = Form(MyFormBackend())
+
+Real World Example
+Python Iterator
+class RandomIterable:
+    def __iter__(self):
+         return self
+    def next(self):
+        if random.choice(["go", "stop"]) == "stop":
+            raise StopIteration
+        return 1
+
+Pattern IV
+
+Imperative Registration API
+The application developer needs to call a registration method explicitly.
+
+Example
+from framework import form_save_registry
+def save(data):
+   ... application code to save the data somewhere ...
+# we configure what save function to use for the form named 'my_form'
+form_save_registry.register('my_form', save)
+
+Real World Example
+Falcon Web Framework
+class QuoteResource:
+    def on_get(self, req, resp):
+        ... user code ...
+api = falcon.API()
+api.add_route('/quote', QuoteResource())
+
+Pattern V
+
+Convention over Configuration
+The framework configures itself automatically based on your use of conventions in application code and inspects other aspects of the code, such as function signatures.
+
+Example
+# the framework looks for things prefixed form_save_. It hooks this
+# up with `myform` which is defined elsewhere in a module named `forms`
+def form_save_myform(data):
+   ... application code to save the data somewhere ...
+
+Real World Example
+pytest
+def test_ehlo(smtp_connection):
+    response, msg = smtp_connection.ehlo()
+    assert response == 250
+    assert 0  # for demo purposes
+
+Pattern VI
+
+Metaclass based Registration
+When you subclass a framework-provided baseclass, it gets registered with the framework, a framework can exploit these side-effects to do some registration.
+
+Example
+from framework import FormBase
+class MyForm(FormBase):
+    def save(self, data):
+        ... application code save the data somewhere ...
+
+Real World Example
+Django Framework
+from django.db import models
+class Person(models.Model):
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+
+Pattern VII
+
+Language Integrated Registration
+You configure the application by using framework-provided annotations for code. Registrations can be used as a way to drive configuration in a registry.
+
+Example
+from framework import form_save_registry
+# we define and configure the function at the same time
+@form_save_registry.register('my_form')
+def save(data):
+   ... application code to save the data somewhere ...
+
+Real World Example
+Flask Web Framework
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+Pattern VIII 
+
+DSL Declaration
+You use a DSL (domain specific language) to configure the framework and also to leverage JSON, YAML or (shudder) XML.
+
+Example
+{
+   "form": {
+     "name": "my_form",
+     "save": "my_module.save"
+   }
+}
+
+Real World Example
+Plone CMS Framework
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="my.package">
+  <configure package="plone.app.content.browser">
+      <browser:page
+          for="Products.CMFCore.interfaces._content.IFolderish"
+          class="my.package.browser.foldercontents.MyFolderContentsView"
+          name="folder_contents"
+          template="folder_contents.pt"
+          layer="my.package.interfaces.IMyPackageLayer"
+          permission="cmf.ListFolderContents"
+      />
+  </configure>
+</configure>
+
+Pattern IX
+
+imperative Declaration
+You use a declaration engine like in a DSL, but you drive it from programming language code in an imperative way, like imperative registration.
+
+Example
+from framework import Config
+def save(data):
+   ... application code to save the data somewhere ...
+config = Config()
+config.form_save('my_form', save)
+config.commit()
+
+Real World Example
+Pyramid Web Framework
+def hello_world(request):
+    return Response('Hello World!')
+with Configurator() as config:
+    config.add_route('hello', '/')
+    config.add_view(hello_world, route_name='hello')
+
+Pattern X
+
+Language integrated Declaration
+You configure the application by using framework-provided annotations for code. This configuration is declarative and does not immediately take place.
+Language integration declaration looks like language integrated registration, but uses a configuration engine like with imperative declaration.
+
+Example
+from framework import Config
+config = Config()
+# we define and configure the function at the same time
+@config.form_save('my_form')
+def save(data):
+   ... application code to save the data somewhere ...
+# elsewhere before application starts
+config.commit()
+
+Real World Example
+Morepath Web Framework
+import morepath
+class App(morepath.App):
+    pass
+@App.path(path='/hello')
+class Hello(object):
+    pass
+@App.view(model=Hello)
+def view_get(self, request):
+    return "Hello world!"

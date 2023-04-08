@@ -1,0 +1,1001 @@
+0. Shrimad Bhagwat Geeta
+1. Code: The Hidden Language of Computer Hardware and Software
+2. Influence: The Psychology of Persuasion, Revised Edition
+3. The Elements of Computing Systems: Building a Modern Computer from First Principles
+4. Thinking, Fast and Slow
+5. Three Felonies A Day: How the Feds Target the Innocent
+6. Why We Sleep: Unlocking the Power of Sleep and Dreams
+7. Working Effectively with Legacy Code
+8. JavaScript: The Good Parts
+9. Founders at Work: Stories of Startups' Early Days
+10. Start Small, Stay Small: A Developer's Guide to Launching a Startup
+11. Introduction to Algorithms, 3rd Edition
+12. Mindstorms: Children, Computers, And Powerful Ideas
+13. Deep Work: Rules for Focused Success in a Distracted World
+14. Peopleware: Productive Projects and Teams 
+15. Difficult Conversations: How to Discuss What Matters Most
+16. Domain-Driven Design: Tackling Complexity in the Heart of Software
+17. The War of Art: Break Through the Blocks and Win Your Inner Creative Battles
+18. Clean Code: A Handbook of Agile Software Craftsmanship
+19. Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
+20. Rise of the Warrior Cop: The Militarization of America's Police Forces
+21. Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist
+22. Steve Jobs
+23. The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It
+24. On Writing Well: The Classic Guide to Writing Nonfiction
+25. The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition
+26. The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win
+27. The Art of Electronics
+28. The C Programming Language
+29. The Design of Everyday Things
+30. Skunk Works: A Personal Memoir of My Years at Lockheed
+31. Coders at Work: Reflections on the Craft of Programming
+32. The Checklist Manifesto: How to Get Things Right
+33. The Master Switch: The Rise and Fall of Information Empires
+34. A Guide to the Good Life: The Ancient Art of Stoic Joy
+35. Programming Collective Intelligence
+36. Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
+37. The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
+38. The Righteous Mind: Why Good People Are Divided by Politics and Religion
+39. The Algorithm Design Manual
+40. Antifragile: Things That Gain from Disorder
+41. The Better Angels of Our Nature: Why Violence Has Declined
+42. The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life
+43. Pattern Recognition and Machine Learning
+44. Code Complete: A Practical Handbook of Software Construction, Second Edition
+45. Thinking in Systems: A Primer
+46. Structure and Interpretation of Computer Programs - 2nd Edition
+47. The Dictator's Handbook: Why Bad Behavior is Almost Always Good Politics
+48. Superintelligence: Paths, Dangers, Strategies
+49. The Power of Habit: Why We Do What We Do in Life and Business
+50. Trust Me, I'm Lying: Confessions of a Media Manipulator
+51. 21st Century C
+52. Expert C Programming: Deep C Secrets
+53. Design Patterns: Elements of Reusable Object-Oriented Software
+54. So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love
+55. Managing Humans: Biting and Humorous Tales of a Software Engineering Manager
+56. Never Split the Difference: Negotiating As If Your Life Depended On It
+57. Boyd: The Fighter Pilot Who Changed the Art of War
+58. Mathematics: Its Content, Methods and Meaning
+59. Mindset: The New Psychology of Success
+60. Computer Graphics: Principles and Practice
+61. On Intelligence
+62. Why We Get Fat: And What to Do About It
+63. The Little Schemer - 4th Edition
+64. The Pragmatic Programmer: From Journeyman to Master
+65. Lisp in Small Pieces
+66. Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety
+67. The Linux Programming Interface: A Linux and UNIX System Programming Handbook
+68. Purely Functional Data Structures
+69. Advanced Programming in the UNIX Environment, 3rd Edition
+70. Where Wizards Stay Up Late: The Origins Of The Internet
+71. Programming Rust
+72. Trading and Exchanges: Market Microstructure for Practitioners
+73. The Shallows: What the Internet Is Doing to Our Brains
+74. Show Stopper!: The Breakneck Race to Create Windows NT and the Next Generation at Microsoft
+75. Corporate Confidential: 50 Secrets Your Company Doesn't Want You to Know---and What to Do About Them
+76. Feeling Good: The New Mood Therapy
+77. Hackers & Painters: Big Ideas from the Computer Age
+78. The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage
+79. QED: The Strange Theory of Light and Matter
+80. The Unix Programming Environment
+81. Crucial Conversations: Tools for Talking When Stakes Are High, Second Edition
+82. The Design of Design: Essays from a Computer Scientist
+83. Design for Hackers: Reverse Engineering Beauty
+84. Calculus Made Easy
+85. Starting Strength: Basic Barbell Training, 3rd edition
+86. Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age
+87. The Design of Everyday Things: Revised and Expanded Edition
+88. The Idea Factory: Bell Labs and the Great Age of American Innovation
+89. Surely You're Joking, Mr. Feynman!
+90. Nonviolent Communication: A Language of Life
+91. The Soul of A New Machine
+92. Don't Make Me Think: A Common Sense Approach to Web Usability, 2nd Edition
+93. The Elements of Style, Fourth Edition
+94. The Outsiders: Eight Unconventional CEOs and Their Radically Rational Blueprint for Success
+95. Making Software: What Really Works, and Why We Believe It
+96. The Chickenshit Club: Why the Justice Department Fails to Prosecute Executives
+97. The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you
+98. High Output Management
+99. The Net Delusion: The Dark Side of Internet Freedom
+100. Traffic: Why We Drive the Way We Do
+101. Flow: The Psychology of Optimal Experience
+102. Drive: The Surprising Truth About What Motivates Us
+103. What the Dormouse Said: How the Sixties Counterculture Shaped the Personal Computer Industry
+104. Titan: The Life of John D. Rockefeller, Sr.
+105. Coding the Matrix: Linear Algebra through Applications to Computer Science
+106. The Millionaire Next Door: The Surprising Secrets of America's Wealthy
+107. Godel's Proof
+108. Refactoring: Improving the Design of Existing Code
+109. How to Read a Book: The Classic Guide to Intelligent Reading
+110. Grid Systems in Graphic Design: A Visual Communication Manual for Graphic Designers, Typographers and Three Dimensional Designers
+111. Guns, Germs, and Steel: The Fates of Human Societies
+112. Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It
+113. A Philosophy of Software Design
+114. Operating Systems Design and Implementation
+115. Programming Collective Intelligence: Building Smart Web 2.0 Applications
+116. Planet of Slums
+117. Hackers: Heroes of the Computer Revolution - 25th Anniversary Edition
+118. Software Estimation: Demystifying the Black Art
+119. Blind Man's Bluff: The Untold Story of American Submarine Espionage
+120. Learned Optimism: How to Change Your Mind and Your Life
+121. The High Cost of Free Parking, Updated Edition
+122. How to Win Friends & Influence People
+123. Amusing Ourselves to Death: Public Discourse in the Age of Show Business
+124. The Science of Interstellar
+125. Against Intellectual Monopoly
+126. The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
+127. How to Lie with Statistics
+128. The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living
+129. Concrete Mathematics: A Foundation for Computer Science
+130. Selfish Reasons to Have More Kids: Why Being a Great Parent is Less Work and More Fun Than You Think
+131. DAEMON
+132. Predictably Irrational, Revised and Expanded Edition: The Hidden Forces That Shape Our Decisions
+133. Beautiful Code
+134. Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think
+135. The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger
+136. Extreme Ownership: How U.S. Navy SEALs Lead and Win
+137. Spark: The Revolutionary New Science of Exercise and the Brain
+138. Quiet: The Power of Introverts in a World That Can't Stop Talking
+139. The Field Guide to Understanding 'Human Error'
+140. Real-Time Rendering, Third Edition
+141. An Introduction to General Systems Thinking
+142. Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability
+143. Nudge: Improving Decisions About Health, Wealth, and Happiness
+144. The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century
+145. The Mindbody Prescription: Healing the Body, Healing the Pain
+146. Finite and Infinite Games
+147. Cracking the Coding Interview: 150 Programming Questions and Solutions
+148. The Black Swan: Second Edition: The Impact of the Highly Improbable: With a new section: "On Robustness and Fragility"
+149. Daily Rituals: How Artists Work
+150. The Innovator's Dilemma: The Revolutionary Book That Will Change the Way You Do Business
+151. Drawing on the Right Side of the Brain: The Definitive, 4th Edition
+152. Our Mathematical Universe: My Quest for the Ultimate Nature of Reality
+153. Probability Theory: The Logic of Science
+154. Introduction to the Theory of Computation
+155. How to Be Invisible: Protect Your Home, Your Children, Your Assets, and Your Life
+156. Range: Why Generalists Triumph in a Specialized World
+157. Business Adventures: Twelve Classic Tales from the World of Wall Street
+158. The Mind Illuminated: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science for Greater Mindfulness
+159. The Four Steps to the Epiphany
+160. Practical Electronics for Inventors, Fourth Edition
+161. Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen
+162. The Non-Designer's Design Book
+163. Artificial Intelligence: A Modern Approach
+164. The Emperor of All Maladies: A Biography of Cancer
+165. Free to Choose: A Personal Statement
+166. Algebra
+167. 1491: New Revelations of the Americas Before Columbus
+168. Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets
+169. Three Felonies a Day: How the Feds Target the Innocent
+170. Impro: Improvisation and the Theatre
+171. The Cambridge Handbook of Expertise and Expert Performance
+172. The Pyramid Principle: Logic in Writing and Thinking
+173. Concepts, Techniques, and Models of Computer Programming
+174. The Blank Slate: The Modern Denial of Human Nature
+175. Zen and the Art of Motorcycle Maintenance: An Inquiry into Values
+176. Computer Systems: A Programmer's Perspective
+177. The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography
+178. Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market
+179. Debt: The First 5,000 Years
+180. Sapiens: A Brief History of Humankind
+181. Basic Economics
+182. Cadillac Desert: The American West and Its Disappearing Water, Revised Edition
+183. How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life
+184. Who Is Fourier? A Mathematical Adventure 2nd Edition
+185. How to Prove It: A Structured Approach, 2nd Edition
+186. Failure Is Not an Option: Mission Control From Mercury to Apollo 13 and Beyond
+187. The Gun
+188. The Goal: A Process of Ongoing Improvement
+189. Free to Learn: Why Unleashing the Instinct to Play Will Make Our Children Happier, More Self-Reliant, and Better Students for Life
+190. The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance
+191. Basic Mathematics
+192. Linux Kernel Development
+193. The Rent Is Too Damn High: What To Do About It, And Why It Matters More Than You Think
+194. The Color of Law: A Forgotten History of How Our Government Segregated America
+195. Thanks for the Feedback: The Science and Art of Receiving Feedback Well
+196. The Illuminatus! Trilogy: The Eye in the Pyramid, The Golden Apple, Leviathan
+197. Healing Back Pain: The Mind-Body Connection
+198. Mastery: The Keys to Success and Long-Term Fulfillment
+199. Zoning Rules!: The Economics of Land Use Regulation
+200. Seeking Wisdom: From Darwin to Munger, 3rd Edition
+201. This Time Is Different: Eight Centuries of Financial Folly
+202. Head First Design Patterns
+203. Maverick: The Success Story Behind the World's Most Unusual Workplace
+204. Python for Data Analysis
+205. Dreaming in Code: Two Dozen Programmers, Three Years, 4,732 Bugs, and One Quest for Transcendent Software
+206. The Intelligent Investor: The Definitive Book on Value Investing. A Book of Practical Counsel
+207. Manufacturing Consent: The Political Economy of the Mass Media
+208. Hooked: How to Build Habit-Forming Products
+209. Physically Based Rendering, Third Edition: From Theory to Implementation
+210. What Is Mathematics? An Elementary Approach to Ideas and Methods
+211. Engineering a Compiler, Second Edition
+212. Unix Network Programming, Volume 1: The Sockets Networking API
+213. Getting to Yes: Negotiating Agreement Without Giving In
+214. It's Not Carpal Tunnel Syndrome!: RSI Theory and Therapy for Computer Professionals
+215. The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling
+216. Quantum Computing since Democritus
+217. Ignition!: An Informal History of Liquid Rocket Propellants
+218. Algorithms
+219. Red Mars
+220. C Interfaces and Implementations: Techniques for Creating Reusable Software
+221. Good Calories, Bad Calories: Fats, Carbs, and the Controversial Science of Diet and Health
+222. Beautiful Code: Leading Programmers Explain How They Think
+223. The Road to Reality: A Complete Guide to the Laws of the Universe
+224. Linear Algebra Done Right
+225. How to Solve It: A New Aspect of Mathematical Method
+226. Discrete Mathematics with Applications
+227. The Design and Implementation of the FreeBSD Operating System
+228. Learning the Art of Electronics: A Hands-On Lab Course
+229. Refactoring: Improving the Design of Existing Code
+230. Getting Things Done: The Art of Stress-Free Productivity
+231. Style: Toward Clarity and Grace
+232. On Bullshit
+233. Compilers: Principles, Techniques, and Tools
+234. The Princeton Companion to Mathematics
+235. Gates: How Microsoft's Mogul Reinvented an Industry--and Made Himself the Richest Man in America
+236. Bad Blood: Secrets and Lies in a Silicon Valley Startup
+237. The Effective Engineer: How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact
+238. Designing Data-Intensive Applications
+239. Programming Rust: Fast, Safe Systems Development
+240. The Art of Profitability
+241. Growing Object-Oriented Software, Guided by Tests
+242. The Paradox of Choice: Why More Is Less
+243. Large-Scale C++ Software Design
+244. Console Wars: Sega, Nintendo, and the Battle that Defined a Generation
+245. Compiling with Continuations
+246. The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity
+247. The Talent Code: Greatness Isn't Born. It's Grown. Here's How.
+248. The Book of Genesis Illustrated by R. Crumb
+249. The Dip: A Little Book That Teaches You When to Quit
+250. The Universe in a Nutshell
+251. A Mind at Play: How Claude Shannon Invented the Information Age
+252. Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency
+253. Hacker's Delight
+254. An Introduction to Database Systems
+255. Crucial Conversations Tools for Talking When Stakes Are High, Second Edition
+256. Peter Norton's Assembly Language Book for the IBM PC
+257. Unlocking the Clubhouse: Women in Computing
+258. Calculus, 4th edition
+259. Hacker's Delight
+260. The End of History and the Last Man
+261. Computer Systems: A Programmer's Perspective
+262. The Clean Coder: A Code of Conduct for Professional Programmers
+263. The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business
+264. Avogadro Corp: The Singularity Is Closer Than It Appears
+265. Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
+266. Book of Proof
+267. Mindfulness in Plain English
+268. The Food Lab: Better Home Cooking Through Science
+269. First, Break All the Rules: What the World's Greatest Managers Do Differently
+270. Class: A Guide Through the American Status System
+271. PostgreSQL 9.0 High Performance
+272. Positioning: The Battle for Your Mind
+273. Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
+274. Tricks of the 3D Game Programming Gurus-Advanced 3D Graphics and Rasterization
+275. The Visual Display of Quantitative Information
+276. The Annotated Turing: A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine
+277. Closing of the American Mind: How Higher Education Has Failed Democracy and Impoverished the Souls of Today's Students
+278. The Art of UNIX Programming
+279. Interconnections: Bridges, Routers, Switches, and Internetworking Protocols
+280. All of Statistics: A Concise Course in Statistical Inference
+281. Linear Algebra and Learning from Data
+282. Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
+283. The Design of the UNIX Operating System
+284. How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence
+285. Hacking: The Art of Exploitation, 2nd Edition
+286. Unix Power Tools
+287. The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws
+288. Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future
+289. Deep Learning
+290. In Search of Stupidity: Over Twenty Years of High Tech Marketing Disasters
+291. Statistics, 4th Edition
+292. The Book: On the Taboo Against Knowing Who You Are
+293. The Psychology of Computer Programming: Silver Anniversary Edition
+294. Godel, Escher, Bach: An Eternal Golden Braid
+295. Game Theory and Strategy
+296. Term Sheets & Valuations - A Line by Line Look at the Intricacies of Term Sheets & Valuations (Bigwig Briefs)
+297. Time Management for System Administrators
+298. The Now Habit: A Strategic Program for Overcoming Procrastination and Enjoying Guilt-Free Play
+299. A Deepness in the Sky
+300. Nonviolent Communication: A Language of Life, 3rd Edition: Life-Changing Tools for Healthy Relationships (Nonviolent Communication Guides)
+301. Good to Great: Why Some Companies Make the Leap and Others Don't
+302. Against Empathy: The Case for Rational Compassion
+303. Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice
+304. Tubes: A Journey to the Center of the Internet
+305. Superforecasting: The Art and Science of Prediction
+306. Confessions of an Economic Hit Man
+307. Compilers: Principles, Techniques, and Tools
+308. The Cartoon Guide to Statistics
+309. 23 Things They Don't Tell You About Capitalism
+310. Real-Time Rendering, Fourth Edition
+311. Dreamland: The True Tale of America's Opiate Epidemic
+312. Team Geek
+313. All the Mathematics You Missed: But Need to Know for Graduate School
+314. Algorithms to Live By: The Computer Science of Human Decisions
+315. And Then I Thought I Was a Fish
+316. Willpower: Rediscovering the Greatest Human Strength
+317. 8 Steps to a Pain-Free Back: Natural Posture Solutions for Pain in the Back, Neck, Shoulder, Hip, Knee, and Foot
+318. Liar's Poker
+319. Anarchy, State, and Utopia
+320. The Practice of Programming
+321. Clean Architecture: A Craftsman's Guide to Software Structure and Design
+322. Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules
+323. Deep Learning: A Practitioner's Approach
+324. UNIX: A History and a Memoir
+325. Accelerated C++: Practical Programming by Example
+326. Programming Pearls
+327. Showstopper!: The Breakneck Race to Create Windows NT and the Next Generation at Microsoft
+328. The Big Short: Inside the Doomsday Machine
+329. Graphics Gems
+330. Becoming a Technical Leader: An Organic Problem-Solving Approach
+331. Why Greatness Cannot Be Planned: The Myth of the Objective
+332. I See Satan Fall Like Lightning
+333. Geometry
+334. Body by Science: A Research Based Program for Strength Training, Body building, and Complete Fitness in 12 Minutes a Week
+335. Nickel and Dimed: On (Not) Getting By in America
+336. The Fifth Discipline: The Art & Practice of The Learning Organization
+337. Lords of Finance: The Bankers Who Broke the World
+338. The Conspiracy against the Human Race: A Contrivance of Horror
+339. Different: Escaping the Competitive Herd
+340. The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting
+341. Lifespan: Why We Age_and Why We Don't Have To
+342. The Dream Machine
+343. The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism
+344. Modernist Cuisine: The Art and Science of Cooking
+345. JavaScript: The Definitive Guide
+346. How to Read a Book: The Classic Guide to Intelligent Reading
+347. In The Plex: How Google Thinks, Works, and Shapes Our Lives
+348. Winning Through Intimidation
+349. How to Get Rich: One of the World's Greatest Entrepreneurs Shares His Secrets
+350. The Structures of Everyday Life: Civilization and Capitalism, 15th-18th Century Volume 1
+351. Effective Modern C++
+352. How to Measure Anything: Finding the Value of Intangibles in Business
+353. Peak: Secrets from the New Science of Expertise
+354. How to Win Friends and Influence People
+355. The Vital Question: Energy, Evolution, and the Origins of Complex Life
+356. The Coming Plague: Newly Emerging Diseases in a World Out of Balance
+357. When Genius Failed: The Rise and Fall of Long-Term Capital Management
+358. Where Are the Customers' Yachts?: or A Good Hard Look at Wall Street
+359. The Humane Interface: New Directions for Designing Interactive Systems
+360. Moral Mazes: The World of Corporate Managers
+361. Functions and Graphs
+362. The Principles of Product Development Flow: Second Generation Lean Product Development
+363. Conceptual Mathematics: A First Introduction to Categories
+364. The New Market Wizards: Conversations with America's Top Traders
+365. Three New Deals: Reflections on Roosevelt's America, Mussolini's Italy, and Hitler's Germany, 1933-1939
+366. Mars Rover Curiosity: An Inside Account from Curiosity's Chief Engineer
+367. Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon
+368. The Rise and Decline of Nations: Economic Growth, Stagflation, and Social Rigidities
+369. Pitch Anything: An Innovative Method for Presenting, Persuading, and Winning the Deal
+370. C++ Primer
+371. The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care
+372. Why Don't Students Like School?: A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom
+373. The AWK Programming Language
+374. A Pattern Language: Towns, Buildings, Construction
+375. Perl Best Practices
+376. Debt - Updated and Expanded: The First 5,000 Years
+377. A Retargetable C Compiler: Design and Implementation
+378. The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
+379. The Book of Why: The New Science of Cause and Effect
+380. Counterexamples in Analysis
+381. The Joy of Clojure
+382. The Information: A History, a Theory, a Flood
+383. The New Jim Crow: Mass Incarceration in the Age of Colorblindness
+384. Computer Architecture, Fifth Edition: A Quantitative Approach
+385. Predictable Revenue: Turn Your Business Into a Sales Machine with the $100 Million Best Practices of Salesforce.com
+386. UNIX and Linux System Administration Handbook, 4th Edition
+387. Mathematics: From the Birth of Numbers
+388. Sleeping with the Devil: How Washington Sold Our Soul for Saudi Crude
+389. On Food and Cooking: The Science and Lore of the Kitchen
+390. Fortune's Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street
+391. Art & Fear: Observations on the Perils and Rewards of Artmaking
+392. Dark Waters:: An Insider's Account of the NR-1 The Cold War's Undercover Nuclear Sub
+393. A Discipline of Programming
+394. On Killing: The Psychological Cost of Learning to Kill in War and Society
+395. Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time
+396. The Supermen: The Story of Seymour Cray and the Technical Wizards Behind the Supercomputer
+397. Modern C++ Design: Generic Programming and Design Patterns Applied
+398. Turtle Geometry: The Computer as a Medium for Exploring Mathematics
+399. Don't Shoot the Dog: The New Art of Teaching and Training
+400. Hedge Fund Market Wizards: How Winning Traders Win
+401. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
+402. Only the Paranoid Survive: How to Exploit the Crisis Points That Challenge Every Company
+403. An Introduction to Information Theory: Symbols, Signals and Noise 
+404. Things a Computer Scientist Rarely Talks About 
+405. Kelly: More Than My Share of It All
+406. Mistakes Were Made (But Not by Me): Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts
+407. Game Engine Architecture, Second Edition
+408. The Score Takes Care of Itself: My Philosophy of Leadership
+409. What Every BODY is Saying: An Ex-FBI Agent’s Guide to Speed-Reading People
+410. Bad Samaritans: The Myth of Free Trade and the Secret History of Capitalism
+411. Why Zebras Don't Get Ulcers, Third Edition
+412. Visual Thinking for Design
+413. The Ashley Book of Knots
+414. Surfaces and Essences: Analogy as the Fuel and Fire of Thinking
+415. How Buildings Learn: What Happens After They're Built
+416. Weaving the Web: The Original Design and Ultimate Destiny of the World Wide Web
+417. C Programming: A Modern Approach, 2nd Edition
+418. I Am a Strange Loop
+419. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers
+420. Mastering Bitcoin: Unlocking Digital Cryptocurrencies
+421. Legacy of Ashes: The History of the CIA
+422. Blindsight
+423. Ready Player One: A Novel
+424. The Grammar of Graphics
+425. Threaded Interpretive Languages: Their Design and Implementation
+426. The Systems Bible: The Beginner's Guide to Systems Large and Small
+427. A First-Rate Madness: Uncovering the Links Between Leadership and Mental Illness
+428. Why Nations Fail: The Origins of Power, Prosperity, and Poverty
+429. The Psychedelic Explorer's Guide: Safe, Therapeutic, and Sacred Journeys
+430. Mastering Regular Expressions
+431. The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure
+432. From Bauhaus to Our House
+433. Seeing like a State: How Certain Schemes to Improve the Human Condition Have Failed
+434. Good to Great: Why Some Companies Make the Leap...And Others Don't
+435. Cryptography Engineering: Design Principles and Practical Applications
+436. Mathematical Notation: A Guide for Engineers and Scientists
+437. Advanced Compiler Design and Implementation
+438. The Making of a Manager: What to Do When Everyone Looks to You
+439. A Mind for Numbers: How to Excel at Math and Science 
+440. The Manager's Path
+441. Programmers at Work: Interviews With 19 Programmers Who Shaped the Computer Industry 
+442. Elixir in Action
+443. No One Would Listen: A True Financial Thriller
+444. Site Reliability Engineering
+445. Concepts of Modern Mathematics 
+446. Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley
+447. Test Driven Development: By Example
+448. Masterminds of Programming: Conversations with the Creators of Major Programming Languages 
+449. Measuring and Managing Performance in Organizations
+450. Computer Professional's Quick Reference
+451. The Works: Anatomy of a City
+452. Little Red Book of Selling: 12.5 Principles of Sales Greatness
+453. The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph
+454. Ratio: The Simple Codes Behind the Craft of Everyday Cooking
+455. Sequences, Combinations, Limits 
+456. Trigonometry
+457. The Death and Life of Great American Cities
+458. Quantum Computing for Computer Scientists
+459. The Machinery of Life
+460. Pearls of Functional Algorithm Design
+461. Prisoner's Dilemma: John von Neumann, Game Theory, and the Puzzle of the Bomb
+462. Types and Programming Languages
+463. The Gene: An Intimate History
+464. Meditations: A New Translation
+465. The Tangled Web: A Guide to Securing Modern Web Applications
+466. The Case for Space: How the Revolution in Spaceflight Opens Up a Future of Limitless Possibility
+467. How Would You Move Mount Fuji?: Microsoft's Cult of the Puzzle -- How the World's Smartest Companies Select the Most Creative Thinkers
+468. The Way of Zen
+469. Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity
+470. Fat Chance: Beating the Odds Against Sugar, Processed Food, Obesity, and Disease
+471. Endurance: Shackleton's Incredible Voyage
+472. An Introduction to Functional Programming Through Lambda Calculus 
+473. The Billionaire Who Wasn't: How Chuck Feeney Secretly Made and Gave Away a Fortune
+474. Genghis Khan and the Making of the Modern World
+475. Hackers: Heroes of the Computer Revolution
+476. sed & awk
+477. How Music Got Free: A Story of Obsession and Invention
+478. Designing for Scalability with Erlang/OTP
+479. Principles: Life and Work
+480. Flash Boys: A Wall Street Revolt
+481. PostgreSQL: Up and Running
+482. One Click: Jeff Bezos and the Rise of Amazon.com
+483. TCP/IP Illustrated, Volume 1: The Protocols 
+484. Functional JavaScript
+485. Stumbling on Happiness
+486. The Fifth Risk
+487. The Thinker's Toolkit: 14 Powerful Techniques for Problem Solving
+488. Cracking the Coding Interview: 189 Programming Questions and Solutions
+489. Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages
+490. Mathematical Methods in the Physical Sciences
+491. Dark Money: The Hidden History of the Billionaires Behind the Rise of the Radical Right
+492. Who Says Elephants Can't Dance? Inside IBM's Historic Turnaround
+493. The Art of Unit Testing: with examples in C#
+494. Assembly Language Step-by-Step: Programming with Linux
+495. Pyongyang: A Journey in North Korea
+496. Probabilistic Graphical Models: Principles and Techniques 
+497. Principles of Neural Science, Fifth Edition
+498. The Victorian Internet: The Remarkable Story of the Telegraph and the Nineteenth Century's On-line Pioneers
+499. Inviting Disaster: Lessons From the Edge of Technology
+500. The Method of Coordinates 
+501. Civilization: The West and the Rest
+502. CSS Secrets: Better Solutions to Everyday Web Design Problems
+503. Monetizing Innovation: How Smart Companies Design the Product Around the Price
+504. Python for Kids: A Playful Introduction to Programming
+505. Fluent Python
+506. On Constitutional Disobedience 
+507. Thinking with Type, 2nd revised and expanded edition: A Critical Guide for Designers, Writers, Editors, & Students
+508. Overthrow: America's Century of Regime Change from Hawaii to Iraq
+509. The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change
+510. The Making of the Atomic Bomb
+511. The Twenty-Six Words That Created the Internet
+512. The Bogleheads' Guide to Investing
+513. The New Confessions of an Economic Hit Man
+514. The Power of Full Engagement: Managing Energy, Not Time, Is the Key to High Performance and Personal Renewal
+515. How Will You Measure Your Life?
+516. Maths: A Student's Survival Guide: A Self-Help Workbook for Science and Engineering Students
+517. Real-Time Collision Detection 
+518. Computer Systems: A Programmer's Perspective
+519. Joe Celko's Thinking in Sets: Auxiliary, Temporal, and Virtual Tables in SQL
+520. Reminiscences of a Stock Operator
+521. The Circle
+522. Introduction to Graph Theory 
+523. Just Listen: Discover the Secret to Getting Through to Absolutely Anyone
+524. Hands-On Machine Learning with Scikit-Learn and TensorFlow
+525. Measurement
+526. Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger, Expanded Third Edition
+527. Gang Leader for a Day: A Rogue Sociologist Takes to the Streets
+528. Make It Stick: The Science of Successful Learning
+529. The Halo Effect: ... and the Eight Other Business Delusions That Deceive Managers
+530. Computer Graphics: Principles and Practice in C 
+531. A Mind For Numbers: How to Excel at Math and Science
+532. C Traps and Pitfalls
+533. Lifetime Conversation Guide
+534. Hackers and Painters: Big Ideas from the Computer Age
+535. High Speed Digital Design: A Handbook of Black Magic
+536. Scratch Beginnings: Me, $25, and the Search for the American Dream
+537. The Rise and Fall of American Growth: The U.S. Standard of Living since the Civil War
+538. Ogilvy on Advertising
+539. Facts and Fallacies of Software Engineering
+540. The Underachiever's Manifesto: The Guide to Accomplishing Little and Feeling Great
+541. Who
+542. Utopia for Realists: How We Can Build the Ideal World
+543. The Millionaire Fastlane: Crack the Code to Wealth and Live Rich for a Lifetime.
+544. World on Fire: How Exporting Free Market Democracy Breeds Ethnic Hatred and Global Instability
+545. Writing That Works; How to Communicate Effectively In Business
+546. Pirate Cinema
+547. The Strategy and Tactics of Pricing: A Guide to Growing More Profitably
+548. Being Mortal: Medicine and What Matters in the End
+549. Race Against The Machine: How the Digital Revolution is Accelerating Innovation, Driving Productivity, and Irreversibly Transforming Employment and the Economy
+550. The Perspective of the World: Civilization and Capitalism 15Th-18th Century, Vol. 3
+551. The Practice of System and Network Administration, Second Edition
+552. The Timeless Way of Building
+553. No Good Men Among the Living: America, the Taliban, and the War through Afghan Eyes
+554. Rapid Development: Taming Wild Software Schedules
+555. Mathematics for the Million: How to Master the Magic of Numbers
+556. Land of Lisp: Learn to Program in Lisp, One Game at a Time!
+557. How To Win Friends and Influence People
+558. Enlightenment Now: The Case for Reason, Science, Humanism, and Progress
+559. Super Mario: How Nintendo Conquered America
+560. The Drunkard's Walk: How Randomness Rules Our Lives
+561. Date-onomics: How Dating Became a Lopsided Numbers Game
+562. Algorithmics: The Spirit of Computing
+563. Kicking Away the Ladder: Development Strategy in Historical Perspective
+564. Tank Action: An Armoured Troop Commander's War 194445
+565. Write Great Code: Volume I: Understanding the Machine
+566. No bullshit guide to linear algebra
+567. Building Web Reputation Systems
+568. The Difference Between God and Larry Ellison: *God Doesn't Think He's Larry Ellison
+569. iWoz: Computer Geek to Cult Icon: How I Invented the Personal Computer, Co-Founded Apple, and Had Fun Doing It
+570. Windows Internals, Part 1: System architecture, processes, threads, memory management, and more
+571. The Procrastination Equation: How to Stop Putting Things Off and Start Getting Stuff Done
+572. Succeed: How We Can Reach Our Goals
+573. How to Talk About Books You Haven't Read
+574. Calculus
+575. The Secret of Scent: Adventures in Perfume and the Science of Smell
+576. Getting Started with Dwarf Fortress: Learn to play the most complex video game ever made
+577. Computers & Typesetting, Volume B: TeX: The Program
+578. Outliers: The Story of Success
+579. The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma
+580. Turing's Cathedral: The Origins of the Digital Universe
+581. Understanding the Linux Kernel, Third Edition
+582. The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art
+583. Hard Drive: Bill Gates and the Making of the Microsoft Empire
+584. Revolution in The Valley: The Insanely Great Story of How the Mac Was Made
+585. The Art of Computer Programming, Volumes 1-4A Boxed Set
+586. Calculus, Vol. 1: One-Variable Calculus, with an Introduction to Linear Algebra
+587. Lila: An Inquiry Into Morals
+588. Visual Group Theory 
+589. Lean Customer Development: Building Products Your Customers Will Buy
+590. The Perfectionists: How Precision Engineers Created the Modern World
+591. Behave: The Biology of Humans at Our Best and Worst
+592. The Haskell Road to Logic, Maths and Programming. Second Edition 
+593. The Gift of Fear and Other Survival Signals that Protect Us From Violence
+594. An Island to Oneself
+595. The Field Guide to Understanding Human Error
+596. The Non-Designer's Design Book 
+597. The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns
+598. FDR Goes to War: How Expanded Executive Power, Spiraling National Debt, and Restricted Civil Liberties Shaped Wartime America
+599. Building Scalable Web Sites
+600. The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth
+601. The Hundred-Year Marathon: China's Secret Strategy to Replace America as the Global Superpower
+602. The Powerhouse: America, China, and the Great Battery War
+603. Mere Christianity
+604. Clojure Programming
+605. Diffusion of Innovations, 5th Edition
+606. The Puzzle Palace: Inside the National Security Agency, America's Most Secret Intelligence Organization
+607. The Non-Designer's Design Book
+608. An Introduction to Mathematical Reasoning: Numbers, Sets and Functions
+609. The Model Thinker: What You Need to Know to Make Data Work for You
+610. Punished by Rewards: The Trouble with Gold Stars, Incentive Plans, A's, Praise, and Other Bribes
+611. The Lost World of Genesis One: Ancient Cosmology and the Origins Debate
+612. Physically Based Rendering: From Theory to Implementation
+613. The 4 Hour Body: An Uncommon Guide to Rapid Fat Loss, Incredible Sex and Becoming Superhuman
+614. Programming in Haskell
+615. Data Science at the Command Line
+616. The World Beyond Your Head: On Becoming an Individual in an Age of Distraction
+617. Siddhartha
+618. The Everything Store: Jeff Bezos and the Age of Amazon
+619. Quantum Mechanics: The Theoretical Minimum
+620. The 22 Immutable Laws of Marketing: Violate Them at Your Own Risk!
+621. Softwar: An Intimate Portrait of Larry Ellison and Oracle
+622. Carrying the Fire: An Astronaut's Journeys
+623. The Mindful Way Through Depression: Freeing Yourself from Chronic Unhappiness 
+624. Treasure Islands: Uncovering the Damage of Offshore Banking and Tax Havens
+625. Kubernetes: Up and Running: Dive into the Future of Infrastructure
+626. Practical Electronics for Inventors, Third Edition
+627. Programming Game AI by Example 
+628. SPIN Selling
+629. Java Concurrency in Practice
+630. Death March 
+631. 507 Mechanical Movements: Mechanisms and Devices 
+632. How to Read and Do Proofs: An Introduction to Mathematical Thought Processes
+633. Drugs Without the Hot Air
+634. Man's Search for Meaning
+635. Cryptonomicon
+636. Interactive Data Visualization for the Web
+637. The Design and Implementation of the FreeBSD Operating System
+638. DNS and BIND 
+639. A Farewell to Alms: A Brief Economic History of the World 
+640. Mathematics for the Nonmathematician
+641. Burn Math Class: And Reinvent Mathematics for Yourself
+642. The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World
+643. Managing Gigabytes: Compressing and Indexing Documents and Images, Second Edition 
+644. The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition 
+645. Using Docker
+646. The Mac is Not a Typewriter, 2nd Edition
+647. The Pixar Touch: The Making of a Company
+648. Building Web Applications with Erlang
+649. The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition
+650. Repetitive Strain Injury: A Computer User's Guide
+651. Quantum Computation and Quantum Information: 10th Anniversary Edition
+652. Operating System Concepts
+653. Zen in the Art of Archery
+654. I Will Teach You To Be Rich
+655. Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript
+656. Applied Cryptography: Protocols, Algorithms, and Source Code in C
+657. Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness
+658. Moonwalking with Einstein: The Art and Science of Remembering Everything
+659. Head First Design Patterns: A Brain-Friendly Guide
+660. Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems
+661. How to Think Like a Mathematician: A Companion to Undergraduate Mathematics
+662. The Two-Income Trap: Why Middle-Class Parents are Going Broke
+663. How to Build a Car: A high-speed adventure of mechanics, teamwork, and friendship
+664. Commodore: A Company on the Edge
+665. Winners Take All: The Elite Charade of Changing the World
+666. "What Do You Care What Other People Think?": Further Adventures of a Curious Character
+667. A New Earth: Awakening to Your Life's Purpose
+668. Love and Math: The Heart of Hidden Reality
+669. Zero to One: Notes on Startups, or How to Build the Future
+670. The 48 Laws of Power
+671. Algebra: Chapter 0
+672. Flights of Fantasy: Programming 3d Video Games in C++/Book and Disk
+673. How to Sharpen Pencils: A Practical & Theoretical Treatise on the Artisanal Craft of Pencil Sharpening
+674. Flask Web Development
+675. The Collapse of Complex Societies
+676. Walkable City: How Downtown Can Save America, One Step at a Time
+677. The Red Queen: Sex and the Evolution of Human Nature
+678. Spin
+679. The Geography of Nowhere: The Rise and Decline of America's Man-Made Landscape
+680. Calm Technology: Principles and Patterns for Non-Intrusive Design
+681. Proofs from THE BOOK
+682. Crossing the Chasm, 3rd Edition
+683. Discipline & Punish: The Birth of the Prison
+684. The Art of the Metaobject Protocol
+685. Triumph of the City: How Our Greatest Invention Makes Us Richer, Smarter, Greener, Healthier, and Happier
+686. Zen of Assembly Language: Knowledge (Scott Foresman Assembly Language Programming Series)
+687. Understanding UNIX/LINUX Programming: A Guide to Theory and Practice
+688. On Writing Well, 25th Anniversary: The Classic Guide to Writing Nonfiction
+689. Into Thin Air: A Personal Account of the Mt. Everest Disaster
+690. Data Structures and Algorithms
+691. Annals of the Former World
+692. The Case against Education: Why the Education System Is a Waste of Time and Money
+693. Prisoners of Geography: Ten Maps That Tell You Everything You Need to Know About Global Politics
+694. Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems
+695. Blue Ocean Strategy: How to Create Uncontested Market Space and Make Competition Irrelevant
+696. Assholes: A Theory
+697. Bebop to the Boolean Boogie, Third Edition: An Unconventional Guide to Electronics
+698. Anxious Pleasures: The Sexual Lives of an Amazonian People
+699. Shop Class as Soulcraft: An Inquiry into the Value of Work
+700. Confessions of a Sociopath: A Life Spent Hiding in Plain Sight
+701. The Memory Book: The Classic Guide to Improving Your Memory at Work, at School, and at Play
+702. The Big Fat Surprise: Why Butter, Meat and Cheese Belong in a Healthy Diet
+703. Smart and Gets Things Done: Joel Spolsky's Concise Guide to Finding the Best Technical Talent
+704. Negotiating Your Salary: How to Make $1000 a Minute Revised
+705. Game Coding Complete, Fourth Edition
+706. The Go Programming Language
+707. The Apollo Guidance Computer: Architecture and Operation
+708. About Face: The Essentials of Interaction Design
+709. Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
+710. Disrupted: My Misadventure in the Start-Up Bubble
+711. The Courage to Be Disliked: The Japanese Phenomenon That Shows You How to Change Your Life and Achieve Real Happiness
+712. Dataclysm: Love, Sex, Race, and Identity--What Our Online Lives Tell Us about Our Offline Selves
+713. The Feeling Good Handbook
+714. The Art of Learning: An Inner Journey to Optimal Performance
+715. A Tour of C++ (C++ In Depth)
+716. Mind Performance Hacks: Tips & Tools for Overclocking Your Brain
+717. Patterns of Enterprise Application Architecture
+718. Algorithms
+719. Mazes for Programmers: Code Your Own Twisty Little Passages
+720. Physically Based Rendering, Second Edition: From Theory to Implementation
+721. Modern Operating Systems
+722. Life 3.0: Being Human in the Age of Artificial Intelligence
+723. How to Want What You Have: Discovering the Magic and Grandeur of Ordinary Existence
+724. Seveneves
+725. Programming TypeScript: Making Your JavaScript Applications Scale
+726. 3D Math Primer for Graphics and Game Development, 2nd Edition
+727. Last Call: The Rise and Fall of Prohibition
+728. The Theoretical Minimum: What You Need to Know to Start Doing Physics
+729. Art & Fear: Observations On the Perils and Rewards of Artmaking
+730. Stealing the Corner Office: The Winning Career Strategies They'll Never Teach You in Business School
+731. JavaScript: The Definitive Guide: Activate Your Web Pages
+732. Programming: Principles and Practice Using C++
+733. Computer Networks
+734. The Fourth Turning: An American Prophecy - What the Cycles of History Tell Us About America's Next Rendezvous with Destiny
+735. Garner's Modern American Usage
+736. The $100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future
+737. The Mathematical Experience
+738. Switch: How to Change Things When Change Is Hard
+739. Transaction Processing: Concepts and Techniques
+740. The Fabric of the Cosmos: Space, Time, and the Texture of Reality
+741. An Epidemic of Absence: A New Way of Understanding Allergies and Autoimmune Diseases
+742. Zen of Graphics Programming: The Ultimate Guide to Writing Fast PC Graphics
+743. 21st Century C: C Tips from the New School
+744. Lions' Commentary on Unix
+745. The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom
+746. Algebra 1: An Incremental Development, 3rd Edition
+747. Treat Your Own Back
+748. Deep Learning, Adaptive Computation and Machine Learning
+749. The Art of Hard Conversations: Biblical Tools for the Tough Talks That Matter
+750. Think Like a Programmer: An Introduction to Creative Problem Solving
+751. F'd Companies: Spectacular Dot-com Flameouts
+752. Wherever You Go, There You Are
+753. Crypto: How the Code Rebels Beat the Government Saving Privacy in the Digital Age
+754. The Decision Book: 50 Models for Strategic Thinking
+755. Inside Intel: Andy Grove and the Rise of the World's Most Powerful Chip Company
+756. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
+757. The Logic Of Failure: Recognizing And Avoiding Error In Complex Situations
+758. The Problem of Political Authority: An Examination of the Right to Coerce and the Duty to Obey
+759. Parkinsons Law: Or The Pursuit Of Progress
+760. The Healthy Programmer: Get Fit, Feel Better, and Keep Coding
+761. The Sociopath Next Door
+762. Collapse of an Empire: Lessons for Modern Russia
+763. Buffett: The Making of an American Capitalist
+764. On the Edge: the Spectacular Rise and Fall of Commodore
+765. The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It
+766. The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet
+767. Mismatch: How Affirmative Action Hurts Students It’s Intended to Help, and Why Universities Won’t Admit It
+768. Traction: How Any Startup Can Achieve Explosive Customer Growth
+769. Open Borders: The Science and Ethics of Immigration
+770. Introduction to Algorithms, 3rd Edition
+771. Quantum Measurement
+772. Game Engine Architecture
+773. Broken Piano for President
+774. Language in Thought and Action: Fifth Edition
+775. The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't
+776. Nothing to Hide: The False Tradeoff between Privacy and Security
+777. Save The Cat! The Last Book on Screenwriting You'll Ever Need
+778. Working Effectively with Legacy Code
+779. The Anarchist Cookbook
+780. Flight: My Life in Mission Control
+781. The Outsider
+782. But How Do It Know? - The Basic Principles of Computers for Everyone
+783. Introduction to Algorithms, Third Edition
+784. Genius: The Life and Science of Richard Feynman
+785. How to Fight a Hydra: Face Your Fears, Pursue Your Ambitions, and Become the Hero You Are Destined to Be
+786. The Creative Habit: Learn It and Use It for Life
+787. The Making of Prince of Persia: Journals 1985 - 1993
+788. My Little Big Math Book
+789. How Not to Die: Discover the Foods Scientifically Proven to Prevent and Reverse Disease
+790. Dark Sun: The Making of the Hydrogen Bomb
+791. The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win
+792. The Five Dysfunctions of a Team: A Leadership Fable
+793. Rainbows End
+794. Justice Matters: Rescuing the legal system for the twenty-first
+795. CYBERPUNK: Outlaws and Hackers on the Computer Frontier, Revised
+796. Practical Object-Oriented Design in Ruby: An Agile Primer
+797. The Growth Delusion: Wealth, Poverty, and the Well-Being of Nations
+798. Building a StoryBrand: Clarify Your Message So Customers Will Listen
+799. The Man Who Knew Infinity: A Life of the Genius Ramanujan
+800. Enemies: A History of the FBI
+801. The Myth of the Rational Voter: Why Democracies Choose Bad Policies
+802. Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14
+803. Badass: Making Users Awesome
+804. The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to go from $0 to $100 Million
+805. Just for Fun: The Story of an Accidental Revolutionary
+806. Economics in One Lesson: The Shortest and Surest Way to Understand Basic Economics
+807. Getting More: How You Can Negotiate to Succeed in Work and Life
+808. The Man Without a Face: The Unlikely Rise of Vladimir Putin
+809. The New Turing Omnibus: Sixty-Six Excursions in Computer Science
+810. Eloquent Ruby
+811. Lab 257: The Disturbing Story of the Government's Secret Plum Island Germ Laboratory
+812. Cooking for Geeks: Real Science, Great Hacks, and Good Food
+813. Idea Man: A Memoir by the Cofounder of Microsoft
+814. The Elements of Typographic Style
+815. Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time
+816. Feedback Control for Computer Systems
+817. What's Wrong with China
+818. Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation
+819. Crossing the Chasm, 3rd Edition: Marketing and Selling Disruptive Products to Mainstream Customers
+820. The Shadow Factory: The NSA from 9/11 to the Eavesdropping on America
+821. The Making of the Atomic Bomb: 25th Anniversary Edition
+822. Mommy, Why is There a Server in the House?
+823. Building Hypermedia APIs with HTML5 and Node
+824. The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich
+825. Nexus: Nexus Arc Book 1
+826. Mathematical Proofs: A Transition to Advanced Mathematics
+827. Savage Continent: Europe in the Aftermath of World War II
+828. Heuristics and Biases: The Psychology of Intuitive Judgment
+829. The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup
+830. Algorithm Design
+831. The Challenger Sale: Taking Control of the Customer Conversation
+832. Naked Economics: Undressing the Dismal Science
+833. Cooking for Geeks
+834. Bad Pharma: How Drug Companies Mislead Doctors and Harm Patients
+835. Calculated Bets: Computers, Gambling, and Mathematical Modeling to Win
+836. Secure Coding in C and C++
+837. Ready Player One
+838. The Curve of Binding Energy: A Journey into the Awesome and Alarming World of Theodore B. Taylor
+839. Self-Discipline in 10 days: How To Go From Thinking to Doing
+840. Database Internals: A Deep Dive into How Distributed Data Systems Work
+841. Renormalization Methods: A Guide For Beginners
+842. Kids Shenanigans: Great Things to Do That Mom and Dad Will Just Barely Approve Of
+843. The Black Book of Communism: Crimes, Terror, Repression
+844. The Elephant in the Brain: Hidden Motives in Everyday Life
+845. Market Wizards, Updated: Interviews With Top Traders
+846. The Art of Deception: Controlling the Human Element of Security
+847. Ending Aging: The Rejuvenation Breakthroughs That Could Reverse Human Aging in Our Lifetime
+848. Sam Walton: Made In America
+849. Agile Estimating and Planning
+850. Feynman Lectures On Computation
+851. Mr. Lincoln's T-Mails: The Untold Story of How Abraham Lincoln Used the Telegraph to Win the Civil War
+852. The Ultimate Paper Airplane: With Step-by Step Instructions for Seven Different Models
+853. One Man's Wilderness: An Alaskan Odyssey
+854. Dead Aid: Why Aid Is Not Working and How There Is a Better Way for Africa
+855. Ways of Seeing
+856. The Four Pillars of Investing: Lessons for Building a Winning Portfolio
+857. Options as a Strategic Investment
+858. The Diversity Myth
+859. Devil Take the Hindmost: A History of Financial Speculation
+860. Value-Based Fees: How to Charge - and Get - What You're Worth
+861. Calculus for the Practical Man
+862. Visual Complex Analysis
+863. Socialism Sucks: Two Economists Drink Their Way Through the Unfree World
+864. JavaScript Patterns
+865. Contextual Design: Defining Customer-Centered Systems
+866. The Odyssey
+867. Make: Electronics
+868. Cotton, Climate, and Camels in Early Islamic Iran: A Moment in World History
+869. The First 20 Hours: How to Learn Anything . . . Fast!
+870. Make: Analog Synthesizers
+871. Flash Boys
+872. The Facebook Effect: The Inside Story of the Company That Is Connecting the World
+873. Methods of Mathematics Applied to Calculus, Probability, and Statistics
+874. Database Management Systems, 3rd Edition
+875. Wealth, Poverty and Politics
+876. Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal
+877. Pink Brain, Blue Brain: How Small Differences Grow Into Troublesome Gaps -- And What We Can Do About It
+878. The Hand: How Its Use Shapes the Brain, Language, and Human Culture
+879. Algorithms Unlocked
+880. The Power of Less: The Fine Art of Limiting Yourself to the Essential...in Business and in Life
+881. Debugging Teams
+882. Machine Learning for Hackers
+883. Stay Awhile and Listen: How Two Blizzards Unleashed Diablo and Forged a Video-Game Empire - Book I
+884. No More Mr Nice Guy
+885. Anglo-American Establishment
+886. Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts
+887. The Prize: The Epic Quest for Oil, Money & Power
+888. The Civilizing Process: Sociogenetic and Psychogenetic Investigations
+889. Governing the Commons: The Evolution of Institutions for Collective Action
+890. Bullshit Jobs: A Theory
+891. Start with NO...The Negotiating Tools that the Pros Don't Want You to Know
+892. Exercises in Programming Style
+893. Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking
+894. High Performance Web Sites: Essential Knowledge for Front-End Engineers
+895. Garbage Collection: Algorithms for Automatic Dynamic Memory Management
+896. Pattern Classification
+897. Geek Heresy: Rescuing Social Change from the Cult of Technology
+898. Berkshire Hathaway Letters to Shareholders
+899. The Seven-Day Weekend: Changing the Way Work Works
+900. Escape from Camp 14: One Man's Remarkable Odyssey from North Korea to Freedom in the West
+901. Writing An Interpreter In Go
+902. American Nations: A History of the Eleven Rival Regional Cultures of North America
+903. What is Quantum Mechanics? A Physics Adventure - Second Edition
+904. Bowling Alone: The Collapse and Revival of American Community
+905. Apple II-6502 assembly language tutor
+906. Pragmatic Thinking and Learning: Refactor Your Wetware
+907. Salt Sugar Fat: How the Food Giants Hooked Us
+908. Algorithmic Trading and DMA: An introduction to direct access trading strategies
+909. A Song of Ice and Fire
+910. The User Illusion: Cutting Consciousness Down to Size
+911. Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead
+912. Grinding It Out: The Making of McDonald's
+913. C Programming Language, 2nd Edition
+914. Persecution and the Art of Writing
+915. Diaspora: A Novel
+916. @War: The Rise of the Military-Internet Complex
+917. Your Memory : How It Works and How to Improve It
+918. Meditations on Violence: A Comparison of Martial Arts Training & Real World Violence
+919. Winning Against Windows 10: How I Fought Microsoft and Won
+920. RESTful Web APIs
+921. The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else
+922. Life at the Bottom: The Worldview That Makes the Underclass
+923. The Innovator's Solution: Creating and Sustaining Successful Growth
+924. Multipliers: How the Best Leaders Make Everyone Smarter
+925. Where Good Ideas Come From: The Natural History of Innovation
+926. Andy Grove: The Life and Times of an American Business Icon
+927. The Design and Evolution of C++
+928. Makers and Takers: The Rise of Finance and the Fall of American Business
+929. Realm of Racket: Learn to Program, One Game at a Time!
+930. The Compound Effect
+931. The Non-Designer's Design Book: Design and Typographic Principles for the Visual Novice
+932. The Corporation: The Pathological Pursuit of Profit and Power
+933. Women Don't Ask: The High Cost of Avoiding Negotiation--and Positive Strategies for Change
+934. Programming Language Pragmatics, Third Edition
+935. Red Plenty
+936. The Nurture Assumption: Why Children Turn Out the Way They Do, Revised and Updated
+937. The Storm Before the Storm: The Beginning of the End of the Roman Republic
+938. Become What You Are
+939. Introduction to 64 Bit Assembly Programming for Linux and OS X: Third Edition - for Linux and OS X
+940. Moonwalking With Einstein: The Art and Science of Remembering Everything
+941. Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation
+942. Ruby Under a Microscope: An Illustrated Guide to Ruby Internals
+943. Safe Is Not an Option
+944. Rework
+945. The Game: Penetrating the Secret Society of Pickup Artists
+946. The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing
+947. VHDL Implimentation of a 16-bit microprocessor: Digital design using FPGAs
+948. Do the Work: Overcome Resistance and Get Out of Your Own Way
+949. On Writing: 10th Anniversary Edition: A Memoir of the Craft
+950. The Three-Body Problem
+951. Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
+952. McMafia: A Journey Through the Global Criminal Underworld
+953. Programming Interviews Exposed: Secrets to Landing Your Next Job
+954. Trigonometry
+955. Math from Three to Seven: The Story of a Mathematical Circle for Preschoolers
+956. Made to Stick: Why Some Ideas Survive and Others Die
+957. Calendrical Calculations
+958. Atheist Delusions: The Christian Revolution and Its Fashionable Enemies
+959. A Tour of the Calculus
+960. Racing the Beam: The Atari Video Computer System
+961. Tricks of the Mind
+962. The Fall of Rome: And the End of Civilization
+963. Chaos: Making a New Science
+964. Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk
+965. The Manga Guide to Databases
+966. Talent is Overrated: What Really Separates World-Class Performers from Everybody Else
+967. Lightweight Django
+968. Against Method
+969. Sound Reproduction: The Acoustics and Psychoacoustics of Loudspeakers and Rooms
+970. The Song Machine: Inside the Hit Factory
+971. Mastering Algorithms with C
+972. Software Tools in Pascal
+973. Effective Java
+974. Fundamentals of Computer Graphics, Fourth Edition
+975. The Great Influenza: The Story of the Deadliest Pandemic in History
+976. Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages
+977. Let's Read: A Linguistic Approach
+978. Newtonian Casino
+979. Coup d'État: A Practical Handbook, Revised Edition
+980. Snow Crash
+981. The Mind's I: Fantasies And Reflections On Self & Soul
+982. The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully
+983. Tools and Weapons: The Promise and the Peril of the Digital Age
+984. Awareness: The Perils and Opportunities of Reality
+985. Incandescence
+986. America Walks into a Bar: A Spirited History Of Taverns And Saloons, Speakeasies And Grog Shops
+987. Algorithms in a Nutshell
+988. Black Holes and Time Warps: Einstein's Outrageous Legacy
+989. Introduction to Logic Circuits & Logic Design with VHDL
+990. An Elegant Puzzle: Systems of Engineering Management
+991. Hitler's Beneficiaries: Plunder, Racial War, and the Nazi Welfare State
+992. Procrastination: Why You Do It, What to Do About It Now
+993. Introduction to Automata Theory, Languages, and Computation
+994. From Third World to First: The Singapore Story - 1965-2000
+995. Book with No Pictures
+996. Press Here
+997. The Art of Electronics Student Manual
+998. Agile Software Development, Principles, Patterns, and Practices
+999. TCP/IP Illustrated: The Implementation
+1000. Game Programming Patterns

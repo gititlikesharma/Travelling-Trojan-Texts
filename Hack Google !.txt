@@ -1,0 +1,67 @@
+Google Dork is basically a search string that uses search query to find info that are not available on websites.
+Google Search Operators :-
+intitle: It will ask google to show pages that have the term in their html title.
+Ex intitle:abc will show results of sites having abc in their website name or description.
+allintitle: It will ask google to show all pages that have the term in their html title.
+Ex allintitle:abc will show all results of sites having abc in their website name or description.
+inurl: It searches for a specified term in the URL of any website.
+Ex inurl:register.php will show register.php pages of websites directly.
+allinurl: It searches for a specified term in the URL of all websites.
+Ex allinurl:register.php will show all register.php pages of websites directly.
+filetype: It searches for a certain file type.
+Ex filetype:pdf will search for all the pdf files stored in the websites.
+ext: It works similar to filetype but a bit faster comparatively.
+Ex ext:png finds png extension files stored in the websites.
+intext: It will search content of the page like plain google search.
+Ex intext:xyz will search results of sites having xyz in their website name or description.
+allintext: It will search content of all pages like google search.
+Ex allintext:xyz will search results of all sites having xyz in their website name or description.
+site: It limits the search to a specific site only.
+Ex site:abc.com will limit search to only abc.com
+cache: It will show you cached version of any website. Syntax - cache:[url]
+Ex cache: aa.com
+link : It will search for links to pages Syntax - linkfromdomain:[url]
+Ex link: abc.com
+* : It works like a wildcard and is the most popular dork till its existence.
+Example: How to * sites, will show you results like “how to…” design/create/hack, etc… “sites” !
+Basic Formula of Dork :- "inurl:."domain"/"dorks" "  where,
+“inurl” = Input URL, “domain” = your desired domain ex. .com, “dorks” = your dork of your choice
+Examples of Google Dork Techniques
+Explore LOG Files For Login Credentials :- 
+Search Query - allintext:password filetype:log after:2020
+Explore Configurations Using ENV files :- 
+Search Query - DB_USERNAME filetype:env / DB_PASSWORD filetype:enc=v
+Explore Live Cameras :-
+Search Query - inurl:top.htm inurl:currenttime / inurl:”lvappl.htm”
+Explore Open FTP Servers :-
+Search Query - intitle:"index of" inurl:ftp
+Explore list of websites that uses HTTP protocol :-
+Search Query - intitle:"index of" inurl:http after:2015 / intitle:"forum" inurl:http after:2015
+Explore Specific websites with specific domains :-
+Search Query - “inurl:."domain"/”dorks” “ Ex - “inurl:.gov/index.php?id=”
+Explore most recent Cache
+Search Query - cache:websitename.com
+Explore certain filetype available on a website 
+Search Query - site:nasa.gov filetype:pdf
+Explore certain word available in a certain filetype
+Search Query - budget filetype:doc OR budget filetype:word OR budget filetype:docx OR budget filetype:pdf
+Explore passwords stored on a site
+Search Query - password filetype:doc/docx/word/pdf/xlsx/csv/html/txt site:Your site
+Explore occurence of a word or words across the Internet
+Search Query - filetype:pdf “Java” and “Python”
+Some other lesser known dorks are as below :-			
+Dork Syntax with use - related:[url]           Finds web pages that are similar to the specified web page			
+Dork Syntax with use - site:[url]	                Finds pages only within a particular domain and all its subdomains.	
+Dork Syntax with use - meta:[text]	Finds pages that contain the specific keyword in the meta tags.				 
+Dork Syntax with use - filetype:[file extension]	Searches for specific file types.	
+Dork Syntax with use - inanchor:[text]		Search link anchor text			
+Dork Syntax with use - location:[iso code] or region:[region code]	Search for specific region or location
+Dork Syntax with use - contains:[text]	Identifies sites that contain links to filetypes 				
+Dork Syntax with use - altloc:[iso code]	Searches for location by language of site (i.e. pt-us or en-us)				
+Dork Syntax with use - feed:[feed type, i.e. rss] Find RSS feed related to search term
+Dork Syntax with use - ip:[ip address]	Find sites hosted by a specific ip address
+Dork Syntax with use - book:[title]	Searches for book titles related to keywords			
+Dork Syntax with use - maps:[location]	Searches for maps related to keywords			
+
+
+

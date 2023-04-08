@@ -1,0 +1,25 @@
+How to Give a Bad Talk by David A. Patterson
+
+Ten Commandments :-
+
+I. Thou shalt not be neat - Why waste research time preparing slides ? Ignore spelling, grammar and legibility. 
+
+II. Thou shalt not waste space - Transparencies are expensive. 
+
+III. Thou shalt not covet brevity - Always use complete sentences, never just key words. If possible, use whole paragraphs and read every word.
+
+IV. Thou shalt cover thy naked slides - You need the suspense ! Overlays are too flashy.
+
+V. Thou shalt not write large - Be humble, use a small font. Important people sit in front.
+
+VI. Thou shalt not use color - Flagrant use of color indicates uncareful research. It's also unfair to emphasize some words over others.
+
+VII. Thou shalt not illustrate - Confucius says A picture = 10K words but Dijkstra says Pictures are for weak minds, whom you're going to believe ?
+
+VIII. Thou shalt not make eye contact - You should avert eyes to show respect. Blocking screen can also add mystery.
+
+IX. Thou shalt not skip slides in a long talk - You prepared the slides; people came for your whole talk; so just talk faster. 
+
+X. Thou shalt not practice - Why waste research time practicing a talk ? It could take several hours out of your two years of research. 
+
+Commandment X is most important. Even if you break the other nine, this one can save you. 

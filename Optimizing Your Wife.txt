@@ -1,0 +1,47 @@
+If a man can expect to meet exactly N eligible women in his life, what strategy should he use to maximize his chances of choosing the very best one ? 
+
+We typically make some idealized assumptions when solving this type of problem, such as assuming that he meets the women in random order of "goodness", that there is an unambiguous ordering of the women, and that the man is concerned only to maximize his chances of choosing the very best of the N candidates, placing no value at all on choosing the second-best versus the worst. We also stipulate that the man is not able to infer anything about the absolute values of the candidates; he can determine only the relative orderings of their values. 
+
+Under these conditions the man's strategy can obviously never be to select a candidate that isn't the best he has met so far. Also, at each stage his only information is (1) how many women he has evaluated so far, and (2) whether the current woman is the best so far. At some stage, his strategy must be to select the current woman if she is the best so far, and clearly if he has reached this stage the optimum strategy can't subsequently be to pass on a "best so far" candidate. Thus, his optimum strategy for selecting the very best of a sequence of N candidates is to pass on the first k candidates (where k is a number to be determined), and then select the next "best so far" that he encounters. This strategy will result in choosing the very best woman if and only if there is one and only one "best so far" in the sequence from k+1 to N.
+ 
+The total number of possible orderings for the N women is N!, and, of these, the number of orderings with the very best candidate in the jth position is (N−1)! for any given j, to account for all possible permutations of the other N−1 candidates . Of these orderings, only a fraction would result in the best candidate actually being selected (using the strategy of passing on the first k candidates and then selecting the next “best so far”). Given that the best candidate is in position j, the necessary and sufficient condition for her to be selected is for the best candidate in the first j−1 positions to be in the first k positions. Hence the fraction of the (N−1)! orderings with the best candidate in the jth position that would result in the best candidate being selected is k/(j−1). Dividing the result by N!, we see that the probability of selecting the optimum woman at the jth round, for j in the range k+1 to N, based on some particular value of k, equals the product
+ 
+							P{N,j} = 1/N*(k/j-1)
+ 
+It follows that, for any given value of k, the probability of selecting the optimum woman out of all N candidates based on this strategy (i.e., pass on the first k, then choose the next "best so far") is the sum of the above expression for j ranging from k+1 to N. Thus we have
+ 
+							P{N} = k/N*(1/j-1)
+ 
+If N is fairly large, the summation on the right is a large span of the simple harmonic series, i.e., the sum of the inverses of consecutive integers. Recalling that the sum of 1/m for m = 1 to s is asymptotically equal to ln(s) + γ where γ = 0.57 is Euler’s constant, it follows that the above probability approaches
+ 
+							P{N} = K/N*ln(N-1/k-1)
+ 
+as N and k increase. To maximize this probability, we differentiate with respect to k and set the result to zero, which gives
+ 
+							k/K-1 = ln(N-1/k-1)
+ 
+Thus, as k increases, the left side approaches 1, and we can take the exponential of both sides to give
+ 
+							e=N-1/k-1
+ 
+For a large number of candidates this approaches e = N/k, so the optimum strategy for maximizing the chances of selecting the very best woman from N sequential candidates is to pass on the first N/e women (approximately) and then select the next "best so far". With this strategy the probability of success approaches 1/e.
+ 
+The analysis described above gives a surprisingly good probability of finding the single best woman from N candidates even as N increases without limit. However, as noted previously, this solution essentially treats all but the very best woman as totally worthless, because the strategy is focused entirely on maximizing the probability of selecting the very best candidate, assigning no value at all to any of the other candidates. A more pragmatic criterion for choosing a strategy might be to maximize the expected "goodness" of the selection based on some weighting of the possible outcomes.
+ 
+To evaluate the expected goodness of our selection for any given strategy (i.e., any given value of k), we need to determine not just the probability of selecting the very best candidate, but the probabilities of selecting the second best, the third best, and so on. Then we can apply a suitable weight to each outcome, enabling us to compute the overall expectation. To do this, we need to augment our strategy by stipulating our course of action if we reach the Nth woman and she is not the best so far. Our stipulation will be that we select the Nth woman in this case, regardless of how she compares with the previous candidates.
+ 
+For any other value k (i.e., for k in the range from 1 to N–2), the expected value is
+ 
+							E=P(N,k,v)
+ 
+Evidently the optimum value of k is such that ln(k+1) is half of ln(N), which is to say
+ 
+							ln(kopt+1)=1/2*ln(N)
+ 
+Solving for kopt, we get
+ 
+							kopt=sqrt(N) - 1
+ 
+Thus the optimum strategy for N = 100 is to pass on the first 9 candidates and then select the next “best so far”. This gives an expected value of about 91.4, and the probability of selecting the very best candidate (“100”) with this strategy is 0.221. In contrast, if we used the strategy designed to optimize the probability of selecting the very best candidate, without regard to the value of any of the other candidates, we would pass on the first 100/e = 33 candidates. This gives a probability of 0.371 of selecting the very best candidate, but the expected value with this strategy is just 81.4.
+ 
+Incidentally, it's been called to my attention that the above formulas could, in certain circumstances, be used in a Bayesian way to estimate the number N of candidates that a man could have expected to encounter over his entire life, based on knowledge of having already met the very best woman. The "Amanda Rule" states that if a man knows, by some means, that the jth woman he has encountered is actually the very best, then a Bayesian estimate for the number N of women he would have expected to meet overall is roughly e times j. Of course, if he has already determined that the jth woman is the very best, he presumably has no interest in the remaining (e−1)j candidates, so the formula is of only academic interest.

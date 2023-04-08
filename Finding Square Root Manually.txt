@@ -1,0 +1,116 @@
+What is the number you want to find the square root of? Here's one we'll use :-
+
+46656
+First, divide the number to be square-rooted into pairs of digits, starting at the decimal point. That is, no digit pair should straddle a decimal point. (For example, split 1225 into "12 25" rather than "1 22 5"; 6.5536 into "6. 55 36" rather than"6.5 53 6".)
+
+Then you can put some lines over each digit pair, and a bar to the left, somewhat as in long division.
+
+     +--- ---- ----
+     | 4   66   56
+
+Find the largest number whose square is less than or equal to the leading digit pair. In this case, the leading digit pair is 4; the largest number whose square is less than or equal to 4 is 2.
+
+Put that number on the left side, and above the first digit pair.
+
+       2
+     +--- ---- ----
+  2  | 4   66   56
+
+Now square that number, and subtract from the leading digit pair.
+
+       2
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+       0
+
+Extend the left bracket; multiply the last and only digit of the left-hand number by 2, put it to the left of the difference you just calculated, and leave an empty decimal place next to it.
+
+       2
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+ 4_  | 0
+
+Then bring down the next digit pair and put it to the right of the difference.
+
+       2
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+ 4_  | 0   66
+
+Find the largest number to put in this blank decimal place such that that number, times the number already there plus the decimal place, will be less than the current difference. For example, see if 1 * 41 is ≤ 66, then 2*42 ≤ 66, etc. In this case it's a 1. Put this number in the blank you left, and in the next decimal place on the result row on the top.
+
+       2    1
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+ 41  | 0   66
+
+Now subtract the product you just found.
+
+       2    1
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+ 41  | 0   66
+     |-    41
+     +--------
+           25
+
+Now, repeat as before: Take the number in the left column (here, 41) and double its last digit (giving you 42). Copy this below in the left column, and leave a blank space next to it. (Double the last digit with carry: for example, if you had not 41 but 49, which is 40+9, you should copy down 40+18 which is 58.) Also, bring down the next digit pair on the right.
+
+       2    1
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+ 41  | 0   66
+     |-    41
+     +--------
+42_        25   56
+
+Now, find the largest digit (call it #) such that 42# * # ≤ 2556. Here, it turns out that 426 * 6 = 2556 exactly.
+
+       2    1    6
+     +--- ---- ----
+  2  | 4   66   56
+     |-4
+     +----
+ 41  | 0   66
+     |-    41
+     +--------
+426  |     25   56
+     |-    25   56
+     +-------------
+                 0
+
+When the difference is zero, you have an exact square root and you're done. Otherwise, you can keep finding more decimal places for as long as you want.
+Here is another example, with less annotation.
+
+
+          7 .  2  8  0  1 ...
+       +----------------------
+7      | 53 . 00 00 00 00 00
+       | 49
+       +----------------------
+142    |  4   00
+       |  2   84
+       +----------------------
+1448   |  1   16 00
+       |  1   15 84
+       +----------------------
+14560  |         16 00
+       |             0
+       +----------------------
+145601 |         16 00 00
+       |         14 56 01
+       +----------------------
+       |          1 43 99 00
+                         ...
